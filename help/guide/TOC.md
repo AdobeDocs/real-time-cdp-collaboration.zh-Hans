@@ -1,7 +1,7 @@
 ---
-user-guide-title: Real-Time Customer Data Platform Collaboration
-breadcrumb-title: Real-Time Customer Data Platform Collaboration
-user-guide-description: Adobe Real-Time CDP Collaboration支持广告商和出版商之间的无缝和安全数据共享和协作，促进实时受众洞察和个性化营销策略。
+user-guide-title: Real-time Customer Data Platform协作
+breadcrumb-title: Real-time Customer Data Platform协作
+user-guide-description: Adobe Real-Time CDP Collaboration支持在广告商和出版商之间无缝且安全的数据共享和协作，从而方便了实时受众洞察力和个性化营销策略。
 source-git-commit: 56872a2cd91ae040aba51ed5784c86b055f88756
 workflow-type: tm+mt
 source-wordcount: '130'
@@ -10,25 +10,25 @@ ht-degree: 21%
 ---
 
 
-# Real-Time Customer Data Platform Collaboration {#using}
+# Real-time Customer Data Platform协作 {#using}
 
-* [Real-Time CDP Collaboration主页](./home.md)
+* [实时CDP协作主页](./home.md)
 * 概述
-   * [用例和好处](./use-cases-benefits.md)
+   * [使用案例和好处](./use-cases-benefits.md)
    * [端到端工作流](./end-to-end-workflow.md)
 * 设置
    * [设置部分概述](./setup/setup-overview.md)
-   * [载入并管理您的组织](./setup/onboard-organization.md)
-   * [导入和管理受众](./setup/onboard-audiences.md)
+   * [登记和管理您的组织](./setup/onboard-organization.md)
+   * [导入和管理访问群体](./setup/onboard-audiences.md)
    * [管理数据连接](./setup/manage-data-connection.md)
    * [跟踪您的信用消耗活动](/help/guide/setup/my-activity.md)
    * [身份标识对照表](./setup/identity-crosswalk.md)
    * [添加和管理测量数据](./setup/onboard-measurement-data.md)
    * [审核日志](./setup/audit-logs.md)
-* 与发布者或广告商连接
+* 与发布者或广告商联系
    * [发现发布者](./connect/discover-publishers.md)
    * [发现广告商](./connect/discover-advertisers.md)
-   * [与广告商或发布者联系](./connect/establishing-connections.md)
+   * [与广告商或发布商联系](./connect/establishing-connections.md)
 * 协作
    * [管理项目](./collaborate/manage-projects.md)
    * [发现](./collaborate/discover.md)
@@ -41,10 +41,10 @@ ht-degree: 21%
    * [管理角色](/help/guide/permissions/manage-roles.md)
 * 示例用例
    * [营销活动测量](./use-cases/campaign-measurement.md)
-   * [潜在客户](./use-cases/prospecting.md)
+   * [发现潜在客户](./use-cases/prospecting.md)
    * [重新定位](./use-cases/retargeting.md)
    * [抑制](./use-cases/suppression.md)
 * 参考
-   * [常见问题和疑难解答提示](./faqs/common-questions.md)
+   * [常见问题和故障排除提示](./faqs/common-questions.md)
    * [术语表](./glossary.md)
 * [最新发行说明](/help/guide/release-notes/latest.md)
