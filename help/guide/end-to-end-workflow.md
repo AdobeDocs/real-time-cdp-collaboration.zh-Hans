@@ -37,7 +37,7 @@ Adobe Real-Time Customer Data Platform (CDP) Collaboration允许广告商和发�
 
 决定导入哪些受众数据，以及让希望与您在产品的&#x200B;**[!UICONTROL Connect]**&#x200B;区域建立联系的广告商发现和查看哪些受众。
 
-将受众导入Real-Time CDP Collaboration时，请确保对受众进行标记和分类。 Real-Time CDP Collaboration遵循已建立的[IAB分类](https://www.iab.com/guidelines/content-taxonomy/)对受众进行分类。
+将受众导入Real-Time CDP Collaboration时，请确保对受众进行标记和分类。 Real-Time CDP Collaboration遵循已建立的[IAB分类](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"}对受众进行分类。
 
 决定您要与哪些广告商合作并联系该广告商，讨论产品之外的协作术语。 在就一系列条款达成一致后，请等待广告商向您发出正式连接邀请以与您联系。 通常，您还应该监控来自希望与您合作开展营销活动的广告商品牌的待处理连接请求。 查看潜在协作者提出的连接设置，并在开始协作之前同意或修改这些设置。
 

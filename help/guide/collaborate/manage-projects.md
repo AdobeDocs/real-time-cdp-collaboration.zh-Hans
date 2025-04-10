@@ -15,17 +15,17 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-项目是Real-Time CDP Collaboration中工作流程的核心内容。 在您找到并联系到想要合作的协作者后，您就可以创建项目了。 使用项目空间运行重叠计算，以比较您的受众与协作者的受众，并发现您可以在活动中使用的相关受众。 然后，在协作者之间共享受众，由发布者激活，然后双方可以查看有关受众表现的度量报告。
+项目是Real-Time CDP Collaboration中工作流的核心。 在发现要处理的协作者并与他们联系后，便可开始创建项目。 使用项目空间运行重叠计算，将您的受众与协作者的受众进行比较，并发现可在营销活动中使用的相关受众。 然后，受众在协作者之间共享，并由发布者激活，然后，双方可以查看有关受众表现的测量报表。
 
 >[!TIP]
 >
->项目通常应与单个市场活动关联。
+>项目通常应该与单个活动关联。
 
-![查看所有未筛选的项目。](/help/assets/collaborate/manage-view-projects/projects-overview-page.png){zoomable="yes"}
+![所有项目视图，未过滤。](/help/assets/collaborate/manage-view-projects/projects-overview-page.png){zoomable="yes"}
 
-您可以使用筛选器仅查看您与某些协作者开始的项目，如下所示：
+您可以使用过滤器仅查看您通过特定协作者启动的项目，如下所示：
 
-![单个协作者项目的筛选视图。](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
+![使用单个协作者筛选的项目视图。](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## 创建项目 {#create-project}
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ![选择加号或创建项目以设置新项目。](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
-接下来，选择正在与其创建项目的协作者。 为您的项目提供&#x200B;**[!UICONTROL 项目名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**，选择图像标题以轻松区分项目，并确认您的选择。
+接下来，选择正在与其创建项目的协作者。 为您的项目提供&#x200B;**[!UICONTROL 项目名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**，选择图像标题以轻松区分该项目，并确认您的选择。
 
 ![设置新项目所需的选项](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 
@@ -41,12 +41,12 @@ ht-degree: 3%
 
 ## 项目用例 {#project-use-cases}
 
-深入研究各个项目以运行重叠报告、发现受众并与协作者共享受众以及查看测量信息。 要查看有关构成单个项目的这些区域的广泛信息，请选择&#x200B;**[!UICONTROL 视图]**。 项目表面最多包含四个部分，每个部分都提供了一组丰富的选项和控件。 可用项目部分取决于连接过程中选定的用例，如下所示：
+深入到各个项目中以运行重叠报表、发现受众并与协作者共享受众，以及查看测量信息。 要查看有关构成单个项目的这些区域的详细信息，请选择&#x200B;**[!UICONTROL 查看]**。 项目界面最多包含四个部分，每个部分为您提供一组丰富的选项和控件。 可用的项目部分取决于在连接过程中选择的用例，如下所示：
 
 | 用例 | 项目部分 |
 | --- | --- |
 | 营销活动测量 | 此用例授予对[度量](/help/guide/collaborate/measure.md)部分和所有可用功能的访问权限。 |
 | 受众发现 | 此用例授予对[发现](/help/guide/collaborate/discover.md)部分和所有可用功能的访问权限。 |
-| 受众共享和激活 | 此用例授予对[共享](/help/guide/collaborate/share.md)和[激活](/help/guide/collaborate/activate.md)（仅限发布者）部分以及所有可用功能的访问权限。 |
+| 受众共享和激活 | 此用例授予对[共享](/help/guide/collaborate/share.md)和[激活](/help/guide/collaborate/activate.md)（仅发布者）部分的访问权限，以及所有可用功能。 |
 
-![突出显示可用部分的项目视图。](/help/assets/collaborate/manage-view-projects/project-sections.png){zoomable="yes"}
+![突出显示可用分区的项目视图。](/help/assets/collaborate/manage-view-projects/project-sections.png){zoomable="yes"}

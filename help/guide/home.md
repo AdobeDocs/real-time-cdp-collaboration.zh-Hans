@@ -6,7 +6,7 @@ badgelimitedavailability: label="有限发布版" type="Informative" url="https:
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## 快速入门 {#get-started}
 
-要开始使用Real-Time CDP Collaboration，系统管理员需要向自己、产品管理员和最终用户授予访问权限。 根据所需的用户和访问级别，需要执行多个步骤。 请参阅[访问控制概述](/help/guide/permissions/overview.md){target=_&quot;blank&quot;}指南以开始操作。
+要开始使用Real-Time CDP Collaboration，系统管理员需要向自己、产品管理员和最终用户授予访问权限。 根据所需的用户和访问级别，需要执行多个步骤。 请参阅[访问控制概述](/help/guide/permissions/overview.md){target=_"blank"}指南以开始。
 
 获得访问权限后，您便可以设置组织，并将数据源连接到Adobe Real-Time CDP Collaboration以导入受众。 阅读[广告商和发布商的端到端工作流程](/help/guide/end-to-end-workflow.md)以开始。
 

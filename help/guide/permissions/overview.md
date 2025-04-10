@@ -17,9 +17,9 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> 如果您是希望访问Real-Time CDP Collaboration的最终用户，请联系您的系统或产品管理员以检查现有访问权限。 如果您不知道您的系统管理员是谁，请联系您的Adobe代表。
+> 如果您是想要访问Real-Time CDP Collaboration的最终用户，请联系您的系统或产品管理员以检查现有访问权限。 如果您不知道系统管理员是谁，请联系您的Adobe代表。
 
-通过[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}中的Admin Console和权限提供对Real-time Customer Data Platform (CDP)协作的访问控制。 在本指南中，您将了解如何根据您的用例向您自己或团队的其他成员授予访问权限。
+Real-Time Customer Data Platform (CDP) Collaboration的访问控制是通过[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}中的Admin Console和权限提供的。 在本指南中，您将了解如何根据用例授予自己或团队其他成员的访问权限。
 
 ## 访问控制层次结构 {#hierarchy}
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 在授予对Real-Time CDP Collaboration的访问权限之前，您需要具有对多个产品的访问权限，具体取决于您的[用例](#use-cases)。 访问控制指南可以在您进行过程中通过多个用户界面工作，每个用户界面在访问配置过程中服务于特定目的。 请参阅下表，更深入地了解每个产品的用途。
 
-| 产品 | 使用 |
+| 产品 | 用途 |
 | --- | --- |
 | [管理控制台](https://adminconsole.adobe.com/) | 管理员使用此项为用户分配产品和/或管理员访问权限。 |
 | [权限](https://experience.adobe.com/) | 管理员使用此项来分配管理员或最终用户角色。 |
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 ## 从何处开始 {#use-cases}
 
-现在，您已经深入了解了用户和管理角色以及不同的Experience Cloud产品，可以开始提供对Real-Time CDP Collaboration的访问权限。 有两个主要因素会影响您需要采取的步骤：
+现在，您已更深入地了解了用户和管理角色以及不同的Experience Cloud产品，您可以开始授予Real-Time CDP Collaboration访问权限。 有两个主要因素会影响您需要采取的步骤：
 
 - 如果您正在分配管理员或最终用户访问权限
 - 如果用户已经有权访问Experience Platform产品
@@ -66,14 +66,14 @@ ht-degree: 2%
 
 | 用例 | 所需角色 | 从何处开始 |
 | --- | --- | --- | 
-| 当前没有产品访问权限的超级用户。Experience Platform | 系统管理员。 | [配置产品管理员访问权限](./manage-user-access.md#admin-access) |
+| 没有现有Experience Platform产品访问权限的超级用户。 | 系统管理员。 | [配置产品管理员访问权限](./manage-user-access.md#admin-access) |
 | 具有&#x200B;**Experience Platform UI访问权限的现有Experience Platform系统管理员**&#x200B;的超级用户。 | 系统管理员。 | [配置Real-Time CDP Collaboration访问权限](./manage-user-access.md#RTCDP-collab-access) |
-| 现有Experience Platform系统管理员&#x200B;**的超级用户，没有** Experience PlatformUI访问权限。 | 系统管理员。 | [配置产品管理员访问权限](./manage-user-access.md#admin-access) |
+| 现有Experience Platform系统管理员&#x200B;**的超级用户，无** Experience Platform UI访问权限。 | 系统管理员。 | [配置产品管理员访问权限](./manage-user-access.md#admin-access) |
 | 产品管理员权限和新产品管理员的Real-Time CDP Collaboration访问权限。 | 系统管理员。 | [配置产品管理员访问权限](./manage-user-access.md#admin-access) |
 | 现有Experience Platform产品管理员&#x200B;**具有** Experience Platform UI访问权限的Real-Time CDP Collaboration访问权限。 | 系统或产品管理员。 | [配置Real-Time CDP Collaboration访问权限](./manage-user-access.md#RTCDP-collab-access) |
 | 现有Experience Platform产品管理员&#x200B;**的Real-Time CDP Collaboration访问权限，但没有对Experience Platform UI的**&#x200B;访问权限。 | 系统或产品管理员。 | [配置用户访问权限](./manage-user-access.md#user-access) |
-| 面向新最终用户的Real-Time CDP Collaboration访问权限。 | 系统或产品管理员。 | [配置用户访问](./manage-user-access.md#user-access) |
-| 具有Experience Platform访问权限的现有用户的实时CDP协作访问权限。 | 系统或产品管理员。 | [配置Real-Time CDP Collaboration访问权限](./manage-user-access.md#RTCDP-collab-access) |
+| 面向新最终用户的Real-Time CDP Collaboration访问权限。 | 系统或产品管理员。 | [配置用户访问权限](./manage-user-access.md#user-access) |
+| 具有Real-Time CDP Collaboration访问权限的现有用户的Experience Platform访问权限。 | 系统或产品管理员。 | [配置Real-Time CDP Collaboration访问权限](./manage-user-access.md#RTCDP-collab-access) |
 
 {style="table-layout:auto"}
 
@@ -83,7 +83,7 @@ ht-degree: 2%
 
 ### 受众导入 {#audience-importation}
 
-在开始与协作者共享受众之前，您需要将受众导入Real-Time CDP Collaboration。 目前，唯一支持导入受众的数据连接是Experience Platform。 首先，需要为管理受众登入的用户分配一个包含以下&#x200B;**配置文件管理**&#x200B;资源权限的角色：
+在开始与协作者共享受众之前，您需要将受众导入Real-Time CDP Collaboration。 目前，唯一支持导入受众的数据连接是Experience Platform。 要开始，需要为管理受众入门的用户分配一个角色，该角色包含以下&#x200B;**配置文件管理**&#x200B;资源权限：
 
 | 权限 | 描述 |
 | ---- | ---- |

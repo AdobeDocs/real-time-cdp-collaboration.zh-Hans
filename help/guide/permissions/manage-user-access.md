@@ -15,23 +15,23 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-通过Experience Cloud[权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"}界面管理对Real-Time CDP Collaboration中单个组件的权限和用户访问权限。 权限允许系统和产品管理员定义[角色](./manage-roles.md)以管理用户对特定功能和资源的访问。
+通过Experience Cloud [权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"}界面管理对Real-Time CDP Collaboration中各个组件的权限和用户访问权限。 权限允许系统和产品管理员定义[角色](./manage-roles.md)来管理用户对特定功能和资源的访问权限。
 
 ## 配置对权限的访问 {#permissions-access}
 
-要访问权限，您必须同时具有产品管理员和用户对Adobe Experience Platform产品的访问权限。 系统管理员需要配置产品管理员权限，而用户权限可由系统管理员或产品管理员配置。 有关管理角色的更多信息，请阅读[访问控制层次结构](./overview.md#hierarchy)指南。
+要获得访问权限，您必须同时拥有产品管理员和用户对Adobe Experience Platform产品的访问权限。 系统管理员需要配置产品管理员权限，而用户权限可由系统管理员或产品管理员配置。 有关管理角色的更多信息，请阅读[访问控制层次结构](./overview.md#hierarchy)指南。
 
 >[!TIP]
 >
->在本指南中，**管理员**&#x200B;将引用&#x200B;**系统和产品管理员**。
+>在本指南中，**管理员**&#x200B;将同时引用&#x200B;**系统和产品管理员**。
 
 ### 系统管理员：配置产品管理员访问权限 {#admin-access}
 
-通过下列步骤，向用户产品管理员授予在Experience Platform产品内为其授予管理权限的权限：
+授予用户产品管理员访问权限，以便他们可通过以下步骤在Experience Platform产品中授予管理权限：
 
 >[!IMPORTANT]
 >
->作为系统管理员，您可以开箱即用访问特定Experience Cloud产品，例如Adobe Admin Console。 但是，要使用权限，您需要为您自己授予产品管理员和用户访问Experience Platform产品的权限。 请按照下面的分步指南为您授予系统管理员访问权限。
+>作为系统管理员，您可以开箱即用地访问特定的Experience Cloud产品，例如Adobe Admin Console。 但是，要使用权限，您需要为您自己授予产品管理员和用户访问Experience Platform产品的权限。 请按照下面的分步指南为您授予系统管理员访问权限。
 
 使用您的凭据登录到[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}。 主视图显示在&#x200B;**[!UICONTROL 快速访问]**&#x200B;部分中，其中包含可用产品的列表。 选择&#x200B;**[!UICONTROL Admin Console]**。
 
@@ -71,9 +71,9 @@ ht-degree: 0%
 
 ![“将用户添加到此产品”对话框，其中填写了用户信息，并且选择了“产品添加”选项。](../../assets/permissions/add-users-to-product.png){zoomable="yes"}
 
-此时会显示&#x200B;**[!UICONTROL 选择产品配置文件]**&#x200B;对话框。 选择&#x200B;**[!UICONTROL AEP-Default-All-Users]**&#x200B;和&#x200B;**[!UICONTROL Default Production All Access]**，然后选择&#x200B;**[!UICONTROL 应用]**。
+将显示&#x200B;**[!UICONTROL 选择产品配置文件]**&#x200B;对话框。 选择&#x200B;**[!UICONTROL AEP-Default-All-Users]**&#x200B;和&#x200B;**[!UICONTROL Default Production All Access]**，然后选择&#x200B;**[!UICONTROL 应用]**。
 
-![选中“AEP-Default-All-Users”和“Default Production All Access”选项的“选择产品配置文件”对话框，并突出显示“应用”。](../../assets/permissions/select-product-profiles.png){zoomable="yes"}
+![选中了“选择产品配置文件”对话框，其中的“AEP-Default-All-Users”和“Default Production All Access”选项已选中并突出显示。](../../assets/permissions/select-product-profiles.png){zoomable="yes"}
 
 确认信息正确，然后选择&#x200B;**[!UICONTROL 保存]**。
 
@@ -111,21 +111,21 @@ ht-degree: 0%
 
 您现在可以访问Experience Platform和权限。 在最后一步，您将授予对Real-Time CDP Collaboration的访问权限。
 
-### 管理员：配置Real-Time CDP协作访问 {#RTCDP-collaboration-access}
+### 管理员：配置Real-Time CDP Collaboration访问权限 {#RTCDP-collaboration-access}
 
-要授予用户对Real-Time CDP Collaboration的访问权限，您将使用一种称为角色的访问控制概念。 角色定义管理员或用户对您组织中的[资源](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions)具有的访问级别。
+要授予用户访问Real-Time CDP Collaboration的权限，您将使用称为角色的访问控制概念。 角色定义管理员或用户在组织中对[资源](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions)的访问权限级别。
 
-配置对Real-Time CDP Collaboration的个人访问权限时，您将分配包含来自Collaborations资源的权限的用户角色。 您可以使用[管理角色](./manage-roles.md)指南查找以下信息：
+在配置个人对Real-Time CDP Collaboration的访问权限时，您将分配包含协作资源权限的用户角色。 您可以使用[管理角色](./manage-roles.md)指南查找以下信息：
 
 - [两个标准角色](./manage-roles.md#standard-roles)及其授予Real-Time CDP Collaboration的访问权限级别
 - 使用Collaboration资源创建[自定义角色](./manage-roles.md#specific-access-roles)
-- 协作资源中包含的权限的列表
+- 协作资源中包含的权限列表
 
 >[!NOTE]
 >
->此外，必须将用户分配给包含&#x200B;**[!UICONTROL 沙盒]**&#x200B;资源中的&#x200B;**[!UICONTROL 生产]**&#x200B;权限的角色。 两个标准角色都包含此权限。 如果选择为用户分配自定义角色而不是标准角色，则必须确保为用户分配的角色之一包含此权限。
+>此外，必须将用户分配给&#x200B;**[!UICONTROL 沙盒]**&#x200B;资源中包含&#x200B;**[!UICONTROL Prod]**&#x200B;权限的角色。 两个标准角色都包含此权限。 如果选择为用户分配自定义角色而不是标准角色，则必须确保分配给用户的其中一个角色包含此权限。
 
-选择或创建的角色包含用户所需的访问级别后，您需要将该用户分配给该角色。
+选择或创建包含用户所需访问级别的角色后，您需要将用户分配给该角色。
 
 #### 分配角色
 

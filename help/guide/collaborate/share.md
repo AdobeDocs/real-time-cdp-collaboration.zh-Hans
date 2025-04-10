@@ -23,33 +23,33 @@ ht-degree: 1%
 
 ## 共享新受众
 
-要开始共享受众，请导航到项目工作区中的&#x200B;**[!UICONTROL 共享]**&#x200B;选项卡。 只有&#x200B;**广告商组织**&#x200B;可以共享营销活动的受众。 在此选项卡中，您可以查看和管理共享的受众群体。
+要开始共享受众，请导航到项目工作区中的&#x200B;**[!UICONTROL 共享]**&#x200B;选项卡。 只有&#x200B;**广告商组织**&#x200B;可以共享营销活动的受众。 在此选项卡中，您可以查看和管理共享受众。
 
-**选择加号 （+）** 或 共享&#x200B;**[!UICONTROL 受众]** 选项（如果以前没有共享受众），开始受众共享流程。
+选择&#x200B;**加号(+)**&#x200B;或&#x200B;**[!UICONTROL 共享受众]**&#x200B;选项（如果未共享任何以前的受众）以开始受众共享流程。
 
-![没有共享受众的默认视图。](/help/assets/collaborate/share/share-new-audiences.png)
+![默认视图，没有共享的受众。](/help/assets/collaborate/share/share-new-audiences.png)
 
-此时会显示一个新面板，您可以在其中选择要与协作者共享的受众。
+此时将显示一个新面板，您可以在其中选择要与协作者共享的受众。
 
 ![共享新的受众工作流。](/help/assets/collaborate/share/share-audiences-workflow.png)
 
 ### 选择要共享的受众
 
-在分享对象选择窗口中，您可以通过在搜索栏中输入分享对象名称来搜索要分享的特定分享对象。 选择浏览 **[!UICONTROL 受众]** ，然后使用可用的排序选项查找所需的确切受众。
+在受众选择窗口中，通过在搜索栏中输入受众名称来搜索要共享的特定受众。 选择&#x200B;**[!UICONTROL 浏览受众]**&#x200B;并使用可用的排序选项查找所需的确切受众。
 
-![在选定访问群体的情况下浏览访问群体视图。](/help/assets/collaborate/share/browse-audiences-view.png)
+![浏览选定受众的受众视图。](/help/assets/collaborate/share/browse-audiences-view.png)
 
-### 修改匹配键并设置定位选项
+### 编辑匹配键并设置定位选项
 
 选择要共享的所需受众后，您现在可以为共享活动选择其他配置选项。
 
-![编辑匹配键并锁定或抑制突出显示的选择器](/help/assets/collaborate/share/match-keys-and-targeting.png)
+![编辑匹配键并突出显示目标或禁止选择器](/help/assets/collaborate/share/match-keys-and-targeting.png)
 
 选择&#x200B;**[!UICONTROL 编辑匹配键]**&#x200B;以指示应该为受众中的身份使用的匹配键。 这些选项继承自最初设置协作者之间连接时选择的设置。 如果当时选择的匹配键不适用于此特定营销活动，则可以将其删除，但此时无法添加新的匹配键。
 
 ![编辑匹配键。](/help/assets/collaborate/share/update-match-keys.png)
 
-对于每个受众群体，选择您希望在广告系列中定位还是禁止显示该受众群体的成员。 被禁止显示的个人资料显然不会属于发布商激活的受众群体。
+对于每个受众，选择要在营销活动中定位还是禁止显示该受众的成员。 禁止显示的配置文件将不会明确属于发布者激活的受众。
 
 ### 设置受众刷新频率和间隔
 
@@ -63,9 +63,9 @@ ht-degree: 1%
 
 >[!SUCCESS]
 >
->您现在可以在 **[!UICONTROL “共享]** ”选项卡中看到新的受众群体共享活动。 如果需要，您可以返回并编辑所做的任何选择。
+>您现在可以在&#x200B;**[!UICONTROL 共享]**&#x200B;选项卡中看到新的受众共享活动。 如果需要，您可以返回并编辑您所做的任何选择。
 
-## 查看当前共享的受众群体
+## 查看当前共享的受众
 
 在&#x200B;**[!UICONTROL 共享]**&#x200B;选项卡中，可以查看协作者之间当前共享的受众（在受众共享活动中分组）。
 
@@ -91,12 +91,12 @@ The banner at the top of the page shows figures across all audience sharing acti
 
 | 量度 | 描述 |
 |---------|----------|
-| **[!UICONTROL 身份计数]** | 根据最新的身份计数评估，指示与此受众关联的所有身份中的配置文件数量。 这些数字每 24 小时刷新一次。 |
+| **[!UICONTROL 身份计数]** | 指示根据最新的身份计数评估，与此受众关联的所有身份中的配置文件数。 这些数字每24小时刷新一次。 |
 | **[!UICONTROL 身份重叠]** | 指示此受众成员之间的重叠身份数以及协作者库存中的配置文件总人口。 |
 | **[!UICONTROL 匹配键划分]** | 显示受众中使用的每个标识的标识计数。 例如，总身份数为50万的用户可能包括40万用户中断了经过哈希处理的电子邮件身份的连接，以及10万用户中断了移动ID身份的连接。 请注意，在此处描述的示例中，受众中可能有同一用户使用其电子邮件和移动ID身份两次。 |
-| **[!UICONTROL 目标]** | **[!UICONTROL “抑制]** ”或 **[!UICONTROL “目标]**”。 指示是应定位受众成员还是应将其从营销活动中排除。 |
+| **[!UICONTROL 目标]** | **[!UICONTROL 禁止]**&#x200B;或&#x200B;**[!UICONTROL 目标]**。 指示是应定位受众成员还是应将其从营销活动中排除。 |
 
-该页面还提供了暂停分享和编辑受众&#x200B;]**群体的控件**[!UICONTROL 。****
+该页面还提供了用于&#x200B;**[!UICONTROL 暂停共享]**&#x200B;和&#x200B;**[!UICONTROL 编辑受众]**&#x200B;的控件。
 
 ## 编辑受众 {#edit-audiences}
 
@@ -105,7 +105,7 @@ The banner at the top of the page shows figures across all audience sharing acti
 >title="定位或禁止显示用例"
 >abstract="<p>如果希望受众中的用户档案在营销活动中显示广告，请选择&#x200B;**Target**。</p> <p>如果要将受众中的用户档案从营销活动消息中排除，请选择&#x200B;**禁止**。</p>"
 
-选择 编辑访问群体&#x200B;]**以**[!UICONTROL &#x200B;更改在访问群体共享模块中共享的访问群体，以及更改与共享访问群体的方式相关的多个配置。
+选择&#x200B;**[!UICONTROL 编辑受众]**&#x200B;以更改在受众共享模块中共享的受众，以及更改与受众共享方式相关的多个配置。
 
 ![编辑受众模式视图](/help/assets/collaborate/share/edit-audiences-modal.png)
 
@@ -125,4 +125,4 @@ TODO: are there any limitations for frequency in the M1 release?
 
 ## 后续步骤
 
-发布商收到共享受众后，他们现在 [将在数字广告活动中激活](/help/guide/collaborate/activate.md) 它们。
+在发布者收到共享受众后，他们现在将在数字广告营销活动中[激活](/help/guide/collaborate/activate.md)这些受众。

@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ![审核日志功能的高级概览屏幕](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-有关审核日志的更全面信息，请访问[Adobe Experience Platform审核日志文档](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview)。
+有关审核日志的更全面信息，请访问[Adobe Experience Platform审核日志文档](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}。
 
 ## 访问审核日志
 

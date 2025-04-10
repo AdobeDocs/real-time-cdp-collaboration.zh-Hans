@@ -11,7 +11,7 @@ ht-degree: 1%
 
 ---
 
-# 登记和管理组织
+# 载入和管理组织
 
 {{limited-availability-release-note}}
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->在广告商和发布商之间的协作中，您在组织级别选择的任何&#x200B;*匹配键*&#x200B;都将向下渗透到[项目级别](/help/guide/collaborate/manage-projects.md)。 在项目级别，您随后可以删除任何匹配项，但您&#x200B;*无法*&#x200B;添加任何未在此屏幕的组织级别选择的其他匹配项。
+>在广告商和发布商之间的协作中，您在组织级别选择的任何&#x200B;*匹配键*&#x200B;都将向下渗透到[项目级别](/help/guide/collaborate/manage-projects.md)。 在项目级别，您可以删除任何匹配的键，但您&#x200B;*无法*&#x200B;添加此屏幕中组织级别未选择的任何其他键。
 
 ### 设置详细信息 {#set-up-details}
 
@@ -46,8 +46,8 @@ ht-degree: 1%
 2. 添加有关您公司的&#x200B;**[!UICONTROL 描述]**。
 3. 选择您的&#x200B;**[!UICONTROL 公司角色]**。 您可以选择介于&#x200B;**[!UICONTROL 广告商]**&#x200B;和&#x200B;**[!UICONTROL 发布者]**&#x200B;之间。 请阅读[端到端工作流文档](/help/guide/end-to-end-workflow.md)以了解两种组织角色类型之间工作流的相似之处和细微差异。
 4. 为您的组织选择&#x200B;**[!UICONTROL 行业]**。 某些示例包括&#x200B;**[!UICONTROL 零售业]**、**[!UICONTROL 电信]**&#x200B;或&#x200B;**[!UICONTROL 金融服务]**。
-5. 为您的组织选择&#x200B;**[!UICONTROL 区域]**。 在产品的当前版本中，**[!UICONTROL 北美]**&#x200B;是预设的默认选择。
-6. <span class="preview">仅限发布者</span>：设置发布者组织时，您必须阅读并确认发布者目录中的广告商将可发现您。
+5. 为您的组织选择&#x200B;**[!UICONTROL 区域]**。 在产品的当前版本中，**[!UICONTROL 北美洲]**&#x200B;是预设的默认选择。
+6. <span class="preview">仅限发布者</span>：在设置发布者组织时，您必须阅读并确认，发布者目录中的广告商将能够发现您。
    ![发布者特定的选择加入消息。](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
 7. 为您的公司上传&#x200B;**[!UICONTROL 徽标]**。 目前，支持SVG类型的图像。
 8. 选择公司标题图片的图像。
@@ -69,22 +69,22 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="第一方设备 ID"
->abstract="第一方设备ID （如ECID或IP地址）直接连接到设备，这些设备可以在多个个人之间共享。 IPv4是当前唯一支持的第三方设备ID。"
+>abstract="第一方设备ID（如ECID或IP地址）直接连接到设备，这可以在多个人员之间共享。 IPv4是目前唯一支持的第一方设备ID。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="支持的合作伙伴ID"
->abstract="与配置文件关联的Partner ID将范围扩展到特定的配置文件。"
+>abstract="与用户档案关联的合作伙伴ID可将影响扩展到特定用户档案。"
 
 匹配键（如电子邮件地址、设备ID或客户ID）通过启用准确且符合隐私要求的数据同步，帮助广告商和出版商开展合作，从而实现更准确的受众定位和测量。
 
 ![幻灯片显示Real-Time CDP Collaboration第一版本的可用标识符。](/help/assets/setup/manage-organization/available-identifiers.png)
 
-选择在协调发布者和广告商受众的成员时要使用的任何匹配键。 包括贵公司可以使用的任何匹配密钥。 规划未来并选择您预计将在未来的出版商 — 广告商活动中使用的匹配密钥。 如果您确实需要为您的组织选择其他匹配密钥，您也可以稍后在[编辑组织](#edit-organization)工作流程中执行此操作。
+选择在协调发布者和广告商受众的成员时要使用的任何匹配键。 包括您的公司可以使用的任何匹配键。 规划未来并选择您预计将在未来的发布者 — 广告商营销活动中使用的匹配键。 如果您确实需要为您的组织选择其他匹配键，则以后还可以在[编辑组织](#edit-organization)工作流中执行该操作。
 
 ![匹配键选择步骤。](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
-最多选择五个您计划使用的匹配键。 以后，在设置连接时，可以删除不需要的匹配密钥，但不能添加新密钥。 为每个选定的匹配密钥设置身份计数阈值（最小计数）。 对于某些用例，少于最小数的匹配键将不会显示在身份划分中。
+最多选择五个您计划使用的匹配键。 稍后，在设置连接时，您可以删除不需要的匹配键，但无法添加新匹配键。 为每个选定的匹配键设置身份计数阈值（最小计数）。 对于某些用例，少于最小数的匹配键将不会显示在身份划分中。
 
 Real-Time CDP Collaboration中可用的匹配键可以是三种类型：
 
@@ -105,11 +105,11 @@ not available in the Limited GA release
 
 -->
 
-准备就绪后，选择&#x200B;**[!UICONTROL 完成]**&#x200B;以完成组织设置工作流程。
+准备就绪后，选择&#x200B;**[!UICONTROL 完成]**&#x200B;以完成组织设置工作流。
 
 ## 编辑组织 {#edit-organization}
 
-在初次设置组织后，可随时编辑组织的某些方面和详细信息。 要编辑您的组织，请在&#x200B;**[!UICONTROL 我的组织]**&#x200B;视图中选择&#x200B;**[!UICONTROL 编辑]**。
+最初设置组织后，您可以随时编辑组织的某些方面和详细信息。 要编辑您的组织，请在&#x200B;**[!UICONTROL 我的组织]**&#x200B;视图中选择&#x200B;**[!UICONTROL 编辑]**。
 
 ![已突出显示编辑组织控件。](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
 
