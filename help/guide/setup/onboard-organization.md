@@ -4,9 +4,9 @@ description: 了解如何在Real-Time CDP Collaboration中载入和管理组织�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: a93ba1bc2aa043fcc1519ec2e1cc79435175d71c
+source-git-commit: f146a39ab69a9a41bb12aeb59b0d23ae567cf4c2
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 1%
 
 ![匹配键选择步骤。](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
-最多选择五个您计划使用的匹配键。 稍后，在设置连接时，您可以删除不需要的匹配键，但无法添加新匹配键。 为每个选定的匹配键设置身份计数阈值（最小计数）。 对于某些用例，少于最小数的匹配键将不会显示在身份划分中。
+最多选择五个您计划使用的匹配键。 稍后，在设置连接时，您可以删除不需要的匹配键，但无法添加新匹配键。
 
 Real-Time CDP Collaboration中可用的匹配键可以是三种类型：
 
