@@ -9,7 +9,7 @@ exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
 source-git-commit: 23dc33af83366806f7d99161b4b713a33daeec76
 workflow-type: tm+mt
 source-wordcount: '514'
-ht-degree: 4%
+ht-degree: 22%
 
 ---
 
@@ -63,11 +63,11 @@ In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_crosswalk_join_key"
 >title="连接键"
->abstract="联接键是用于跨不同数据集匹配和链接记录的唯一标识符。 它确保来自各种来源的数据能够准确地与相同的个人或实体相关联。 所选交叉表中的任何列标题都可以用作连接键。"
+>abstract="连接键是用于匹配和链接不同数据集之间的记录的唯一标识符。它确保来自各种来源的数据能够准确地与同一个人或实体相关联。所选交叉表中的任何列标题都可以作为连接键。"
 
-联接键是用于跨不同数据集匹配和链接记录的唯一标识符。 它确保来自各种来源的数据能够准确地与相同的个人或实体相关联。 通过选择适当的连接键，您可以有效地合并和协调数据，从而提高营销策划的准确性和完整性。
+连接键是用于匹配和链接不同数据集之间的记录的唯一标识符。它确保来自各种来源的数据能够准确地与同一个人或实体相关联。通过选择适当的连接键，您可以有效地合并和协调数据，从而提高营销策划的准确性和完整性。
 
-所选交叉表中的任何列标题都可以用作连接键。
+所选交叉表中的任何列标题都可以作为连接键。
 
 为交叉表选择所需的联接键并选择&#x200B;**[!UICONTROL 下一步]**&#x200B;以继续执行下一步。
 

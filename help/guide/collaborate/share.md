@@ -7,7 +7,7 @@ exl-id: 0fdf0598-89c9-452d-a2e3-ce868df0b9d2
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -102,8 +102,8 @@ The banner at the top of the page shows figures across all audience sharing acti
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_share_edit_audiences_usecases"
->title="定位或禁止显示用例"
->abstract="<p>如果希望受众中的用户档案在营销活动中显示广告，请选择&#x200B;**Target**。</p> <p>如果要将受众中的用户档案从营销活动消息中排除，请选择&#x200B;**禁止**。</p>"
+>title="定位或抑制用例"
+>abstract="<p>如果您希望受众中的轮廓能够看到营销活动中的广告，请选择&#x200B;**定位**。</p> <p>如果您想要将受众中的轮廓从营销活动消息中排除，请选择&#x200B;**抑制**。</p>"
 
 选择&#x200B;**[!UICONTROL 编辑受众]**&#x200B;以更改在受众共享模块中共享的受众，以及更改与受众共享方式相关的多个配置。
 

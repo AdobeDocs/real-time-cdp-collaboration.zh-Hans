@@ -7,7 +7,7 @@ exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 1%
+ht-degree: 24%
 
 ---
 
@@ -46,27 +46,27 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_compare_audiences"
 >title="比较受众"
->abstract="发现与协作者受众之间的重叠。 您可以调整下拉选择器中的设置，以发现一个或多个受众与一个或多个协作者受众之间的重叠。"
+>abstract="发现您和您的合作者的受众群体之间的重叠部分。您可以调整下拉选择器中的设置，来发现您的一个或多个受众与您合作者的一个或多个受众之间的重叠部分。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
->title="您的身份计数"
->abstract="所选受众中拥有该所选标识的用户档案数"
+>title="您的身份标识计数"
+>abstract="属于您所选受众的、具有所选身份标识的轮廓数量"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
->title="协作者身份计数"
->abstract="协作者所选受众中具有该所选标识的配置文件数"
+>title="合作者身份标识计数"
+>abstract="属于您合作者所选受众的、具有所选身份标识的轮廓数量"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
->title="重叠身份计数"
->abstract="您的和协作者受众中同时存在的使用该选定标识的配置文件数"
+>title="重叠的身份标识计数"
+>abstract="您和您的合作者受众中同时存在的具有选定身份标识的轮廓数量"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
->title="重叠身份百分比"
->abstract="与协作者选定受众之间重叠的配置文件百分比。"
+>title="重叠的身份标识百分比"
+>abstract="您和您的合作者所选受众之间重叠的轮廓百分比。"
 
 使用比较受众卡可获取有关您的受众与协作者受众之间重叠的丰富信息。 您可以选择比较以下任何受众组合：
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 | **[!UICONTROL 身份计数]**（您的） | 所选受众中具有选定标识的配置文件数。 |
 | **[!UICONTROL 身份计数]** （您的协作者） | 具有选定身份且属于协作者选定受众的配置文件数。 |
 | **[!UICONTROL 身份重叠]** | 您的和协作者受众中同时存在的具有选定标识的配置文件数。 |
-| **[!UICONTROL 重叠百分比]** | 与协作者选定受众之间重叠的配置文件百分比。 |
+| **[!UICONTROL 重叠百分比]** | 您和您的合作者所选受众之间重叠的轮廓百分比。 |
 | **[!UICONTROL 按匹配键划分身份]** | 根据您和您的协作者为项目商定的匹配键，按各个匹配键查看重叠计算中的身份组成。 |
 
 {style="table-layout:auto"}
@@ -96,7 +96,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="相关受众"
->abstract="根据重叠百分比，这些发布者受众可能非常适合您的营销活动。 <br><br> <b>标识计数</b>是发布者的受众大小。<br><br> <b>标识重叠</b>表示推荐的发布者受众与所有广告商受众之间的重叠。 <br><br> <b>重叠%</b>表示重叠身份数除以<i>所有</i>广告商受众的大小。"
+>abstract="根据重叠百分比，这些发布者受众可能非常适合您的营销活动。<br><br><b>身份标识计数</b>是发布者的受众规模。<br><br> <b>重叠的身份标识</b>表示推荐发布者受众与所有广告商受众之间的重叠。<br><br><b>重叠率</b>表示重叠身份标识的数量除以<i>所有</i>广告商受众的规模。"
 
 **[!UICONTROL 发现]**&#x200B;模块中的&#x200B;**[!UICONTROL 相关受众]**&#x200B;视图根据重叠百分比提供了前五个受众的精选列表。 此功能可帮助您快速识别与当前数据重叠程度最高的受众，使您能够更有效地定位营销活动。
 
@@ -110,8 +110,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
->title="发现与单个受众的重叠"
->abstract="深入了解此受众的群体及其与协作者身份宇宙的重叠之处。"
+>title="发现与个体受众的重叠"
+>abstract="了解该受众群体及其与合作者身份标识范围的重叠情况。"
 
 ![发现与不同受众视图的重叠](/help/assets/collaborate/discover-overlaps/discover-overlaps-cards-view.png)
 

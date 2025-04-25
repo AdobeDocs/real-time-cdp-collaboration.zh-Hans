@@ -7,7 +7,7 @@ exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -52,22 +52,22 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_usecases"
 >title="用例"
->abstract="用例已预先填充了所有选项。 您可以在提交连接设置之前编辑用例。"
+>abstract="用例已预先填充所有选项。您可以在提交连接设置之前编辑用例。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="匹配键"
->abstract="匹配键会预填充为您在组织级别选择的匹配键。 您可以关闭任何您不想在此连接中使用的匹配键。"
+>abstract="匹配键已预先填充您在组织级别选择的键。您可以关闭在此连接中不想使用的任何匹配键。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="积分拆分"
->abstract="此部分确定谁将为Real-Time CDP Collaboration中的相应活动付费。 目前，只能配置受众共享用例。"
+>abstract="此部分确定谁为 Real-Time CDP Collaboration 中的相应活动付费。目前，只有受众共享用例是可配置的。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
->title="受众共享"
->abstract="受众共享是参与方在请求其匹配的数据由其协作合作伙伴激活时所采取的活动。"
+>title="受众共享 "
+>abstract="受众共享是一方请求其合作伙伴激活其匹配的数据时所采取的活动。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"

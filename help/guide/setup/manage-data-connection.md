@@ -7,7 +7,7 @@ exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 4%
+ht-degree: 17%
 
 ---
 
@@ -40,9 +40,9 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="匹配键"
->abstract="匹配键决定了如何匹配来自不同源的数据。 选择与您的用例和隐私准则最相关的匹配键。"
+>abstract="匹配键决定如何匹配来自不同来源的数据。选择与您的用例和隐私准则最相关的匹配键。"
 
-匹配键是用于跨不同数据源的受众协调成员的标识符。 可用的匹配键包括：
+匹配键是用于协调来自不同数据源的受众成员的标识符。可用的匹配键包括：
 
 - **散列电子邮件**
 
@@ -50,12 +50,12 @@ ht-degree: 4%
 
 ![突出显示匹配键部分的数据连接工作区。](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
-### 计划中 {#scheduling}
+### 日程安排 {#scheduling}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
->title="计划中"
->abstract="此视图显示您最初为数据连接选择的计划选项。"
+>title="日程安排"
+>abstract="此视图显示您最初为数据连接选择的调度选项。"
 
 您无法编辑最初为数据连接选择的计划选项。 有关计划选项的详细信息，请查看受众导入工作流文档中的[计划部分](/help/guide/setup/onboard-audiences.md#schedule)。
 

@@ -7,7 +7,7 @@ exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
@@ -55,9 +55,9 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measure_metricsovertime"
 >title="随时间变化的量度"
->abstract="使用一段时间视图中的量度以了解在营销活动期间为创意显示的总展示次数。 最多可以选择在报告中显示两个维度。"
+>abstract="使用“随时间变化的量度”视图，了解在营销活动期间您的创意所展示的总展示次数。您最多可以选择两个维度在报告中显示。"
 
-使用一段时间视图中的量度以了解在营销活动期间为创意显示的总展示次数。 请注意，您最多可以选择两个量度以在报表中显示和分析。
+使用“随时间变化的量度”视图，了解在营销活动期间您的创意所展示的总展示次数。请注意，您最多可以选择两个量度以在报表中显示和分析。
 
 ![时间视图中的量度。](/help/assets/collaborate/measure/metrics-over-time.png)
 

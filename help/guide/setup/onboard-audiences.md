@@ -7,7 +7,7 @@ exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
 workflow-type: tm+mt
 source-wordcount: '2642'
-ht-degree: 2%
+ht-degree: 23%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="营销操作"
->abstract="<p>使用营销操作可控制要将哪些受众数据从Experience Platform导入Real-Time CDP Collaboration。 <strong>数据Collaboration</strong>营销操作支持C4、C5和C9数据使用标签。 <strong>数据科学</strong>营销操作支持C9数据使用标签。</p> <p> <ul><li> 如果选中<em>启用</em>复选框，则会排除在Experience Platform中使用上述标签标记的任何数据，并且<strong>不会</strong>将这些数据带入Real-Time CDP Collaboration。</li><li> 如果选中复选框<em>已禁用</em>，则对可从Experience Platform导入到Real-Time CDP Collaboration的数据不做任何限制。</li></ul></p>"
+>abstract="<p>使用营销操作来控制从 Experience Platform 向 Real-Time CDP Collaboration 导入哪些受众数据。<strong>数据协作</strong>营销操作支持 C4、C5 和 C9 数据使用标签。<strong>数据科学</strong>营销操作支持 C9 数据使用标签。</p> <p> <ul><li> <em>启用</em>复选框后，Experience Platform 中标有上述标签的任何数据都会被排除，并且<strong>不会</strong>被纳入 Real-Time CDP Collaboration。</li><li> <em>禁用</em>复选框后，从 Experience Platform 导入 Real-Time CDP Collaboration 的数据将不受限制。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hans" text="数据使用标签概述"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="数据使用标签词汇表"
 
@@ -89,12 +89,12 @@ ht-degree: 2%
 
 接下来，必须确保对导入的数据设置正确的营销操作。 您还需要同意从Real-Time CDP导入用于数据协作的数据。
 
-使用营销操作可控制要将哪些受众数据从Experience Platform导入Real-Time CDP Collaboration。 **数据Collaboration**&#x200B;营销操作支持C4、C5和C9数据使用标签。 **数据科学**&#x200B;营销操作支持C9数据使用标签。
+使用营销操作来控制从 Experience Platform 向 Real-Time CDP Collaboration 导入哪些受众数据。**数据协作**&#x200B;营销操作支持 C4、C5 和 C9 数据使用标签。**数据科学**&#x200B;营销操作支持 C9 数据使用标签。
 
 详细了解[C4、C5和C9数据使用标签](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
 
-* 如果选中&#x200B;*启用*&#x200B;复选框，则会排除在Experience Platform中使用上述标签标记的任何数据，并且&#x200B;*不会*&#x200B;将这些数据带入Real-Time CDP Collaboration。
-* 如果选中复选框&#x200B;*已禁用*，则对可从Experience Platform导入到Real-Time CDP Collaboration的数据不做任何限制。
+* *启用*&#x200B;复选框后，Experience Platform 中标有上述标签的任何数据都会被排除，并且&#x200B;*不会*&#x200B;被纳入 Real-Time CDP Collaboration。
+* *禁用*&#x200B;复选框后，从 Experience Platform 导入 Real-Time CDP Collaboration 的数据将不受限制。
 
 有关数据使用标签的更多信息，请参阅Experience Platform文档：
 
@@ -120,29 +120,29 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
 >title="源字段"
->abstract="Source字段是指您现有Real-Time CDP实施中的身份命名空间和属性。 您可以将这些字段映射到Real-Time CDP Collaboration中定义的目标字段。"
+>abstract="源字段是来自您现有的 Real-Time CDP 实施的身份标识命名空间和属性。您可以将它们映射到 Real-Time CDP Collaboration 中定义的目标字段。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="目标字段"
->abstract="目标字段对应于您在加入公司时选择的匹配键。 目前，哈希电子邮件是唯一受支持的匹配键。"
+>abstract="目标字段与您在加入公司时选择的匹配键相对应。目前，经过哈希处理的电子邮件是唯一受到支持的匹配键。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
 >title="应用转换"
->abstract="从源导入&#x200B;*非散列*&#x200B;字段时，使用此选项可让Real-Time CDP Collaboration应用散列并将纯字段转换为散列字段。"
+>abstract="从源导入&#x200B;*非哈希*&#x200B;字段时，使用此选项可让 Real-Time CDP Collaboration 应用哈希算法，并将纯文本字段转换为哈希字段。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="身份标识命名空间"
->abstract="从Experience Platform组织中可用的标准和自定义身份命名空间中选择一个身份命名空间。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform中的标准和身份命名空间"
+>abstract="从 Experience Platform 组织中可用的标准和自定义身份标识命名空间中选择一个身份标识命名空间。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform 中的标准和身份标识命名空间"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="轮廓属性"
->abstract="从Union Schema中为Experience Platform中的Profile类选择属性。 此视图显示联合架构中存在的属于XDM Individual Profile类的属性。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform中的合并架构"
+>abstract="从 Experience Platform 中的轮廓类的并集架构中选择属性。此视图显示并集架构中存在且属于 XDM 个体轮廓类的属性。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform 中的并集架构"
 
 ![映射字段屏幕显示映射到目标字段的源字段。](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
@@ -245,8 +245,8 @@ After selecting the desired use cases for each identity, proceed to the next ste
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
->title="缺少身份"
->abstract="将受众导入Real-Time CDP Collaboration后大约24小时内，身份计数会显示`-`。 在此时间范围之后，身份计数将随受众中存在的用户档案数更新。"
+>title="缺少身份标识"
+>abstract="在将受众导入 Real-Time CDP Collaboration 后，身份标识计数会在大约前 24 小时内显示 `-`。在此时间段之后，身份标识计数将会根据受众中现有的轮廓数量进行更新。"
 
 将受众导入Real-Time CDP Collaboration后，您可以在功能板视图中获取有关这些受众的信息。 **[!UICONTROL 我的受众]**&#x200B;页面中的默认视图显示贵组织当前导入到Real-Time CDP Collaboration中的所有受众。
 
@@ -301,7 +301,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 
 * [身份标识](#identities)
 * [类别](#categories)
-* [连接访问](#connection-access)
+* [连接访问权限](#connection-access)
 * [元数据可见性](#metadata-visibility)
 
 ### 身份标识 {#identities}
@@ -309,7 +309,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="身份标识"
->abstract="获取构成此受众的身份的划分视图，以及具有相应身份的配置文件总数。"
+>abstract="获取构成该受众的身份标识的细分视图，以及具有相应身份标识的轮廓总数。"
 
 此部分指示受众中存在的具有您在导入受众时指定的任何身份的用户档案数。 部分还包含身份细分，以便您分辨哪些身份构成了最多的受众群体。
 
@@ -318,16 +318,16 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
 >title="类别"
->abstract="标记受众以方便组织、筛选和检索。 您可以标记具有多个类别的受众，然后可以使用这些类别标记在产品的其他区域中过滤所需的受众。"
+>abstract="标记您的受众，以便于组织、过滤和检索。您可以使用多个类别标记受众，然后使用这些类别标记在产品的其他区域中筛选所需的受众。"
 
 为便于受众的组织、筛选和检索，您可以标记受众。 您可以为具有多个类别的受众添加标签，然后在运行受众重叠报表时，使用这些类别标签在[发现](/help/guide/collaborate/discover.md)产品区域中过滤所需的受众。
 
-### 连接访问 {#connection-access}
+### 连接访问权限 {#connection-access}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
->title="连接访问"
->abstract="<p>受众可以分为三种类型：公共、专用和自定义。</p><p> 根据连接访问设置，它们在与协作者一起使用的项目中的可用性有所不同。 您始终可以将连接访问权限从专用更改为公用，但是一旦与协作者共享受众，就不能更改此设置。</p>"
+>title="连接访问权限"
+>abstract="<p>受众可以分为三种类型：公共、私人和自定义。</p><p> 它们在与合作者合作的项目中是否可用取决于连接访问权限设置。您可以随时将连接访问权限从私人更改为公开，但一旦与合作者共享了受众，就无法再更改该设置。</p>"
 
 选择受众是您私有，还是可以在连接中使用和可搜索的。 三个可用选项包括：
 
@@ -339,14 +339,14 @@ After selecting the desired use cases for each identity, proceed to the next ste
 >
 >无论访问状态（公用、专用或自定义）如何，任何受众的群体都会向受众发现重叠分析视图中的&#x200B;**[!UICONTROL 所有受众]**&#x200B;群体贡献内容。<br> ![受众发现重叠分析中系统生成的&#x200B;**所有受众**&#x200B;受众包含具有所有连接访问状态（公共、私有、自定义）的受众。](/help/assets/setup/add-manage-audiences/all-audiences-view.png "在**受众发现**重叠分析中，系统生成的**所有受众**受众包含具有所有连接访问状态（公共、私有、自定义）的受众。"){width="100" zoomable="yes"}
 
-与协作者一起使用的项目中的受众可用性因连接访问设置而异。 您始终可以将连接访问权限从专用更改为公用，但是一旦与协作者共享受众，就不能更改此设置。
+与协作者一起使用的项目中的受众可用性因连接访问设置而异。 您可以随时将连接访问权限从私人更改为公开，但一旦与合作者共享了受众，就无法再更改该设置。
 
 ### 元数据可见性 {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="元数据可见性"
->abstract="<p>指示其他组织在与您的组织连接之前可以看到的受众元数据信息。 </p> <p> **身份计数**&#x200B;控制您的合作伙伴在查看发现选项卡中的重叠报告时是否可以查看受众的身份计数。 **受众重叠%**&#x200B;控制协作者能否发现其受众与您之间的重叠百分比。"
+>abstract="<p>指示其他组织在与您的组织建立联系之前可以看到哪些受众元数据信息。 </p> <p> **身份标识计数**&#x200B;控制您的合作伙伴在“发现”选项卡中查看重叠报告时是否可以查看您受众的身份标识计数。**受众重叠率**&#x200B;控制合作者是否能够发现他们的受众和您的受众之间的重叠百分比。"
 
 >[!NOTE]
 >
