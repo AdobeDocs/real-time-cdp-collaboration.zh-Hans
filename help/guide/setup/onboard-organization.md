@@ -4,10 +4,10 @@ description: 了解如何在Real-Time CDP Collaboration中载入和管理组织�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: f146a39ab69a9a41bb12aeb59b0d23ae567cf4c2
+source-git-commit: b9aa8851799ddb492daeb13842a2cad39e84899e
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 1%
+source-wordcount: '830'
+ht-degree: 14%
 
 ---
 
@@ -40,6 +40,11 @@ ht-degree: 1%
 
 ### 设置详细信息 {#set-up-details}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_setup_contact_email"
+>title="联系电子邮件"
+>abstract="请提供基于团队或角色的电子邮件，如`collaboration@yourcompany.com`。 不应使用个人或个人电子邮件地址。"
+
 ![设置组织的详细信息和用例步骤](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
 
 1. 为您的公司添加&#x200B;**[!UICONTROL 组织名称]**。
@@ -59,22 +64,22 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="匹配键"
->abstract="匹配键是用于跨不同数据源的受众协调成员的标识符。 包括您的公司可以使用的任何匹配键。"
+>abstract="匹配键是用于协调来自不同数据源的受众成员的标识符。包括您的公司可以使用的任何匹配键。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="第一方人员标识"
->abstract="第一方人员ID（如经过哈希处理的电子邮件地址或电话号码）直接连接到个人资料。 当前支持的ID是经过哈希处理的电子邮件和电话号码。"
+>title="第一方人员 ID"
+>abstract="第一方人员 ID（例如经过哈希处理的电子邮件地址或电话号码）会直接与个人轮廓相关联。目前支持的 ID 是经过哈希处理的电子邮件和电话号码。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="第一方设备 ID"
->abstract="第一方设备ID（如ECID或IP地址）直接连接到设备，这可以在多个人员之间共享。 IPv4是目前唯一支持的第一方设备ID。"
+>abstract="第一方设备 ID（例如 ECID 或 IP 地址）会直接与设备相关联，这些设备可能由多个人共享。IPv4 是目前唯一支持的第一方设备 ID。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
->title="支持的合作伙伴ID"
->abstract="与用户档案关联的合作伙伴ID可将影响扩展到特定用户档案。"
+>title="支持的合作伙伴 ID"
+>abstract="与轮廓关联的合作伙伴 ID 可扩大对特定轮廓的覆盖范围。"
 
 匹配键（如电子邮件地址、设备ID或客户ID）通过启用准确且符合隐私要求的数据同步，帮助广告商和出版商开展合作，从而实现更准确的受众定位和测量。
 
@@ -88,7 +93,7 @@ ht-degree: 1%
 
 Real-Time CDP Collaboration中可用的匹配键可以是三种类型：
 
-* 第一方人员标识
+* 第一方人员 ID
 * 第一方设备 ID
 * 合作伙伴 ID
 
