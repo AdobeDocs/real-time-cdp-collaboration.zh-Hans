@@ -55,7 +55,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="日程安排"
->abstract="此视图显示您最初为数据连接选择的调度选项。"
+>abstract="此视图显示您最初为数据连接选择的计划选项。"
 
 您无法编辑最初为数据连接选择的计划选项。 有关计划选项的详细信息，请查看受众导入工作流文档中的[计划部分](/help/guide/setup/onboard-audiences.md#schedule)。
 

@@ -57,17 +57,17 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="匹配键"
->abstract="匹配键已预先填充您在组织级别选择的键。您可以关闭在此连接中不想使用的任何匹配键。"
+>abstract="匹配键已通过您在组织级别选择的键预先填充。您可以关掉不想在此连接中使用的任何匹配键。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="积分拆分"
->abstract="此部分确定谁为 Real-Time CDP Collaboration 中的相应活动付费。目前，只有受众共享用例是可配置的。"
+>abstract="此部分确定了谁为 Real-Time CDP Collaboration 中的相应活动付费。目前，只有受众共享用例是可配置的。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="受众共享 "
->abstract="受众共享是一方请求其合作伙伴激活其匹配的数据时所采取的活动。"
+>abstract="受众共享是一方请求其协作伙伴激活其匹配的数据时所采取的活动。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"

@@ -69,12 +69,12 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="第一方人员 ID"
->abstract="第一方人员 ID（例如经过哈希处理的电子邮件地址或电话号码）会直接与个人轮廓相关联。目前支持的 ID 是经过哈希处理的电子邮件和电话号码。"
+>abstract="第一方人员 ID（例如经过哈希处理的电子邮件地址或电话号码）直接与个人轮廓相关联。目前支持的 ID 是经过哈希处理的电子邮件和电话号码。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="第一方设备 ID"
->abstract="第一方设备 ID（例如 ECID 或 IP 地址）会直接与设备相关联，这些设备可能由多个人共享。IPv4 是目前唯一支持的第一方设备 ID。"
+>abstract="第一方设备 ID（例如 ECID 或 IP 地址）直接与设备相关联，这些设备可以由多个人共享。IPv4 是目前唯一受支持的第一方设备 ID。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
