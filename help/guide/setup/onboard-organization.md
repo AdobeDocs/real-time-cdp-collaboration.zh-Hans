@@ -4,7 +4,7 @@ description: 了解如何在Real-Time CDP Collaboration中载入和管理组织�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: b9aa8851799ddb492daeb13842a2cad39e84899e
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 14%
@@ -81,7 +81,7 @@ ht-degree: 14%
 >title="支持的合作伙伴 ID"
 >abstract="与轮廓关联的合作伙伴 ID 可扩大对特定轮廓的覆盖范围。"
 
-匹配键（如电子邮件地址、设备ID或客户ID）通过启用准确且符合隐私要求的数据同步，帮助广告商和出版商开展合作，从而实现更准确的受众定位和测量。
+匹配键（如电子邮件地址、设备ID或客户ID）通过实现准确且以隐私为中心的数据同步，帮助广告商和出版商开展合作，从而实现更准确的受众定位和测量。
 
 ![幻灯片显示Real-Time CDP Collaboration第一版本的可用标识符。](/help/assets/setup/manage-organization/available-identifiers.png)
 

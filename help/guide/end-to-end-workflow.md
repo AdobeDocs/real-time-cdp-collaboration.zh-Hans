@@ -4,7 +4,7 @@ description: 了解将Real-Time CDP Collaboration用作广告商或发布者的�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time Customer Data Platform (CDP) Collaboration允许广告商和发布商以隐私优先的方式就营销活动进行协作。 请阅读本页，了解作为广告商或发布商充分利用产品的工作流。
+Adobe Real-Time Customer Data Platform (CDP) Collaboration允许广告商和发布商以隐私为中心的方式就活动进行协作。 请阅读本页，了解作为广告商或发布商充分利用产品的工作流。
 
 ## 广告商端到端工作流程 {#advertiser}
 
