@@ -4,9 +4,9 @@ description: 了解如何在Real-Time CDP Collaboration中跟踪贵组织的信�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: a69d4405c47824c8afabc84782dc9f8a9d70763a
+source-git-commit: 3aec9806d2ea920d656bb0981f22ba31fd8ae3ee
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 | **[!UICONTROL 连接ID]** | 与信贷消费活动关联的每个连接的唯一标识符，以字母数字字符串表示。 |
 | **[!UICONTROL 连接名称]** | 与连接和信贷消费活动关联的协作者的名称。 |
 | **[!UICONTROL 活动]** | 执行的活动类型，如&#x200B;**激活 — 共享**、**激活 — 出口**&#x200B;或&#x200B;**受众管理**。 |
-| **[!UICONTROL 输入已处理]** | 为活动处理的输入总数（例如，ID或行），以百万为单位。 这有助于您通过将活动与您的CPM（每千成本）关联以计算粗略成本，从而了解活动的成本。 |
+| **[!UICONTROL 输入已处理]** | 为活动处理的输入总数（例如，ID或行）。 |
 | **[!UICONTROL 已使用的积分总数]** | 活动消耗的积分总数。 |
 | **[!UICONTROL 我的信用共享]** | 贵组织用于活动的积分部分。 |
 
