@@ -4,9 +4,9 @@ description: 了解如何在Real-Time CDP Collaboration中载入和管理组织�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
+source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '853'
 ht-degree: 14%
 
 ---
@@ -52,10 +52,11 @@ ht-degree: 14%
 3. 选择您的&#x200B;**[!UICONTROL 公司角色]**。 您可以选择介于&#x200B;**[!UICONTROL 广告商]**&#x200B;和&#x200B;**[!UICONTROL 发布者]**&#x200B;之间。 请阅读[端到端工作流文档](/help/guide/end-to-end-workflow.md)以了解两种组织角色类型之间工作流的相似之处和细微差异。
 4. 为您的组织选择&#x200B;**[!UICONTROL 行业]**。 某些示例包括&#x200B;**[!UICONTROL 零售业]**、**[!UICONTROL 电信]**&#x200B;或&#x200B;**[!UICONTROL 金融服务]**。
 5. 为您的组织选择&#x200B;**[!UICONTROL 区域]**。 在产品的当前版本中，**[!UICONTROL 北美洲]**&#x200B;是预设的默认选择。
-6. <span class="preview">仅限发布者</span>：在设置发布者组织时，您必须阅读并确认，发布者目录中的广告商将能够发现您。
+6. 为您的组织添加&#x200B;**[!UICONTROL 联系人电子邮件]**。 这应该是基于团队或角色的电子邮件地址。 不应提供个人电子邮件地址。
+7. <span class="preview">仅限发布者</span>：在设置发布者组织时，您必须阅读并确认，发布者目录中的广告商将能够发现您。
    ![发布者特定的选择加入消息。](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
-7. 为您的公司上传&#x200B;**[!UICONTROL 徽标]**。 目前，支持SVG类型的图像。
-8. 选择公司标题图片的图像。
+8. 为您的公司上传&#x200B;**[!UICONTROL 徽标]**。 目前，支持SVG类型的图像。
+9. 选择公司标题图片的图像。
 
 对您的选择感到满意后，使用&#x200B;**[!UICONTROL 下一步]**&#x200B;进入下一页，并选择贵组织应使用的所需匹配键。
 
