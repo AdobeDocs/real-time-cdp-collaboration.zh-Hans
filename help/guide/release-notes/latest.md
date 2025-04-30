@@ -4,9 +4,9 @@ description: 遵循Real-Time CDP Collaboration的最新版本
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: 5b331e2de1c91dd566f1139e57d44a47dd01dba5
+source-git-commit: fd19bb0fb0f09f5d704ce05ae719119287cbdc30
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '411'
 ht-degree: 5%
 
 ---
@@ -15,19 +15,14 @@ ht-degree: 5%
 
 {{limited-availability-release-note}}
 
-**上次更新时间**：2025年3月。
-
-<!--**Last update**: April, 2025. uncomment when ready to release and delete line above-->
+**上次更新时间**：2025年4月。
 
 以下发行说明介绍了Real-Time Customer Data Platform Collaboration中发布的功能。 Real-Time CDP Collaboration版本在持续交付模型上运行，该模型允许大约每月一次的发布。 这些发行说明会经常更新，因此请务必定期检查。
 
-<!--
+## 2025 年 4 月 {#april-2025}
 
-## April 2025 {#april-2025}
-
-* A new **Inputs Processed** column has been added to the credit consumption activity table. This column displays the total number of inputs (for example, IDs or rows) processed for each activity. [Read more](/help/guide/setup/my-activity.md#inputs-processed). <br> ![Inputs processed column highighted in My activity view.](/help/assets/release-notes/2025/inputs-processed-column.png "Inputs processed column highighted in My activity view."){width="250" align="center" zoomable="yes"}
-
--->
+* 新的&#x200B;**已处理的输入数**&#x200B;列已添加到信用消耗活动表中。 此列显示为每个活动处理的输入总数（例如，ID或行）。 [阅读更多](/help/guide/setup/my-activity.md#inputs-processed)。<br> ![输入在“我的活动”视图中突出显示的已处理列。](/help/assets/release-notes/2025/inputs-processed-column.png "输入我的活动视图中突出显示的已处理列。"){width="250" align="center" zoomable="yes"}
+* 在帐户创建中添加了新的联系人电子邮件选项。 这有助于合作伙伴协作者在连接过程中根据需要与您联系。 [了解更多信息](../setup/onboard-organization.md)。
 
 ## 2025 年 3 月 {#march-2025}
 
