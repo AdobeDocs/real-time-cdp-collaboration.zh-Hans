@@ -4,9 +4,9 @@ description: 发现潜在的协作者后，了解如何建立连接并开始协�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
+source-git-commit: ee434f1bb8119e2a378580a02ffa0b9efb93cf28
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '938'
 ht-degree: 13%
 
 ---
@@ -68,6 +68,11 @@ ht-degree: 13%
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="受众共享 "
 >abstract="受众共享是一方请求其协作伙伴激活其匹配的数据时所采取的活动。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
+>title="测量"
+>abstract="通过此用例，您可以在Real-Time CDP Collaboration中执行活动，以生成营销活动效果报表和见解。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
