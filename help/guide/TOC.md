@@ -25,7 +25,7 @@ ht-degree: 20%
    * [身份标识对照表](./setup/identity-crosswalk.md)
    * [添加和管理测量数据](./setup/onboard-measurement-data.md)
    * [审核日志](./setup/audit-logs.md)
-* 与发布者或广告商{#connect}连接
+* 与发布者或广告商连接{#connect}
    * [发现发布者](./connect/discover-publishers.md)
    * [发现广告商](./connect/discover-advertisers.md)
    * [与广告商或发布者联系](./connect/establishing-connections.md)

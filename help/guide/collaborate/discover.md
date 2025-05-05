@@ -17,7 +17,7 @@ ht-degree: 24%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 发现]**&#x200B;工作区仅在连接过程](../connect/establishing-connections.md#connection-settings)中启用了[受众发现&#x200B;**用例时才可用。**&#x200B;有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 发现]**&#x200B;工作区仅在连接过程[&#128279;](../connect/establishing-connections.md#connection-settings)中启用了受众发现&#x200B;**用例时才可用。**&#x200B;有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
 在广告商和发布商之间的协作空间中[创建项目](/help/guide/collaborate/manage-projects.md)后，您现在可以将受众与协作者受众进行比较。 通过这种方法，您可以发现受众之间的重叠，并获得按匹配键或身份划分的见解。 这有助于广告商决定与发布者共享哪些受众以进行激活。
 
