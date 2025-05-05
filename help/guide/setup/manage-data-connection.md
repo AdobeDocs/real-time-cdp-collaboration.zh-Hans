@@ -2,7 +2,7 @@
 title: 管理数据连接
 description: 了解如何在Real-Time CDP Collaboration中管理数据连接，包括匹配键、计划、用例和受众筛选
 audience: administrator, data engineer
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
@@ -25,7 +25,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->Real-Time CDP Collaboration用户界面当前不支持删除数据连接。 要删除数据连接，请联系您的Adobe代表或[创建客户支持工单](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}。
+>Real-Time CDP Collaboration用户界面当前不支持删除数据连接。 要删除数据连接，请联系您的Adobe代表或[创建客户支持工单](https://experienceleague.adobe.com/home?lang=zh-Hans&amp;support-tab=open-ticket#support){target="_blank"}。
 
 要查看现有的数据连接，请导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 我的受众]**，然后选择&#x200B;**[!UICONTROL 管理数据连接]**。
 

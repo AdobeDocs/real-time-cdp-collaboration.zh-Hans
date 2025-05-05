@@ -2,7 +2,7 @@
 title: 跟踪您的信用消耗活动
 description: 了解如何在Real-Time CDP Collaboration中跟踪贵组织的信用消耗活动。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
 source-git-commit: 3aec9806d2ea920d656bb0981f22ba31fd8ae3ee
 workflow-type: tm+mt
@@ -73,7 +73,7 @@ Collaboration Measurement – Credits are consumed as a function of the number o
 
 要有效地管理您的信用消费，请执行以下操作：
 
-1. **了解**&#x200B;与每个活动关联的点数消耗。 检查[Real-Time CDP Collaboration产品描述](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}以了解每个活动使用的协作积分表。
+1. **了解**&#x200B;与每个活动关联的点数消耗。 检查[Real-Time CDP Collaboration产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}以了解每个活动使用的协作积分表。
 2. **定期监控**：请经常查看您的活动仪表板以了解使用模式。
 3. **按连接跟踪**：使用连接名称识别哪些伙伴关系占用最多积分。
 
