@@ -2,11 +2,11 @@
 title: 与广告商或发布者联系
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: ee434f1bb8119e2a378580a02ffa0b9efb93cf28
+source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '952'
 ht-degree: 13%
 
 ---
@@ -79,6 +79,11 @@ ht-degree: 13%
 >title="法律协议"
 >abstract="验证双方之间是否存在数据共享协议。"
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_settings_advertisername"
+>title="广告商名称"
+>abstract="指示发布者了解广告商的别名。 "
+
 发送邀请后，您可以预览连接设置。 必须先接受邀请，然后才能完成连接设置。
 
 ![处于预览状态的连接设置视图。](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
@@ -137,7 +142,7 @@ ht-degree: 13%
 2. 选择连接卡上的&#x200B;**[!UICONTROL 查看连接]**&#x200B;以访问要删除的连接。
 3. 选择删除图标![删除图标](/help/assets/common/delete.svg)以打开删除连接确认对话框。
    ![删除连接图标突出显示。](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
-4. 选择&#x200B;**[!UICONTROL 删除]**&#x200B;以确认删除。
+4. 选择&#x200B;**[!UICONTROL 删除]**以确认删除。
    ![用于确认删除连接的对话框。](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]

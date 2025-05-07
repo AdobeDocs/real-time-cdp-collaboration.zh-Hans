@@ -2,9 +2,9 @@
 title: 创建和管理项目
 description: 了解如何在Adobe Real-Time CDP Collaboration中创建和管理项目
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: 55835f1e37975793f3a96c79e7c3a5bfeabfc88e
+source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 3%
@@ -30,9 +30,9 @@ ht-degree: 3%
 ## 创建项目 {#create-project}
 
 >[!CONTEXTUALHELP]
->id="rtcdp_collaboration_manage_projects_advertiser_name"
+>id="rtcdp_collaboration_manage_projects_advertisername"
 >title="广告商名称"
->abstract="从下拉菜单中选择广告商名称。 这些选项由发布者在连接设置中预先配置，以确保与其系统的兼容性。"
+>abstract="从下拉菜单中选择广告商名称。 这些选项由广告商在连接设置中预先配置，以确保与发布系统兼容。"
 
 要创建项目，请选择右上角的加号&#x200B;**+**&#x200B;符号。 或者，如果这是您的第一个项目，请导航到&#x200B;**[!UICONTROL 协作]** > **[!UICONTROL 我的项目]**，然后选择&#x200B;**[!UICONTROL 创建项目]**。
 
