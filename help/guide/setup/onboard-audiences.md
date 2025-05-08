@@ -2,7 +2,7 @@
 title: 导入和管理受众
 description: 了解如何在Adobe Real-Time CDP Collaboration中导入和管理受众
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 8fca38c8125cefae9fe52ecd168e3d0ff20f2936
 workflow-type: tm+mt
@@ -52,7 +52,7 @@ ht-degree: 22%
 >title="营销操作"
 >abstract="<p>使用营销操作来控制从 Experience Platform 向 Real-Time CDP Collaboration 导入哪些受众数据。<strong>数据协作</strong>营销操作支持 C4、C5 和 C9 数据使用标签。<strong>数据科学</strong>营销操作支持 C9 数据使用标签。</p> <p> <ul><li> <em>启用</em>该复选框后，Experience Platform 中标有上述标签的任何数据都会被排除，并且<strong>不</strong>被纳入 Real-Time CDP Collaboration。</li><li> <em>禁用</em>该复选框后，从 Experience Platform 导入 Real-Time CDP Collaboration 的数据不受限制。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hans" text="数据使用标签概述"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hans" text="数据使用标签词汇表"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="数据使用标签词汇表"
 
 >[!IMPORTANT]
 >
@@ -91,15 +91,15 @@ ht-degree: 22%
 
 使用营销操作来控制从 Experience Platform 向 Real-Time CDP Collaboration 导入哪些受众数据。**数据协作**&#x200B;营销操作支持 C4、C5 和 C9 数据使用标签。**数据科学**&#x200B;营销操作支持 C9 数据使用标签。
 
-详细了解[C4、C5和C9数据使用标签](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
+详细了解[C4、C5和C9数据使用标签](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
 
 * *启用*&#x200B;该复选框后，Experience Platform 中标有上述标签的任何数据都会被排除，并且&#x200B;*不*&#x200B;被纳入 Real-Time CDP Collaboration。
 * *禁用*&#x200B;该复选框后，从 Experience Platform 导入 Real-Time CDP Collaboration 的数据不受限制。
 
 有关数据使用标签的更多信息，请参阅Experience Platform文档：
 
-* [数据使用标签概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [数据使用标签术语表](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [数据使用标签概述](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [数据使用标签术语表](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![数据协作所需的营销操作。](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -136,13 +136,13 @@ ht-degree: 22%
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="身份标识命名空间"
 >abstract="从 Experience Platform 组织中可用的标准的及自定义的身份标识命名空间中选择一个身份标识命名空间。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hans#standard" text="Experience Platform 中的标准和身份标识命名空间"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform 中的标准和身份标识命名空间"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="轮廓属性"
 >abstract="从 Experience Platform 中的轮廓类的并集架构中选择属性。此视图显示并集架构中存在的且属于 XDM 个体轮廓类的属性。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hans" text="Experience Platform 中的并集架构"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform 中的并集架构"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_target_namespaces"
@@ -274,9 +274,9 @@ After selecting the desired use cases for each identity, proceed to the next ste
 | **[!UICONTROL 已创建]** | 指示将此受众导入到Real-Time CDP Collaboration中的时间。 |
 | **[!UICONTROL 上次更新时间]** | 指示上次更新此受众任何方面的日期和时间。 |
 
-选择&#x200B;**[!UICONTROL 管理数据连接]**&#x200B;以查看和编辑已设置的所有数据连接。
-选择省略号和&#x200B;**[!UICONTROL 删除]**&#x200B;以删除受众。
-选择省略号和&#x200B;**[!UICONTROL 编辑类别]**&#x200B;以向受众添加不同的类别标记。 在下面的[类别](/#categories)部分中获取更多信息。
+选择&#x200B;**[!UICONTROL 管理数据连接]**以查看和编辑已设置的所有数据连接。
+选择省略号和**[!UICONTROL 删除]**以删除受众。
+选择省略号和**[!UICONTROL 编辑类别]**&#x200B;以向受众添加不同的类别标记。 在下面的[类别](/#categories)部分中获取更多信息。
 选择受众名称以检查或编辑单个受众。
 
 ## 查看单个受众 {#view-individual-audiences}
@@ -347,7 +347,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 
 >[!IMPORTANT]
 >
->无论访问状态（公用、专用或自定义）如何，任何受众的群体都会向受众发现重叠分析视图中的&#x200B;**[!UICONTROL 所有受众]**&#x200B;群体贡献内容。<br> ![受众发现重叠分析中系统生成的&#x200B;**所有受众**&#x200B;受众包含具有所有连接访问状态（公共、私有、自定义）的受众。](/help/assets/setup/add-manage-audiences/all-audiences-view.png "在&#x200B;**受众发现**&#x200B;重叠分析中，系统生成的&#x200B;**所有受众**&#x200B;受众包含具有所有连接访问状态（公共、私有、自定义）的受众。"){width="100" zoomable="yes"}
+>无论访问状态（公用、专用或自定义）如何，任何受众的群体都会向受众发现重叠分析视图中的&#x200B;**[!UICONTROL 所有受众]**&#x200B;群体贡献内容。<br> ![受众发现重叠分析中系统生成的&#x200B;**所有受众**&#x200B;受众包含具有所有连接访问状态（公共、私有、自定义）的受众。](/help/assets/setup/add-manage-audiences/all-audiences-view.png "在**受众发现**重叠分析中，系统生成的**所有受众**受众包含具有所有连接访问状态（公共、私有、自定义）的受众。"){width="100" zoomable="yes"}
 
 与协作者一起使用的项目中的受众可用性因连接访问设置而异。 您可以随时将连接访问权限从私人更改为公开，但一旦与合作者共享了受众，就无法再更改该设置。
 
