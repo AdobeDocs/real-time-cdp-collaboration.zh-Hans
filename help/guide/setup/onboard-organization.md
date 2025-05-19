@@ -2,12 +2,12 @@
 title: 载入和管理组织
 description: 了解如何在Real-Time CDP Collaboration中载入和管理组织的各个方面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 12e73a9bf64f5746748d1a8c81827c50000a6428
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_activation_matchkeys"
 >title="激活匹配键"
->abstract="激活匹配密钥根据贵组织选择的匹配密钥显示。"
+>abstract="根据您组织选择的匹配键显示激活匹配键。"
 
 匹配键（如电子邮件地址、设备ID或客户ID）通过实现准确且以隐私为中心的数据同步，帮助广告商和出版商开展合作，从而实现更准确的受众定位和测量。
 

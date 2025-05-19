@@ -2,12 +2,12 @@
 title: 与广告商或发布者联系
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -67,12 +67,12 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="受众共享 "
->abstract="受众共享是一方请求其协作伙伴激活其匹配的数据时所采取的活动。"
+>abstract="受众共享是一方请求其合作伙伴激活其匹配的数据时所采取的活动。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="测量"
->abstract="通过此用例，您可以在Real-Time CDP Collaboration中执行活动，以生成营销活动效果报表和见解。"
+>abstract="此用例使您能够在 Real-Time CDP Collaboration 中执行活动以生成营销活动绩效报告和洞察。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -82,7 +82,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="广告商名称"
->abstract="指示发布者了解广告商的别名。 "
+>abstract="表示发布者知道的该广告商的别名。 "
 
 发送邀请后，您可以预览连接设置。 必须先接受邀请，然后才能完成连接设置。
 
@@ -142,7 +142,7 @@ ht-degree: 13%
 2. 选择连接卡上的&#x200B;**[!UICONTROL 查看连接]**&#x200B;以访问要删除的连接。
 3. 选择删除图标![删除图标](/help/assets/common/delete.svg)以打开删除连接确认对话框。
    ![删除连接图标突出显示。](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
-4. 选择&#x200B;**[!UICONTROL 删除]**&#x200B;以确认删除。
+4. 选择&#x200B;**[!UICONTROL 删除]**以确认删除。
    ![用于确认删除连接的对话框。](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]
