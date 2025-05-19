@@ -274,9 +274,9 @@ After selecting the desired use cases for each identity, proceed to the next ste
 | **[!UICONTROL 已创建]** | 指示将此受众导入到Real-Time CDP Collaboration中的时间。 |
 | **[!UICONTROL 上次更新时间]** | 指示上次更新此受众任何方面的日期和时间。 |
 
-选择&#x200B;**[!UICONTROL 管理数据连接]**以查看和编辑已设置的所有数据连接。
-选择省略号和**[!UICONTROL 删除]**以删除受众。
-选择省略号和**[!UICONTROL 编辑类别]**&#x200B;以向受众添加不同的类别标记。 在下面的[类别](/#categories)部分中获取更多信息。
+选择&#x200B;**[!UICONTROL 管理数据连接]**&#x200B;以查看和编辑已设置的所有数据连接。
+选择省略号和&#x200B;**[!UICONTROL 删除]**&#x200B;以删除受众。
+选择省略号和&#x200B;**[!UICONTROL 编辑类别]**&#x200B;以向受众添加不同的类别标记。 在下面的[类别](/#categories)部分中获取更多信息。
 选择受众名称以检查或编辑单个受众。
 
 ## 查看单个受众 {#view-individual-audiences}
@@ -347,7 +347,7 @@ After selecting the desired use cases for each identity, proceed to the next ste
 
 >[!IMPORTANT]
 >
->无论访问状态（公用、专用或自定义）如何，任何受众的群体都会向受众发现重叠分析视图中的&#x200B;**[!UICONTROL 所有受众]**&#x200B;群体贡献内容。<br> ![受众发现重叠分析中系统生成的&#x200B;**所有受众**&#x200B;受众包含具有所有连接访问状态（公共、私有、自定义）的受众。](/help/assets/setup/add-manage-audiences/all-audiences-view.png "在**受众发现**重叠分析中，系统生成的**所有受众**受众包含具有所有连接访问状态（公共、私有、自定义）的受众。"){width="100" zoomable="yes"}
+>无论访问状态（公用、专用或自定义）如何，任何受众的群体都会向受众发现重叠分析视图中的&#x200B;**[!UICONTROL 所有受众]**&#x200B;群体贡献内容。<br> ![受众发现重叠分析中系统生成的&#x200B;**所有受众**&#x200B;受众包含具有所有连接访问状态（公共、私有、自定义）的受众。](/help/assets/setup/add-manage-audiences/all-audiences-view.png "在&#x200B;**受众发现**&#x200B;重叠分析中，系统生成的&#x200B;**所有受众**&#x200B;受众包含具有所有连接访问状态（公共、私有、自定义）的受众。"){width="100" zoomable="yes"}
 
 与协作者一起使用的项目中的受众可用性因连接访问设置而异。 您可以随时将连接访问权限从私人更改为公开，但一旦与合作者共享了受众，就无法再更改该设置。
 
