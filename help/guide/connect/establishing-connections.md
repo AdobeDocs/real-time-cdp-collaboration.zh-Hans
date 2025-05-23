@@ -2,12 +2,12 @@
 title: 与广告商或发布者联系
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
+source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 16%
+source-wordcount: '1191'
+ht-degree: 12%
 
 ---
 
@@ -82,7 +82,8 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="广告商名称"
->abstract="表示发布者知道的该广告商的别名。 "
+>abstract="<p>可选设置。 指示发布者了解广告商的名称和ID。</p><p>您在此处添加的广告商名称将预填充在创建项目步骤中。</p><ul><li>如果发布者配置了多个名称，请从列表中选择一个。</li><li>如果只配置了一个名称，则会自动预选该名称。</li><li>如果未配置任何名称，则此字段将预先填充Real-Time CDP Collaboration中的广告商帐户名称。</li></ul>"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="创建一个项目"
 
 发送邀请后，您可以预览连接设置。 必须先接受邀请，然后才能完成连接设置。
 
@@ -130,6 +131,22 @@ ht-degree: 16%
 
 +++
 
++++广告商名称
+
+作为处理连接设置的发布者，您可以选择添加您在系统中通过它可识别该广告商的任何广告商名称。 作为发布者，您可以向一个连接添加多个广告商名称，例如，当您使用的广告商在多个地理区域出现时。 在此过程的后续步骤中，当[创建要协作的项目](/help/guide/collaborate/manage-projects.md#create-project)时，您或您的协作者将能够选择要与项目关联的广告商名称。
+
+![添加广告商名称模式。](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
+
+在创建项目时，以下是如何选择广告商名称的：
+
+1. **未设置广告商名称**：如果未添加广告商名称，Real-Time CDP Collaboration默认使用广告商名称作为广告商名称。
+2. **一个广告商名称集**：如果添加了一个广告商名称，Real-Time CDP Collaboration会自动将该名称用作项目的广告商名称。
+3. **多个广告商名称集**：如果添加多个广告商名称，您或您的协作者可以在创建项目时选择提供的任何名称。
+
+![广告商名称。](/help/assets/connect/establish-connection/advertiser-names.png)
+
++++
+
 做出选择后，选择&#x200B;**[!UICONTROL 提交]**&#x200B;以将建议的设置发送给您的协作者进行审阅。
 
 如果从协作者处收到建议的连接设置，您可以&#x200B;**[!UICONTROL 接受]**&#x200B;或&#x200B;**[!UICONTROL 拒绝]**&#x200B;这些设置。 在接受连接设置之前，您需要确认并确认您与协作者之间已签署法律协议。 如果您拒绝连接设置，请在产品之外联系您的协作者，讨论他们应如何修改连接设置以便您接受。
@@ -142,7 +159,7 @@ ht-degree: 16%
 2. 选择连接卡上的&#x200B;**[!UICONTROL 查看连接]**&#x200B;以访问要删除的连接。
 3. 选择删除图标![删除图标](/help/assets/common/delete.svg)以打开删除连接确认对话框。
    ![删除连接图标突出显示。](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
-4. 选择&#x200B;**[!UICONTROL 删除]**&#x200B;以确认删除。
+4. 选择&#x200B;**[!UICONTROL 删除]**以确认删除。
    ![用于确认删除连接的对话框。](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]
