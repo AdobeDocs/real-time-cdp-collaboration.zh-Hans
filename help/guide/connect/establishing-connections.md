@@ -2,12 +2,12 @@
 title: 与广告商或发布者联系
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
+source-git-commit: e4826c777d9d1df1dac7cd894536b7fd51be8a39
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 12%
+source-wordcount: '1272'
+ht-degree: 11%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 12%
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="广告商名称"
 >abstract="<p>可选设置。 指示发布者了解广告商的名称和ID。</p><p>您在此处添加的广告商名称将预填充在创建项目步骤中。</p><ul><li>如果发布者配置了多个名称，请从列表中选择一个。</li><li>如果只配置了一个名称，则会自动预选该名称。</li><li>如果未配置任何名称，则此字段将预先填充Real-Time CDP Collaboration中的广告商帐户名称。</li></ul>"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="创建一个项目"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="创建一个项目"
 
 发送邀请后，您可以预览连接设置。 必须先接受邀请，然后才能完成连接设置。
 
@@ -111,23 +111,26 @@ ht-degree: 12%
 
 匹配键已预填充为您[在组织级别](/help/guide/setup/onboard-organization.md#set-up-match-keys)选择的匹配键。 您可以关闭任何不希望在此连接中使用的匹配键，但无法添加在设置组织时未选择的任何匹配键。
 
-![匹配键](/help/assets/connect/establish-connection/match-keys.png)
+![匹配键](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
 +++
 
 +++信用拆分
 
-使用信用分摊部分确定两个协作方中的哪个将覆盖活动的成本。
+使用信用分摊部分确定两个协作方中的哪个将覆盖活动的成本。 信用拆分选项由为连接选择的用例决定。 虽然&#x200B;**[!UICONTROL Measurement]**&#x200B;用例需要一方来承担成本，但&#x200B;**[!UICONTROL Audience Activation]**&#x200B;用例提供了一个额外的选项，让各方承担各自的成本。 有关成本细分的信息，请阅读[信用活动类型](/help/guide/setup/my-activity.md#types-of-activities)指南。
 
-![信用拆分](/help/assets/connect/establish-connection/edit-billing-ownership.png)
+>[!NOTE]
+>
+>受众 — 出口始终由接收受众的协作者覆盖，因此无需进行选择。
 
+![包含连接工作区中选项的“点数拆分”对话框。](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 +++
 
 +++协议
 
 在继续此连接之前，您必须确认双方之间存在数据共享协议。
 
-![法律协议。](/help/assets/connect/establish-connection/legal-agreement.png)
+![法律协议。](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
 
 +++
 
@@ -159,7 +162,7 @@ ht-degree: 12%
 2. 选择连接卡上的&#x200B;**[!UICONTROL 查看连接]**&#x200B;以访问要删除的连接。
 3. 选择删除图标![删除图标](/help/assets/common/delete.svg)以打开删除连接确认对话框。
    ![删除连接图标突出显示。](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
-4. 选择&#x200B;**[!UICONTROL 删除]**&#x200B;以确认删除。
+4. 选择&#x200B;**[!UICONTROL 删除]**以确认删除。
    ![用于确认删除连接的对话框。](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]
