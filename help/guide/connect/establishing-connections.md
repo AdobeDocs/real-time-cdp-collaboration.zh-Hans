@@ -162,7 +162,7 @@ ht-degree: 11%
 2. 选择连接卡上的&#x200B;**[!UICONTROL 查看连接]**&#x200B;以访问要删除的连接。
 3. 选择删除图标![删除图标](/help/assets/common/delete.svg)以打开删除连接确认对话框。
    ![删除连接图标突出显示。](/help/assets/connect/establish-connection/delete-icon-highlighted.png){zoomable="yes"}
-4. 选择&#x200B;**[!UICONTROL 删除]**以确认删除。
+4. 选择&#x200B;**[!UICONTROL 删除]**&#x200B;以确认删除。
    ![用于确认删除连接的对话框。](/help/assets/connect/establish-connection/delete-connection-dialog.png){zoomable="yes"}
 
 >[!WARNING]
