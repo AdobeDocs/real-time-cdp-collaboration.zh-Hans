@@ -17,7 +17,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 共享]**&#x200B;工作区仅在连接过程](../connect/establishing-connections.md#connection-settings)中启用了[的&#x200B;**受众共享和激活**&#x200B;用例时才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 共享]**&#x200B;工作区仅在连接过程[&#128279;](../connect/establishing-connections.md#connection-settings)中启用了的&#x200B;**受众共享和激活**&#x200B;用例时才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
 作为广告商，了解如何与您的出版商共享受众，以便他们能够开展营销活动。 如果您的协作已启用&#x200B;**发现受众**&#x200B;用例，请首先在[发现选项卡](/help/guide/collaborate/discover.md)中运行重叠报表，以确定要共享的最佳受众。
 
