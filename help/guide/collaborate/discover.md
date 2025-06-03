@@ -2,9 +2,9 @@
 title: 发现重叠并比较受众
 description: 发现与协作者受众之间的重叠。 了解如何发现可在营销活动中使用的最佳受众。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 24%
@@ -17,7 +17,7 @@ ht-degree: 24%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 发现]**&#x200B;工作区仅在连接过程[&#128279;](../connect/establishing-connections.md#connection-settings)中启用了受众发现&#x200B;**用例时才可用。**&#x200B;有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 发现]**&#x200B;工作区仅在连接过程](../connect/establishing-connections.md#connection-settings)中启用了[受众发现&#x200B;**用例时才可用。**&#x200B;有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
 在广告商和发布商之间的协作空间中[创建项目](/help/guide/collaborate/manage-projects.md)后，您现在可以将受众与协作者受众进行比较。 通过这种方法，您可以发现受众之间的重叠，并获得按匹配键或身份划分的见解。 这有助于广告商决定与发布者共享哪些受众以进行激活。
 
