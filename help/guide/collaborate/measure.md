@@ -17,7 +17,7 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 度量]**&#x200B;工作区仅在连接过程](../connect/establishing-connections.md#connection-settings)中启用了[的&#x200B;**Campaign度量**&#x200B;用例时才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 度量]**&#x200B;工作区仅在连接过程[&#128279;](../connect/establishing-connections.md#connection-settings)中启用了的&#x200B;**Campaign度量**&#x200B;用例时才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
 了解Real-Time CDP Collaboration中的可用报表，并了解如何衡量和分析营销活动在各种渠道中的表现。
 
