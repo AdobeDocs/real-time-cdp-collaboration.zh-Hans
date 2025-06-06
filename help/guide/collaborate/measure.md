@@ -2,12 +2,12 @@
 title: 衡量绩效
 description: 衡量不同渠道中的促销活动效果。 了解如何使用和解读各种报表。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 source-git-commit: b69d204149f203d1950fd0e28b0858ffca2c1225
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 度量]**&#x200B;工作区仅在连接过程[&#128279;](../connect/establishing-connections.md#connection-settings)中启用了的&#x200B;**Campaign度量**&#x200B;用例时才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 度量]**&#x200B;工作区仅在连接过程](../connect/establishing-connections.md#connection-settings)中启用了[的&#x200B;**Campaign度量**&#x200B;用例时才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
 了解Real-Time CDP Collaboration中的可用报表，并了解如何衡量和分析营销活动在各种渠道中的表现。
 
@@ -38,17 +38,17 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 
 -->
 
-## 查看报表 {#view-reports}
+## 查看报告 {#view-reports}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measurement_create_report_campaignID"
 >title="营销活动 ID"
->abstract="用于在UI中添加有关哪些促销活动ID的相关信息的占位符。"
+>abstract="用于在用户界面中添加相关说明的信息占位符，以便解释“营销活动 ID”的含义。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measurement_create_report"
 >title="营销活动 ID"
->abstract="用于在UI中添加有关哪些促销活动ID的相关信息的占位符。"
+>abstract="用于在用户界面中添加相关说明的信息占位符，以便解释“营销活动 ID”的含义。"
 
 要查看测量选项卡中可用的报表，请执行以下操作：
 
@@ -93,7 +93,7 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 
 ![按维度列出的量度。](/help/assets/collaborate/measure/metric-by-dimension.png)
 
-### 累计覆盖率曲线 {#cumulative-reach-curve}
+### 累计触达率曲线 {#cumulative-reach-curve}
 
 随着营销活动的进展和展示次数的增加，请了解您能够联系到的用户数量是否也有所增加。 营销活动中的常见模式是，在达到某个时间点后，达到一个平台期，在此期间将创意内容反复显示给同一人。 此视图可帮助您调整未来营销活动的长度，具体取决于不再联系新用户的时刻。
 
