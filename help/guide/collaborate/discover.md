@@ -17,7 +17,7 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 发现]**&#x200B;工作区仅在连接过程](../connect/establishing-connections.md#connection-settings)中启用了[受众发现&#x200B;**用例时才可用。**&#x200B;有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 发现]**&#x200B;工作区仅在连接过程[&#128279;](../connect/establishing-connections.md#connection-settings)中启用了受众发现&#x200B;**用例时才可用。**&#x200B;有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
 在[创建项目](/help/guide/collaborate/manage-projects.md)之后，您可以将受众与协作者进行比较。 这有助于您识别营销活动的相关受众，并决定要将哪些受众发送给发布者进行激活。
 
@@ -25,7 +25,7 @@ ht-degree: 11%
 >
 >任何[数据草图](/help/guide/glossary.md#sketches)未更新或未刷新将在7天后删除。 发生这种情况时，此页面上各种重叠报表中显示的数字将变为零，并且受众共享将对这些过期的受众不可用。 数据草图将自动刷新具有[活动刷新计划](/help/guide/setup/onboard-audiences.md#schedule)的受众。
 
-在连接过程](/help/guide/connect/establishing-connections.md#connection-settings)中设置[用于发现和比较受众的匹配键。 匹配键用于计算受众之间的重叠，可以切换开关。 要编辑匹配键，请选择&#x200B;**[!UICONTROL 编辑匹配键]**&#x200B;选项。 此
+在连接过程[&#128279;](/help/guide/connect/establishing-connections.md#connection-settings)中设置用于发现和比较受众的匹配键。 匹配键用于计算受众之间的重叠，可以切换开关。 要编辑匹配键，请选择&#x200B;**[!UICONTROL 编辑匹配键]**&#x200B;选项。 此
 
 ![显示受众分析的“发现”选项卡工作区。](/help/assets/collaborate/discover/discover-overview.png)
 
@@ -55,7 +55,7 @@ ht-degree: 11%
 >title="您的身份标识计数"
 >abstract="所选受众中的唯一ID数量，基于您和协作者为项目商定的匹配键。"
 >
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="协作者身份标识计数"
 >abstract="协作者的受众中的唯一ID数量，基于您和协作者为项目商定的匹配键。"
