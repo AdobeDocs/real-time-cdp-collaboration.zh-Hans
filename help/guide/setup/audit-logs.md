@@ -2,9 +2,9 @@
 title: 审核日志
 description: 了解如何使用Real-Time CDP Collaboration中的审核日志功能来跟踪用户活动和更改。
 audience: admin
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 ![审核日志功能的高级概览屏幕](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-有关审核日志的更全面信息，请访问[Adobe Experience Platform审核日志文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}。
+有关审核日志的更全面信息，请访问[Adobe Experience Platform审核日志文档](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}。
 
 ## 访问审核日志
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 * **资源**：已修改或已创建的资源。
 * **时间戳**：执行操作的时间。
 
-这些日志可全面跟踪Real-Time CDP Collaboration实例中的所有活动，这对数据治理和法规遵从性非常有用。 阅读有关[在UI](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui)中管理审核日志的更多信息。
+这些日志可全面跟踪Real-Time CDP Collaboration实例中的所有活动，这对数据治理和法规遵从性非常有用。 阅读有关[在UI](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui)中管理审核日志的更多信息。
 
 ### 筛选审核日志
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 * **状态**：操作的状态（例如：允许、拒绝）。
 * **日期范围**：要查看其日志的日期范围。
 
-阅读有关[筛选审核日志](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs)的详细信息。
+阅读有关[筛选审核日志](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs)的详细信息。
 
 ### 示例用法
 
@@ -104,7 +104,7 @@ ht-degree: 1%
 | **[!UICONTROL Collaboration数据连接]** | 创建、更新、删除 | 管理数据连接以进行协作以导入和管理受众，包括创建、更新和删除数据连接。 阅读有关[管理数据连接](/help/guide/setup/manage-data-connection.md)的更多信息。 |
 | **[!UICONTROL Collaboration数据实体]** | 创建、更新、删除 | 管理用于协作的数据实体，包括创建、更新和删除数据实体。 此上下文中的数据实体是指受众。 阅读有关[导入和管理受众](/help/guide/setup/onboard-audiences.md)的更多信息。 |
 | **[!UICONTROL Collaboration项目]** | 创建、更新、删除 | 在协作中管理项目，包括创建、更新和删除项目。 阅读有关[管理项目](/help/guide/collaborate/manage-projects.md)的更多信息。 |
-| **[!UICONTROL Collaboration模块]** | 创建、更新、删除 | 在协作项目中管理不同的模块，包括在UI中创建、更新和删除各种模块。 例如，能够[共享受众](/help/guide/collaborate/share.md)。 |
+| **[!UICONTROL Collaboration模块]** | 创建、更新、删除 | 在协作项目中管理不同的模块，包括在UI中创建、更新和删除各种模块。 例如，能够[激活受众](/help/guide/collaborate/activate.md)。 |
 
 {style="table-layout:auto"}
 

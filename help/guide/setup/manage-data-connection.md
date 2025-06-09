@@ -2,9 +2,9 @@
 title: 管理数据连接
 description: 了解如何在Real-Time CDP Collaboration中管理数据连接，包括匹配键、计划、用例和受众筛选
 audience: administrator, data engineer
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 16%
@@ -65,7 +65,7 @@ ht-degree: 16%
 
 ## 管理受众 {#manage-audiences}
 
-附加到数据连接的受众列表将显示在工作区底部。 此列表显示每个受众的简要概述，包括其状态、来源和连接访问。 要编辑受众的类别、连接访问权限或元数据可见性，请选择受众的名称。 有关管理受众的完整指南，请参阅[查看各个受众](./onboard-audiences.md#view-individual-audiences)指南。
+附加到数据连接的受众列表将显示在工作区底部。 该列表显示每个受众的简要概述，包括其状态、来源和连接访问。 要编辑受众的类别、连接访问权限或元数据可见性，请选择受众的名称。 有关管理受众的完整指南，请参阅[查看各个受众](./onboard-audiences.md#view-individual-audiences)指南。
 
 ![突出显示受众的数据连接工作区。](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 

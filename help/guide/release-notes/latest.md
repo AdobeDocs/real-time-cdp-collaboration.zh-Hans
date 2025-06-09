@@ -2,11 +2,11 @@
 title: 最新Real-Time CDP Collaboration发行说明
 description: 遵循Real-Time CDP Collaboration的最新版本
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '392'
 ht-degree: 5%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 5%
 
 ## 2025 年 3 月 {#march-2025}
 
-* 在[将受众](/help/guide/setup/onboard-audiences.md)导入Real-Time CDP Collaboration时，您现在可以将受众刷新频率设置为每1天&#x200B;**到6天**，以便更好地管理[受众管理点数活动](/help/guide/setup/my-activity.md#types-of-activities)。 [阅读更多](/help/guide/setup/onboard-audiences.md#schedule)。<br> ![计划屏幕，其中显示更新受众成员资格的不同频率间隔。](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png "计划屏幕，其中显示更新受众成员资格的不同频率间隔。"){width="250" align="center" zoomable="yes"}
+* 当[将受众](/help/guide/setup/onboard-audiences.md)导入Real-Time CDP Collaboration时，您现在可以将受众刷新频率设置为每&#x200B;**天到每六天**，以便更好地管理[受众管理点数活动](/help/guide/setup/my-activity.md#types-of-activities)。 [阅读更多](/help/guide/setup/onboard-audiences.md#schedule)。<br> ![计划屏幕，其中显示更新受众成员资格的不同频率间隔。](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "计划屏幕，其中显示更新受众成员资格的不同频率间隔。"){width="250" align="center" zoomable="yes"}
 * 与协作者建立连接时，您现在可以从预定义的&#x200B;**用例**&#x200B;中进行选择。 所选用例确定哪些项目部分和产品功能可用。 [了解详情](/help/guide/collaborate/manage-projects.md#project-use-cases)。
    * *Campaign度量*&#x200B;启用&#x200B;**度量**&#x200B;项目节。
    * *受众发现*&#x200B;启用&#x200B;**发现**&#x200B;项目部分。
-   * *受众共享和激活*&#x200B;启用&#x200B;**共享**&#x200B;和&#x200B;**激活***（仅发布者）*&#x200B;项目部分。<br> ![连接视图中突出显示的用例。](/help/assets/release-notes/2025/use-cases.png "连接视图中突出显示的用例。"){width="250" align="center" zoomable="yes"}
+   * *受众激活*&#x200B;启用&#x200B;**激活**&#x200B;项目部分<br>
 * 现在，您可以删除与不希望再使用的协作者建立的连接。 [了解详情](/help/guide/connect/establishing-connections.md#delete-connections)。
 
 

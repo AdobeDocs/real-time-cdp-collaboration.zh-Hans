@@ -2,11 +2,11 @@
 title: 概述
 description: 了解如何使用Adobe Real-Time Customer Data Platform (CDP) Collaboration发现、激活和衡量高价值受众，而无需依赖第三方Cookie。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '397'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 借助Adobe Real-Time Customer Data Platform (CDP) Collaboration，您可以发现、激活和衡量高价值受众，而无需依赖第三方Cookie。 此解决方案支持广告商和发布商之间的高级数据协作，可帮助您在以隐私为中心的集中环境中创建个性化的、有影响力的客户体验。
 
-![Real-Time CDP Collaboration主页](/help/assets/overview/homepage.png){zoomable="yes"}
+![Real-Time CDP Collaboration设置页面，显示组织。](/help/assets/overview/set-up.png){zoomable="yes"}
 
 ## 通过可信合作伙伴识别受众
 
@@ -37,20 +37,6 @@ ht-degree: 1%
 
 嵌入式控制可确保满足治理和隐私要求，从而指导您在工作流的每个步骤负责任地使用受众数据。
 
-<!--
-
-## Additional benefits
-
-### Agnostic and interoperable
-
-Bring in audiences from various sources such as Real-Time CDP, data warehouses (available in an upcoming release), and other partners, efficiently connecting your data collaboration application to other Adobe Experience Platform tools.
-
-### Built-in reputation
-
-Trusted by leading global brands, Adobe brings a strong foundation in identity, audience collaboration, and activation, offering closed-loop and marketer-friendly workflows for data collaboration.
-
--->
-
 ## 快速入门 {#get-started}
 
 要开始使用Real-Time CDP Collaboration，系统管理员需要向自己、产品管理员和最终用户授予访问权限。 根据所需的用户和访问级别，需要执行多个步骤。 请参阅[访问控制概述](/help/guide/permissions/overview.md){target="_blank"}指南以开始。
@@ -61,7 +47,7 @@ Trusted by leading global brands, Adobe brings a strong foundation in identity, 
 
 ## 资源
 
-浏览[术语表](/help/guide/glossary.md)以了解有关产品中所用术语的详细信息。 如需支持，请访问Adobe [客户支持](https://experienceleague.adobe.com/home?lang=zh-Hans&amp;support-tab=open-ticket#support){target="_blank"}页面。
+浏览[术语表](/help/guide/glossary.md)以了解有关产品中所用术语的详细信息。 如需支持，请访问Adobe [客户支持](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}页面。
 
 ## 联系我们
 

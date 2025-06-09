@@ -2,9 +2,9 @@
 title: 跟踪您的信用消耗活动
 description: 了解如何在Real-Time CDP Collaboration中跟踪贵组织的信用消耗活动。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 | **[!UICONTROL 日期]** | 活动发生的日期，以YYYY/MM/DD格式显示。 |
 | **[!UICONTROL 连接ID]** | 与信贷消费活动关联的每个连接的唯一标识符，以字母数字字符串表示。 |
 | **[!UICONTROL 连接名称]** | 与连接和信贷消费活动关联的协作者的名称。 |
-| **[!UICONTROL 活动]** | 执行的活动类型，如&#x200B;**激活 — 共享**、**激活 — 出口**&#x200B;或&#x200B;**受众管理**。 |
+| **[!UICONTROL 活动]** | 执行的活动类型，如&#x200B;**激活 — 匹配**、**激活 — 出口**&#x200B;或&#x200B;**受众管理**。 |
 | **[!UICONTROL 输入已处理]** | 为活动处理的输入总数（例如，ID或行）。 |
 | **[!UICONTROL 已使用的积分总数]** | 活动消耗的积分总数。 |
 | **[!UICONTROL 我的信用共享]** | 贵组织用于活动的积分部分。 |
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 要有效地管理您的信用消费，请执行以下操作：
 
-1. **了解**&#x200B;与每个活动关联的点数消耗。 检查[Real-Time CDP Collaboration产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}以了解每个活动使用的协作积分表。
+1. **了解**&#x200B;与每个活动关联的点数消耗。 检查[Real-Time CDP Collaboration产品描述](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}以了解每个活动使用的协作积分表。
 2. **定期监控**：请经常查看您的活动仪表板以了解使用模式。
 3. **按连接跟踪**：使用连接名称识别哪些伙伴关系占用最多积分。
 

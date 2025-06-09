@@ -2,9 +2,9 @@
 title: Adobe Real-Time CDP Collaboration的主要优势和用例
 description: 了解Adobe Real-Time CDP Collaboration的主要优势和用例
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 2%
@@ -21,8 +21,7 @@ Adobe Real-Time CDP Collaboration提供了必要的功能，让您能够有效�
 
 ## 发现 {#discover}
 
-使用功能板和报表发现受众，以便进行品牌到发布者的协作。
-作为与Real-Time CDP Collaboration合作的广告商，访问和了解受众重叠以从众多出版商中解锁重新定位、抑制和潜在潜在机会。
+使用功能板和报表发现受众，以便进行品牌到发布者的协作。 作为与Real-Time CDP Collaboration合作的广告商，访问和了解受众重叠以从众多出版商中解锁重新定位、抑制和潜在潜在机会。
 
 ## 激活 {#activate}
 
@@ -31,5 +30,4 @@ Adobe Real-Time CDP Collaboration提供了必要的功能，让您能够有效�
 
 ## 测量 {#measure}
 
-结合并探索来自各种来源（如Web展示等）的已知客户参与度。
-在简化且可自定义的报表中查看促销活动效果。
+结合并探索来自各种来源（如Web展示等）的已知客户参与度。 在简化且可自定义的报表中查看促销活动效果。

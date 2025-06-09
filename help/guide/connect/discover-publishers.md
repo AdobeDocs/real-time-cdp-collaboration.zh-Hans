@@ -1,17 +1,17 @@
 ---
-title: 发现发布者
+title: 探索发布者
 description: 作为广告商，了解如何使用Adobe Real-Time CDP Collaboration发现潜在的出版商以进行协作
 audience: admin, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
 
-# 发现发布者
+# 探索发布者
 
 {{limited-availability-release-note}}
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 ![发现发布者页面](/help/assets/connect/discover-publishers/discover-publishers-overview.png){zoomable="yes"}
 
-选择&#x200B;**[!UICONTROL 查看发布者]**&#x200B;了解有关发布者的详细信息。 您还可以查看和检查发布者决定共享的任何公共受众。
+选择&#x200B;**[!UICONTROL 查看发布者]**&#x200B;了解有关发布者的详细信息。 您还可以查看和检查发布者[设置为public](/help/guide/setup/onboard-audiences.md#metadata-visibility)的任何受众。
 
 ![查看发布者配置文件](/help/assets/connect/discover-publishers/view-publisher-profile.png){zoomable="yes"}
 
