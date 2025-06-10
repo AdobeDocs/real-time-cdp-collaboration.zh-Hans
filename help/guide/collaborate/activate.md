@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 激活]**&#x200B;工作区仅在连接进程](../connect/establishing-connections.md#connection-settings)期间[启用&#x200B;**受众激活**&#x200B;用例时才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 激活]**&#x200B;工作区仅在连接进程[&#128279;](../connect/establishing-connections.md#connection-settings)期间启用&#x200B;**受众激活**&#x200B;用例时才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
 Audience Activation允许您在营销活动中激活受众。 活动流程是广告商和发布商之间的协作。 在[发现营销活动的最佳受众](./discover.md)之后，受众可以激活目标受众。 激活的受众会发送到发布者预配置的目标，例如Adobe Experience Platform，以用于营销活动。 有关设置目标的详细信息，请参阅[目标概述](../destinations/overview.md)指南。
 
