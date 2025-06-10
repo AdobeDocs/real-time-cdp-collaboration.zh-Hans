@@ -2,12 +2,12 @@
 title: 管理数据连接
 description: 了解如何在Real-Time CDP Collaboration中管理数据连接，包括匹配键、计划、用例和受众筛选
 audience: administrator, data engineer
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 16%
+source-wordcount: '598'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +34,10 @@ ht-degree: 16%
 
 匹配键是用于协调来自不同数据源的受众成员的标识符。您无法编辑最初为数据连接选择的匹配键。
 
+>[!IMPORTANT]
+> 
+>创建数据连接后，无法编辑匹配键。 要更新匹配键，必须创建新的数据连接。
+
 可用的匹配键包括：
 
 - **散列电子邮件**
@@ -45,11 +49,27 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="日程计划"
->abstract="此视图显示您最初为数据连接选择的计划选项。"
+>abstract="查看数据连接的计划详细信息，并根据需要编辑刷新频率。"
 
-您无法编辑最初为数据连接选择的计划选项。 有关计划选项的详细信息，请查看受众导入工作流文档中的[计划部分](/help/guide/setup/onboard-audiences.md#schedule)。
+查看和管理数据连接的计划设置。 计划决定了刷新受众的频率。
 
-![突出显示了“计划”部分的数据连接工作区。](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+创建数据连接后，可以直接从数据连接工作区的&#x200B;**[!UICONTROL 计划]**&#x200B;部分更新其刷新频率。
+
+>[!NOTE]
+>
+>从Adobe Experience Platform获取受众后，受众将在数据连接建立后的24小时内可用。 首次导入后，受众数据会根据定义的频率进行刷新。
+
+有关计划的更多信息，请参阅入门受众指南中的[计划部分](/help/guide/setup/onboard-audiences.md#schedule)。
+
+![突出显示计划部分的数据连接的工作区。](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+
+#### 编辑计划 {#edit-scheduling}
+
+您可以编辑现有数据连接的频率，以更好地控制刷新受众的频率。 要编辑计划，请在计划卡片的数据连接中选择&#x200B;**[!UICONTROL 编辑]**。
+
+在&#x200B;**[!UICONTROL 计划]**&#x200B;对话框中，选择下拉菜单以更新&#x200B;**[!UICONTROL 频率]**。 将刷新频率设置为每天或每两到六天运行一次。 完成后，选择&#x200B;**[!UICONTROL 保存]**&#x200B;以应用更改。
+
+![计划对话框，显示用于设置频率和日期范围的选项。](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
 
 ## 删除数据连接
 
