@@ -2,9 +2,9 @@
 title: 与广告商或发布者联系
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: c9b96753a9a78bd85002ede3369c5f20eb430548
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 6%
@@ -83,7 +83,7 @@ ht-degree: 6%
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="广告商名称"
 >abstract="<p>可选设置。 指示发布者了解广告商的名称和ID。</p><p>您在此处添加的广告商名称将预填充在创建项目步骤中。</p><ul><li>如果发布者配置了多个名称，请从列表中选择一个。</li><li>如果只配置了一个名称，则会自动预选该名称。</li><li>如果未配置任何名称，则此字段将预先填充Real-Time CDP Collaboration中的广告商帐户名称。</li></ul>"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="创建一个项目"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="创建一个项目"
 
 发送邀请后，您可以预览连接设置。 必须先接受邀请，然后才能完成连接设置。
 
@@ -119,7 +119,7 @@ ht-degree: 6%
 
 +++信用拆分
 
-使用信用分摊部分确定两个协作方中的哪个将覆盖活动的成本。 信用拆分选项由为连接选择的用例决定。 虽然&#x200B;**[!UICONTROL Measurement]**&#x200B;用例需要一方来承担成本，但&#x200B;**[!UICONTROL Audience Activation]**&#x200B;用例提供了一个额外的选项，让各方承担各自的成本。 有关成本细分的信息，请阅读[信用活动类型](/help/guide/setup/my-activity.md#types-of-activities)指南。
+使用信用分摊部分确定两个协作方中的哪个将覆盖活动的成本。 信用拆分选项由为连接选择的用例决定。 虽然&#x200B;**[!UICONTROL Measurement]**&#x200B;用例需要一方支付成本，但&#x200B;**[!UICONTROL 激活 — 匹配]**&#x200B;用例提供了一个额外选项，让每个当事方支付自己的成本。 有关成本细分的信息，请阅读[信用活动类型](/help/guide/setup/my-activity.md#types-of-activities)指南。
 
 >[!NOTE]
 >
