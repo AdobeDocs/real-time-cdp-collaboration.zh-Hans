@@ -2,11 +2,11 @@
 title: 载入和管理组织
 description: 了解如何在Real-Time CDP Collaboration中载入和管理组织的各个方面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 860138b95abc4d6af94bbbf722cf498463570c1b
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '886'
 ht-degree: 16%
 
 ---
@@ -33,6 +33,13 @@ ht-degree: 16%
 >id="rtcdp_collaboration_setup_contact_email"
 >title="联系电子邮件"
 >abstract="请提供一个基于团队或角色的电子邮件地址，例如 `collaboration@yourcompany.com`。不应使用私人或个人的电子邮件地址。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_setup_connect_code"
+>title="连接代码"
+>abstract="连接代码是贵组织的唯一标识符。 它用于与Real-Time CDP Collaboration中的其他组织建立连接。"
+
+<!-- Move the above to new section for invite on this page when its created -->
 
 要开始载入您的组织，您必须首先设置组织详细信息。 这要求您添加以下信息：
 
