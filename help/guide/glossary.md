@@ -2,13 +2,13 @@
 title: 术语表
 description: 了解Real-Time CDP Collaboration的关键术语
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 2%
 
 ---
@@ -128,4 +128,4 @@ Adobe Real-Time CDP Collaboration中的项目是一个工作区，用户可以�
 
 ### 用例
 
-用例定义了可以使用Adobe Real-Time CDP Collaboration解决的特定业务场景或问题。 在Real-Time CDP Collaboration中，受众发现或营销活动测量等示例用例可用于帮助实现特定目标。
+用例定义了可以使用Adobe Real-Time CDP Collaboration解决的特定业务场景或问题。 在Real-Time CDP Collaboration中，受众发现或测量等示例用例可用于帮助实现特定目标。

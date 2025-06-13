@@ -2,11 +2,11 @@
 title: 衡量绩效
 description: 衡量不同渠道中的促销活动效果。 了解如何使用和解读各种报表。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: b69d204149f203d1950fd0e28b0858ffca2c1225
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '634'
 ht-degree: 18%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 度量]**&#x200B;工作区仅在连接过程[&#128279;](../connect/establishing-connections.md#connection-settings)中启用了的&#x200B;**Campaign度量**&#x200B;用例时才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>只有在连接过程](../connect/establishing-connections.md#connection-settings)期间启用了[的&#x200B;**测量**&#x200B;用例时，**[!UICONTROL 测量]**&#x200B;工作区才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
 了解Real-Time CDP Collaboration中的可用报表，并了解如何衡量和分析营销活动在各种渠道中的表现。
 
@@ -25,7 +25,7 @@ ht-degree: 18%
 
 在访问Real-Time CDP Collaboration中的测量报表之前，您已：
 
-* [已连接](/help/guide/connect/establishing-connections.md)，其所需的广告商或发布者启用了&#x200B;**Campaign测量**&#x200B;用例，并开始在[项目](/help/guide/collaborate/manage-projects.md)上进行协作
+* [已连接](/help/guide/connect/establishing-connections.md)，其所需的广告商或发布者启用了&#x200B;**Measurement**&#x200B;用例，并开始在[项目](/help/guide/collaborate/manage-projects.md)上进行协作
 * 运行活动并[将测量数据](/help/guide/setup/onboard-measurement-data.md)上传到Real-Time CDP Collaboration。
 
 <!--

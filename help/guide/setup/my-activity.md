@@ -2,11 +2,11 @@
 title: 跟踪您的信用消耗活动
 description: 了解如何在Real-Time CDP Collaboration中跟踪贵组织的信用消耗活动。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -60,13 +60,13 @@ ht-degree: 0%
 * **[!UICONTROL 受众管理]**：当受众源于Real-Time CDP Collaboration时使用了积分。 积分的使用取决于在Real-Time CDP Collaboration内为所有受众编制索引的ID数量（以百万为单位）以及该索引的频率（每天、每三天或每周）。 若要了解详细信息，请阅读[导入和管理受众](/help/guide/setup/onboard-audiences.md)指南。
 * **[!UICONTROL 激活 — 匹配]** — 积分是作为匹配并准备激活的ID数量的函数而使用的。 若要了解详细信息，请阅读[激活受众](/help/guide/collaborate/activate.md)指南。
 * **[!UICONTROL 激活 — 出口]** — 积分的使用情况与发送到目标的ID数量有关。 此费用始终由接收受众的协作者支付。 若要了解详细信息，请阅读[激活受众](/help/guide/collaborate/activate.md)指南。
-* **[!UICONTROL 受众测量]** — 在Real-Time CDP Collaboration中执行活动以生成营销活动效果报表和见解。 积分根据所有营销活动的营销活动报表中的行数以及报表的频率（每天、每三天或每周）来使用。
+* **[!UICONTROL 测量]** — 在Real-Time CDP Collaboration中执行活动以生成营销活动效果报表和见解。 积分根据所有营销活动的营销活动报表中的行数以及报表的频率（每天、每三天或每周）来使用。
 
 ## 管理您的信用使用情况 {#manage-credit-consumption}
 
 要有效地管理您的信用消费，请执行以下操作：
 
-1. **了解**&#x200B;与每个活动关联的点数消耗。 检查[Real-Time CDP Collaboration产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}以了解每个活动使用的协作积分表。
+1. **了解**&#x200B;与每个活动关联的点数消耗。 检查[Real-Time CDP Collaboration产品描述](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}以了解每个活动使用的协作积分表。
 2. **定期监控**：请经常查看您的活动仪表板以了解使用模式。
 3. **按连接跟踪**：使用连接名称识别哪些伙伴关系占用最多积分。
 
