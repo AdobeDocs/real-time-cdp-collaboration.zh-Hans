@@ -2,12 +2,12 @@
 title: 发现重叠并比较受众
 description: 发现与协作者受众之间的重叠。 了解如何发现可在营销活动中使用的最佳受众。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 11%
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 发现]**&#x200B;工作区仅在连接过程[&#128279;](../connect/establishing-connections.md#connection-settings)中启用了受众发现&#x200B;**用例时才可用。**&#x200B;有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 发现]**&#x200B;工作区仅在连接过程](../connect/establishing-connections.md#connection-settings)中启用了[受众发现&#x200B;**用例时才可用。**&#x200B;有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
 在[创建项目](/help/guide/collaborate/manage-projects.md)之后，您可以将受众与协作者进行比较。 这有助于您识别营销活动的相关受众，并决定要将哪些受众发送给发布者进行激活。
 
@@ -25,7 +25,7 @@ ht-degree: 11%
 >
 >任何[数据草图](/help/guide/glossary.md#sketches)未更新或未刷新将在7天后删除。 发生这种情况时，此页面上各种重叠报表中显示的数字将变为零，并且受众共享将对这些过期的受众不可用。 数据草图将自动刷新具有[活动刷新计划](/help/guide/setup/onboard-audiences.md#schedule)的受众。
 
-在连接过程[&#128279;](/help/guide/connect/establishing-connections.md#connection-settings)中设置用于发现和比较受众的匹配键。 匹配键用于计算受众之间的重叠，可以切换开关。 要编辑匹配键，请选择&#x200B;**[!UICONTROL 编辑匹配键]**&#x200B;选项。 此
+在连接过程](/help/guide/connect/establishing-connections.md#connection-settings)中设置[用于发现和比较受众的匹配键。 匹配键用于计算受众之间的重叠，可以切换开关。 要编辑匹配键，请选择&#x200B;**[!UICONTROL 编辑匹配键]**&#x200B;选项。 此
 
 ![显示受众分析的“发现”选项卡工作区。](/help/assets/collaborate/discover/discover-overview.png)
 
@@ -53,22 +53,22 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
 >title="您的身份标识计数"
->abstract="所选受众中的唯一ID数量，基于您和协作者为项目商定的匹配键。"
->
+>abstract="根据您与协作者为该项目商定的匹配键，显示所选受众中的唯一 ID 数量。"
+
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="协作者身份标识计数"
->abstract="协作者的受众中的唯一ID数量，基于您和协作者为项目商定的匹配键。"
+>abstract="根据您与协作者为该项目商定的匹配键，显示协作者受众中的唯一 ID 数量。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
 >title="重叠的身份标识计数"
->abstract="根据您和协作者为项目商定的匹配键，您和协作者的受众中同时存在的唯一ID数量。"
+>abstract="根据您与协作者为该项目商定的匹配键，显示在您和协作者的受众中均存在的唯一 ID 数量。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
 >title="重叠的身份标识百分比"
->abstract="您与协作者所选受众之间重叠身份的百分比。"
+>abstract="您与协作者所选受众之间的身份标识重合比例（以百分比表示）。"
 
 使用比较受众部分可获取有关您的受众与协作者受众之间重叠的丰富信息。 要更改受众选择，请使用&#x200B;**[!UICONTROL 比较受众]**&#x200B;部分顶部的下拉选择器。 您可以选择一个或多个受众，以及协作者的一个或多个受众进行相互比较。
 
@@ -126,7 +126,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
 >title="发现与个体受众的重叠"
->abstract="深入了解受众和协作者受众之间的重叠。"
+>abstract="深入了解您与协作者受众之间的重合情况。"
 
 发现重叠，深入了解受众与协作者受众的对比情况。 默认情况下，此部分会将您的所有受众与协作者各自的受众进行比较。 使用部分底部的分页控件在可用受众中导航。
 
