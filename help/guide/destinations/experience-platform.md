@@ -2,11 +2,11 @@
 title: 将Adobe Experience Platform配置为目标
 description: 了解如何在Real-Time CDP Collaboration中配置和管理Adobe Experience Platform作为目标。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: f777b8249e31282f234d9d9798379c35ea8431ea
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: c36814b8dc975b5ea243688981481de49a8219fd
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 1%
+source-wordcount: '878'
+ht-degree: 11%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-配置此目标以将受众从您的项目激活到Adobe Experience Platform。 在Adobe Experience Platform中激活受众可让您利用该平台的功能在各种营销渠道中进行受众分段、分析和激活。 要了解有关Adobe Experience Platform的更多信息，请参阅[Experience Platform概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home){target="_blank"}。
+配置此目标以将受众从您的项目激活到Adobe Experience Platform。 在Adobe Experience Platform中激活受众可让您利用该平台的功能在各种营销渠道中进行受众分段、分析和激活。 要了解有关Adobe Experience Platform的更多信息，请参阅[Experience Platform概述](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}。
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_audience_expiration"
 >title="受众过期"
->abstract="受众在Adobe Experience Platform中将不再可用的时段。 默认到期时间为30天，但您可以将其设置为1到30天之间的任何值。"
+>abstract="受众在 Adobe Experience Platform 中不再可用的时间期限。默认过期时间为 30 天，但您可以将其设置为 1 至 30 天之间的任意值。"
 
 首先，您必须选择将发送受众数据的沙盒。
 
@@ -58,14 +58,14 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_activation_matchkeys"
 >title="激活匹配键"
->abstract="激活匹配密钥根据您在创建组织时选择的匹配密钥显示。"
+>abstract="激活匹配键会根据您在创建组织时所选择的匹配键进行显示。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_target_namespaces"
->title="Target 命名空间"
->abstract="Target命名空间指定匹配键将在Adobe Experience Platform中映射到的身份命名空间。 哈希匹配键必须映射到支持哈希值的目标命名空间。"
+>title="目标命名空间"
+>abstract="目标命名空间用于指定匹配键在 Adobe Experience Platform 中将映射到的身份标识命名空间。经过哈希处理的匹配键必须映射到支持哈希值的目标命名空间。"
 
-接下来，您必须创建一个激活映射来定义将受众数据发送到Adobe Experience Platform的方式。 您可以将创建组织时选择的每个[匹配键](../setup/onboard-organization.md#set-up-match-keys)映射到目标命名空间。 目标命名空间指定匹配键将在Adobe Experience Platform中映射到哪个[身份命名空间](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}。
+接下来，您必须创建一个激活映射来定义将受众数据发送到Adobe Experience Platform的方式。 您可以将创建组织时选择的每个[匹配键](../setup/onboard-organization.md#set-up-match-keys)映射到目标命名空间。 目标命名空间指定匹配键将在Adobe Experience Platform中映射到哪个[身份命名空间](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}。
 
 >
 >
@@ -91,6 +91,10 @@ ht-degree: 1%
 
 现在，您已将Adobe Experience Platform配置为目标，接下来可以在受众门户中查看激活的受众。 Audience Portal是Adobe Experience Platform中的一个中心枢纽，您可以通过该中心查看和管理受众。 现在，Audience Portal在筛选受众时将Real-Time CDP Collaboration作为源提供。
 
+>[!IMPORTANT]
+>
+>您负责将任何必要的数据使用标签应用于您激活到Adobe Experience Platform的受众。 有关详细信息，请参阅[数据使用标签](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/overview){target="_blank"}指南。
+
 ![筛选选项中将Real-Time CDP Collaboration作为源的受众门户。](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-要了解有关受众门户的更多信息，请参阅[受众门户概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}指南。
+要了解有关受众门户的更多信息，请参阅[受众门户概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}指南。
