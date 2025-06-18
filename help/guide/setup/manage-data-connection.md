@@ -2,12 +2,12 @@
 title: 管理数据连接
 description: 了解如何在Real-Time CDP Collaboration中管理数据连接，包括匹配键、计划、用例和受众筛选
 audience: administrator, data engineer
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="日程计划"
->abstract="查看数据连接的计划详细信息，并根据需要编辑刷新频率。"
+>abstract="查看数据连接的调度详细信息，并在需要时编辑刷新频率。"
 
 查看和管理数据连接的计划设置。 计划决定了刷新受众的频率。
 

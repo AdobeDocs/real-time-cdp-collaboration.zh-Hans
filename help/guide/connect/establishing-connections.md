@@ -2,12 +2,12 @@
 title: 与广告商或发布者联系
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -62,17 +62,17 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="积分拆分"
->abstract="此部分确定谁将为Real-Time CDP Collaboration中的相应活动付费。"
+>abstract="此部分确定了谁为 Real-Time CDP Collaboration 中的相应活动付费。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="受众共享 "
->abstract="根据为激活准备的匹配ID的数量，使用受众激活积分。"
+>abstract="Audience Activation 额度的消耗基于为激活准备的匹配 ID 数量。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="测量"
->abstract="执行活动以生成营销活动效果报表和分析。 积分根据所有营销活动的营销活动报表中的行数以及报表的频率（每天、每三天或每周）来使用。"
+>abstract="执行相关活动以生成营销活动绩效报告和洞察分析。额度的消耗取决于所有营销活动报告中的数据行数以及报告的生成频率（每日、每三日或每周）。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -87,8 +87,8 @@ ht-degree: 11%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_activation"
->title="受众激活"
->abstract="Audience Activation允许您选择哪个协作者可以启动受众激活。"
+>title="Audience Activation"
+>abstract="Audience Activation 功能允许您选择哪些协作者可以发起受众激活操作。"
 
 <!-- Move and update the above popover when bidirectional is active. -->
 
