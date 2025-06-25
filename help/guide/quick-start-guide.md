@@ -41,7 +41,7 @@ ht-degree: 0%
 
 观看本视频，了解如何使用Admin Console和Experience Platform UI为Collaboration分配产品访问权限。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452240/?learn=on&enablevpops&captions=chi_hans)
 
 ## 第2步：设置您的Real-Time CDP Collaboration组织 {#set-up-your-organization}
 
