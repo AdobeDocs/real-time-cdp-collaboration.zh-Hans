@@ -135,7 +135,7 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-或者，查看有关[使受众在Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)中可用的文档。
+或者，查看有关[使受众在Real-Time CDP Collaboration](https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)中可用的文档。
 
 ## 步骤4：激活受众(到Experience Platform或云目标) {#activate-audiences}
 
@@ -147,7 +147,7 @@ ht-degree: 0%
 
 ### 选项A：激活到Experience Platform
 
-完成[将Adobe Experience Platform配置为目标](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform)指南中概述的以下步骤。
+完成[将Adobe Experience Platform配置为目标](https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/destinations/experience-platform)指南中概述的以下步骤。
 
 - **创建目标** — 使用UI设置Experience Platform目标（沙盒级别）。
 - **映射匹配键** — 选择标识符（例如，`hashedEmail`）。
