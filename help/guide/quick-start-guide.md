@@ -1,17 +1,18 @@
 ---
 title: Real-Time CDP Collaboration入门快速入门
-description: 了解如何在Real-Time CDP Collaboration中载入您的组织，包括设置角色和组织、受众配置、激活和测量。 本指南可帮助广告商和出版商配置协作设置并开始安全高效地使用共享受众。
+description: 了解如何在Real-Time CDP Collaboration中载入您的组织，包括设置角色和组织、受众源、激活和测量。 本指南可帮助广告商和出版商配置协作设置并开始安全高效地使用共享受众。
 audience: admin, publisher, advertiser
-source-git-commit: 4435788917dd82cb127525e054f7f09803e1dcdf
+exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
+source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
 
 # Real-Time CDP Collaboration入门快速入门
 
-通过配置您的组织、配置受众并启用以隐私为中心的激活和测量，开始使用Real-Time Customer Data Platform (CDP) Collaboration。
+通过配置组织、采购受众以及启用以隐私为中心的激活和测量，开始使用Real-Time CDP Collaboration。
 
 ## 先决条件
 
@@ -41,7 +42,7 @@ ht-degree: 0%
 
 观看本视频，了解如何使用Admin Console和Experience Platform UI为Collaboration分配产品访问权限。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452240/?learn=on&enablevpops&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 第2步：设置您的Real-Time CDP Collaboration组织 {#set-up-your-organization}
 
@@ -73,7 +74,7 @@ ht-degree: 0%
 
 - **配置匹配键** — 选择用于受众匹配的标识符（当前，散列电子邮件是唯一受支持的匹配键）。
 
-创建组织并配置品牌和匹配键后，您的组织即可开始配置受众和激活数据。
+创建组织并配置品牌和匹配键后，您的组织即可开始获取受众和激活数据。
 
 要了解有关初始组织设置的更多信息，包括如何定义角色、上传品牌推广资产和配置匹配密钥，请参阅[初始组织设置文档](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}。
 
@@ -83,7 +84,7 @@ ht-degree: 0%
 
 ## 步骤3：Source受众(来自Experience Platform或云源) {#source-audiences}
 
-选择以下一个或两个数据存储作为源受众。 使用Collaboration UI或与Adobe协调，以保留隐私的格式配置受众。
+选择以下一个或两个数据存储作为源受众。 使用Collaboration UI或与Adobe协调，以保留隐私的格式获取受众。
 
 ### 选项A：Experience Platform中的Source
 
@@ -117,8 +118,8 @@ ht-degree: 0%
 >
 >**每个协作者角色的最大受众数：**
 >
->- **广告商**&#x200B;最多可以配置25个受众。
->- **发布者**&#x200B;最多可以设置250个受众（每个受众具有至少5,000个ID）。
+>- **广告商**&#x200B;最多可以获取25个受众。
+>- **发布者**&#x200B;最多可以获取250个受众（每个受众具有至少5,000个ID）。
 
 >[!IMPORTANT]
 >
@@ -134,7 +135,7 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-或者，查看有关[使受众在Real-Time CDP Collaboration](https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)中可用的文档。
+或者，查看有关[使受众在Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)中可用的文档。
 
 ## 步骤4：激活受众(到Experience Platform或云目标) {#activate-audiences}
 
@@ -146,7 +147,7 @@ ht-degree: 0%
 
 ### 选项A：激活到Experience Platform
 
-完成[将Adobe Experience Platform配置为目标](https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/destinations/experience-platform)指南中概述的以下步骤。
+完成[将Adobe Experience Platform配置为目标](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform)指南中概述的以下步骤。
 
 - **创建目标** — 使用UI设置Experience Platform目标（沙盒级别）。
 - **映射匹配键** — 选择标识符（例如，`hashedEmail`）。
@@ -174,7 +175,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->只有在连接进程[&#128279;](./connect/establishing-connections.md#connection-settings)期间启用了的&#x200B;**[!UICONTROL 测量]**&#x200B;用例时，**[!UICONTROL 测量]**&#x200B;工作区才可用。 有关用例的更多信息，请参阅[管理项目](./collaborate/manage-projects.md#project-use-cases)指南。
+>只有在连接进程&#x200B;**[!UICONTROL 期间启用了]**&#x200B;的&#x200B;**[!UICONTROL 测量]**&#x200B;用例时，[测量](./connect/establishing-connections.md#connection-settings)工作区才可用。 有关用例的更多信息，请参阅[管理项目](./collaborate/manage-projects.md#project-use-cases)指南。
 
 Collaboration提供了多种报告来分析促销活动的范围、频率和有效性。 虽然&#x200B;**[!UICONTROL Measure]**&#x200B;工作区在UI中可用，但完整的报表功能可能需要后端启用。
 
@@ -237,11 +238,17 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 设置和数据配置完成后，您的组织现在可以通过发送或接受邀请并提交项目设置以供审批来与协作者联系。 此连接过程包括发送或接收邀请、审核和提交连接设置（如用例和信用消耗）以及确认关系。
 
-使用Collaboration UI左侧导航菜单中的&#x200B;**[!UICONTROL Connect]**&#x200B;工作区来浏览可用的发布者（当前无法浏览广告商）。 有关此流程的概述，请参阅[与广告商或发布者联系指南](./connect/establishing-connections.md){target="_blank"}。 有关连接过程的可视化演练，包括浏览协作者和管理连接设置，请观看[广告商帐户设置视频](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}。
+作为广告商，请使用Collaboration UI左侧导航菜单中的&#x200B;**[!UICONTROL Connect]**&#x200B;工作区来浏览可用的发布者。
+
+>[!NOTE]
+>
+>目前，只有广告商可以浏览发布者。 发布者无法浏览或启动与广告商的连接。
+
+有关此流程的概述，请参阅[与广告商或发布者联系指南](./connect/establishing-connections.md){target="_blank"}。 有关连接过程的可视化演练，包括浏览协作者和管理连接设置，请观看[广告商帐户设置视频](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}。
 
 ## 后续步骤
 
-您现在已完成入门培训并配置您的组织以进行安全协作。 接下来，探索以下资源，以加深您对激活、测量和数据治理的了解：
+您现在已完成初始设置并配置您的组织以进行安全协作。 接下来，探索以下资源，以加深您对激活、测量和数据治理的了解：
 
 - [受众激活工作流文档](./collaborate/activate.md)
 - [测量用例](./collaborate/measure.md)
