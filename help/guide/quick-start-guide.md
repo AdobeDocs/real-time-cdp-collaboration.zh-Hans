@@ -3,9 +3,9 @@ title: Real-Time CDP Collaboration入门快速入门
 description: 了解如何在Real-Time CDP Collaboration中载入您的组织，包括设置角色和组织、受众源、激活和测量。 本指南可帮助广告商和出版商配置协作设置并开始安全高效地使用共享受众。
 audience: admin, publisher, advertiser
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
+source-git-commit: b5f76b1001f97304332f731490613a8597a182c1
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 - 为您的组织创建并分配给用户的[角色](./permissions/manage-roles.md)。
 - 访问品牌推广资产，如贵组织的名称、徽标和横幅。
 - [定义的匹配键策略](./setup/onboard-organization.md#set-up-match-keys) （当前哈希电子邮件是唯一受支持的匹配键）。
-- （可选）如果您未使用Experience Platform作为目标，请访问支持的云源(Amazon S3或Snowflake)。
+- （可选）如果您没有使用Experience Platform进行受众管理，请访问支持的云源(Amazon S3或Snowflake)。
 
 ## 步骤1：完成基于角色的设置 {#complete-role-based-setup}
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 观看本视频，了解如何使用Admin Console和Experience Platform UI为Collaboration分配产品访问权限。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452240/?learn=on&enablevpops&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 第2步：设置您的Real-Time CDP Collaboration组织 {#set-up-your-organization}
 
@@ -52,29 +52,26 @@ ht-degree: 0%
 
 在添加受众之前，必须在Collaboration中配置您的组织。 它可控制贵组织在界面中的显示方式和行为。
 
-如果您没有Experience Platform的管理员访问权限，请联系贵组织的管理员，以获取完成此设置的帮助。
+如果您没有所需的访问权限，请返回步骤1，或联系贵组织的管理员以获取完成此设置的帮助。
 
-定义贵组织在Collaboration中的角色，提供品牌策略资产，并配置匹配键以跨连接对齐受众。 然后，完成以下步骤以完成设置，并准备您的组织来参与连接。
+定义贵组织在Collaboration中的角色，提供品牌策略资产，并配置匹配键以跨连接对齐受众。
 
 >[!NOTE]
 >
->在设置过程中，您可以创建一个或多个协作者（例如广告商或出版商配置文件）。 某些字段，如品牌推广资源和联系电子邮件，稍后可在&#x200B;**[!UICONTROL 设置]**&#x200B;工作区中更新。 匹配键可以在项目级别删除，但不能添加，因此请仔细计划。
+>在设置过程中，您可以创建一个或多个协作者（例如广告商或出版商配置文件）。 某些字段，如品牌推广资源和联系电子邮件，稍后可在&#x200B;**[!UICONTROL 设置]**&#x200B;工作区中更新。
 
 - **分配角色** — 确定您的组织是充当广告商、发布者还是两者。 您的角色定义您具有的协作功能，例如启动受众共享（广告商）或使受众可用（发布者）。 要了解有关角色如何影响协作工作流的详细信息，请参阅[端到端工作流指南](./end-to-end-workflow.md)。
 - **品牌推广资产** — 将以下内容添加到您的帐户：
    - 品牌名称（最多100个字符）
    - 品牌描述（最多1,000个字符）
    - Brand徽标(SVG &lt;20 KB，最好为正方形)
-   - 品牌横幅(JPG 2688x1536或更高版本)
-- **联系电子邮件** — 提供协作者在建立连接后使用的业务电子邮件。
 
   >[!NOTE]
   >
   >如果您正在创建发布者帐户，并希望在Collaboration的连接目录中公开显示，请联系您的Adobe客户代表。 发布者帐户需要自定义品牌横幅(JPG 2688x1536)；此文件可以直接与您的代表共享。
 
+- **联系电子邮件** — 提供协作者在建立连接后使用的业务电子邮件。
 - **配置匹配键** — 选择用于受众匹配的标识符（当前，散列电子邮件是唯一受支持的匹配键）。
-
-创建组织并配置品牌和匹配键后，您的组织即可开始获取受众和激活数据。
 
 要了解有关初始组织设置的更多信息，包括如何定义角色、上传品牌推广资产和配置匹配密钥，请参阅[初始组织设置文档](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}。
 
@@ -84,23 +81,13 @@ ht-degree: 0%
 
 ## 步骤3：Source受众(来自Experience Platform或云源) {#source-audiences}
 
-选择以下一个或两个数据存储作为源受众。 使用Collaboration UI或与Adobe协调，以保留隐私的格式获取受众。
+创建组织并配置品牌和匹配键后，您就可以开始采购受众了。 根据您的数据存储和业务需求，选择以下来源补充方法之一。
 
 ### 选项A：Experience Platform中的Source
 
-[使用Collaboration目标UI链接包含受众的沙盒](./setup/onboard-audiences.md)。 使用此自助方法从Experience Platform实例中引用现有受众区段。
+[使用Collaboration用户界面链接包含受众的沙盒](./setup/onboard-audiences.md)。 使用此自助方法从Experience Platform实例中引用现有受众区段。
 
-### 选项B：来自Snowflake或Amazon S3的Source
-
-要配置云源（例如，[!DNL AWS S3]或[!DNL Snowflake]），请使用以下[受众规范PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf)准备受众数据。 完成后，或者如果您有任何疑问，请联系您的Adobe客户代表以完成设置。 此方法不是自助方法，需要Adobe帮助。
-
->[!IMPORTANT]
->
->基于云的受众文件必须遵循受众规范PDF中列出的所需架构。 文件必须包含哈希标识符（小写SHA256）、必需的元数据字段（如`segment_name`和`activation_id`），并使用支持的格式，如CSV或Parquet。 Adobe在激活之前不会标准化数据。 根据受众的生命周期强制执行TTL。
->
->在此阶段，上传文件中的所有受众都将完全获得来源。 对特定合作伙伴组织的访问权限是通过Collaboration UI单独设置的。
-
-### 配置受众
+#### 配置受众
 
 配置如何准备、匹配和管理受众以用于连接。
 
@@ -135,7 +122,17 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-或者，查看有关[使受众在Real-Time CDP Collaboration](https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)中可用的文档。
+或者，查看有关[使受众在Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)中可用的文档。
+
+### 选项B：来自Snowflake或Amazon S3的Source
+
+要配置云源（例如，[!DNL AWS S3]或[!DNL Snowflake]），请使用以下[受众规范PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf)准备受众数据。 完成后，或者如果您有任何疑问，请联系您的Adobe客户代表以完成设置。 此方法不是自助方法，需要Adobe帮助。
+
+>[!IMPORTANT]
+>
+>基于云的受众文件必须遵循受众规范PDF中列出的所需架构。 文件必须包含哈希标识符（小写SHA256）、必需的元数据字段（如`segment_name`和`activation_id`），并使用支持的格式，如CSV或Parquet。 Adobe在激活之前不会标准化数据。 根据受众的生命周期强制执行TTL。
+>
+>在此阶段，上传文件中的所有受众都将完全获得来源。 对特定合作伙伴组织的访问权限是通过Collaboration UI单独设置的。
 
 ## 步骤4：激活受众(到Experience Platform或云目标) {#activate-audiences}
 
@@ -147,7 +144,7 @@ ht-degree: 0%
 
 ### 选项A：激活到Experience Platform
 
-完成[将Adobe Experience Platform配置为目标](https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/destinations/experience-platform)指南中概述的以下步骤。
+完成[将Adobe Experience Platform配置为目标](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform)指南中概述的以下步骤。
 
 - **创建目标** — 使用UI设置Experience Platform目标（沙盒级别）。
 - **映射匹配键** — 选择标识符（例如，`hashedEmail`）。
@@ -156,16 +153,9 @@ ht-degree: 0%
 
 ### 选项B：激活到云
 
-要将受众激活到云目标（如[!DNL AWS S3]或[!DNL Snowflake]），请联系您的Adobe客户代表以启动设置过程。 您需要提供目标详细信息，例如文件路径、凭据和预期的文件格式。 在设置过程中，还必须指定匹配键（例如，`hashedEmail`），并定义所需的TTL和刷新节奏。 配置完成后，Adobe将配置目标并确保正确传输数据。
+要配置云目标（例如，[!DNL AWS S3]或[!DNL Snowflake]），请联系您的Adobe客户代表以启动设置过程。 根据云目标，您将需要提供云目标详细信息，例如文件路径、凭据、帐户位置等。 在提供所需信息后，Adobe将配置云目标设置。
 
 发送到云目标的受众数据遵循预定义架构。 有关必填字段和格式的详细说明，请下载[Collaboration Audience Activation指南](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf)。
-
-### 主要差异
-
-下表重点列出了Experience Platform和Cloud激活选项之间的差异：
-
-- Experience Platform的激活是完全自助式的，并且可在Audience Portal中看到。
-- 云目标需要Adobe协调，并且在用户界面中不可见。
 
 ## 步骤5：设置测量（可选） {#set-up-measurement}
 
@@ -226,13 +216,6 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
    - Input the report name, date range, and report run date.
    - Select **[!UICONTROL Campaign summary]** as the report type.
    - Submit the report. It will run on the selected date and populate within 24 hours. -->
-
-## 验证
-
-激活后，请验证受众是否已成功交付或在相应的目标中可用。
-
-- 验证受众是否显示在Audience Portal中(用于Experience Platform激活)。
-- 通过外部目标日志或确认，确认云投放成功。
 
 ## 步骤6：与协作者联系 {#connect-with-collaborators}
 
