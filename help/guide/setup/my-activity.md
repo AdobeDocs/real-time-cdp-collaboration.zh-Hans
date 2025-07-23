@@ -2,12 +2,12 @@
 title: 跟踪您的信用消耗活动
 description: 了解如何在Real-Time CDP Collaboration中跟踪贵组织的信用消耗活动。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 0%
+source-wordcount: '554'
+ht-degree: 5%
 
 ---
 
@@ -31,15 +31,15 @@ ht-degree: 0%
 
 >[!TIP]
 >
->**[!UICONTROL 我的活动]**&#x200B;视图不包括有关Real-Time Collaboration CDP用户界面不同部分中的用户操作的信息。 使用[审核日志](/help/guide/setup/audit-logs.md)功能获取该信息。
+>**[!UICONTROL 我的活动]**&#x200B;视图不包含有关Collaboration用户界面不同部分中的用户操作的信息。 使用[审核日志](/help/guide/setup/audit-logs.md)功能获取该信息。
 
 ## 了解您的活动信息板 {#understand-dashboard}
 
-活动仪表板显示贵组织内所有信贷消费操作的完整列表。 每一行表示一个不同的活动，并提供有关信用使用的关键信息：
+活动仪表板显示您帐户中所有信贷消费操作的完整列表。 每一行表示一个不同的活动，并提供有关信用使用的关键信息：
 
 >[!NOTE]
 >
->**[!UICONTROL 受众管理]**&#x200B;活动未与另一个协作者关联，因此这些活动类型的&#x200B;**[!UICONTROL 连接ID]**&#x200B;和&#x200B;**[!UICONTROL 连接名称]**&#x200B;列指示了&#x200B;**[!UICONTROL N/A]**&#x200B;值。
+>**[!UICONTROL 受众管理]**&#x200B;活动未与另一个协作者关联，因此这些活动类型的&#x200B;**[!UICONTROL 连接ID]**&#x200B;和&#x200B;**[!UICONTROL 连接名称]**&#x200B;列指示一个&#x200B;**[!UICONTROL -]**&#x200B;值。
 
 | 列 | 描述 |
 |------------|--------------|
@@ -49,7 +49,7 @@ ht-degree: 0%
 | **[!UICONTROL 活动]** | 执行的活动类型，如&#x200B;**激活 — 匹配**、**激活 — 出口**&#x200B;或&#x200B;**受众管理**。 |
 | **[!UICONTROL 输入已处理]** | 为活动处理的输入总数（例如，ID或行）。 |
 | **[!UICONTROL 已使用的积分总数]** | 活动消耗的积分总数。 |
-| **[!UICONTROL 我的信用共享]** | 贵组织用于活动的积分部分。 |
+| **[!UICONTROL 我的信用共享]** | 您的帐户中用于活动的积分部分。 |
 
 {style="table-layout:auto"}
 
@@ -57,23 +57,15 @@ ht-degree: 0%
 
 **[!UICONTROL Activity]**&#x200B;列显示不同类型的信贷消耗操作。
 
-* **[!UICONTROL 受众管理]**：当受众源于Real-Time CDP Collaboration时使用了积分。 积分的使用取决于在Real-Time CDP Collaboration内为所有受众编制索引的ID数量（以百万为单位）以及该索引的频率（每天、每三天或每周）。 若要了解详细信息，请阅读[导入和管理受众](/help/guide/setup/onboard-audiences.md)指南。
+* **[!UICONTROL 受众管理]**：当受众源于Collaboration时使用了积分。 积分的使用取决于在Collaboration内为所有受众编制索引的ID数量（以百万为单位）以及该索引的频率（每天、每三天或每周）。 要了解更多信息，请阅读[采购和管理受众](/help/guide/setup/onboard-audiences.md)指南。
 * **[!UICONTROL 激活 — 匹配]** — 积分是作为匹配并准备激活的ID数量的函数而使用的。 若要了解详细信息，请阅读[激活受众](/help/guide/collaborate/activate.md)指南。
 * **[!UICONTROL 激活 — 出口]** — 积分的使用情况与发送到目标的ID数量有关。 此费用始终由接收受众的协作者支付。 若要了解详细信息，请阅读[激活受众](/help/guide/collaborate/activate.md)指南。
-* **[!UICONTROL 测量]** — 在Real-Time CDP Collaboration中执行活动以生成营销活动效果报表和见解。 积分根据所有营销活动的营销活动报表中的行数以及报表的频率（每天、每三天或每周）来使用。
+* **[!UICONTROL 测量]** — 在Collaboration中执行活动以生成营销活动效果报表和见解。 额度的消耗取决于所有营销活动报告中的数据行数以及报告的生成频率（每日、每三日或每周）。
 
 ## 管理您的信用使用情况 {#manage-credit-consumption}
 
 要有效地管理您的信用消费，请执行以下操作：
 
-1. **了解**&#x200B;与每个活动关联的点数消耗。 检查[Real-Time CDP Collaboration产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}以了解每个活动使用的协作积分表。
+1. **了解**&#x200B;与每个活动关联的信用消耗量。 检查[Collaboration产品描述](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}以了解每个活动使用的积分表。
 2. **定期监控**：请经常查看您的活动仪表板以了解使用模式。
-3. **按连接跟踪**：使用连接名称识别哪些伙伴关系占用最多积分。
-
-<!--
-
-## Pagination and navigation
-
-The activity list is paginated to improve performance and readability. Use the navigation controls at the bottom of the table to move between pages and adjust how many records you can view at once.
-
--->
+3. **按连接跟踪**：使用连接名称识别哪些连接占用最多积分。

@@ -1,16 +1,19 @@
 ---
-title: Real-Time CDP Collaboration入门快速入门
+title: Real-Time CDP Collaboration快速入门指南
 description: 了解如何在Real-Time CDP Collaboration中载入您的组织，包括设置角色和组织、受众源、激活和测量。 本指南可帮助广告商和出版商配置协作设置并开始安全高效地使用共享受众。
 audience: admin, publisher, advertiser
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: b5f76b1001f97304332f731490613a8597a182c1
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1428'
 ht-degree: 0%
 
 ---
 
-# Real-Time CDP Collaboration入门快速入门
+# Real-Time CDP Collaboration快速入门指南
+
+
 
 通过配置组织、采购受众以及启用以隐私为中心的激活和测量，开始使用Real-Time CDP Collaboration。
 
@@ -19,11 +22,11 @@ ht-degree: 0%
 在开始之前，请确保您具备以下条件：
 
 - 有效的Real-Time CDP Collaboration许可证。
-- [系统或产品管理员访问Adobe Experience Platform](./permissions/overview.md#use-cases)。
+- [系统或产品管理员访问Adobe Experience Platform](./permissions/overview.md)。
 - [已为最终用户设置访问权限](./permissions/manage-user-access.md)。
 - 为您的组织创建并分配给用户的[角色](./permissions/manage-roles.md)。
 - 访问品牌推广资产，如贵组织的名称、徽标和横幅。
-- [定义的匹配键策略](./setup/onboard-organization.md#set-up-match-keys) （当前哈希电子邮件是唯一受支持的匹配键）。
+- [定义的匹配键策略](./setup/onboard-account.md#set-up-match-keys) （当前哈希电子邮件是唯一受支持的匹配键）。
 - （可选）如果您没有使用Experience Platform进行受众管理，请访问支持的云源(Amazon S3或Snowflake)。
 
 ## 步骤1：完成基于角色的设置 {#complete-role-based-setup}
@@ -32,7 +35,7 @@ ht-degree: 0%
 >
 >此步骤适用于广告商和发布商。
 
-贵组织的访问角色决定了用户可以在Real-Time CDP Collaboration中查看和执行的操作。 在继续操作之前，请确保已正确设置基于角色的权限，以确保在平台中具有适当的访问权和可见性。
+贵组织的访问角色决定了用户可以在Collaboration中查看和执行的操作。 在继续操作之前，请确保已正确设置基于角色的权限，以确保在平台中具有适当的访问权和可见性。
 
 **资源：**
 
@@ -40,52 +43,52 @@ ht-degree: 0%
 - [角色设置文档](./permissions/manage-roles.md)
 
 
-观看本视频，了解如何使用Admin Console和Experience Platform UI为Collaboration分配产品访问权限。
+观看本视频，了解如何使用Admin Console和Experience Platform为Collaboration分配产品访问权限。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452240/?learn=on&enablevpops&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
-## 第2步：设置您的Real-Time CDP Collaboration组织 {#set-up-your-organization}
+## 第2步：设置您的Collaboration帐户 {#set-up-your-account}
 
 >[!NOTE]
 >
 >此步骤适用于广告商和发布商。
 
-在添加受众之前，必须在Collaboration中配置您的组织。 它可控制贵组织在界面中的显示方式和行为。
+在获取受众之前，必须在Collaboration中配置您的帐户。 它可控制您的显示方式以及在界面中您具有的访问权限。
 
 如果您没有所需的访问权限，请返回步骤1，或联系贵组织的管理员以获取完成此设置的帮助。
 
-定义贵组织在Collaboration中的角色，提供品牌策略资产，并配置匹配键以跨连接对齐受众。
+定义您的帐户在Collaboration中的角色，提供品牌策略资产，并配置匹配键以跨连接对齐受众。
 
 >[!NOTE]
 >
->在设置过程中，您可以创建一个或多个协作者（例如广告商或出版商配置文件）。 某些字段，如品牌推广资源和联系电子邮件，稍后可在&#x200B;**[!UICONTROL 设置]**&#x200B;工作区中更新。
+>您可以在设置期间创建一个或多个帐户（例如广告商和发布者）。 某些字段，如品牌推广资源和联系电子邮件，稍后可在&#x200B;**[!UICONTROL 设置]**&#x200B;工作区中更新。
 
-- **分配角色** — 确定您的组织是充当广告商、发布者还是两者。 您的角色定义您具有的协作功能，例如启动受众共享（广告商）或使受众可用（发布者）。 要了解有关角色如何影响协作工作流的详细信息，请参阅[端到端工作流指南](./end-to-end-workflow.md)。
+- **分配角色** — 确定您的帐户是广告商还是发布者。 您的角色定义您在Collaboration中拥有的功能。 要了解有关角色如何影响协作工作流的详细信息，请参阅[端到端工作流指南](./end-to-end-workflow.md)。
 - **品牌推广资产** — 将以下内容添加到您的帐户：
-   - 品牌名称（最多100个字符）
-   - 品牌描述（最多1,000个字符）
-   - Brand徽标(SVG &lt;20 KB，最好为正方形)
+   - 帐户名称（最多100个字符）
+   - 描述（最多1,000个字符）
+   - 徽标(SVG &lt;20 KB，最好为正方形)
 
-  >[!NOTE]
-  >
-  >如果您正在创建发布者帐户，并希望在Collaboration的连接目录中公开显示，请联系您的Adobe客户代表。 发布者帐户需要自定义品牌横幅(JPG 2688x1536)；此文件可以直接与您的代表共享。
+>[!NOTE]
+>
+>如果您正在创建发布者帐户，并希望在Collaboration的连接目录中公开显示，请联系您的Adobe客户代表。 发布者帐户需要自定义品牌横幅(JPG 2688x1536)；此文件可以直接与您的代表共享。
 
 - **联系电子邮件** — 提供协作者在建立连接后使用的业务电子邮件。
 - **配置匹配键** — 选择用于受众匹配的标识符（当前，散列电子邮件是唯一受支持的匹配键）。
 
-要了解有关初始组织设置的更多信息，包括如何定义角色、上传品牌推广资产和配置匹配密钥，请参阅[初始组织设置文档](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}。
+要了解有关初始帐户设置的更多信息，包括如何定义角色、上传品牌推广资产和配置匹配密钥，请参阅[初始帐户设置](./setup/onboard-account.md#initial-account-setup){target="_blank"}指南。
 
-观看广告商设置的分步说明，包括帐户创建、品牌推广和关键配置的匹配。
+观看本视频，逐步了解广告商设置，包括帐户创建、品牌推广和关键配置匹配。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452264/?learn=on&enablevpops)
 
 ## 步骤3：Source受众(来自Experience Platform或云源) {#source-audiences}
 
-创建组织并配置品牌和匹配键后，您就可以开始采购受众了。 根据您的数据存储和业务需求，选择以下来源补充方法之一。
+在创建帐户并配置品牌和匹配键后，您就可以开始获取受众了。 根据您的数据存储和业务需求，选择以下来源补充方法之一。
 
 ### 选项A：Experience Platform中的Source
 
-[使用Collaboration用户界面链接包含受众的沙盒](./setup/onboard-audiences.md)。 使用此自助方法从Experience Platform实例中引用现有受众区段。
+[使用Collaboration链接包含受众的沙盒](./setup/onboard-audiences.md)。 使用此自助方法从Experience Platform实例中引用现有受众区段。
 
 #### 配置受众
 
@@ -99,7 +102,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您可以直接在Collaboration UI中添加或删除受众以及更新刷新计划。 要更改其他设置（如匹配键或同意模式），您必须删除并重新创建数据连接。
+>您可以直接在Collaboration中添加或删除受众并更新刷新计划。 要更改其他设置（如匹配键或同意模式），您必须删除并重新创建数据连接。
 
 >[!IMPORTANT]
 >
@@ -114,15 +117,15 @@ ht-degree: 0%
 >
 >所有匹配键必须是&#x200B;**修剪**、**小写**&#x200B;和&#x200B;**SHA256-hashed**。\
 >如果您提供的哈希值使用大写字符，Collaboration会自动将其转换为小写。\
->如果您的源包含&#x200B;**纯文本标识符**，请使用UI中的&#x200B;**[!UICONTROL 应用转换]**&#x200B;选项来应用散列。 仅当从Experience Platform获取受众时，此选项才可用，而基于云的源不支持此选项。
+>如果您的源包含&#x200B;**纯文本标识符**，请使用&#x200B;**[!UICONTROL 应用转换]**&#x200B;选项来应用散列。 仅当从Experience Platform获取受众时，此选项才可用，而基于云的源不支持此选项。
 >
->有关详细信息，请参阅导入和管理受众指南的[映射字段](./setup/onboard-audiences.md#map-fields)部分。
+>有关详细信息，请参阅源和管理受众指南的[映射字段](./setup/onboard-audiences.md#map-fields)部分。
 
-要观看如何使用Collaboration UI引用受众的完整演练，请观看下面的Collaboration受众引用演示视频。
+要观看有关如何使用Collaboration获取受众的完整演练，请观看以下视频。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-或者，查看有关[使受众在Real-Time CDP Collaboration](https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)中可用的文档。
+或者，在Collaboration[中查看有关](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)来源受众的文档。
 
 ### 选项B：来自Snowflake或Amazon S3的Source
 
@@ -132,7 +135,7 @@ ht-degree: 0%
 >
 >基于云的受众文件必须遵循受众规范PDF中列出的所需架构。 文件必须包含哈希标识符（小写SHA256）、必需的元数据字段（如`segment_name`和`activation_id`），并使用支持的格式，如CSV或Parquet。 Adobe在激活之前不会标准化数据。 根据受众的生命周期强制执行TTL。
 >
->在此阶段，上传文件中的所有受众都将完全获得来源。 对特定合作伙伴组织的访问权限是通过Collaboration UI单独设置的。
+>在此阶段，上传文件中的所有受众都将完全获得来源。 [受众可见性设置](/help/guide/setup/onboard-audiences.md#metadata-visibility)确定您的协作者是否可以查看受众，以及是否通过Collaboration UI进行管理。
 
 ## 步骤4：激活受众(到Experience Platform或云目标) {#activate-audiences}
 
@@ -140,11 +143,11 @@ ht-degree: 0%
 >
 >此步骤适用于广告商和发布商。
 
-使用Collaboration UI将受众激活到Experience Platform实例或云目标。
+接下来，将受众激活到您的Experience Platform实例或云目标。
 
 ### 选项A：激活到Experience Platform
 
-完成[将Adobe Experience Platform配置为目标](https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/destinations/experience-platform)指南中概述的以下步骤。
+完成[将Adobe Experience Platform配置为目标](/help/guide/destinations/experience-platform.md)指南中列出的以下步骤。
 
 - **创建目标** — 使用UI设置Experience Platform目标（沙盒级别）。
 - **映射匹配键** — 选择标识符（例如，`hashedEmail`）。
@@ -219,15 +222,15 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 ## 步骤6：与协作者联系 {#connect-with-collaborators}
 
-设置和数据配置完成后，您的组织现在可以通过发送或接受邀请并提交项目设置以供审批来与协作者联系。 此连接过程包括发送或接收邀请、审核和提交连接设置（如用例和信用消耗）以及确认关系。
+设置完成后，您的组织现在可以通过发送或接受邀请并提交项目设置以供审批来与协作者联系。 此连接过程包括发送或接收邀请、审核和提交连接设置（如用例和信用消耗）以及确认连接。
 
-作为广告商，请使用Collaboration UI左侧导航菜单中的&#x200B;**[!UICONTROL Connect]**&#x200B;工作区来浏览可用的发布者。
+作为广告商，请使用左侧导航菜单中的&#x200B;**[!UICONTROL 连接]**&#x200B;工作区来浏览可用的发布者。
 
 >[!NOTE]
 >
 >目前，只有广告商可以浏览发布者。 发布者无法浏览或启动与广告商的连接。
 
-有关此流程的概述，请参阅[与广告商或发布者联系指南](./connect/establishing-connections.md){target="_blank"}。 有关连接过程的可视化演练，包括浏览协作者和管理连接设置，请观看[广告商帐户设置视频](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}。
+有关此流程的概述，请参阅[与广告商或发布商联系指南](./connect/establishing-connections.md){target="_blank"}。 有关连接过程的可视化演练，包括浏览协作者和管理连接设置，请观看[广告商帐户设置视频](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}。
 
 ## 后续步骤
 

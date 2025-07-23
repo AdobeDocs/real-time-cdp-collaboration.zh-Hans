@@ -2,11 +2,11 @@
 title: 概述
 description: 了解如何使用Adobe Real-Time Customer Data Platform (CDP) Collaboration发现、激活和衡量高价值受众，而无需依赖第三方Cookie。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## 概述
 
-借助Adobe Real-Time Customer Data Platform (CDP) Collaboration，您可以发现、激活和衡量高价值受众，而无需依赖第三方Cookie。 此解决方案支持广告商和发布商之间的高级数据协作，可帮助您在以隐私为中心的集中环境中创建个性化的、有影响力的客户体验。
+借助Adobe Real-Time CDP Collaboration，您可以发现、激活和衡量高价值受众，而无需依赖第三方Cookie。 此解决方案支持广告商和发布商之间的高级数据协作，可帮助您在以隐私为中心的集中环境中创建个性化的、有影响力的客户体验。
 
 ![Real-Time CDP Collaboration设置页面，显示组织。](/help/assets/overview/set-up.png){zoomable="yes"}
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 了解聚合营销活动效果
 
-使用协作测量工具跟踪活动的影响。 出版商可以向品牌报告促销活动效果，帮助改进当前和未来的广告，并调整广告支出。 广告商可以共享以隐私为中心的参与和转化洞察，集成曝光、渠道和转化数据，并使用首选的衡量合作伙伴获取完整的洞察信息。 请注意，某些测量自动化在第一个版本中不可用。
+使用协作测量工具跟踪活动的影响。 出版商可以向广告商报告促销活动效果，帮助改进当前和未来的广告，并调整广告支出。 广告商可以共享以隐私为中心的参与和转化洞察，集成曝光、渠道和转化数据，并使用首选的衡量合作伙伴获取完整的洞察信息。 请注意，某些测量自动化在第一个版本中不可用。
 
 ## 以隐私为中心
 
@@ -39,15 +39,13 @@ ht-degree: 1%
 
 ## 快速入门 {#get-started}
 
-要开始使用Real-Time CDP Collaboration，系统管理员需要向自己、产品管理员和最终用户授予访问权限。 根据所需的用户和访问级别，需要执行多个步骤。 请参阅[访问控制概述](/help/guide/permissions/overview.md){target="_blank"}指南以开始。
+要开始使用Collaboration，系统管理员需要向自己、产品管理员和最终用户授予访问权限。 根据所需的用户和访问级别，需要执行多个步骤。 请参阅[访问控制概述](/help/guide/permissions/overview.md){target="_blank"}指南以开始。
 
-获得访问权限后，您便可以设置组织，并将数据源连接到Adobe Real-Time CDP Collaboration以导入受众。 阅读[广告商和发布商的端到端工作流程](/help/guide/end-to-end-workflow.md)以开始。
-
-<!-- Utilize the collaboration tools to compare and manage audiences effectively. Leverage real-time insights to inform your marketing strategies and deliver personalized customer experiences.  -->
+在获得访问权限后，您便可以设置帐户并创建与获取受众的数据连接。 阅读[广告商和发布商的端到端工作流程](/help/guide/end-to-end-workflow.md)以开始。
 
 ## 资源
 
-浏览[术语表](/help/guide/glossary.md)以了解有关产品中所用术语的详细信息。 如需支持，请访问Adobe [客户支持](https://experienceleague.adobe.com/home?lang=zh-Hans&amp;support-tab=open-ticket#support){target="_blank"}页面。
+浏览[术语表](/help/guide/glossary.md)以了解有关产品中所用术语的详细信息。 如需支持，请访问Adobe [客户支持](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"}页面。
 
 ## 联系我们
 

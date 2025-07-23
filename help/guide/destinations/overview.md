@@ -2,11 +2,12 @@
 title: 设计概述
 description: 了解Real-Time CDP Collaboration中的目标。
 audience: admin, publisher
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 5%
+source-wordcount: '349'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 5%
 
 目标是指用于将目标受众发送到外部平台的集成。 通过这些集成，您可以跨各种营销渠道和平台激活受众，以用于营销活动和客户参与。
 
-目前，目标仅适用于Real-Time CDP Collaboration中的发布者。 发布者可以配置目标以将受众发送到外部平台，例如Adobe Experience Platform，以用于营销活动。 然后，广告商可以[激活项目](../collaborate/activate.md)中的受众，这些受众将发送到发布者的配置目标。
+目前，目标仅适用于Adobe Real-Time CDP Collaboration中的发布者。 发布者可以配置目标以将受众发送到外部平台，例如Adobe Experience Platform，以用于营销活动。 然后，广告商可以[激活项目](../collaborate/activate.md)中的受众，这些受众将发送到发布者的配置目标。
 
 >[!IMPORTANT]
 >
@@ -28,7 +29,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
-> 目前，只有Adobe Experience Platform可作为Real-Time CDP Collaboration中的自助服务目标。 如果您有兴趣配置Amazon S3或Snowflake等目标，请联系您的Adobe代表。
+> 目前，只有Adobe Experience Platform可作为Collaboration中的自助服务目标。 如果您有兴趣配置Amazon S3或Snowflake等目标，请联系您的Adobe代表。
 
 ![设置工作区中的“我的目标”选项卡显示可用的目标。](/help/assets/destinations/overview/my-destinations-overview.png)
 
@@ -38,7 +39,7 @@ ht-degree: 5%
 
 ### 可用目标 {#available-destinations}
 
-可以在Real-Time CDP Collaboration中配置以下目标。 要查看该目标的配置指南，请在下表中选择目标名称。 如果您有兴趣配置当前不可用的目标，请联系您的Adobe代表。
+可以在Collaboration中配置以下目标。 要查看该目标的配置指南，请在下表中选择目标名称。 如果您有兴趣配置当前不可用的目标，请联系您的Adobe代表。
 
 | 目标 | 可用性 |
 | --- | --- |

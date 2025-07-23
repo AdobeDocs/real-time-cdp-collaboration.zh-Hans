@@ -2,12 +2,12 @@
 title: 发现重叠并比较受众
 description: 发现与协作者受众之间的重叠。 了解如何发现可在营销活动中使用的最佳受众。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 19%
+source-wordcount: '1167'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 19%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 发现]**&#x200B;工作区仅在连接过程[&#128279;](../connect/establishing-connections.md#connection-settings)中启用了受众发现&#x200B;**用例时才可用。**&#x200B;有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 发现]**&#x200B;工作区仅在连接过程&#x200B;**中启用了**&#x200B;受众发现[用例时才可用。 ](../connect/establishing-connections.md#connection-settings)有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
 在[创建项目](/help/guide/collaborate/manage-projects.md)之后，您可以将受众与协作者进行比较。 这有助于您识别营销活动的相关受众，并决定要将哪些受众发送给发布者进行激活。
 
@@ -25,7 +25,7 @@ ht-degree: 19%
 >
 >任何[数据草图](/help/guide/glossary.md#sketches)未更新或未刷新将在7天后删除。 发生这种情况时，此页面上各种重叠报表中显示的数字将变为零，并且受众共享将对这些过期的受众不可用。 数据草图将自动刷新具有[活动刷新计划](/help/guide/setup/onboard-audiences.md#schedule)的受众。
 
-在连接过程[&#128279;](/help/guide/connect/establishing-connections.md#connection-settings)中设置用于发现和比较受众的匹配键。 匹配键用于计算受众之间的重叠，可以切换开关。 要编辑匹配键，请选择&#x200B;**[!UICONTROL 编辑匹配键]**&#x200B;选项。 此
+在连接过程[中设置](/help/guide/connect/establishing-connections.md#connection-settings)用于发现和比较受众的匹配键。 匹配键用于计算受众之间的重叠，可以开关该键。 要编辑匹配键，请选择&#x200B;**[!UICONTROL 编辑匹配键]**&#x200B;选项。
 
 ![显示受众分析的“发现”选项卡工作区。](/help/assets/collaborate/discover/discover-overview.png)
 
@@ -37,7 +37,7 @@ ht-degree: 19%
 
 若要开始使用项目中的&#x200B;**[!UICONTROL 发现]**&#x200B;选项卡，您应具有：
 
-* [已将受众](/help/guide/setup/onboard-audiences.md)导入您的组织
+* [将受众源](/help/guide/setup/onboard-audiences.md)放入您的帐户
 * [已连接](/help/guide/connect/establishing-connections.md)，协作者启用了&#x200B;**受众发现**&#x200B;用例
 * [已创建您与协作者之间的项目](/help/guide/collaborate/manage-projects.md)
 
@@ -86,7 +86,7 @@ ht-degree: 19%
 
 {style="table-layout:auto"}
 
->[!TIP]
+>[!NOTE]
 >
 >并非所有受众都始终可以使用重叠百分比数字。 重叠百分比指示器的可见性取决于您的协作者在[元数据可见性部分](/help/guide/setup/onboard-audiences.md#metadata-visibility)中为受众选择的设置。
 
@@ -95,7 +95,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="相关受众"
->abstract="根据重叠百分比，这些发布者受众可能非常适合您的营销活动。<br><br><b>身份标识计数</b>是发布者的受众规模。<br><br> <b>重叠的身份标识</b>表示推荐发布者受众与所有广告商受众之间的重叠。<br><br><b>重叠率</b>是指重叠的身份标识数量除以<i>所有</i>广告商受众的规模。"
+>abstract="根据重叠百分比，这些受众可能非常适合您的营销活动。 <br><br> <b>身份计数</b>是协作者的受众大小。<br><br> <b>重叠身份</b>表示推荐受众与您的所有受众之间的重叠。 <br><br> <b>重叠%</b>表示重叠身份数除以您的受众<i>所有</i>的大小。"
 
 **[!UICONTROL 发现]**&#x200B;选项卡中的&#x200B;**[!UICONTROL 相关受众]**&#x200B;部分根据协作者受众与所有受众之间的重叠百分比，提供了前五个受众的策划列表。 此功能可帮助您快速识别重叠程度最高的受众，使您能够更有效地定位营销活动。 使用部分右上角的页面选择器，在相关受众之间切换。
 
@@ -117,10 +117,6 @@ ht-degree: 19%
 
 {style="table-layout:auto"}
 
->[!NOTE]
->
->协作者受众的可见性取决于协作者在[元数据可见性部分](/help/guide/setup/onboard-audiences.md#metadata-visibility)中为受众选择的设置。 如果您的协作者已将所有受众设置为专用，则此部分不会显示任何受众。
-
 ## 发现重叠 {#discover-overlaps}
 
 >[!CONTEXTUALHELP]
@@ -140,7 +136,7 @@ ht-degree: 19%
 
 ![突出显示了“发现工作区”中的“更改受众”选项。](/help/assets/collaborate/discover/change-audience.png)
 
-将打开&#x200B;**[!UICONTROL 更改受众]**&#x200B;对话框，您可以在其中将特定受众与协作者受众进行比较。 选择所需的受众，或清除选择以选择所有受众，然后选择&#x200B;**[!UICONTROL 保存]**。
+将打开&#x200B;**[!UICONTROL 更改受众]**&#x200B;对话框，您可以在其中选择要与协作者受众进行比较的特定受众。 选择所需的受众，或清除选择以选择所有受众，然后选择&#x200B;**[!UICONTROL 保存]**。
 
 ![发现工作区中的“更改受众”对话框。](/help/assets/collaborate/discover/change-audience-selection.png)
 
@@ -148,7 +144,7 @@ ht-degree: 19%
 
 | 量度 | 描述 |
 |---------|----------|
-| **[!UICONTROL 身份计数]** | 受众中的唯一ID名称。 |
+| **[!UICONTROL 身份计数]** | 受众中唯一ID的数量。 |
 | **[!UICONTROL 身份重叠]** | 推荐的受众与您的所有受众之间重叠的唯一ID数量。 |
 | **[!UICONTROL 重叠%]** | 推荐受众和您的所有受众之间重叠身份的百分比。 |
 | **[!UICONTROL 受众类别]** | 您的协作者分配给受众的类别。 |

@@ -2,11 +2,11 @@
 title: 管理数据连接
 description: 了解如何在Real-Time CDP Collaboration中管理数据连接，包括匹配键、计划、用例和受众筛选
 audience: administrator, data engineer
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '597'
 ht-degree: 12%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 ## 概述
 
-在Real-Time CDP Collaboration中使用数据连接从各种源导入受众。 了解如何管理匹配键以及计划现有数据连接的数据导入。 此外，您还可以按不同属性过滤受众，以获得更精细的见解。
+在Real-Time CDP Collaboration中使用数据连接从各种平台获取受众。 了解如何管理匹配键并为现有数据连接计划数据刷新。 此外，您还可以按不同属性过滤受众，以获得更精细的见解。
 
 ## 查看数据连接
 
@@ -59,7 +59,7 @@ ht-degree: 12%
 >
 >从Adobe Experience Platform获取受众后，受众将在数据连接建立后的24小时内可用。 首次导入后，受众数据会根据定义的频率进行刷新。
 
-有关计划的更多信息，请参阅入门受众指南中的[计划部分](/help/guide/setup/onboard-audiences.md#schedule)。
+有关计划的详细信息，请参阅配置受众指南中的[计划部分](/help/guide/setup/onboard-audiences.md#schedule)。
 
 ![突出显示计划部分的数据连接的工作区。](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
@@ -69,11 +69,11 @@ ht-degree: 12%
 
 在&#x200B;**[!UICONTROL 计划]**&#x200B;对话框中，选择下拉菜单以更新&#x200B;**[!UICONTROL 频率]**。 将刷新频率设置为每天或每两到六天运行一次。 完成后，选择&#x200B;**[!UICONTROL 保存]**&#x200B;以应用更改。
 
-![计划对话框，显示用于设置频率和日期范围的选项。](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
+![计划对话框，显示用于设置频率和日期范围的选项。](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## 删除数据连接
 
-删除数据连接将会删除整个平台中的所有底层受众、关联设置和使用情况。 此操作无法撤消。
+删除数据连接将会删除整个Collaboration中的所有基础受众、关联设置和使用情况。 此操作无法撤消。
 
 要删除现有的数据连接，请选择单个数据连接工作区中的删除图标（![删除图标](/help/assets/common/delete.svg)）。
 

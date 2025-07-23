@@ -2,11 +2,11 @@
 title: 创建和管理项目
 description: 了解如何在Adobe Real-Time CDP Collaboration中创建和管理项目
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '428'
 ht-degree: 9%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 {{limited-availability-release-note}}
 
-项目是Real-Time CDP Collaboration中工作流的核心。 与协作者联系后，创建一个项目以运行受众重叠计算并发现营销活动的相关受众。
+项目是Adobe Real-Time CDP Collaboration中工作流的核心。 与协作者联系后，创建一个项目以运行受众重叠计算并发现营销活动的相关受众。
 
 >[!TIP]
 >
@@ -28,6 +28,8 @@ ht-degree: 9%
 ![使用单个协作者筛选的项目视图。](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## 创建项目 {#create-project}
+
+要创建项目，您必须先[与协作者建立连接](/help/guide/connect/establishing-connections.md)。 建立连接后，即可使用该协作者创建项目。
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
@@ -62,4 +64,4 @@ ht-degree: 9%
 | --- | --- |
 | 营销活动测量 | 此用例授予对[度量](/help/guide/collaborate/measure.md)部分和所有可用功能的访问权限。 |
 | 受众发现 | 此用例授予对[发现](/help/guide/collaborate/discover.md)部分和所有可用功能的访问权限。 |
-| 受众激活 | 此用例授予对[激活](/help/guide/collaborate/activate.md)部分和所有可用功能的访问权限。 |
+| Audience Activation | 此用例授予对[激活](/help/guide/collaborate/activate.md)部分和所有可用功能的访问权限。 |

@@ -2,12 +2,12 @@
 title: 与广告商或发布者联系
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 16%
+source-wordcount: '1400'
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 {{limited-availability-release-note}}
 
-在协作者（通常是广告商和发布商）能够协作处理营销活动之前，必须建立连接。 利用此连接，他们可以激活受众、创建项目并运行营销活动效果报表。
+协作者必须先建立连接，然后才能一起处理营销活动。 利用此连接，他们可以激活受众、创建项目并运行营销活动效果报表。
 
 ## 高级工作流
 
@@ -33,15 +33,15 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->在建立两个协作者之间的连接后，便无法再修改连接设置。
+>在建立两个协作者之间的连接后，便无法修改连接设置。
 
 ## 发送邀请 {#send-invite}
 
-要设置连接，请在发现发布者屏幕中浏览发布者清单时选择&#x200B;**[!UICONTROL 连接]**。
+要设置连接，请在&#x200B;**[!UICONTROL 发现发布者]**&#x200B;工作区中浏览发布者清单时选择&#x200B;**[!UICONTROL 连接]**。
 
 ![特定发布服务器上突出显示具有“连接”选项的“连接”仪表板。](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
-发送邀请后，您可以预览（但不能编辑）连接设置。 在&#x200B;**[!UICONTROL 我的连接]**&#x200B;选项卡中查看待处理邀请。 连接状态显示为&#x200B;**[!UICONTROL 发送邀请]**。
+发送邀请后，您可以预览（但不能编辑）连接设置。 查看挂起的邀请显示在&#x200B;**[!UICONTROL 我的连接]**&#x200B;选项卡中。 连接状态显示为&#x200B;**[!UICONTROL 发送邀请]**。
 
 ![发送给“我的连接”视图中显示的发布者的待处理邀请。](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
@@ -62,7 +62,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="积分拆分"
->abstract="此部分确定了谁为 Real-Time CDP Collaboration 中的相应活动付费。"
+>abstract="此部分确定谁将为Collaboration中的相应活动付费。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
@@ -82,7 +82,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="广告商名称"
->abstract="<p>可选设置。表示发布者知道的该广告商的名称和 ID。</p><p>您在此处输入的广告商名称将用于在创建项目步骤中进行预先填充。</p><ul><li>如果发布者配置了多个名称，请从列表中选择一个。</li><li>如果仅配置了一个名称，就会自动预选此名称。</li><li>如果未配置名称，这个字段中将预先填充为 Real-Time CDP Collaboration 中的广告商帐户名称。</li></ul>"
+>abstract="<p>可选设置。表示发布者知道的该广告商的名称和 ID。</p><p>您在此处输入的广告商名称将用于在创建项目步骤中进行预先填充。</p><ul><li>如果发布者配置了多个名称，请从列表中选择一个。</li><li>如果仅配置了一个名称，就会自动预选此名称。</li><li>如果未配置任何名称，则此字段将预先填充Collaboration中的广告商帐户名称。</li></ul>"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="创建项目"
 
 >[!CONTEXTUALHELP]
@@ -95,6 +95,8 @@ ht-degree: 16%
 发送邀请后，您可以预览连接设置。 必须先接受邀请，然后才能完成连接设置。
 
 ![处于预览状态的连接设置视图。](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
+
+<!-- The sections below will be updated in B2B and have not been addressed yet. -->
 
 ### 广告商连接设置 {#advertiser-connection-settings}
 
@@ -118,7 +120,7 @@ ht-degree: 16%
 
 +++匹配键
 
-匹配密钥已预填充为您在[设置组织](/help/guide/setup/onboard-organization.md#set-up-match-keys)时选择的密钥。 您可以关闭任何不想使用的匹配键，但无法添加在组织设置期间未选择的匹配键。
+匹配密钥已预填充为您在[设置组织](/help/guide/setup/onboard-account.md#set-up-match-keys)时选择的密钥。 您可以关闭任何不想使用的匹配键，但无法添加在组织设置期间未选择的匹配键。
 
 ![连接设置工作区中的匹配键设置。](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
@@ -177,9 +179,13 @@ ht-degree: 16%
 
 如果您对建议的连接设置感到满意，请选择&#x200B;**[!UICONTROL 接受]**&#x200B;以建立连接。 如果要请求更改连接设置，请选择&#x200B;**[!UICONTROL 拒绝]**。 然后，协作者可以修订连接设置并重新发送这些设置以供审查。
 
+<!-- The end of the sections needing updates still. -->
+
 ## 删除连接 {#delete-connections}
 
-您可以删除与协作者之间不希望继续使用的任何连接。 要删除现有连接，请导航到&#x200B;**[!UICONTROL 连接]**。 然后，广告商应导航到&#x200B;**[!UICONTROL 我的连接]**。 选择连接卡上的&#x200B;**[!UICONTROL 查看连接]**&#x200B;以打开要删除的连接。
+您可以删除与协作者之间不希望继续使用的任何连接。 要删除现有连接，请导航到&#x200B;**[!UICONTROL 连接]**。 作为发布者，将显示您现有的连接。 作为广告商，您应该导航到&#x200B;**[!UICONTROL 我的连接]**。
+
+在要删除的连接卡上选择&#x200B;**[!UICONTROL 查看连接]**。
 
 ![在“我的连接”视图中突出显示“查看连接”选项。](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
 
