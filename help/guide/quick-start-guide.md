@@ -2,7 +2,7 @@
 title: Real-Time CDP Collaboration快速入门指南
 description: 了解如何在Real-Time CDP Collaboration中载入您的组织，包括设置角色和组织、受众源、激活和测量。 本指南可帮助广告商和出版商配置协作设置并开始安全高效地使用共享受众。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-或者，在Collaboration[中查看有关](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)来源受众的文档。
+或者，在Collaboration[中查看有关](https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)来源受众的文档。
 
 ### 选项B：来自Snowflake或Amazon S3的Source
 
