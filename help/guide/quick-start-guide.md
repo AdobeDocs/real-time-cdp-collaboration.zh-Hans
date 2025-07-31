@@ -1,19 +1,19 @@
 ---
 title: Real-Time CDP Collaboration快速入门指南
-description: 了解如何在Real-Time CDP Collaboration中载入您的组织，包括设置角色和组织、受众源、激活和测量。 本指南可帮助广告商和出版商配置协作设置并开始安全高效地使用共享受众。
+description: 了解如何在Real-Time CDP Collaboration中载入您的组织，包括设置角色和组织、受众源、激活和测量。 本指南可帮助协作者配置连接设置，以便开始安全高效地使用受众。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
 
 # Real-Time CDP Collaboration快速入门指南
 
-
+{{limited-availability-release-note}}
 
 通过配置组织、采购受众以及启用以隐私为中心的激活和测量，开始使用Real-Time CDP Collaboration。
 
@@ -31,10 +31,6 @@ ht-degree: 0%
 
 ## 步骤1：完成基于角色的设置 {#complete-role-based-setup}
 
->[!NOTE]
->
->此步骤适用于广告商和发布商。
-
 贵组织的访问角色决定了用户可以在Collaboration中查看和执行的操作。 在继续操作之前，请确保已正确设置基于角色的权限，以确保在平台中具有适当的访问权和可见性。
 
 **资源：**
@@ -45,13 +41,9 @@ ht-degree: 0%
 
 观看本视频，了解如何使用Admin Console和Experience Platform为Collaboration分配产品访问权限。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452240/?learn=on&enablevpops&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 第2步：设置您的Collaboration帐户 {#set-up-your-account}
-
->[!NOTE]
->
->此步骤适用于广告商和发布商。
 
 在获取受众之前，必须在Collaboration中配置您的帐户。 它可控制您的显示方式以及在界面中您具有的访问权限。
 
@@ -63,7 +55,7 @@ ht-degree: 0%
 >
 >您可以在设置期间创建一个或多个帐户（例如广告商和发布者）。 某些字段，如品牌推广资源和联系电子邮件，稍后可在&#x200B;**[!UICONTROL 设置]**&#x200B;工作区中更新。
 
-- **分配角色** — 确定您的帐户是广告商还是发布者。 您的角色定义您在Collaboration中拥有的功能。 要了解有关角色如何影响协作工作流的详细信息，请参阅[端到端工作流指南](./end-to-end-workflow.md)。
+- **分配角色** — 确定您的帐户是广告商还是发布者。 您的角色定义您在Collaboration中拥有的功能。 要了解有关角色如何影响协作工作流的详细信息，请参阅[角色](./overview/roles.md)指南。
 - **品牌推广资产** — 将以下内容添加到您的帐户：
    - 帐户名称（最多100个字符）
    - 描述（最多1,000个字符）
@@ -125,7 +117,7 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-或者，在Collaboration[中查看有关](https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences)来源受众的文档。
+或者，在Collaboration[中查看有关](./setup/onboard-audiences.md#source-and-manage-audiences)来源受众的文档。
 
 ### 选项B：来自Snowflake或Amazon S3的Source
 
@@ -138,10 +130,6 @@ ht-degree: 0%
 >在此阶段，上传文件中的所有受众都将完全获得来源。 [受众可见性设置](/help/guide/setup/onboard-audiences.md#metadata-visibility)确定您的协作者是否可以查看受众，以及是否通过Collaboration UI进行管理。
 
 ## 步骤4：激活受众(到Experience Platform或云目标) {#activate-audiences}
-
->[!NOTE]
->
->此步骤适用于广告商和发布商。
 
 接下来，将受众激活到您的Experience Platform实例或云目标。
 
@@ -224,13 +212,13 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 设置完成后，您的组织现在可以通过发送或接受邀请并提交项目设置以供审批来与协作者联系。 此连接过程包括发送或接收邀请、审核和提交连接设置（如用例和信用消耗）以及确认连接。
 
-作为广告商，请使用左侧导航菜单中的&#x200B;**[!UICONTROL 连接]**&#x200B;工作区来浏览可用的发布者。
+作为广告商，请使用左侧导航菜单中的&#x200B;**[!UICONTROL 连接]**&#x200B;工作区来浏览可用的发布者。 或者，协作者可通过[私人连接邀请](./connect/establishing-connections.md#private-connection-invite){target="_blank"}直接相互连接。
 
 >[!NOTE]
 >
 >目前，只有广告商可以浏览发布者。 发布者无法浏览或启动与广告商的连接。
 
-有关此流程的概述，请参阅[与广告商或发布商联系指南](./connect/establishing-connections.md){target="_blank"}。 有关连接过程的可视化演练，包括浏览协作者和管理连接设置，请观看[广告商帐户设置视频](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}。
+有关此流的概述，请参阅[建立连接指南](./connect/establishing-connections.md){target="_blank"}。 有关连接过程的可视化演练，包括浏览协作者和管理连接设置，请观看[广告商帐户设置视频](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}。
 
 ## 后续步骤
 

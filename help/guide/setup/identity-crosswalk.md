@@ -2,11 +2,11 @@
 title: 身份标识对照表
 description: 全面了解Real-Time CDP Collaboration中的身份交叉通道，包括如何从不同来源引入身份交叉通道，以及如何管理身份交叉通道
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 22%
@@ -20,11 +20,6 @@ ht-degree: 22%
 全面了解Real-Time CDP Collaboration中的身份交叉通道，包括如何从不同来源引入身份交叉通道，以及如何管理身份交叉通道。
 
 身份交叉通道有助于跨多个数据集和平台安全且符合隐私要求的客户身份关联。 通过使用哈希标识符，Real-Time CDP Collaboration可确保用户能够同步和协调身份，而无需公开个人身份信息(PII)。 这样可以统一了解客户，以便更好地协作和有针对性的营销工作。
-
-<!--
-In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences by [TODO] insert material here. 
--->
-
 
 第一步，必须将标识交叉通道导入Real-Time CDP Collaboration。 要将身份交叉通道导入Real-Time CDP Collaboration，请阅读以下部分：
 

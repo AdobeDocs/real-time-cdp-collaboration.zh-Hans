@@ -2,11 +2,11 @@
 title: 配置和管理目标
 description: 了解如何在Real-Time CDP Collaboration中配置和管理目标。
 audience: admin, publisher
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b4b26761-46ac-420f-b9f7-6e829d67aec9
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 目标是指用于将目标受众发送到外部平台的集成。 通过这些集成，您可以跨各种营销渠道和平台激活受众，以用于营销活动和客户参与。
 
-目前，目标仅适用于Real-Time CDP Collaboration中的发布者。 发布者可以配置目标以将受众激活到外部平台，例如Adobe Experience Platform，以用于营销活动。 然后，广告商可以[在项目](../collaborate/activate.md)中发送受众，这些受众将发送到发布者配置的目标。
+协作者可以配置目标以将受众发送到外部平台，例如Adobe Experience Platform，以用于营销活动。 协作者随后可以[激活项目](../collaborate/activate.md)中的受众，这些受众将发送到其连接的配置目标。 根据连接[中配置的受众激活设置](/help/guide/connect/establishing-connections.md#configure-connection-settings)，激活可由协作者完成。
 
 ![安装工作区中的“我的目标”选项卡显示活动的Adobe Experience Platform目标。](/help/assets/setup/manage-destinations/my-destinations-overview.png)
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 ## 删除目标 {#delete-destinations}
 
-删除目标会将其从您的组织中删除，会从目标中删除之前发送的任何受众，并阻止将来将任何受众发送到该目标。
+删除目标会将其从您的帐户中删除，会从目标中删除以前发送的任何受众，并阻止将来将任何受众发送到该目标。
 
 要删除目标，请导航到&#x200B;**[!UICONTROL 设置]**&#x200B;部分中的&#x200B;**[!UICONTROL 我的目标]**&#x200B;选项卡。 为要删除的目标选择&#x200B;**[!UICONTROL 删除]**&#x200B;选项。
 
@@ -53,4 +53,4 @@ ht-degree: 1%
 
 ## 后续步骤
 
-配置目标后，您可以开始与广告商协作，以在项目中[激活目标受众](../collaborate/activate.md)。
+配置目标后，您可以在连接内开始协作以激活项目中的[目标受众](../collaborate/activate.md)。

@@ -2,12 +2,12 @@
 title: 发现重叠并比较受众
 description: 发现与协作者受众之间的重叠。 了解如何发现可在营销活动中使用的最佳受众。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 >
 >**[!UICONTROL 发现]**&#x200B;工作区仅在连接过程&#x200B;**中启用了**&#x200B;受众发现[用例时才可用。 ](../connect/establishing-connections.md#connection-settings)有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
-在[创建项目](/help/guide/collaborate/manage-projects.md)之后，您可以将受众与协作者进行比较。 这有助于您识别营销活动的相关受众，并决定要将哪些受众发送给发布者进行激活。
+在[创建项目](/help/guide/collaborate/manage-projects.md)之后，您可以将受众与协作者进行比较。 这有助于您识别营销活动的相关受众，并决定要将哪些受众发送给协作者进行激活。
 
 >[!IMPORTANT]
 >
@@ -95,7 +95,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="相关受众"
->abstract="根据重叠百分比，这些受众可能非常适合您的营销活动。 <br><br> <b>身份计数</b>是协作者的受众大小。<br><br> <b>重叠身份</b>表示推荐受众与您的所有受众之间的重叠。 <br><br> <b>重叠%</b>表示重叠身份数除以您的受众<i>所有</i>的大小。"
+>abstract="根据重叠百分比，这些受众可能非常适合您的营销活动。<br><br><b>身份标识计数</b>是协作者的受众规模。<br><br> <b>重叠的身份标识</b>表示推荐受众与您的所有受众之间的重叠。<br><br><b>重叠率</b>是指重叠的身份标识数量除以您的<i>所有</i>受众的规模。"
 
 **[!UICONTROL 发现]**&#x200B;选项卡中的&#x200B;**[!UICONTROL 相关受众]**&#x200B;部分根据协作者受众与所有受众之间的重叠百分比，提供了前五个受众的策划列表。 此功能可帮助您快速识别重叠程度最高的受众，使您能够更有效地定位营销活动。 使用部分右上角的页面选择器，在相关受众之间切换。
 

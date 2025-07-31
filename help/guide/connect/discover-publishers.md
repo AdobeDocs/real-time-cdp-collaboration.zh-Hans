@@ -2,11 +2,11 @@
 title: 探索发布者
 description: 作为广告商，了解如何使用Adobe Real-Time CDP Collaboration发现潜在的出版商以进行协作
 audience: admin, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f38ed4ce-e4d2-46d3-b8fa-aa8d14f926e1
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 2%
 {{limited-availability-release-note}}
 
 在Adobe Real-Time CDP Collaboration中发现潜在的发布者并与之建立联系。 本指南提供了有关如何识别理想协作者并使用其受众增强营销活动的见解。
+
+>[!NOTE]
+>
+>目前，**[!UICONTROL Discover发布者]**&#x200B;工作区仅适用于广告商。
 
 要发现发布者，请转到&#x200B;**[!UICONTROL 连接]** > **[!UICONTROL 发现发布者]**&#x200B;选项卡。
 

@@ -2,12 +2,12 @@
 title: 配置和管理您的帐户
 description: 了解如何在Real-Time CDP Collaboration中配置和管理帐户的各个方面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 13%
+source-wordcount: '936'
+ht-degree: 18%
 
 ---
 
@@ -32,20 +32,18 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
 >title="联系电子邮件"
->abstract="请提供基于团队或角色的电子邮件，如&#x200B;**collaboration@yourcompany.com**。 不应使用私人或个人的电子邮件地址。"
+>abstract="请提供一个基于团队或角色的电子邮件地址，例如&#x200B;**collaboration@yourcompany.com**。不应使用私人或个人的电子邮件地址。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_connect_code"
 >title="连接代码"
->abstract="连接代码是您帐户的唯一标识符。 它用于与Real-Time CDP Collaboration中的其他协作者建立连接。"
-
-<!-- Move the above popover to new section for invite on this page when its created -->
+>abstract="连接代码是您帐户的唯一标识符。它用于在 Real-Time CDP Collaboration 中与其他协作者建立连接。"
 
 要开始配置帐户，必须首先设置帐户详细信息。 这要求您添加以下信息：
 
 * 添加明确代表您品牌的&#x200B;**[!UICONTROL 帐户名称]**。
 * 添加有关您品牌的&#x200B;**[!UICONTROL 描述]**。 虽然这是一项可选操作，但它有助于其他协作者更好地了解您的品牌。
-* 选择您的&#x200B;**[!UICONTROL 角色]**。 您可以选择介于&#x200B;**[!UICONTROL 广告商]**&#x200B;和&#x200B;**[!UICONTROL 发布者]**&#x200B;之间。 请阅读[端到端工作流文档](/help/guide/end-to-end-workflow.md)以了解两种组织角色类型之间工作流的相似之处和细微差异。
+* 选择您的&#x200B;**[!UICONTROL 角色]**。 您可以选择介于&#x200B;**[!UICONTROL 广告商]**&#x200B;和&#x200B;**[!UICONTROL 发布者]**&#x200B;之间。 阅读[角色](/help/guide/overview/roles.md)指南以了解两种帐户角色类型在工作流中的相似之处和细微差异。
 <!-- The above will need to be updated when I update things for B2B -->
 * 为您的帐户选择&#x200B;**[!UICONTROL 行业]**。 某些示例包括&#x200B;**[!UICONTROL 零售业]**、**[!UICONTROL 电信]**&#x200B;或&#x200B;**[!UICONTROL 金融服务]**。
 * 已根据您的Adobe Experience Cloud帐户自动设置&#x200B;**[!UICONTROL 地区]**。 此更改随时无法更改。
@@ -64,7 +62,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="匹配键"
->abstract="匹配键是用于协调来自不同数据源的受众成员的标识符。包含您的品牌可以使用的任何匹配键。"
+>abstract="匹配键是用于协调来自不同数据源的受众成员的标识符。包括您的品牌可以使用的任何匹配键。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"

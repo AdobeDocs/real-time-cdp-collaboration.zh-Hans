@@ -2,12 +2,12 @@
 title: 衡量绩效
 description: 衡量不同渠道中的促销活动效果。 了解如何使用和解读各种报表。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 18%
+source-wordcount: '575'
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 18%
 
 在访问Collaboration中的测量报表之前，您已：
 
-* [已连接](/help/guide/connect/establishing-connections.md)，其所需的广告商或发布者启用了&#x200B;**Measurement**&#x200B;用例，并开始在[项目](/help/guide/collaborate/manage-projects.md)上进行协作
+* [已连接](/help/guide/connect/establishing-connections.md)，协作者启用了&#x200B;**Measurement**&#x200B;用例，并且已开始在[个项目](/help/guide/collaborate/manage-projects.md)上进行协作
 * 运行活动并[将测量数据](/help/guide/setup/onboard-measurement-data.md)上传到Collaboration。
 
 <!--
@@ -104,9 +104,3 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 了解哪种媒介有助于提升您的创意印象。 这可以帮助您确定在将来的营销活动中要将广告支出投向何处。
 
 ![展示次数（按投放位置）。](/help/assets/collaborate/measure/impressions-by-placement.png)
-
-## 后续步骤
-
-![发现、激活、测量广告商。](/help/assets/end-to-end-workflow/discover-activate-measure.png)
-
-秉承上图中循环播放的精神，利用您在规划下一场营销活动时从查看报告获得的洞察力。 作为广告商，如有必要，请返回以发现不同的发布者，然后运行重叠来发现您的后续促销活动的不同受众。

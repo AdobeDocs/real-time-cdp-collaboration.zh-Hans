@@ -2,11 +2,11 @@
 title: 设计概述
 description: 了解Real-Time CDP Collaboration中的目标。
 audience: admin, publisher
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '328'
 ht-degree: 6%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 6%
 
 目标是指用于将目标受众发送到外部平台的集成。 通过这些集成，您可以跨各种营销渠道和平台激活受众，以用于营销活动和客户参与。
 
-目前，目标仅适用于Adobe Real-Time CDP Collaboration中的发布者。 发布者可以配置目标以将受众发送到外部平台，例如Adobe Experience Platform，以用于营销活动。 然后，广告商可以[激活项目](../collaborate/activate.md)中的受众，这些受众将发送到发布者的配置目标。
+协作者可以配置目标以将受众发送到外部平台，例如Adobe Experience Platform，以用于营销活动。 协作者随后可以[激活项目](../collaborate/activate.md)中的受众，这些受众将发送到其连接的配置目标。 根据连接[中配置的受众激活设置](/help/guide/connect/establishing-connections.md#configure-connection-settings)，激活可由协作者完成。
 
 >[!IMPORTANT]
 >
->目前，当广告商激活您项目中的受众时，它们会自动发送到发布者配置的目标。 作为发布者，您&#x200B;**必须**&#x200B;在&#x200B;*您的协作者激活受众之前，先配置目标*。 如果未配置目标，则受众将会发送给您，并显示在项目的&#x200B;**[!UICONTROL 激活]**&#x200B;选项卡中，但不会激活。
+>目前，当协作者在项目中激活受众时，会自动将其发送到其连接的配置目标。 您&#x200B;**必须**&#x200B;先配置目标，然后协作者才能在项目中激活受众。
 
 ## 配置目标 {#configure-destinations}
 
-要配置目标，请导航到&#x200B;**[!UICONTROL 安装程序]**，然后选择&#x200B;**[!UICONTROL 我的目标]**&#x200B;选项卡。 在这里，您可以查看所有可用的目标。
+要配置目标，请导航到&#x200B;**[!UICONTROL 设置]**，然后选择&#x200B;**[!UICONTROL 我的目标]**&#x200B;选项卡。 在这里，您可以查看所有可用的目标。
 
 >[!NOTE]
 >
