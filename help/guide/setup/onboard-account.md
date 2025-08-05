@@ -2,7 +2,7 @@
 title: 配置和管理您的帐户
 description: 了解如何在Real-Time CDP Collaboration中配置和管理帐户的各个方面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
@@ -32,7 +32,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
 >title="联系电子邮件"
->abstract="请提供一个基于团队或角色的电子邮件地址，例如&#x200B;**collaboration@yourcompany.com**。不应使用私人或个人的电子邮件地址。"
+>abstract="请提供一个基于团队或角色的电子邮件地址，例如 **collaboration@yourcompany.com**。不应使用私人或个人的电子邮件地址。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_connect_code"
