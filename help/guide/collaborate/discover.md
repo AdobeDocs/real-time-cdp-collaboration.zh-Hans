@@ -2,9 +2,9 @@
 title: 发现重叠并比较受众
 description: 发现与协作者受众之间的重叠。 了解如何发现可在营销活动中使用的最佳受众。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 76ad3357aa4cd02dbc0616e5d8bd03b03683b7fd
+source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 12%
@@ -188,6 +188,8 @@ ht-degree: 12%
 | 男性25-34岁 | (（70万/ 130万）/（12万/ 50万）) * 100 | 224 | 通过定位此受众，您获得SUV所有者的可能性比基线高出124%。 |
 | 技术爱好者 | (（50万/ 130万） / （8米/ 50米）) * 100 | 240 | 通过定位此受众，您获得SUV所有者的可能性比基线高出140%。 |
 
+{style="table-layout:auto"}
+
 为了更好地了解索引分数如何影响您的营销活动，将与分数一起提供相关性范围。
 
 ### 相关性区段 {#audience-index-relevance-bands}
@@ -201,6 +203,8 @@ ht-degree: 12%
 | 80 &lt; i &lt; 120 | 媒介 | 重叠在目标受众中和在您的受众中一样普遍，这显示了典型的关系。 使用此受众的客户平均可能会访问其目标受众。 |
 | 120 &lt; i &lt; 140 | 高 | 与您的受众相比，重叠现象在目标受众中更为普遍，表现出很强的关系。 使用此受众的客户更有可能接触到其目标受众。 |
 | i > 140 | 非常高 | 与您的受众相比，重叠在目标受众中更为普遍，这反映了非常牢固的关系。 使用此受众的客户更有可能接触到其目标受众。 |
+
+{style="table-layout:auto"}
 
 在发现重叠部分中，受众索引得分将与得分一起显示相关性范围。 得分将进行颜色编码以指示相关带，使得很容易一眼就识别关系的强度。 极低相关带和低相关带以橙色显示，中相关带以黑色显示，高相关带和极高相关带以绿色显示。
 
