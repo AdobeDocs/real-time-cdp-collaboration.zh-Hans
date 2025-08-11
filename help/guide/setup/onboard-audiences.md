@@ -2,12 +2,12 @@
 title: Source和管理受众
 description: 了解如何在Adobe Real-Time CDP Collaboration中获取和管理受众
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: 2f2a128f1591ac864d2ebef09c58ecc93bed8d98
 workflow-type: tm+mt
-source-wordcount: '2897'
-ht-degree: 18%
+source-wordcount: '2985'
+ht-degree: 17%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 18%
 >title="营销操作"
 >abstract="<p>使用营销操作来控制从 Experience Platform 向 Real-Time CDP Collaboration 导入哪些受众数据。<strong>数据协作</strong>营销操作支持 C4、C5 和 C9 数据使用标签。<strong>数据科学</strong>营销操作支持 C9 数据使用标签。</p> <p> <ul><li> <em>启用</em>该复选框后，Experience Platform 中标有上述标签的任何数据都会被排除，并且<strong>不</strong>被纳入 Real-Time CDP Collaboration。</li><li> <em>禁用</em>该复选框后，从 Experience Platform 导入 Real-Time CDP Collaboration 的数据不受限制。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hans" text="数据使用标签概述"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hans" text="数据使用标签词汇表"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="数据使用标签词汇表"
 
 >[!IMPORTANT]
 >
@@ -90,7 +90,7 @@ ht-degree: 18%
 
 使用营销操作可以控制要将哪些受众数据从Experience Platform引入Collaboration。 **[!UICONTROL 数据协作]**&#x200B;营销操作支持 C4、C5 和 C9 数据使用标签。**[!UICONTROL 数据科学]**&#x200B;营销操作支持 C9 数据使用标签。
 
-详细了解[C4、C5和C9数据使用标签](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
+详细了解[C4、C5和C9数据使用标签](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
 
 * 当复选框为&#x200B;***已启用***&#x200B;时，Experience Platform中标记如上所述的任何数据都将被排除，**不会**&#x200B;引入Collaboration。
 * 禁用复选框&#x200B;***后***，对来自Experience Platform的数据没有限制。
@@ -135,13 +135,13 @@ ht-degree: 18%
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="身份标识命名空间"
 >abstract="从 Experience Platform 组织中可用的标准的及自定义的身份标识命名空间中选择一个身份标识命名空间。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hans#standard" text="Experience Platform 中的标准和身份标识命名空间"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform 中的标准和身份标识命名空间"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="轮廓属性"
 >abstract="从 Experience Platform 中的轮廓类的联合架构中选择属性。此视图显示联合架构中存在的且属于 XDM 个人轮廓类的属性。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hans" text="Experience Platform 中的联合架构"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform 中的联合架构"
 
 接下来，您将选择要映射到Collaboration中目标字段的源字段。
 
@@ -331,7 +331,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="元数据可见性"
->abstract="<p>说明其他协作者在与您连接之前或在项目视图中可以看到哪些受众的元数据。</p> <p> **身份标识计数**&#x200B;决定了您的协作者在“发现”选项卡中查看重叠报告时是否可以看到您受众的身份标识计数。**受众重叠率**&#x200B;控制了协作者是否能够发现他们的受众与您的受众之间的重叠百分比。"
+>abstract="<p>说明其他协作者在与您连接之前或在项目视图中可以看到哪些受众的元数据。</p> <p> **身份计数**&#x200B;控制您的协作者在发现选项卡中查看重叠报表时是否可以查看受众的身份计数。</p><p> **受众重叠率**&#x200B;控制了协作者是否能够发现他们的受众与您的受众之间的重叠百分比。</p><p> **[!UICONTROL 受众索引]**&#x200B;控制协作者是否可以查看项目中的受众索引。 仅当您有三个或更多活动受众时，此功能才可用。</p> <br>要使元数据可见性设置生效，必须将受众设置为公共或自定义。"
 
 >[!NOTE]
 >
@@ -346,6 +346,12 @@ ht-degree: 18%
 **[!UICONTROL 显示身份计数]**：此设置控制当[在项目的“发现”选项卡](/help/guide/collaborate/discover.md#discover-overlaps)中查看重叠报告时，您的协作者是否可以查看受众的身份计数。
 
 **[!UICONTROL 显示受众重叠%]**：此设置控制协作者是否能够在其受众和您的受众之间[发现重叠百分比](/help/guide/collaborate/discover.md#compare-audiences)。
+
+**[!UICONTROL 受众索引]**：设置为true时，您的协作者可以查看项目中的[受众索引](/help/guide/collaborate/discover.md#audience-index-score)。 仅当您有三个或更多活动受众时，此功能才可用。
+
+>[!NOTE]
+>
+>要使元数据可见性设置生效，必须将受众设置为“公用”或“自定义”。
 
 ![显示具有可用选项的“元数据可见性”对话框。](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
 
