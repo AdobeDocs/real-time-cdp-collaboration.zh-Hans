@@ -2,12 +2,12 @@
 title: 发现重叠并比较受众
 description: 发现与协作者受众之间的重叠。 了解如何发现可在营销活动中使用的最佳受众。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
@@ -161,14 +161,14 @@ ht-degree: 12%
 
 {style="table-layout:auto"}
 
-## 受众索引得分 {#audience-index-score}
+## 受众指数分数 {#audience-index-score}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_audience_index_score"
->title="受众索引得分"
->abstract="受众索引得分是一个细微的指标，可根据基础受众计数和重叠情况显示一个受众与另一个受众之间的关联程度。 原始索引得分被转换为相关性区段，该相关性区段对受众索引得分从非常低到非常高进行分类。 这使您能够快速评估受众与协作者的受众之间的关系强度。"
+>title="受众指数分数"
+>abstract="受众指数分数是一个精细的量度，显示了以受众数量和重叠度为基础的一个受众与另一个受众之间的关联强度。原始指数分数被转换为相关性范围，此范围将受众指数分数划分为从非常低到非常高的不同类别。这使您可以快速评估您的受众与协作者的受众之间的关联强度。"
 
-受众索引得分是一个细微的指标，可根据基础受众计数和重叠情况显示一个受众与另一个受众之间的关联程度。 这有助于使受众见解符合情境，并确定潜在受众和营销活动定位的潜在受众。
+受众指数分数是一个精细的量度，显示了以受众数量和重叠度为基础的一个受众与另一个受众之间的关联强度。这有助于使受众见解符合情境，并确定潜在受众和营销活动定位的潜在受众。
 
 使用以下公式计算索引得分：
 
@@ -194,7 +194,7 @@ ht-degree: 12%
 
 ### 相关性区段 {#audience-index-relevance-bands}
 
-为了能够轻松地对不同受众和营销活动进行比较，Collaboration将索引分数转换为相关性范围（从很低到很高）。 这使您能够快速评估受众与协作者的受众之间的关系强度。
+为了能够轻松地对不同受众和营销活动进行比较，Collaboration将索引分数转换为相关性范围（从很低到很高）。 这使您可以快速评估您的受众与协作者的受众之间的关联强度。
 
 | 索引得分(i) | 相关性范围 | 描述 |
 |---------|----------|-----------|
