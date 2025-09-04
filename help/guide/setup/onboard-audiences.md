@@ -2,12 +2,12 @@
 title: Source和管理受众
 description: 了解如何在Adobe Real-Time CDP Collaboration中获取和管理受众
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 2f2a128f1591ac864d2ebef09c58ecc93bed8d98
+source-git-commit: 4f1582b489d99e9e8257c3808ec5863dbc74ef7a
 workflow-type: tm+mt
-source-wordcount: '2985'
-ht-degree: 19%
+source-wordcount: '3277'
+ht-degree: 15%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 19%
 {{limited-availability-release-note}}
 
 受众是根据各种属性划分的特定用户或客户组。 通过这些功能，协作者可共同创作有针对性的营销和个性化体验，从而更有效地开展广告促销活动。 本指南介绍如何在Real-Time CDP Collaboration中获取受众、查看受众仪表板以及管理单个受众。
-
->[!BEGINSHADEBOX]
-
-您可以在此文档页面上找到以下内容：
-
-* [将Source受众引入Collaboration](#source-audiences)
-* [查看受众仪表板](#view-audiences-dashboard)
-* [查看单个受众](#view-individual-audiences)
-
->[!ENDSHADEBOX]
 
 ## 将Source受众引入Collaboration {#source-audiences}
 
@@ -46,7 +36,7 @@ ht-degree: 19%
 >title="营销操作"
 >abstract="<p>使用营销操作来控制从 Experience Platform 向 Real-Time CDP Collaboration 导入哪些受众数据。<strong>数据协作</strong>营销操作支持 C4、C5 和 C9 数据使用标签。<strong>数据科学</strong>营销操作支持 C9 数据使用标签。</p> <p> <ul><li> <em>启用</em>该复选框后，Experience Platform 中标有上述标签的任何数据都会被排除，并且<strong>不</strong>被纳入 Real-Time CDP Collaboration。</li><li> <em>禁用</em>该复选框后，从 Experience Platform 导入 Real-Time CDP Collaboration 的数据不受限制。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hans" text="数据使用标签概述"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hans" text="数据使用标签词汇表"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="数据使用标签词汇表"
 
 >[!IMPORTANT]
 >
@@ -90,7 +80,7 @@ ht-degree: 19%
 
 使用营销操作可以控制要将哪些受众数据从Experience Platform引入Collaboration。 **[!UICONTROL 数据协作]**&#x200B;营销操作支持 C4、C5 和 C9 数据使用标签。**[!UICONTROL 数据科学]**&#x200B;营销操作支持 C9 数据使用标签。
 
-详细了解[C4、C5和C9数据使用标签](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
+详细了解[C4、C5和C9数据使用标签](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
 
 * 当复选框为&#x200B;***已启用***&#x200B;时，Experience Platform中标记如上所述的任何数据都将被排除，**不会**&#x200B;引入Collaboration。
 * 禁用复选框&#x200B;***后***，对来自Experience Platform的数据没有限制。
@@ -135,13 +125,13 @@ ht-degree: 19%
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="身份标识命名空间"
 >abstract="从 Experience Platform 组织中可用的标准的及自定义的身份标识命名空间中选择一个身份标识命名空间。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hans#standard" text="Experience Platform 中的标准和身份标识命名空间"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform 中的标准和身份标识命名空间"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="轮廓属性"
 >abstract="从 Experience Platform 中的轮廓类的联合架构中选择属性。此视图显示联合架构中存在的且属于 XDM 个人轮廓类的属性。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hans" text="Experience Platform 中的联合架构"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform 中的联合架构"
 
 接下来，您将选择要映射到Collaboration中目标字段的源字段。
 
@@ -214,10 +204,13 @@ ht-degree: 19%
 
 在来源补充受众后，**[!UICONTROL 我的受众]**&#x200B;工作区会显示当前来源于Collaboration的所有受众。
 
+![我的受众工作区显示所有来源受众。](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
+
 每个受众都包含以下信息的概述：
 
 | 项目 | 描述 |
 |----------|---------|
+| **[!UICONTROL 名称]** | 受众的名称。 |
 | **[!UICONTROL 标识]** | 指示此受众中存在的身份数。 请注意，如果同一配置文件具有两个或更多身份，并且这些身份在项目中被用作匹配键，则该配置文件将在计数中显示两次。 |
 | **[!UICONTROL 状态]** | 指示受众是否处于活动状态以及是否可以在项目中使用。 **[!UICONTROL Pending]**&#x200B;状态表示受众最近刚获得来源，并且身份尚未填充。 初次刷新后（通常在数据连接设置后的24小时内刷新），源受众将填充用户档案。 |
 | **[!UICONTROL Source]** | 指示受众源自何处。 在Collaboration的当前版本中，Experience Platform是唯一受支持的源。 |
@@ -225,8 +218,6 @@ ht-degree: 19%
 | **[!UICONTROL 连接访问]** | 定义受众是私有还是公共。 公共受众可在重叠报表中找到，并可在项目中激活。 |
 | **[!UICONTROL 已创建]** | 指示受众最初来源于Collaboration的时间。 |
 | **[!UICONTROL 上次更新时间]** | 指示在Collaboration中更新受众的最后日期和时间。 这并非指上次刷新受众的时间，而是指上次更改受众配置或元数据的时间。 |
-
-![我的受众工作区显示所有来源受众。](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
 
 要对受众执行快速操作，请选择受众名称旁边的省略号&#x200B;**...**。 可以使用以下选项：
 
@@ -237,7 +228,7 @@ ht-degree: 19%
 
 ## 查看单个受众 {#view-individual-audiences}
 
-要查看单个受众的更多信息并编辑其配置，请从&#x200B;**[!UICONTROL 我的受众]**&#x200B;工作区中选择该受众。 受众工作区显示有关所选受众的详细信息，包括其详细信息、标识、类别、连接访问和元数据可视化设置。
+要查看和更新单个受众的信息，请从&#x200B;**[!UICONTROL 我的受众]**&#x200B;工作区中选择受众。 受众工作区显示有关所选受众的详细信息，包括其详细信息、标识、类别、连接访问和元数据可见性设置。
 
 ### 受众详情
 
@@ -255,32 +246,22 @@ ht-degree: 19%
 
 ![单个受众的工作区。](/help/assets/setup/add-manage-audiences/audience-details.png)
 
-此外，受众工作区中还提供以下控件：
-
-* **[!UICONTROL 删除]**：从数据连接中删除受众。
-* **[!UICONTROL 编辑]**：编辑受众的名称或描述。
-
-![突出显示了“编辑并删除”选项的单个受众的工作区。](/help/assets/setup/add-manage-audiences/audience-details-edit-delete.png)
-
-接下来，您可以在受众的工作区中更新以下部分：
-
-* [身份标识](#identities)
-* [类别](#categories)
-* [连接访问权限](#connection-access)
-* [元数据可见性](#metadata-visibility)
-
-### 身份标识 {#identities}
+#### 身份标识 {#identities}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="身份标识"
->abstract="展示构成该受众的身份标识明细视图，并显示每类身份标识所对应的轮廓总数。"
+>abstract="组成此受众的身份的划分视图，用匹配键分隔。"
 
-**[!UICONTROL 身份]**&#x200B;部分指示受众中存在的配置文件数，其中包含您在获取受众时选择的任意身份。 部分还包含身份细分，以便您分辨哪些身份构成了最多的受众群体。
+**[!UICONTROL Identities]**&#x200B;部分指示受众中存在的身份数。 部分还包含按匹配键对身份进行的身份细分，以帮助您了解受众的组成。
 
 ![单个受众工作区的“身份”部分。](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
 
-### 类别 {#categories}
+将鼠标悬停在匹配键划分的各个部分上将会提供有关键的准确身份计数。
+
+![显示具有匹配键的划分的个人受众工作区的“身份”部分。](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+
+#### 类别 {#categories}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
@@ -297,14 +278,14 @@ ht-degree: 19%
 
 ![显示具有可用类别的“类别”对话框。](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
 
-### 连接访问权限 {#connection-access}
+#### 连接访问权限 {#connection-access}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="连接访问权限"
->abstract="<p>受众可以分为三种类型：公共、私人和自定义。</p><p> 它们在与协作者合作的项目中是否可用取决于连接访问权限设置。您始终可以将连接访问权限从私有更改为公开，但一旦与协作者共同激活了某个受众，该设置将无法恢复为私有。</p>"
+>abstract="<p>受众可以分为三种类型：公共、私人和自定义。</p><p> 根据连接访问设置，它们在与协作者一起使用的项目中的可用性有所不同。</p>"
 
-与协作者一起使用的项目中的受众可用性因连接访问设置而异。 在&#x200B;**[!UICONTROL 连接访问]**&#x200B;部分中，您可以选择受众是私有还是公用。 公共受众在连接中可用且可发现。
+与协作者一起使用的项目中的受众可用性因连接访问设置而异。 在&#x200B;**[!UICONTROL 连接访问]**&#x200B;部分中，您可以选择受众是私有受众、公共受众还是仅适用于特定连接。 公共受众在连接中可用且可发现。
 
 要更新受众的连接访问权限，请在&#x200B;**[!UICONTROL 连接访问]**&#x200B;部分中选择&#x200B;**[!UICONTROL 编辑]**&#x200B;选项。
 
@@ -324,9 +305,9 @@ ht-degree: 19%
 >
 >无论访问状态（公用、专用或自定义）如何，任何受众的群体都会为项目中&#x200B;**[!UICONTROL 比较受众]**&#x200B;分区的&#x200B;**[!UICONTROL 所有受众]**&#x200B;群体贡献内容。
 
-与协作者一起使用的项目中的受众可用性因连接访问设置而异。 您始终可以将连接访问权限从专用更改为公用，但一旦激活受众，您就无法再更改此设置。
+与协作者一起使用的项目中的受众可用性因连接访问设置而异。
 
-### 元数据可见性 {#metadata-visibility}
+#### 元数据可见性 {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
@@ -339,7 +320,7 @@ ht-degree: 19%
 
 元数据可见性表示受众的元数据在其他协作者与您连接之前或在不同的项目视图中是否可见。 要更新受众的元数据可见性，请选择&#x200B;**[!UICONTROL 元数据可见性]**&#x200B;部分中的&#x200B;**[!UICONTROL 编辑]**&#x200B;选项。
 
-![单个受众工作区的“元数据可见性”部分。](/help/assets/setup/add-manage-audiences/audience-details-metadata.png)
+![单个受众工作区的“元数据可见性”部分。](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png)
 
 将显示&#x200B;**[!UICONTROL 元数据可见性]**&#x200B;对话框，允许您配置受众的可见性设置。 您可以为每个受众配置两个元数据可见性设置：
 
@@ -354,6 +335,52 @@ ht-degree: 19%
 >要使元数据可见性设置生效，必须将受众设置为“公用”或“自定义”。
 
 ![显示具有可用选项的“元数据可见性”对话框。](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+## 编辑多个受众 {#edit-audiences}
+
+在受众仪表板中，您可以同时编辑多个受众。 要执行此操作，请选中要编辑的受众名称旁边的复选框。 选择受众后，您可以使用编辑菜单中提供的选项执行操作。
+
+![选定了两个受众且编辑菜单突出显示的我的受众工作区。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit.png)
+
+### 批量编辑元数据可见性 {#bulk-edit-metadata-visibility}
+
+在受众仪表板中选择受众后，从编辑菜单中选择&#x200B;**[!UICONTROL 编辑元数据可见性]**。
+
+![突出显示了“编辑元数据可见性”选项的“我的受众”工作区。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
+
+此时将显示&#x200B;**[!UICONTROL 元数据可见性]**&#x200B;对话框，允许您配置所选受众的可见性设置。 默认情况下，不会选择任何选项。 选择要应用于所有选定受众的选项，然后选择&#x200B;**[!UICONTROL 保存]**。
+
+![显示具有可用选项的“元数据可见性”对话框。](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+### 批量编辑连接访问权限 {#bulk-edit-connection-access}
+
+在受众仪表板中选择受众后，从编辑菜单中选择&#x200B;**[!UICONTROL 编辑连接访问权限]**。
+
+![突出显示具有“编辑连接”访问权限选项的“我的受众”工作区。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
+
+将显示&#x200B;**[!UICONTROL 连接访问]**&#x200B;对话框，允许您为所选受众配置访问设置。 默认情况下，将选择&#x200B;**[!UICONTROL 专用受众]**&#x200B;选项。 选择要应用于所有选定受众的选项，然后选择&#x200B;**[!UICONTROL 保存]**。
+
+![显示具有可用选项的“连接访问”对话框。](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+
+### 批量编辑受众名称和描述 {#bulk-edit-audience-names-descriptions}
+
+在受众仪表板中选择受众后，从编辑菜单中选择&#x200B;**[!UICONTROL 编辑名称和描述]**。
+
+![突出显示了“编辑名称和描述”选项的“我的受众”工作区。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
+
+**[!UICONTROL 名称和描述]**&#x200B;对话框出现，允许您为每个选定的受众配置名称和描述。 默认情况下，将显示每个受众的当前名称和描述。 进行更改，然后选择&#x200B;**[!UICONTROL 保存]**。
+
+![显示具有可用选项的“名称和描述”对话框。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
+
+### 批量编辑类别 {#bulk-edit-categories}
+
+在受众仪表板中选择受众后，从编辑菜单中选择&#x200B;**[!UICONTROL 编辑类别]**。
+
+![突出显示了“编辑类别”选项的“我的受众”工作区。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+
+将显示&#x200B;**[!UICONTROL 类别]**&#x200B;对话框，允许您为每个所选受众配置类别。 默认情况下，不会选择任何类别。 要选择类别，请先选择主类别，然后选择要包含的子类别。 进行更改，然后选择&#x200B;**[!UICONTROL 保存]**。
+
+![显示具有可用选项的“类别”对话框。](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
 ## 后续步骤
 
