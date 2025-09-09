@@ -2,9 +2,9 @@
 title: 发现重叠并比较受众
 description: 发现与协作者受众之间的重叠。 了解如何发现可在营销活动中使用的最佳受众。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
+source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 17%
@@ -197,7 +197,7 @@ ht-degree: 17%
 为了能够轻松地对不同受众和营销活动进行比较，Collaboration将索引分数转换为相关性范围（从很低到很高）。 这使您可以快速评估您的受众与协作者的受众之间的关联强度。
 
 | 索引得分(i) | 相关性范围 | 描述 |
-|---------|----------|-----------|
+|---------------|----------|-----------|
 | i &lt; 60 | 非常低 | 与您的受众相比，重叠在目标受众中较少发生，这表明关系非常薄弱。 使用此受众的客户访问其目标受众的可能性要低得多。 |
 | 60 &lt; i &lt; 80 | 低 | 与您的受众相比，重叠在目标受众中不太普遍，这表明关系薄弱。 使用此受众的客户访问其目标受众的可能性较小。 |
 | 80 &lt; i &lt; 120 | 媒介 | 重叠在目标受众中和在您的受众中一样普遍，这显示了典型的关系。 使用此受众的客户平均可能会访问其目标受众。 |

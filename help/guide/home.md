@@ -2,9 +2,9 @@
 title: 概述
 description: 了解如何使用Adobe Real-Time Customer Data Platform (CDP) Collaboration发现、激活和衡量高价值受众，而无需依赖第三方Cookie。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: fa58c5396011e6d3e7cbc5bd65844f69a9cc3f97
+source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 借助Adobe Real-Time CDP Collaboration，您可以发现、激活和衡量高价值受众，而无需依赖第三方Cookie。 此解决方案支持高级数据协作，可帮助您在以隐私为中心的集中式环境中创建个性化的、有影响力的客户体验。
 
-![Real-Time CDP Collaboration设置页面，显示组织。](/help/assets/overview/set-up.png){zoomable="yes"}
+![Real-Time CDP Collaboration设置页面，显示组织。](/help/assets/overview/home.png){zoomable="yes"}
 
 ## 通过可信合作伙伴识别受众
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 ## 资源
 
-浏览[术语表](/help/guide/glossary.md)以了解有关产品中所用术语的详细信息。 如需支持，请访问Adobe [客户支持](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=open-ticket#support){target="_blank"}页面。
+浏览[术语表](/help/guide/glossary.md)以了解有关产品中所用术语的详细信息。 如需支持，请访问Adobe [客户支持](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"}页面。
 
 ## 联系我们
 

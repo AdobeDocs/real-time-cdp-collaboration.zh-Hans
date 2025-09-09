@@ -2,12 +2,12 @@
 title: Source和管理受众
 description: 了解如何在Adobe Real-Time CDP Collaboration中获取和管理受众
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 4f1582b489d99e9e8257c3808ec5863dbc74ef7a
+source-git-commit: 425bcb6b8069dfca17838d05b6a91250293c8308
 workflow-type: tm+mt
-source-wordcount: '3277'
-ht-degree: 15%
+source-wordcount: '3508'
+ht-degree: 12%
 
 ---
 
@@ -27,24 +27,24 @@ ht-degree: 15%
 
 从&#x200B;**[!UICONTROL 设置]**&#x200B;工作区的&#x200B;**[!UICONTROL 我的受众]**&#x200B;选项卡中，选择添加图标（![添加图标）。](/help/assets/icons/plus.png))，然后选择&#x200B;**[!UICONTROL 受众]**。 如果这是您的第一个受众，您还可以选择&#x200B;**[!UICONTROL 添加]选项**。
 
-![突出显示了“添加”选项和“受众”选项的“我的受众”工作区。](/help/assets/setup/add-manage-audiences/add-audiences.png)
+![突出显示了“添加”选项和“受众”选项的“我的受众”工作区。](/help/assets/setup/add-manage-audiences/add-audiences.png){zoomable="yes"}
 
 ### 选择数据连接 {#select-data-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="营销操作"
->abstract="<p>使用营销操作来控制从 Experience Platform 向 Real-Time CDP Collaboration 导入哪些受众数据。<strong>数据协作</strong>营销操作支持 C4、C5 和 C9 数据使用标签。<strong>数据科学</strong>营销操作支持 C9 数据使用标签。</p> <p> <ul><li> <em>启用</em>该复选框后，Experience Platform 中标有上述标签的任何数据都会被排除，并且<strong>不</strong>被纳入 Real-Time CDP Collaboration。</li><li> <em>禁用</em>该复选框后，从 Experience Platform 导入 Real-Time CDP Collaboration 的数据不受限制。</li></ul></p>"
+>abstract="<p>使用营销操作来控制从 Experience Platform 向 Real-Time CDP Collaboration 导入哪些受众数据。<strong>数据协作</strong>营销操作支持 C4、C5 和 C9 数据使用标签。<strong>数据科学</strong>营销操作支持 C9 数据使用标签。</p> <p> <ul><li> <em>启用</em>该复选框后，Experience Platform 中标有上述标签的任何数据都会被排除，并且<strong>不</strong>被纳入 Real-Time CDP Collaboration。</li><li> 如果选中复选框<em>已禁用</em>，则对可从Experience Platform获取到Real-Time CDP Collaboration的数据不做任何限制。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hans" text="数据使用标签概述"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hans" text="数据使用标签词汇表"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="数据使用标签词汇表"
 
 >[!IMPORTANT]
 >
->在建立到您的第一个数据连接并导入第一个受众后，您可以从现有数据连接导入多个受众。 添加其他受众时，您将从[选择受众](#select-audiences)步骤开始，因为数据连接已建立。
+>在建立您的第一个数据连接并获取您的第一个受众后，您可以从现有数据连接获取多个受众。 添加其他受众时，您将从[选择受众](#select-audiences)步骤开始，因为数据连接已建立。
 
 数据连接是从中获取受众的数据源。 目前，唯一支持的数据连接是Adobe Experience Platform。
 
-您为数据连接配置的任何设置（例如计划）都会应用于来自此数据连接的所有受众。
+您为数据连接配置的任何设置都将应用于来自此数据连接的所有受众。
 
 >[!TIP]
 >
@@ -52,7 +52,7 @@ ht-degree: 15%
 
 要开始添加数据连接，请选择&#x200B;**[!UICONTROL 添加新数据连接]**，然后选择&#x200B;**[!UICONTROL 下一步]**。
 
-![突出显示了“添加新数据连接”选项的“添加受众”工作区。](/help/assets/setup/add-manage-audiences/add-data-connection.png)
+![突出显示了“添加新数据连接”选项的“添加受众”工作区。](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
 #### 选择数据源
 
@@ -64,15 +64,15 @@ ht-degree: 15%
 * **Snowflake**（未来版本）：使用Snowflake数据仓库无缝提取受众数据。
 * **Google Cloud Platform**（未来版本）：连接到Google Cloud Storage，以直接从GCS存储桶获取受众数据。
 
-选择您的数据源，然后选择&#x200B;**[!UICONTROL 下一步]**。
+选择数据源，然后选择&#x200B;**[!UICONTROL 下一步]**。
 
-![突出显示了Adobe Experience Platform选项的“添加受众”工作区。](/help/assets/setup/add-manage-audiences/select-data-connection-source.png)
+![突出显示了Adobe Experience Platform选项的“添加受众”工作区。](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
 #### 选择沙盒
 
-选择数据源后，必须选择沙盒，其中包含您要使用Collaboration的受众。 从可用沙盒列表中选择沙盒，然后选择&#x200B;**[!UICONTROL 下一步]**
+选择数据源后，必须选择沙盒，其中包含要用于Collaboration的受众。 从可用沙盒列表中选择沙盒，然后选择&#x200B;**[!UICONTROL 下一步]**
 
-![已选中沙盒的“添加受众”工作区。](/help/assets/setup/add-manage-audiences/select-sandbox.png)
+![已选中沙盒的“添加受众”工作区。](/help/assets/setup/add-manage-audiences/select-sandbox.png){zoomable="yes"}
 
 #### 治理策略和执行操作 {#governance-policy-and-enforcement-actions}
 
@@ -80,7 +80,7 @@ ht-degree: 15%
 
 使用营销操作可以控制要将哪些受众数据从Experience Platform引入Collaboration。 **[!UICONTROL 数据协作]**&#x200B;营销操作支持 C4、C5 和 C9 数据使用标签。**[!UICONTROL 数据科学]**&#x200B;营销操作支持 C9 数据使用标签。
 
-详细了解[C4、C5和C9数据使用标签](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
+详细了解[C4、C5和C9数据使用标签](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
 
 * 当复选框为&#x200B;***已启用***&#x200B;时，Experience Platform中标记如上所述的任何数据都将被排除，**不会**&#x200B;引入Collaboration。
 * 禁用复选框&#x200B;***后***，对来自Experience Platform的数据没有限制。
@@ -92,17 +92,17 @@ ht-degree: 15%
 
 此外，您还需要选择同意规则以应用于源自Collaboration的数据。
 
-![位于治理策略和执行操作部分的“添加受众”工作区。](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
+![位于治理策略和执行操作部分的“添加受众”工作区。](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}
 
 选择营销操作和同意规则后，选择&#x200B;**[!UICONTROL 下一步]**&#x200B;以继续执行下一步。 将出现一个确认对话框，要求您接受条款。 选中该复选框，然后选择&#x200B;**[!UICONTROL 确定]**&#x200B;进行确认。
 
-![选中了复选框和“确定”选项的“治理策略和执行操作”对话框。](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png)
+![选中了复选框和“确定”选项的“治理策略和执行操作”对话框。](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
 ### 提供详细信息
 
 接下来，提供数据连接的名称和描述。 此信息将帮助您以后识别数据连接。
 
-![添加受众工作区，可选择提供名称和描述。](/help/assets/setup/add-manage-audiences/data-connection-details.png)
+![添加受众工作区，可选择提供名称和描述。](/help/assets/setup/add-manage-audiences/data-connection-details.png){zoomable="yes"}
 
 ### 映射字段 {#map-fields}
 
@@ -114,7 +114,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="目标字段"
->abstract="目前，经过哈希处理的电子邮件是唯一受支持的匹配键。"
+>abstract="目标字段是在帐户设置期间选择的匹配键。 默认情况下，您选择的所有匹配键均可用。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -125,47 +125,59 @@ ht-degree: 15%
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="身份标识命名空间"
 >abstract="从 Experience Platform 组织中可用的标准的及自定义的身份标识命名空间中选择一个身份标识命名空间。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hans#standard" text="Experience Platform 中的标准和身份标识命名空间"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform 中的标准和身份标识命名空间"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="轮廓属性"
->abstract="从 Experience Platform 中的轮廓类的联合架构中选择属性。此视图显示联合架构中存在的且属于 XDM 个人轮廓类的属性。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hans" text="Experience Platform 中的联合架构"
+>abstract="从Experience Platform中Profile类的合并架构中选择属性。 此视图显示合并架构中存在的属于XDM Individual Profile类的属性。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform 中的联合架构"
 
-接下来，您将选择要映射到Collaboration中目标字段的源字段。
+接下来，您将选择要映射到Collaboration中目标字段的源字段。 可用的目标字段将基于您在帐户设置期间选择的匹配键。
 
-![添加受众工作区，可选择将源字段映射到目标字段。](/help/assets/setup/add-manage-audiences/add-map-fields.png)
+>[!IMPORTANT]
+>
+>目前，您无法编辑数据连接以包含新的映射字段。 如果在创建数据连接后向帐户中添加新的匹配键，则需要创建新数据连接以映射到它们。
+
+![添加受众工作区，可选择将源字段映射到目标字段。](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
 >[!TIP]
 >
->您可以将多个源字段映射到同一个目标字段。 例如，如果您在Experience Platform中的两个单独字段中包含电子邮件地址，则可以将每个地址映射到&#x200B;**[!UICONTROL 哈希电子邮件]**&#x200B;目标字段，作为两个单独的行。
+>您可以将多个源字段映射到同一个目标字段。 例如，如果您在Experience Platform中的两个单独字段中包含电子邮件地址，则可以将每个地址映射到&#x200B;**[!UICONTROL 哈希电子邮件]**&#x200B;目标字段，作为两个单独的行。 使用&#x200B;**[!UICONTROL 添加字段]**&#x200B;选项添加其他映射行。
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source字段]**&#x200B;是Experience Platform中的身份命名空间和属性。 这些是身份如何在您从中获取数据的平台中存在。 Source字段会被映射到Collaboration中定义的目标字段。
+**[!UICONTROL Source字段]**&#x200B;是Experience Platform中的身份命名空间和属性。 这些命名空间包括[标准](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard){target="_blank"}和[自定义](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}身份命名空间。 它们还包含[联合架构](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html){target="_blank"}中存在的属于XDM个人资料类的个人资料属性。
 
-**[!UICONTROL 目标字段]**&#x200B;指示标识在Collaboration中的引用方式。 目前，经过哈希处理的电子邮件是唯一受支持的匹配键。
+Source字段会被映射到Collaboration中定义的目标字段。
 
-当您从源导入&#x200B;**[!UICONTROL 非散列]**&#x200B;字段时，请使用&#x200B;*应用转换*&#x200B;选项。 在这种情况下，Collaboration将应用哈希并转换字段。 Adobe使用的哈希算法是SHA256。
+**[!UICONTROL 目标字段]**&#x200B;指示标识在Collaboration中的引用方式。 目标字段是在帐户设置期间选择的匹配键。 默认情况下，您选择的所有匹配键均可用。
+
+当您将&#x200B;**[!UICONTROL 非哈希]**&#x200B;字段获取到哈希字段时，请使用&#x200B;*应用转换*&#x200B;选项。 Collaboration将应用哈希处理并转换字段。 Adobe使用的哈希算法是SHA256。
 
 >[!ENDSHADEBOX]
 
-选择目标字段旁边的空源字段。 将显示&#x200B;**[!UICONTROL 选择源字段]**&#x200B;对话框。 在&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;和&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;选项之间选择以查找所需的源字段，然后从列表中选择该字段。 您还可以使用搜索选项查找所需字段。
+要开始映射字段，请选择目标字段旁边的空源字段。 将显示&#x200B;**[!UICONTROL 选择源字段]**&#x200B;对话框。 在&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;和&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;选项之间选择以查找所需的源字段，然后从列表中选择该字段。 您还可以使用搜索选项查找所需字段。
 
-![显示电子邮件选项的“选择源字段”对话框。](/help/assets/setup/add-manage-audiences/select-source-field.png)
+![显示电子邮件选项的“选择源字段”对话框。](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-若要处理多个电子邮件字段，请使用&#x200B;**[!UICONTROL 应用转换]**&#x200B;映射非散列电子邮件源字段。
+若要处理将非哈希字段源补充到哈希目标字段，请使用&#x200B;**[!UICONTROL 应用转换]**&#x200B;选项。 例如，要添加第二个电子邮件字段，请选择&#x200B;**[!UICONTROL 添加字段]**&#x200B;选项以添加新行，然后为目标字段选择&#x200B;**[!UICONTROL 散列电子邮件]**。 选择一个非散列电子邮件源字段，然后选择&#x200B;**[!UICONTROL 应用转换]**。
 
-![将电子邮件源字段映射到目标字段的“添加受众”工作区中的“应用”转换打开。](/help/assets/setup/add-manage-audiences/apply-transformation.png)
+![将电子邮件源字段映射到目标字段的“添加受众”工作区中的“应用”转换打开。](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
-根据需要继续添加映射对，然后选择&#x200B;**[!UICONTROL 下一步]**。
+继续为每个目标字段添加映射对。 如果您不想使用匹配键，可以使用字段旁边的删除（![删除图标](/help/assets/icons/delete.png)）图标将其删除。 如果删除了匹配键，则在从连接采购任何受众时，您将无法使用该匹配键。
+
+![添加受众工作区，在突出显示的目标字段旁边具有删除选项。](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+
+完成字段映射后，选择&#x200B;**[!UICONTROL 下一步]**&#x200B;以继续。
+
+![“添加受众”工作区中填写了映射字段，并且突出显示了“下一步”选项。](/help/assets/setup/add-manage-audiences/confirm-field-mapping.png){zoomable="yes"}
 
 ### 计划 {#schedule}
 
 接下来，安排何时开始和结束填充受众。 受众将按照此计划进行刷新。
 
-![显示计划选项的“添加受众”工作区。](/help/assets/setup/add-manage-audiences/audience-scheduling.png)
+![显示计划选项的“添加受众”工作区。](/help/assets/setup/add-manage-audiences/audience-scheduling.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -173,11 +185,11 @@ ht-degree: 15%
 
 从&#x200B;**[!UICONTROL 频率]**&#x200B;下拉列表中选择受众刷新频率。
 
-![打开“频率”下拉菜单的“添加受众计划”工作区。](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png)
+![打开“频率”下拉菜单的“添加受众计划”工作区。](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png){zoomable="yes"}
 
 接下来，选择&#x200B;**[!UICONTROL 日期范围]**。 开始日期是受众开始填充用户档案的日期，结束日期是受众停止刷新时的日期。
 
-![显示了“添加受众计划工作区”中的“日期范围”选项。](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png)
+![显示了“添加受众计划工作区”中的“日期范围”选项。](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -185,15 +197,15 @@ ht-degree: 15%
 
 ### 选择受众 {#select-audiences}
 
-选择受众源后，您将选择要包含的特定受众。 使用搜索和筛选选项从数据源查找相关受众。 选择所需的受众，然后选择&#x200B;**[!UICONTROL 下一步]**。
+选择受众源后，您将选择要包含的特定受众。 使用搜索和筛选选项从数据连接中查找相关受众。 选择所需的受众，然后选择&#x200B;**[!UICONTROL 下一步]**。
 
-![包含可用受众列表的添加受众工作区。](/help/assets/setup/add-manage-audiences/select-audience.png)
+![包含可用受众列表的添加受众工作区。](/help/assets/setup/add-manage-audiences/select-audience.png){zoomable="yes"}
 
 ### 审查
 
 在最终确定受众添加之前，请查看所有配置和设置。 确保所有详细信息正确，然后选择&#x200B;**[!UICONTROL 完成]**&#x200B;以完成创建数据连接。
 
-![显示所有选定配置的“添加受众”工作区。](/help/assets/setup/add-manage-audiences/review-connection.png)
+![显示所有选定配置的“添加受众”工作区。](/help/assets/setup/add-manage-audiences/review-connection.png){zoomable="yes"}
 
 ## 查看受众仪表板 {#view-audiences-dashboard}
 
@@ -219,12 +231,14 @@ ht-degree: 15%
 | **[!UICONTROL 已创建]** | 指示受众最初来源于Collaboration的时间。 |
 | **[!UICONTROL 上次更新时间]** | 指示在Collaboration中更新受众的最后日期和时间。 这并非指上次刷新受众的时间，而是指上次更改受众配置或元数据的时间。 |
 
+![我的受众工作区显示所有来源受众。](/help/assets/setup/add-manage-audiences/audiences-workspace.png){zoomable="yes"}
+
 要对受众执行快速操作，请选择受众名称旁边的省略号&#x200B;**...**。 可以使用以下选项：
 
 * **[!UICONTROL 编辑类别]**&#x200B;允许您向受众添加不同的类别标记。 有关详细信息，请参阅下面的[类别](#categories)部分。
 * **[!UICONTROL 删除]**&#x200B;将从数据连接中删除受众。
 
-![我的受众工作区中打开了省略号菜单，并突出显示了“编辑类别”和“删除”选项。](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png)
+![我的受众工作区中打开了省略号菜单，并突出显示了“编辑类别”和“删除”选项。](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png){zoomable="yes"}
 
 ## 查看单个受众 {#view-individual-audiences}
 
@@ -244,7 +258,7 @@ ht-degree: 15%
 | **[!UICONTROL 已创建]** | 指示受众最初来源于Collaboration的时间。 |
 | **[!UICONTROL 创建者]** | 指示将受众来源于Collaboration的用户。 |
 
-![单个受众的工作区。](/help/assets/setup/add-manage-audiences/audience-details.png)
+![单个受众的工作区。](/help/assets/setup/add-manage-audiences/audience-details.png){zoomable="yes"}
 
 #### 身份标识 {#identities}
 
@@ -255,7 +269,7 @@ ht-degree: 15%
 
 **[!UICONTROL Identities]**&#x200B;部分指示受众中存在的身份数。 部分还包含按匹配键对身份进行的身份细分，以帮助您了解受众的组成。
 
-![单个受众工作区的“身份”部分。](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+![单个受众工作区的“身份”部分。](/help/assets/setup/add-manage-audiences/audience-details-identities.png){zoomable="yes"}
 
 将鼠标悬停在匹配键划分的各个部分上将会提供有关键的准确身份计数。
 
@@ -272,11 +286,11 @@ ht-degree: 15%
 
 要添加类别，请选择&#x200B;**[!UICONTROL 类别]**&#x200B;部分中的&#x200B;**[!UICONTROL 编辑]**&#x200B;选项。
 
-![单个受众工作区的“类别”部分。](/help/assets/setup/add-manage-audiences/audience-details-categories.png)
+![单个受众工作区的“类别”部分。](/help/assets/setup/add-manage-audiences/audience-details-categories.png){zoomable="yes"}
 
 将显示&#x200B;**[!UICONTROL 类别]**&#x200B;对话框，允许您选择要添加到受众的类别。 要选择单个类别，请选中类别名称旁边的复选框。
 
-![显示具有可用类别的“类别”对话框。](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
+![显示具有可用类别的“类别”对话框。](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png){zoomable="yes"}
 
 #### 连接访问权限 {#connection-access}
 
@@ -289,7 +303,7 @@ ht-degree: 15%
 
 要更新受众的连接访问权限，请在&#x200B;**[!UICONTROL 连接访问]**&#x200B;部分中选择&#x200B;**[!UICONTROL 编辑]**&#x200B;选项。
 
-![单个受众工作区的“连接访问”部分。](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png)
+![单个受众工作区的“连接访问”部分。](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png){zoomable="yes"}
 
 此时将显示&#x200B;**[!UICONTROL 连接访问]**&#x200B;对话框，其中包含三个可用的连接访问选项：
 
@@ -299,7 +313,7 @@ ht-degree: 15%
 
 选择所需的连接访问选项，然后选择&#x200B;**[!UICONTROL 保存]**&#x200B;以应用更改。
 
-![显示具有可用选项的“连接访问”对话框。](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+![显示具有可用选项的“连接访问”对话框。](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -320,7 +334,7 @@ ht-degree: 15%
 
 元数据可见性表示受众的元数据在其他协作者与您连接之前或在不同的项目视图中是否可见。 要更新受众的元数据可见性，请选择&#x200B;**[!UICONTROL 元数据可见性]**&#x200B;部分中的&#x200B;**[!UICONTROL 编辑]**&#x200B;选项。
 
-![单个受众工作区的“元数据可见性”部分。](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png)
+![单个受众工作区的“元数据可见性”部分。](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png){zoomable="yes"}
 
 将显示&#x200B;**[!UICONTROL 元数据可见性]**&#x200B;对话框，允许您配置受众的可见性设置。 您可以为每个受众配置两个元数据可见性设置：
 
@@ -334,7 +348,7 @@ ht-degree: 15%
 >
 >要使元数据可见性设置生效，必须将受众设置为“公用”或“自定义”。
 
-![显示具有可用选项的“元数据可见性”对话框。](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+![显示具有可用选项的“元数据可见性”对话框。](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png){zoomable="yes"}
 
 ## 编辑多个受众 {#edit-audiences}
 

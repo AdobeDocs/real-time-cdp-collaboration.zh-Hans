@@ -2,12 +2,12 @@
 title: 配置和管理您的帐户
 description: 了解如何在Real-Time CDP Collaboration中配置和管理帐户的各个方面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 18%
+source-wordcount: '1361'
+ht-degree: 7%
 
 ---
 
@@ -44,7 +44,6 @@ ht-degree: 18%
 * 添加明确代表您品牌的&#x200B;**[!UICONTROL 帐户名称]**。
 * 添加有关您品牌的&#x200B;**[!UICONTROL 描述]**。 虽然这是一项可选操作，但它有助于其他协作者更好地了解您的品牌。
 * 选择您的&#x200B;**[!UICONTROL 角色]**。 您可以选择介于&#x200B;**[!UICONTROL 广告商]**&#x200B;和&#x200B;**[!UICONTROL 发布者]**&#x200B;之间。 阅读[角色](/help/guide/overview/roles.md)指南以了解两种帐户角色类型在工作流中的相似之处和细微差异。
-<!-- The above will need to be updated when I update things for B2B -->
 * 为您的帐户选择&#x200B;**[!UICONTROL 行业]**。 某些示例包括&#x200B;**[!UICONTROL 零售业]**、**[!UICONTROL 电信]**&#x200B;或&#x200B;**[!UICONTROL 金融服务]**。
 * 已根据您的Adobe Experience Cloud帐户自动设置&#x200B;**[!UICONTROL 地区]**。 此更改随时无法更改。
 * 为您的帐户添加&#x200B;**[!UICONTROL 联系人电子邮件]**。 这应该是基于团队或角色的电子邮件地址。 不应提供个人电子邮件地址。
@@ -62,64 +61,111 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="匹配键"
->abstract="匹配键是用于协调来自不同数据源的受众成员的标识符。包括您的品牌可以使用的任何匹配键。"
+>abstract="匹配键是用于协调来自不同数据源的受众用户档案的标识符。 包括您的品牌可以使用的任何匹配键。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="第一方人员 ID"
->abstract="第一方人员 ID（例如经过哈希处理的电子邮件地址或电话号码）直接与个人轮廓相关联。目前支持的 ID 是经过哈希处理的电子邮件和电话号码。"
+>abstract="第一方人员ID（例如经过哈希处理的电子邮件地址、经过哈希处理的电话号码或CRM ID）直接连接到个人资料。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="第一方设备 ID"
->abstract="第一方设备 ID（例如 ECID 或 IP 地址）直接与设备相关联，这些设备可以由多个人共享。IPv4 是目前唯一受支持的第一方设备 ID。"
+>abstract="第一方设备ID（如ECID或IP地址）直接连接到设备，这些ID可在多个人员之间共享。 IPv4 是目前唯一受支持的第一方设备 ID。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="支持的合作伙伴 ID"
->abstract="与轮廓关联的合作伙伴 ID 可扩大对特定轮廓的覆盖范围。"
+>abstract="合作伙伴ID是外部合作伙伴为受众协调提供的标识符。 合作伙伴ID不会直接连接到个人资料。"
+
+![支持的匹配键。](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->您在帐户设置期间选择的匹配键将决定您与其他协作者创建的连接的可用匹配键。 虽然可以在连接设置期间删除匹配键，但无法添加新的匹配键。 选择您计划在帐户设置期间在未来的营销活动中使用的&#x200B;**所有**&#x200B;匹配键很重要。
+>您在帐户设置期间选择的匹配键将决定您的连接中可用的匹配键。 虽然在连接设置过程中可以[删除不需要的匹配键](../connect/establishing-connections.md#connection-settings)，但在建立连接后无法添加匹配键。 在帐户设置过程中，选择您计划在未来营销活动中使用的&#x200B;**所有**&#x200B;匹配键，这一点很重要。
 
-匹配键（如电子邮件地址、设备ID或客户ID）通过实现准确且以隐私为中心的数据同步，帮助协作者进行合作，从而实现更准确的受众定位和测量。
+匹配关键有助于协作者通过实现准确且以隐私为中心的数据同步来展开协作，进而实现更准确的受众定位和测量。 在帐户设置期间选择的匹配键将确定哪些匹配键在未来的连接中可用。 在获取受众时，它们还用于将[数据连接中的字段](./onboard-audiences.md#map-fields)映射到Collaboration中的目标字段。
 
-![幻灯片显示Collaboration第一版本的可用标识符。](/help/assets/setup/manage-account/available-identifiers.png)
+选择要在协调受众配置文件时使用的任何匹配键。 针对未来进行规划，并包含您可以使用的任何匹配键，以及预计将在未来营销活动中使用的匹配键。 如果以后确实需要为您的帐户选择其他匹配密钥，则可以在[编辑帐户](#edit-account)工作流中执行此操作。 但是，在初始设置之后添加的任何匹配键将不可用于现有连接。
 
-<!-- Eventually replace this image above to match branding better. -->
+#### 支持的匹配键 {#supported-match-keys}
 
-选择要在协调受众配置文件时使用的任何匹配键。 包括您可以使用的任何匹配键。 规划未来并选择您预计将在未来营销活动中使用的匹配键。 如果以后确实需要为您的帐户选择其他匹配密钥，则可以在[编辑帐户](#edit-account)工作流中执行此操作。
+Collaboration支持三种类型的匹配键：第一方人员ID、第一方设备ID和合作伙伴ID。 所有匹配键必须满足以下要求：
 
-最多选择五个您计划使用的匹配键。 稍后，在设置连接时，您可以删除不需要的匹配键，但无法添加新匹配键。
+* 匹配键必须是&#x200B;**修剪**，**小写**
+* 哈希匹配键必须为&#x200B;**SHA256-hashed**。
+* 如果您提供的哈希值使用大写字符，Collaboration会自动将其转换为小写。
+* 如果源包含&#x200B;**纯文本标识符**，请在&#x200B;**[!UICONTROL 数据连接设置]**&#x200B;期间使用[应用转换](./manage-data-connection.md#match-keys)选项来应用散列。 仅当从Experience Platform获取受众时，此选项才可用，而基于云的源不支持此选项。
 
-可用的匹配键有三种：
+##### 第一方人员 ID
 
-* 第一方人员 ID
-* 第一方设备 ID
-* 合作伙伴 ID
+第一方人员ID直接关联到个人资料。 当前支持的ID包括：
 
->[!IMPORTANT]
+* **[!UICONTROL 散列电子邮件]**
+* **[!UICONTROL 散列电话]**
+* **[!UICONTROL CRM ID]**
+* **[!UICONTROL 忠诚度ID]**
+<!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
+
+##### 第一方设备 ID
+
+第一方设备ID是连接到特定设备的标识符。 当前支持的ID包括：
+
+* **[!UICONTROL 哈希IPv4]**：哈希IPv4地址
+
+##### 合作伙伴 ID
+
+合作伙伴ID是外部合作伙伴为受众协调提供的标识符。 当前支持的ID包括：
+
+* **[!UICONTROL Adfixus ID]**
+
+>[!NOTE]
 >
->目前，唯一支持的匹配键是哈希电子邮件。
+>Adobe与[!DNL Adfixus]的集成将每个帐户的唯一[!UICONTROL Adfixus ID]映射到常见的Adobe编码格式。 这些映射用于标识协作者之间的重叠。 使用&#x200B;**[!UICONTROL Adfixus ID]**&#x200B;激活受众时，将使用原始ID。 Adobe编码的格式永远不会离开Collaboration。
 
-准备就绪后，选择&#x200B;**[!UICONTROL 完成]**&#x200B;以完成组织设置工作流。
+选择&#x200B;**[!UICONTROL Adfixus ID]**&#x200B;时，您需要在&#x200B;**[!UICONTROL 帐户凭据]**&#x200B;部分提供来自外部合作伙伴的对应ID。 此选项仅在&#x200B;*切换* Adfixus ID **[!UICONTROL 后]**&#x200B;可用。 在&#x200B;**[!UICONTROL 帐户ID]**&#x200B;字段中输入您的Adfixus ID，并确保仔细检查该值是否准确。
 
-![显示“设置组织”工作区的“匹配键”部分。](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
+![已打开Adfixus ID的“匹配密钥”对话框，并突出显示了“帐户凭据”部分。](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
+
+选择所有所需的匹配键后，选择&#x200B;**[!UICONTROL 完成]**&#x200B;以完成帐户设置工作流。
+
+![显示了“设置帐户工作区”的“匹配键”部分。](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
 ## 编辑帐户 {#edit-account}
 
-设置帐户后，您可以随时编辑帐户的某些方面和详细信息。 要编辑您的帐户，请在&#x200B;**[!UICONTROL 设置]**&#x200B;工作区&#x200B;**[!UICONTROL 的]**&#x200B;我的帐户&#x200B;**[!UICONTROL 部分中选择]编辑**。
+设置帐户后，您可以随时编辑详细信息和匹配密钥。
+
+### 编辑详细信息 {#edit-details}
+
+您可以随时编辑帐户的大多数详细信息，但&#x200B;**[!UICONTROL 角色]**&#x200B;除外。 地区是根据您的Adobe Experience Cloud帐户自动设置的，无法更改。
+
+要编辑您的帐户，请在&#x200B;**[!UICONTROL 设置]**&#x200B;工作区的&#x200B;**[!UICONTROL 我的帐户]**&#x200B;部分中选择&#x200B;**[!UICONTROL 编辑]**。
 
 ![突出显示了“我的帐户”选项卡和“编辑”选项的“设置”工作区。](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
-您现在可以编辑帐户详细信息，但&#x200B;**[!UICONTROL 角色]**&#x200B;除外。 请注意，区域是根据您的Adobe Experience Cloud帐户自动设置的，无法随时更改。
+您现在可以编辑帐户详细信息。 更新您要更改的任何字段，然后选择&#x200B;**[!UICONTROL 保存]**&#x200B;以确认更改。
 
 ![编辑帐户详细信息对话框。](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
 
-您还可以更新在加入组织时最初选择的匹配密钥。 在&#x200B;**[!UICONTROL 匹配键]**&#x200B;部分中选择&#x200B;**[!UICONTROL 编辑]**&#x200B;以添加任何其他所需的匹配键。
+### 编辑匹配键 {#edit-match-keys}
+
+>[!IMPORTANT]
+>
+>编辑匹配键不会影响现有连接。 建立连接后，在连接设置期间选择的匹配键将被固定。 在帐户设置过程中，选择您计划在未来营销活动中使用的&#x200B;**所有**&#x200B;匹配键，这一点很重要。
+
+您还可以更新在创建帐户时最初选择的匹配键。 这些匹配键将确定可用于将来连接的匹配键。
+
+在&#x200B;**[!UICONTROL 匹配键]**&#x200B;部分中选择&#x200B;**[!UICONTROL 编辑]**。
 
 ![在帐户的“匹配密钥”部分中，突出显示具有“编辑”选项的“设置”工作区。](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
+
+出现&#x200B;**[!UICONTROL 匹配键]**&#x200B;对话框。 打开和关闭任何匹配的密钥，或者更新&#x200B;**[!UICONTROL Adfixus ID]**&#x200B;的[!UICONTROL 帐户ID]，然后选择&#x200B;**[!UICONTROL 保存]**&#x200B;以确认更改。
+
+>[!IMPORTANT]
+>
+>更改[!UICONTROL Adfixus ID]不会触发使用匹配键刷新现有数据连接的[数据草图](../glossary.md#sketches)。 草图数据后，对您的[!UICONTROL Adfixus ID]所做的任何更改都将不会反映在您的下一个受众刷新之前，直到您的[数据连接计划](./manage-data-connection.md#scheduling)设置。 如果在下次刷新之前需要进行更改，可以删除并重新创建数据连接。
+
+![突出显示了“保存”选项的“匹配键”对话框。](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
 ## 后续步骤
 

@@ -2,12 +2,12 @@
 title: 建立连接
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
+source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
 workflow-type: tm+mt
-source-wordcount: '3112'
-ht-degree: 7%
+source-wordcount: '3230'
+ht-degree: 6%
 
 ---
 
@@ -194,7 +194,8 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="匹配键"
->abstract="匹配键已通过您在组织级别选择的键预先填充。您可以关掉不想在此连接中使用的任何匹配键。"
+>abstract="匹配键中预先填充了您和协作者在帐户级别选择的通用匹配键。 您可以关掉不想在此连接中使用的任何匹配键。"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="帐户匹配键"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -224,7 +225,7 @@ ht-degree: 7%
 
 您可以配置以下连接设置：
 
-+++Audience Activation
+##### Audience Activation {#audience-activation}
 
 >[!IMPORTANT]
 >
@@ -240,9 +241,7 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 
 ![在连接设置工作区中使用“保存”选项的“受众激活”对话框。](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
 
-+++
-
-+++用例
+##### 用例 {#use-cases}
 
 用例自动填充了所有可用选项。 选定的用例决定了在项目中可用的视图和选项。 若要了解更多信息，请阅读[项目用例](/help/guide/collaborate/manage-projects.md#project-use-cases)指南。
 
@@ -250,19 +249,23 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 
 ![连接设置工作区中的用例设置。](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
-+++
+##### 匹配键 {#match-keys}
 
-+++匹配键
+匹配密钥自动填充为您和您的协作者在[设置帐户](/help/guide/setup/onboard-account.md#set-up-match-keys)时选择的通用匹配密钥。 只显示与您和协作者选定的&#x200B;**和**&#x200B;共同拥有的匹配键。
 
-匹配密钥自动填充为您在[设置帐户](/help/guide/setup/onboard-account.md#set-up-match-keys)时选择的密钥。 您可以关闭任何不想使用的匹配键，但无法添加在帐户设置期间未选择的匹配键。
+![突出显示匹配键部分的连接设置工作区，显示公共匹配键。](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+
+当连接所有者设置连接设置时，他们可以[编辑帐户匹配密钥](../setup/onboard-account.md#edit-match-keys)以包含其他匹配密钥。 在帐户设置中切换更多匹配键后，如果协作者也选择了这些匹配键，则可在连接设置中切换这些匹配键。 连接过程开始后添加的匹配键不会自动填充，必须手动切换。
 
 若要自定义匹配键，请在&#x200B;**[!UICONTROL 匹配键]**&#x200B;部分中选择&#x200B;**[!UICONTROL 编辑]**，然后关闭您不希望在此连接中使用的任何匹配键。 完成后，选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存更改。
 
-![连接设置工作区中的匹配键设置。](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
+![连接设置工作区打开了“匹配键”部分对话框，显示已切换的匹配键。](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
-+++
+>[!IMPORTANT]
+>
+>您的协作者接受连接设置后，匹配键将被锁定且无法更改。
 
-+++积分拆分
+##### 积分拆分 {#credit-split}
 
 使用信用分摊部分确定两个协作方中的哪个将覆盖活动的成本。 信用拆分选项由为连接选择的用例决定。 虽然&#x200B;**[!UICONTROL Measurement]**&#x200B;用例需要一方支付成本，但&#x200B;**[!UICONTROL 激活 — 匹配]**&#x200B;用例提供了一个额外选项，让每个当事方支付自己的成本。 有关成本细分的信息，请阅读[信用活动类型](/help/guide/setup/my-activity.md#types-of-activities)指南。
 
@@ -274,9 +277,7 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 
 ![包含连接设置工作区中选项的“信用分摊”对话框。](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
-+++
-
-+++广告商名称
+##### 广告商名称 {#advertiser-names}
 
 >[!NOTE]
 >
@@ -303,8 +304,6 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 > 发送连接设置后，您将无法再添加或编辑广告商名称。
 
 ![已填写广告商名称部分的连接设置工作区。](/help/assets/connect/establish-connection/add-advertiser-names.png)
-
-+++
 
 作出选择后，选择&#x200B;**[!UICONTROL 提交]**&#x200B;将建议的设置发送给收件人进行审阅。
 

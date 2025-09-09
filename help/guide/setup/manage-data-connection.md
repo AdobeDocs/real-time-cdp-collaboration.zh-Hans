@@ -2,12 +2,12 @@
 title: 管理数据连接
 description: 了解如何在Real-Time CDP Collaboration中管理数据连接，包括匹配键、计划、用例和受众筛选
 audience: administrator, data engineer
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 12%
+source-wordcount: '602'
+ht-degree: 7%
 
 ---
 
@@ -30,17 +30,9 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="匹配键"
->abstract="匹配键决定如何匹配来自不同来源的数据。选择与您的用例和隐私准则最相关的匹配键。"
+>abstract="匹配键决定如何匹配来自不同来源的数据。下面显示的匹配键是您映射源字段的目标字段。"
 
-匹配键是用于协调来自不同数据源的受众成员的标识符。您无法编辑最初为数据连接选择的匹配键。
-
->[!IMPORTANT]
-> 
->创建数据连接后，无法编辑匹配键。 要更新匹配键，必须创建新的数据连接。
-
-可用的匹配键包括：
-
-- **散列电子邮件**
+匹配键是您[将源字段映射到](./onboard-audiences.md#map-fields)的目标字段。 您无法编辑最初为数据连接选择的匹配键。 要更新匹配键，必须创建新的数据连接。 要了解有关匹配键如何工作的更多信息，请参阅[匹配键](./onboard-account.md#set-up-match-keys)指南。
 
 ![突出显示匹配键部分的数据连接工作区。](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -57,7 +49,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->从Adobe Experience Platform获取受众后，受众将在数据连接建立后的24小时内可用。 首次导入后，受众数据会根据定义的频率进行刷新。
+>从Adobe Experience Platform获取受众后，受众将在数据连接建立后的24小时内可用。 在初始来源补充后，受众数据会根据定义的频率进行刷新。
 
 有关计划的详细信息，请参阅配置受众指南中的[计划部分](/help/guide/setup/onboard-audiences.md#schedule)。
 
@@ -66,6 +58,8 @@ ht-degree: 12%
 #### 编辑计划 {#edit-scheduling}
 
 您可以编辑现有数据连接的频率，以更好地控制刷新受众的频率。 要编辑计划，请在计划卡片的数据连接中选择&#x200B;**[!UICONTROL 编辑]**。
+
+此计划将会影响源自数据连接的所有受众。
 
 在&#x200B;**[!UICONTROL 计划]**&#x200B;对话框中，选择下拉菜单以更新&#x200B;**[!UICONTROL 频率]**。 将刷新频率设置为每天或每两到六天运行一次。 完成后，选择&#x200B;**[!UICONTROL 保存]**&#x200B;以应用更改。
 

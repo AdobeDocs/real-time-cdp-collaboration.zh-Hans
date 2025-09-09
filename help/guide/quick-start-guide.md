@@ -2,11 +2,11 @@
 title: Real-Time CDP Collaboration快速入门指南
 description: 了解如何在Real-Time CDP Collaboration中载入您的组织，包括设置角色和组织、受众源、激活和测量。 本指南可帮助协作者配置连接设置，以便开始安全高效地使用受众。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: ac8db9f5a3879d548d8dc3818ad20fc602b31e7c
+source-git-commit: 849bae30b4e617a6c49f68b2baedc0ab8a822854
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 - [已为最终用户设置访问权限](./permissions/manage-user-access.md)。
 - 为您的组织创建并分配给用户的[角色](./permissions/manage-roles.md)。
 - 访问品牌推广资产，如贵组织的名称、徽标和横幅。
-- [定义的匹配键策略](./setup/onboard-account.md#set-up-match-keys) （当前哈希电子邮件是唯一受支持的匹配键）。
+- [定义的匹配键策略](./setup/onboard-account.md#set-up-match-keys)
 - （可选）如果您没有使用Experience Platform进行受众管理，请访问支持的云源(Amazon S3或Snowflake)。
 
 ## 步骤1：完成基于角色的设置 {#complete-role-based-setup}
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 观看本视频，了解如何使用Admin Console和Experience Platform为Collaboration分配产品访问权限。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452240/?learn=on&enablevpops&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 第2步：设置您的Collaboration帐户 {#set-up-your-account}
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 >如果您正在创建发布者帐户，并希望在Collaboration的连接目录中公开显示，请联系您的Adobe客户代表。 发布者帐户需要自定义品牌横幅(JPG 2688x1536)；此文件可以直接与您的代表共享。
 
 - **联系电子邮件** — 提供协作者在建立连接后使用的业务电子邮件。
-- **配置匹配键** — 选择用于受众匹配的标识符（当前，散列电子邮件是唯一受支持的匹配键）。
+- **配置匹配键** — 选择用于受众匹配的标识符。
 
 要了解有关初始帐户设置的更多信息，包括如何定义角色、上传品牌推广资产和配置匹配密钥，请参阅[初始帐户设置](./setup/onboard-account.md#initial-account-setup){target="_blank"}指南。
 
@@ -107,7 +107,8 @@ ht-degree: 0%
 >
 >**匹配关键要求：**
 >
->所有匹配键必须是&#x200B;**修剪**、**小写**&#x200B;和&#x200B;**SHA256-hashed**。\
+>所有匹配键必须是&#x200B;**修剪**，**小写**
+>>哈希匹配键必须为&#x200B;**SHA256-hashed**。\
 >如果您提供的哈希值使用大写字符，Collaboration会自动将其转换为小写。\
 >如果您的源包含&#x200B;**纯文本标识符**，请使用&#x200B;**[!UICONTROL 应用转换]**&#x200B;选项来应用散列。 仅当从Experience Platform获取受众时，此选项才可用，而基于云的源不支持此选项。
 >
