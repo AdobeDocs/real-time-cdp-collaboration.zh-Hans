@@ -2,7 +2,7 @@
 title: 激活受众
 description: 了解如何在Adobe Real-Time CDP Collaboration中激活受众。
 audience: admin, publisher
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
