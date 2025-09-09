@@ -2,11 +2,11 @@
 title: 建立连接
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
+source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
-source-wordcount: '3230'
+source-wordcount: '3280'
 ht-degree: 6%
 
 ---
@@ -195,7 +195,7 @@ ht-degree: 6%
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="匹配键"
 >abstract="匹配键中预先填充了您和协作者在帐户级别选择的通用匹配键。 您可以关掉不想在此连接中使用的任何匹配键。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="帐户匹配键"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="帐户匹配键"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -250,6 +250,10 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 ![连接设置工作区中的用例设置。](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 ##### 匹配键 {#match-keys}
+
+>[!IMPORTANT]
+>
+>在激活使用了多个匹配键的受众时，如果一个（或多个）匹配键没有重叠、没有受众计数或低于阈值，则整个激活将失败。 在激活之前，请确保您的受众有足够的重叠，并满足所有匹配键中1000个ID的最低阈值。
 
 匹配密钥自动填充为您和您的协作者在[设置帐户](/help/guide/setup/onboard-account.md#set-up-match-keys)时选择的通用匹配密钥。 只显示与您和协作者选定的&#x200B;**和**&#x200B;共同拥有的匹配键。
 

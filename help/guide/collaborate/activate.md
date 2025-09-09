@@ -2,11 +2,11 @@
 title: 激活受众
 description: 了解如何在Adobe Real-Time CDP Collaboration中激活受众。
 audience: admin, publisher
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '1003'
 ht-degree: 2%
 
 ---
@@ -42,6 +42,10 @@ Audience Activation允许您激活受众，以便在营销活动中使用。 根
 在&#x200B;**[!UICONTROL 浏览受众]**&#x200B;中，您可以看到每个受众的&#x200B;**[!UICONTROL 身份计数]**、**[!UICONTROL 重叠身份]**&#x200B;和&#x200B;**[!UICONTROL 重叠%]**。
 
 ![显示可用受众的“浏览受众”对话框。](/help/assets/collaborate/activate/browse-audiences.png)
+
+>[!IMPORTANT]
+>
+>在激活使用了多个匹配键的受众时，如果一个（或多个）匹配键没有重叠、没有受众计数或低于阈值，则整个激活将失败。 在激活之前，请确保您的受众有足够的重叠，并满足所有匹配键中1000个ID的最低阈值。
 
 选择要在营销活动中激活的受众，然后选择&#x200B;**[!UICONTROL 保存]**。 该受众现在显示出来，您可以看到所选受众的&#x200B;**[!UICONTROL 身份计数]**、**[!UICONTROL 重叠身份]**&#x200B;和&#x200B;**[!UICONTROL 重叠%]**。
 
