@@ -1,7 +1,7 @@
 ---
-source-git-commit: b253588d8960757ed2023031bc95a7e3e0a0f65b
+source-git-commit: 8ab3cc35872f45b1337bac7b0fa453c9937d78da
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '43'
 ht-degree: 2%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->Adobe Real-Time Customer Data Platform (CDP) Collaboration目前面向美国、澳大利亚和新西兰的客户提供，全球即将推出。 有关更多信息，请与Adobe代表联系。 了解如何[开始](/help/guide/home.md#get-started)。
+>Adobe Real-Time Customer Data Platform (CDP) Collaboration目前面向美国、加拿大、澳大利亚和新西兰的客户提供，全球即将推出。 有关更多信息，请与Adobe代表联系。 了解如何[开始](/help/guide/home.md#get-started)。
 
 
 
