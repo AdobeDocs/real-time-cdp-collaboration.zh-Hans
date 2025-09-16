@@ -2,12 +2,12 @@
 title: 将Adobe Experience Platform配置为目标
 description: 了解如何在Real-Time CDP Collaboration中配置和管理Adobe Experience Platform作为目标。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 source-git-commit: 6acf936f50b412147578a70e2369b06c53260f06
 workflow-type: tm+mt
 source-wordcount: '1487'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 {{limited-availability-release-note}}
 
-配置此目标以将受众从您的项目激活到Adobe Experience Platform。 在Adobe Experience Platform中激活受众可让您利用该平台的功能在各种营销渠道中进行受众分段、分析和激活。 要了解有关Adobe Experience Platform的更多信息，请参阅[Experience Platform概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home){target="_blank"}。
+配置此目标以将受众从您的项目激活到Adobe Experience Platform。 在Adobe Experience Platform中激活受众可让您利用该平台的功能在各种营销渠道中进行受众分段、分析和激活。 要了解有关Adobe Experience Platform的更多信息，请参阅[Experience Platform概述](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}。
 
 >[!WARNING]
 >
@@ -80,14 +80,14 @@ ht-degree: 6%
 
 对要包含在激活映射中的每个匹配键重复此过程。 如果您不想包含匹配键，则可以将其删除，或者使用链接键选项将其替换为其他匹配键。
 
-#### 链接键 {#linked-keys}
+#### 关联的键 {#linked-keys}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_linked_key"
 >title="关联的键"
->abstract="利用链接密钥，可指定在激活期间使用其他匹配密钥替换原始匹配密钥。 对于要激活的配置文件，它必须具有原始匹配键和链接的匹配键的值。"
+>abstract="关联的键允许您指定在激活期间使用不同的匹配键取代原始匹配键。要激活一个轮廓，它必须同时具有原始匹配键和关联匹配键的两个值。"
 
-利用链接密钥，可指定在激活期间使用其他匹配密钥替换原始匹配密钥。 要更好地了解链接键的工作方式，请考虑以下示例：
+关联的键允许您指定在激活期间使用不同的匹配键取代原始匹配键。要更好地了解链接键的工作方式，请考虑以下示例：
 
 retailer希望将激活到Experience Platform的数据发送到其CRM系统。 retailer启用了将IP作为匹配键的哈希，以便其帐户在激活受众时提高匹配率。 但是，retailer的CRM系统不支持将哈希IP作为身份命名空间，因此他们希望在将受众激活到Experience Platform时改用CRM ID匹配键。 retailer可以使用链接键选项，通过CRM ID而不是哈希IP将受众激活到Experience Platform。
 
@@ -145,4 +145,4 @@ retailer希望将激活到Experience Platform的数据发送到其CRM系统。 r
 
 ![筛选选项中将Real-Time CDP Collaboration作为源的受众门户。](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-要了解有关受众门户的更多信息，请参阅[受众门户概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}指南。
+要了解有关受众门户的更多信息，请参阅[受众门户概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}指南。

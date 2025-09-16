@@ -2,12 +2,12 @@
 title: 管理数据连接
 description: 了解如何在Real-Time CDP Collaboration中管理数据连接，包括匹配键、计划、用例和受众筛选
 audience: administrator, data engineer
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="匹配键"
->abstract="匹配键决定如何匹配来自不同来源的数据。下面显示的匹配键是您映射源字段的目标字段。"
+>abstract="匹配键决定如何匹配来自不同来源的数据。下面显示的匹配键是您将源字段映射到那里的目标字段。"
 
 匹配键是您[将源字段映射到](./onboard-audiences.md#map-fields)的目标字段。 您无法编辑最初为数据连接选择的匹配键。 要更新匹配键，必须创建新的数据连接。 要了解有关匹配键如何工作的更多信息，请参阅[匹配键](./onboard-account.md#set-up-match-keys)指南。
 

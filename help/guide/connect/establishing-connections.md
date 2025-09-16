@@ -2,12 +2,12 @@
 title: 建立连接
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
 source-wordcount: '3280'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -194,7 +194,7 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="匹配键"
->abstract="匹配键中预先填充了您和协作者在帐户级别选择的通用匹配键。 您可以关掉不想在此连接中使用的任何匹配键。"
+>abstract="匹配键通过您和您的协作者在帐户级别选择的共用匹配键进行预填充。您可以关掉不想在此连接中使用的任何匹配键。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="帐户匹配键"
 
 >[!CONTEXTUALHELP]

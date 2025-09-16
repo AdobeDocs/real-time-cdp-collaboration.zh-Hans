@@ -2,12 +2,12 @@
 title: 配置和管理您的帐户
 description: 了解如何在Real-Time CDP Collaboration中配置和管理帐户的各个方面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -61,22 +61,22 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="匹配键"
->abstract="匹配键是用于协调来自不同数据源的受众用户档案的标识符。 包括您的品牌可以使用的任何匹配键。"
+>abstract="匹配键是一种用于协调来自不同数据源的受众轮廓的标识符。包括您的品牌可以使用的任何匹配键。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="第一方人员 ID"
->abstract="第一方人员ID（例如经过哈希处理的电子邮件地址、经过哈希处理的电话号码或CRM ID）直接连接到个人资料。"
+>abstract="第一方人员 ID（例如经过哈希处理的电子邮件地址和电话号码，或者 CRM ID）直接与个人轮廓连接。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="第一方设备 ID"
->abstract="第一方设备ID（如ECID或IP地址）直接连接到设备，这些ID可在多个人员之间共享。 IPv4 是目前唯一受支持的第一方设备 ID。"
+>abstract="第一方设备 ID（例如 ECID 或 IP 地址）直接与设备连接，这些设备可以由多个人共享。IPv4 是目前唯一受支持的第一方设备 ID。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="支持的合作伙伴 ID"
->abstract="合作伙伴ID是外部合作伙伴为受众协调提供的标识符。 合作伙伴ID不会直接连接到个人资料。"
+>abstract="合作伙伴 ID 是一种外部合作伙伴提供的用于协调受众的标识符。合作伙伴 ID 不与个人轮廓直接连接。"
 
 ![支持的匹配键。](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
 
@@ -115,7 +115,7 @@ Collaboration支持三种类型的匹配键：第一方人员ID、第一方设�
 
 ##### 合作伙伴 ID
 
-合作伙伴ID是外部合作伙伴为受众协调提供的标识符。 当前支持的ID包括：
+合作伙伴 ID 是一种外部合作伙伴提供的用于协调受众的标识符。当前支持的ID包括：
 
 * **[!UICONTROL Adfixus ID]**
 
