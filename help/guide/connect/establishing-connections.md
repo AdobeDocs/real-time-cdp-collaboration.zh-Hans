@@ -2,24 +2,52 @@
 title: 建立连接
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
+source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
 workflow-type: tm+mt
-source-wordcount: '3280'
+source-wordcount: '3400'
 ht-degree: 7%
 
 ---
 
-# 建立连接
+# 建立连接 {#establishing-connections}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_compare_audiences"
+>title="比较受众"
+>abstract="将您的受众与通过Amazon广告触及的所有消费者进行比较。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_relevant_audiences"
+>title="相关受众"
+>abstract="Amazon仅考虑DSP展示次数，以定位受众重叠程度最高的区段(这些区段只能在DSP中定位)。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_resolved_ids"
+>title="已解析的 ID"
+>abstract="Amazon通过身份解析能够使用受众数据解析的ID数量。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
+>title="重叠的广告展示 ID"
+>abstract="这表示已上传受众中也通过Amazon Ads向广告公开的“已解决ID”的数量。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlap_percentage"
+>title="重叠 %"
+>abstract="通过Amazon Ads向广告公开的“已解决ID”比例。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_amazon_breakdown"
+>title="按 Amazon 广告产品细分"
+>abstract="Amazon Ads赞助产品和/或Amazon Ads DSP达到的“重叠广告显示ID”的细分。"
 
 {{limited-availability-release-note}}
 
 协作者必须先建立连接，然后才能一起处理营销活动。 利用此连接，他们可以激活受众、创建项目并运行营销活动效果报表。
 
 连接是根据您选择的协作模式建立的。 Collaboration支持两种关键协作模式：广告商到发布商和品牌到品牌。 要了解有关这些模式的更多信息，请参阅[用例](/help/guide/overview/use-cases.md)指南。
-
-<!-- REPLACE THE LINK ABOVE WITH THE CORRECT LINK AFTER PAGE IS ESTABLISHED -->
 
 要了解如何建立连接，请阅读以下与您的协作模式对应的部分：
 
