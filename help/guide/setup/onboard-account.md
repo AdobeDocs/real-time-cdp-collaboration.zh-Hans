@@ -2,12 +2,12 @@
 title: 配置和管理您的帐户
 description: 了解如何在Real-Time CDP Collaboration中配置和管理帐户的各个方面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
+source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 13%
+source-wordcount: '1363'
+ht-degree: 14%
 
 ---
 
@@ -62,6 +62,11 @@ ht-degree: 13%
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="匹配键"
 >abstract="匹配键是一种用于协调来自不同数据源的受众轮廓的标识符。包括您的品牌可以使用的任何匹配键。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_organization_setup_match_keys"
+>title="匹配键"
+>abstract=""
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"

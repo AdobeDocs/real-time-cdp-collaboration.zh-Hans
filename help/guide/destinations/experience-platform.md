@@ -2,11 +2,11 @@
 title: 将Adobe Experience Platform配置为目标
 description: 了解如何在Real-Time CDP Collaboration中配置和管理Adobe Experience Platform作为目标。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
-source-git-commit: 6acf936f50b412147578a70e2369b06c53260f06
+source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1489'
 ht-degree: 11%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 {{limited-availability-release-note}}
 
-配置此目标以将受众从您的项目激活到Adobe Experience Platform。 在Adobe Experience Platform中激活受众可让您利用该平台的功能在各种营销渠道中进行受众分段、分析和激活。 要了解有关Adobe Experience Platform的更多信息，请参阅[Experience Platform概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home){target="_blank"}。
+配置此目标以将受众从您的项目激活到Adobe Experience Platform。 在Adobe Experience Platform中激活受众可让您利用该平台的功能在各种营销渠道中进行受众分段、分析和激活。 要了解有关Adobe Experience Platform的更多信息，请参阅[Experience Platform概述](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}。
 
 >[!WARNING]
 >
@@ -60,6 +60,11 @@ ht-degree: 11%
 >id="rtcdp_collaboration_destinations_activation_matchkeys"
 >title="激活匹配键"
 >abstract="激活匹配键会根据您在创建组织时所选择的匹配键进行显示。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_destinations_activation_mapping"
+>title="了解更多信息"
+>abstract=""
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_target_namespaces"
@@ -145,4 +150,4 @@ retailer希望将激活到Experience Platform的数据发送到其CRM系统。 r
 
 ![筛选选项中将Real-Time CDP Collaboration作为源的受众门户。](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-要了解有关受众门户的更多信息，请参阅[受众门户概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}指南。
+要了解有关受众门户的更多信息，请参阅[受众门户概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}指南。
