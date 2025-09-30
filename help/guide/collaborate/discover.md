@@ -2,11 +2,11 @@
 title: 发现重叠并比较受众
 description: 发现与协作者受众之间的重叠。 了解如何发现可在营销活动中使用的最佳受众。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
+source-git-commit: 3dd37dff0be104894cdfe42503b60056b25018e3
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2069'
 ht-degree: 17%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 17%
 | **[!UICONTROL 身份重叠]** | 您的和协作者受众中同时存在的唯一ID数量。 |
 | **[!UICONTROL 重叠%]** | 您和您的协作者所选受众之间重叠的轮廓百分比。 |
 | **[!UICONTROL 受众索引]** | 一个分数，根据基础受众计数和重叠情况指示一个受众与另一个受众之间的关联程度。 要了解有关分数含义的更多信息，请阅读[受众索引分数](#audience-index-score)部分。 与协作者的基线（所有受众）进行比较时，无法使用受众索引分数。 |
-| **[!UICONTROL 按匹配键划分身份]** | 根据每个协作者选择的受众，对项目中选定的每个匹配键的标识进行细分。 |
+| **[!UICONTROL 按匹配键划分身份]** | 根据为每个协作者选择的受众，细分与项目中选择的每个匹配键匹配的身份。 |
 
 {style="table-layout:auto"}
 

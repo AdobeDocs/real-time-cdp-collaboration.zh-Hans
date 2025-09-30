@@ -2,9 +2,9 @@
 title: 建立连接
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
+source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
 workflow-type: tm+mt
 source-wordcount: '3400'
 ht-degree: 7%
@@ -58,13 +58,13 @@ ht-degree: 7%
 
 ![广告商 — 发布商连接过程的高级图表。](/help/assets/connect/establish-connection/advertiser-publisher-flow.png){zoomable="yes"}
 
-在广告商对发布商模式中，广告商通过&#x200B;**[!UICONTROL Discover publishers]**&#x200B;工作区发现要与之合作的发布商，并发送连接邀请。 然后，发布者会审核并接受邀请，从而允许广告商提出连接设置。 一旦发布者接受连接设置，连接就会建立，两个协作者就可以开始一起处理项目。
+在广告商对发布商模式中，广告商通过&#x200B;**[!UICONTROL 发现协作者]**&#x200B;工作区发现要与之合作的发布商，并发送连接邀请。 然后，发布者会审核并接受邀请，从而允许广告商提出连接设置。 一旦发布者接受连接设置，连接就会建立，两个协作者就可以开始一起处理项目。
 
 ### 高级概述
 
 要在广告商和发布商之间建立连接，需要执行以下步骤：
 
-1. [发现发布者](#discover-publishers)：广告商标识要与之协作的潜在发布者。
+1. [发现发布者](#discover-collaborators)：广告商标识要与之合作的潜在协作者。
 1. [发送邀请](#send-invite)：广告商向选定的发布者发送连接邀请。
 1. [接受邀请](#accept-invite)：发布者审核并接受邀请。
 1. [配置连接设置](#configure-connection-settings)：广告商配置连接设置并将它们发送给发布者以供审阅。
@@ -108,25 +108,25 @@ ht-degree: 7%
 
 在&#x200B;**[!UICONTROL 连接]**&#x200B;工作区中，您可以管理与协作者之间的连接、发送连接邀请以及广告商可以浏览发布者目录。 工作区分为两个主要选项卡：
 
-### 探索发布者 {#discover-publishers}
+### 探索协作者 {#discover-collaborators}
 
 >[!IMPORTANT]
 >
->只有广告商可以使用&#x200B;**[!UICONTROL 发现发布者]**&#x200B;工作区来发现发布者。 要了解如何与协作者建立连接（无论其角色如何），请阅读[品牌到品牌连接](#brand-to-brand-connection)部分。
+>只有广告商可以使用&#x200B;**[!UICONTROL 发现协作者]**&#x200B;工作区来发现发布者。 要了解如何与协作者建立连接（无论其角色如何），请阅读[品牌到品牌连接](#brand-to-brand-connection)部分。
 
-要发现发布者，请在&#x200B;**[!UICONTROL 连接]**&#x200B;选项卡中导航到&#x200B;**[!UICONTROL 发现发布者]**&#x200B;工作区。 在这里，您可以使用工作区底部的分页控件浏览可用发布者列表。 若要了解有关&#x200B;**[!UICONTROL 发现发布者]**&#x200B;工作区的详细信息，请参阅[发现发布者](/help/guide/connect/discover-publishers.md)指南。
+要发现发布者，请在&#x200B;**[!UICONTROL 连接]**&#x200B;选项卡中导航到&#x200B;**[!UICONTROL 发现协作者]**&#x200B;工作区。 在这里，您可以使用工作区底部的分页控件浏览可用发布者列表。 要了解有关&#x200B;**[!UICONTROL 发现协作者]**&#x200B;工作区的详细信息，请参阅[发现协作者](/help/guide/connect/discover-collaborators.md)指南。
 
-![Discover发布者工作区显示可用发布者的列表。](/help/assets/connect/establish-connection/discover-publishers.png){zoomable="yes"}
+![Discover协作者工作区显示可用发布者列表。](/help/assets/connect/establish-connection/discover-collaborators.png){zoomable="yes"}
 
 ### 发送邀请 {#send-invite}
 
 >[!IMPORTANT]
 >
->本节介绍广告商通过&#x200B;**[!UICONTROL 发现发布者]**&#x200B;工作区向发布者发送连接邀请的过程。 要了解如何在品牌之间形成连接（无论其角色如何），请阅读[品牌到品牌连接](#brand-to-brand-connection)部分或访问[私有连接邀请](#private-connection-invite)部分。
+>本节介绍广告商通过&#x200B;**[!UICONTROL 发现协作者]**&#x200B;工作区向发布者发送连接邀请的过程。 要了解如何在品牌之间形成连接（无论其角色如何），请阅读[品牌到品牌连接](#brand-to-brand-connection)部分或访问[私有连接邀请](#private-connection-invite)部分。
 
 确定要与之协作的发布者后，在发布者卡中选择&#x200B;**[!UICONTROL 连接]**&#x200B;选项。 此操作将启动连接过程。
 
-![Discover发布者工作区中的特定发布者上突出显示的“连接”选项。](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
+![在发现协作者工作区中的特定发布者上突出显示“连接”选项。](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
 出现一个对话框，提示您向发布者发送连接邀请。 选择&#x200B;**[!UICONTROL 发送邀请]**&#x200B;以继续。
 

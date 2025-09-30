@@ -2,9 +2,9 @@
 title: 端到端工作流程
 description: 了解根据您的协作模式使用Real-Time CDP Collaboration的端到端工作流程。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 8745d6d8da389b552af3da6612bf693230dfb538
+source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 建立帐户后，[!UICONTROL Luma]和[!UICONTROL TV Tube]都必须[创建数据连接和源受众](../setup/onboard-audiences.md)。 只有[!UICONTROL TV Tube]会激活营销活动的受众，因此他们需要[配置目标](../setup/manage-destinations.md)。
 
-一旦两个协作者都设置了帐户，他们就准备好[在平台内建立连接](../connect/establishing-connections.md)。 [!UICONTROL Luma]使用[发现发布者](../connect/discover-publishers.md)功能查找[!UICONTROL TV Tube]并启动连接请求。 在[!UICONTROL TV Tube]接受连接请求后，[!UICONTROL Luma]将配置连接设置以定义协作方式。 [!UICONTROL TV Tube]接受连接请求，以便在两个品牌之间建立安全链接。
+一旦两个协作者都设置了帐户，他们就准备好[在平台内建立连接](../connect/establishing-connections.md)。 [!UICONTROL Luma]使用[发现协作者](../connect/discover-collaborators.md)功能查找[!UICONTROL TV Tube]并启动连接请求。 在[!UICONTROL TV Tube]接受连接请求后，[!UICONTROL Luma]将配置连接设置以定义协作方式。 [!UICONTROL TV Tube]接受连接请求，以便在两个品牌之间建立安全链接。
 
 建立连接后，[!UICONTROL Luma] [创建一个项目](../collaborate/manage-projects.md)以开始他们与[!UICONTROL TV Tube]的协作。 在项目设置过程中，他们选择最符合其目标的协作用例：[发现](../collaborate/discover.md)、[激活](../collaborate/activate.md)和[度量](../collaborate/measure.md)。
 
