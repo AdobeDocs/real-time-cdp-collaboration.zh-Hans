@@ -2,11 +2,11 @@
 title: 端到端工作流程
 description: 了解根据您的协作模式使用Real-Time CDP Collaboration的端到端工作流程。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
+source-git-commit: 5c08738cdc8e1e208203ee1f9a1cf1891b5b07cb
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -60,3 +60,15 @@ ht-degree: 0%
 [!UICONTROL Fit服装]和[!UICONTROL Luma]都可以使用[发现](../collaborate/discover.md)用例来深入了解彼此的受众数据。 确定有价值的受众区段后，他们[激活](../collaborate/activate.md)为营销活动选择的受众。
 
 最后，在执行其促销活动后，两个品牌都会将数据上传到[度量](../collaborate/measure.md)结果并评估其协作的有效性。
+
+## 广告商到广告平台的工作流程 {#advertiser-to-advertising-platform-workflow}
+
+[!UICONTROL Luma]，一家体育零售公司，想要与[!DNL Amazon Marketing Cloud] ([!DNL AMC])联系，以利用[!DNL AMC]的标识解析和定位工具来增强其营销能力。 Luma已具有活动的[!DNL Amazon Advertising]帐户，并且已批准使用[!DNL AMC]。
+
+若要开始，[!UICONTROL Luma]需要使用广告商角色[创建帐户](../setup/onboard-account.md)。 建立帐户后，[!UICONTROL Luma]必须[创建数据连接和源受众](../setup/onboard-audiences.md)。 由于[!UICONTROL Luma]将激活营销活动的受众，因此他们需要[配置目标](../setup/manage-destinations.md)。
+
+在[!UICONTROL Luma]设置好帐户后，他们便已准备好在平台中[与](../connect/establishing-connections.md)建立连接[!DNL AMC]。 [!UICONTROL Luma]使用[发现协作者](../connect/discover-collaborators.md)功能查找[!UICONTROL Amazon Marketing Cloud]和[启动连接请求](../connect/advertising-platforms/amc.md)。 在通过[!DNL Amazon]登录页面验证并授权连接后，已建立与[!DNL AMC]的连接。
+
+建立连接后，[!UICONTROL Luma] [创建一个项目](../collaborate/manage-projects.md)以开始他们与[!DNL AMC]的协作。 连接设置（包括用例）会根据广告平台进行预配置。 对于[!DNL AMC]，可用的用例是[发现](../collaborate/advertising-platforms/amc.md#discover)。
+
+[!UICONTROL Luma]利用[发现](../collaborate/advertising-platforms/amc.md#discover)用例从[!DNL AMC]获取见解和受众数据。 利用这些见解，[!UICONTROL Luma]可以优化其营销策略并提高促销活动有效性。

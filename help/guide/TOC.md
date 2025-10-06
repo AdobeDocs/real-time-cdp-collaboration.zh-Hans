@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration支持广告商和出版商之间的无缝和安全数据共享和协作，促进实时受众洞察和个性化营销策略。
-source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
+source-git-commit: db2eb6d124fd05523ad65872bcd12078b9809ddc
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 35%
+source-wordcount: '139'
+ht-degree: 33%
 
 ---
 
@@ -30,13 +30,22 @@ ht-degree: 35%
    * [添加和管理测量数据](./setup/onboard-measurement-data.md)
    * [审核日志](./setup/audit-logs.md)
 * 建立连接 {#connect}
+   * [Overview.md](./connect/overview.md)
    * [探索协作者](./connect/discover-collaborators.md)
-   * [建立连接](./connect/establishing-connections.md)
+   * [建立协作者连接](./connect/establishing-connections.md)
+   * [管理连接](./connect/manage-connections.md)
+   * Advertising平台连接 {#ad-platform-connections}
+      * [概述](./connect/advertising-platforms/overview.md)
+      * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * 协作 {#collaborate}
+   * [概述](./collaborate/overview.md)
    * [管理项目](./collaborate/manage-projects.md)
-   * [发现](./collaborate/discover.md)
-   * [激活](./collaborate/activate.md)
-   * [测量](./collaborate/measure.md)
+   * 协作者连接 {#collaborator-connections}
+      * [发现](./collaborate/discover.md)
+      * [激活](./collaborate/activate.md)
+      * [测量](./collaborate/measure.md)
+   * Advertising平台连接 {#ad-platform-connections}
+      * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
 * 目标 {#destinations}
    * [概述](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)

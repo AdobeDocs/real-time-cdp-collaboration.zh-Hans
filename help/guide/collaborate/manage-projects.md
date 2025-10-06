@@ -2,12 +2,12 @@
 title: 创建和管理项目
 description: 了解如何在Adobe Real-Time CDP Collaboration中创建和管理项目
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: f12333adbe9d1fd18650d32c1b8b4e08c1410e5e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 9%
+source-wordcount: '350'
+ht-degree: 8%
 
 ---
 
@@ -55,13 +55,3 @@ ht-degree: 9%
 您现在可以根据在连接设置期间选择的用例查看新项目、其详细信息和可用部分。
 
 ![项目概述工作区。](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
-
-## 项目用例 {#project-use-cases}
-
-项目概述将显示在连接设置期间选择的用例。 这些用例定义了项目中可用的功能。 用例包括：
-
-| 用例 | 项目部分 |
-| --- | --- |
-| 营销活动测量 | 此用例授予对[度量](/help/guide/collaborate/measure.md)部分和所有可用功能的访问权限。 |
-| 受众发现 | 此用例授予对[发现](/help/guide/collaborate/discover.md)部分和所有可用功能的访问权限。 |
-| Audience Activation | 此用例授予对[激活](/help/guide/collaborate/activate.md)部分和所有可用功能的访问权限。 |

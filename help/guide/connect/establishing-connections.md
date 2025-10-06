@@ -1,47 +1,17 @@
 ---
-title: 建立连接
+title: 与协作者建立连接
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
+source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '3400'
-ht-degree: 7%
+source-wordcount: '2812'
+ht-degree: 8%
 
 ---
 
-# 建立连接 {#establishing-connections}
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_compare_audiences"
->title="比较受众"
->abstract="将您的受众与通过Amazon广告触及的所有消费者进行比较。"
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_relevant_audiences"
->title="相关受众"
->abstract="Amazon仅考虑DSP展示次数，以定位受众重叠程度最高的区段(这些区段只能在DSP中定位)。"
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_resolved_ids"
->title="已解析的 ID"
->abstract="Amazon通过身份解析能够使用受众数据解析的ID数量。"
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="重叠的广告展示 ID"
->abstract="这表示已上传受众中也通过Amazon Ads向广告公开的“已解决ID”的数量。"
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_overlap_percentage"
->title="重叠 %"
->abstract="通过Amazon Ads向广告公开的“已解决ID”比例。"
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_amazon_breakdown"
->title="按 Amazon 广告产品细分"
->abstract="Amazon Ads赞助产品和/或Amazon Ads DSP达到的“重叠广告显示ID”的细分。"
+# 与协作者建立连接 {#establishing-connections}
 
 {{limited-availability-release-note}}
 
@@ -78,31 +48,7 @@ ht-degree: 7%
 
 >[!TIP]
 >
->术语&#x200B;**brand**&#x200B;用于引用Collaboration之外的公司或品牌。 术语&#x200B;**协作者**&#x200B;是指可在Collaboration中建立连接的任何帐户，无论它们是广告商还是发布者。
-
-在品牌到品牌模式中，在产品外部沟通的两个品牌可以使用[私有连接邀请](#private-connection-invite)直接在Collaboration中连接。 品牌既可以是广告商，也可以是发布者。 此模式对于可能不符合传统广告商 — 出版商模式的品牌特别有用，例如两个广告商或两个出版商。
-
-首先，协作者向另一个协作者发送专用连接邀请。 收件人会查看并接受邀请，从而允许所有者建议连接设置。 收件人接受连接设置后，即可建立连接，两个协作者可以开始一起处理项目。
-
-### 高级概述
-
->[!TIP]
->
->在讨论连接过程时，**所有者**&#x200B;和&#x200B;**收件人**&#x200B;之间存在区别。 所有者是通过发送邀请来启动连接的协作者，而收件人则是接收并审阅邀请的协作者。
-
-两个品牌之间的连接过程包括几个步骤。 在连接过程开始之前，必须满足几个先决条件：
-
-1. 两个品牌在产品之外沟通，讨论潜在的联系。
-1. 品牌[在Collaboration中创建帐户](/help/guide/setup/onboard-account.md)（如果尚未创建），请确保选择适当的角色类型（广告商或发布商）。
-
-   满足前提条件后，即可开始连接过程。 以下步骤概述了该过程：
-
-1. [发送专用连接邀请](#send-private-connection-invite)：一个协作者向另一个协作者发送专用连接邀请。
-1. [接受专用连接邀请](#accept-private-connection-invite)：收件人审阅并接受专用连接邀请。
-1. [配置连接设置](#configure-connection-settings)：所有者配置连接设置并将它们发送给收件人进行审查和接受。
-1. [确认连接设置](#establish-connection)：收件人查看连接设置并接受或拒绝它们。
-
-接受连接设置后，即建立连接，协作者已准备[创建项目](/help/guide/collaborate/manage-projects.md#create-project)以开始协作营销活动。
+>本指南介绍了广告商与发布商和品牌与品牌协作模式的连接过程。 要了解如何连接广告平台，请参阅[连接概述](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection)指南中的[广告商到广告平台连接](/help/guide/connect/overview.md)部分。
 
 ## 连接 {#connect}
 
@@ -356,26 +302,6 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 > 接受连接设置后，您将无法再添加或编辑广告商名称。
 
 接下来，选择&#x200B;**[!UICONTROL 接受]**&#x200B;以继续连接。 连接状态将更改为&#x200B;**[!UICONTROL 活动]**，您现在可以开始协作处理项目。
-
-## 删除连接 {#delete-connections}
-
-您可以删除与协作者之间不希望继续使用的任何连接。 要删除现有连接，请导航到&#x200B;**[!UICONTROL 连接]**。 作为发布者，将显示您现有的连接。 作为广告商，您应该导航到&#x200B;**[!UICONTROL 我的连接]**。
-
-在要删除的连接卡上选择&#x200B;**[!UICONTROL 查看连接]**。
-
-![在“我的连接”视图中突出显示“查看连接”选项。](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
-
-选择连接工作区中的删除图标![删除图标](/help/assets/common/delete.svg)以删除连接。
-
-![连接工作区中突出显示的删除图标。](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
-
-将出现一个确认对话框，要求您确认删除连接。 选择&#x200B;**[!UICONTROL 删除]**&#x200B;以确认删除。
-
-![用于删除连接的确认对话框。](/help/assets/connect/establish-connection/delete-confirmation-dialog.png){zoomable="yes"}
-
->[!WARNING]
->
->删除连接后，协作中的所有现有项目将被永久删除且无法恢复。 连接请求将保持挂起状态，但连接及其配置将不再处于活动状态。 如果要再次与协作者连接，则需要重新建立连接。
 
 ## 后续步骤
 

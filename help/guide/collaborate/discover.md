@@ -2,11 +2,11 @@
 title: 发现重叠并比较受众
 description: 发现与协作者受众之间的重叠。 了解如何发现可在营销活动中使用的最佳受众。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 3dd37dff0be104894cdfe42503b60056b25018e3
+source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2107'
 ht-degree: 17%
 
 ---
@@ -42,6 +42,10 @@ ht-degree: 17%
 * [已创建您与协作者之间的项目](/help/guide/collaborate/manage-projects.md)
 
 在满足这些先决条件后，您可以开始探索和比较您与协作者受众之间的重叠。
+
+>[!NOTE]
+>
+>此&#x200B;**[!UICONTROL 发现]**&#x200B;工作区与与广告平台的协作无关。 目前，Amazon Marketing Cloud是Real-Time CDP Collaboration中唯一可用的广告平台。 有关[!DNL AMC] **[!UICONTROL 发现]**&#x200B;工作区的详细信息，请阅读[Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)指南。
 
 ## 比较受众 {#compare-audiences}
 
