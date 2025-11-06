@@ -2,11 +2,11 @@
 title: Real-Time CDP Collaboration快速入门指南
 description: 了解如何在Real-Time CDP Collaboration中载入您的组织，包括设置角色和组织、受众源、激活和测量。 本指南可帮助协作者配置连接设置，以便开始安全高效地使用受众。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 9355535e067afeedff33f5c6468bc6fcb1f58e08
+source-git-commit: 3d003563e7eb6489e2a97b394f0ab185a63e35f2
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1403'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 观看本视频，了解如何使用Admin Console和Experience Platform为Collaboration分配产品访问权限。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452240/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 第2步：设置您的Collaboration帐户 {#set-up-your-account}
 
@@ -108,7 +108,7 @@ ht-degree: 0%
 >**匹配关键要求：**
 >
 >所有匹配键必须是&#x200B;**修剪**，**小写**
->&#x200B;>哈希匹配键必须为&#x200B;**SHA256-hashed**。\
+>哈希匹配键必须为&#x200B;**SHA256-hashed**。\
 >如果您提供的哈希值使用大写字符，Collaboration会自动将其转换为小写。\
 >如果您的源包含&#x200B;**纯文本标识符**，请使用&#x200B;**[!UICONTROL 应用转换]**&#x200B;选项来应用散列。 仅当从Experience Platform获取受众时，此选项才可用，而基于云的源不支持此选项。
 >
@@ -122,15 +122,11 @@ ht-degree: 0%
 
 ### 选项B：来自Snowflake或Amazon S3的Source
 
-要配置云源（例如，[!DNL AWS S3]或[!DNL Snowflake]），请使用以下[受众规范PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1.pdf)准备受众数据。 完成后，或者如果您有任何疑问，请联系您的Adobe客户代表以完成设置。 此方法不是自助方法，需要Adobe帮助。
+要配置云源（如[!DNL Snowflake]或[!DNL Amazon S3]），请使用[受众规范PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)准备受众数据
 
-<!-- Add in the below in final draft: 
+您可以将[!DNL Amazon S3]配置为自助数据源。 有关设置说明，请参阅[Amazon S3源指南](./setup/configure-aws-s3-audience-sourcing.md)
 
-To configure a cloud source, such as [!DNL Snowflake] or [!DNL AWS S3], prepare your audience data using the [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1)
-
-[!DNL AWS S3] can now be configured as a self-service source. For setup instructions, see the [AWS S3 sourcing guide](./setup/configure-aws-s3-audience-sourcing.md)
-
-If you are using [!DNL Snowflake], or other cloud service provider, contact your Adobe account representative to finalize the setup. -->
+如果您使用的是[!DNL Snowflake]或其他云服务提供商，请联系您的Adobe客户代表以完成设置。
 
 >[!IMPORTANT]
 >
