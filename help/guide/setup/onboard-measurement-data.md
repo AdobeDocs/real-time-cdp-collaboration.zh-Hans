@@ -2,14 +2,14 @@
 title: 添加和管理测量数据
 description: 了解如何将测量数据添加到Adobe Real-Time CDP Collaboration。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
-source-git-commit: 65468fdc8787acc6a92f4c2368758437df47d526
+source-git-commit: 26a2f8975efcadd43431823e0f2dd90847aa83ba
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 9%
+source-wordcount: '108'
+ht-degree: 7%
 
 ---
 
@@ -29,6 +29,16 @@ ht-degree: 9%
 >id="rtcdp_collaboration_measurement_data_source_fields"
 >title="源字段"
 >abstract="测量源字段的占位符。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_measurement_mapping_source_fields"
+>title="映射源字段"
+>abstract="源字段测量映射的占位符。"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_import_measurement_mapping_target_fields"
+>title="映射目标字段"
+>abstract="目标字段测量映射的占位符。"
 
 {{limited-availability-release-note}}
 
