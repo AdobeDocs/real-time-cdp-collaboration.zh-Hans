@@ -90,7 +90,7 @@ ht-degree: 0%
 
 接下来，提供您的[!DNL Amazon S3]凭据以将您的S3存储段连接到Collaboration。
 
-按照&#x200B;**[为受众源配置AWS权限](./configure-aws-permissions-audience-sourcing.md)**中概述的步骤操作，以授予Adobe对您的服务器的访问权限
+按照&#x200B;**[为受众源配置AWS权限](./configure-aws-permissions-audience-sourcing.md)**&#x200B;中概述的步骤操作，以授予Adobe对您的服务器的访问权限
 [!DNL Amazon S3]存储。 完成后，将您的值输入到以下UI字段中：
 
 * IAM 角色
