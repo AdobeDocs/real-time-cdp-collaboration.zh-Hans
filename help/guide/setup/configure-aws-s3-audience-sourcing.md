@@ -186,7 +186,7 @@ ht-degree: 0%
 
 在协作项目中使用受众之前，请使用此视图确认受众配置和可见性设置。
 
-有关详细信息，请参阅[查看受众仪表板文档](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)。
+有关详细信息，请参阅[查看受众仪表板文档](https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)。
 
 ## 查看S3数据连接 {#view-s3-connection}
 
