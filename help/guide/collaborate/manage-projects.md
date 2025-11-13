@@ -2,12 +2,12 @@
 title: 创建和管理项目
 description: 了解如何在Adobe Real-Time CDP Collaboration中创建和管理项目
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: f12333adbe9d1fd18650d32c1b8b4e08c1410e5e
+source-git-commit: 99443e1270a8a52a44dc7d0258c5bee7e4017db6
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 8%
+source-wordcount: '396'
+ht-degree: 7%
 
 ---
 
@@ -28,6 +28,11 @@ ht-degree: 8%
 ![使用单个协作者筛选的项目视图。](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## 创建项目 {#create-project}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_create_project_advertisername_amc"
+>title="广告商名称(Amazon Marketing Cloud)"
+>abstract="对于Amazon Marketing Cloud (AMC)连接，此字段表示您的Amazon广告登录有权访问的AMC实例。 它不反映广告商名称。 如果未列出所需的实例，请联系您的Amazon Marketing Cloud管理员以请求获取访问权限。"
 
 要创建项目，您必须先[与协作者建立连接](/help/guide/connect/establishing-connections.md)。 建立连接后，即可使用该协作者创建项目。
 
