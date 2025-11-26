@@ -1,10 +1,10 @@
 ---
 title: '为受众源配置 [!DNL Amazon S3] '
 description: 了解如何将 [!DNL Amazon S3] 存储配置并连接为自助数据源，以将受众数据摄取到Real-Time CDP Collaboration。
-source-git-commit: 05fd7ec466ba2b20264490bbbfadc9bb6d361bc8
+source-git-commit: 7a2bfb524d77d42690f3abe848a59aae5b16b667
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 0%
+source-wordcount: '1583'
+ht-degree: 1%
 
 ---
 
@@ -64,6 +64,12 @@ ht-degree: 0%
 
 ### 查看受众文件要求 {#review-audience-requirements}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications"
+>title="请为加入过程准备好您的数据"
+>abstract="请参阅受众源规格指南，了解如何设置和构建适用于Collaboration的Amazon S3中的受众数据。"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="请参阅指南"
+
 此时将显示一个对话框，其中说明必须如何构建受众文件。 使用指向&#x200B;**[[!UICONTROL 受众源规格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)**&#x200B;的链接了解如何设置和构建[!DNL Amazon S3]中的受众数据，以便Collaboration能够正确读取。
 
 >[!IMPORTANT]
@@ -88,9 +94,14 @@ ht-degree: 0%
 >title="文件夹路径格式"
 >abstract="输入存储受众文件的[!DNL Amazon S3]存储段内的文件夹路径（前缀）。<br><ul><li>路径不能以正斜杠(/)开头。</li><li>在路径末尾包括尾随斜杠。</li><ul><br>有效示例： `base/path/`<br>无效示例： `/base/path`"
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sharing_amazon_s3"
+>title="添加Amazon S3受众"
+>abstract="要连接您的Amazon S3存储，请授权Adobe的服务用户检索您的受众数据以供处理。 按照Experience League中概述的步骤，授予Adobe对Amazon S3存储的访问权限。"
+
 接下来，提供您的[!DNL Amazon S3]凭据以将您的S3存储段连接到Collaboration。
 
-按照&#x200B;**[为受众源配置AWS权限](./configure-aws-permissions-audience-sourcing.md)**&#x200B;中概述的步骤操作，以授予Adobe对您的服务器的访问权限
+按照&#x200B;**[为受众源配置AWS权限](./configure-aws-permissions-audience-sourcing.md)**中概述的步骤操作，以授予Adobe对您的服务器的访问权限
 [!DNL Amazon S3]存储。 完成后，将您的值输入到以下UI字段中：
 
 * IAM 角色
@@ -186,7 +197,7 @@ ht-degree: 0%
 
 在协作项目中使用受众之前，请使用此视图确认受众配置和可见性设置。
 
-有关详细信息，请参阅[查看受众仪表板文档](https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)。
+有关详细信息，请参阅[查看受众仪表板文档](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)。
 
 ## 查看S3数据连接 {#view-s3-connection}
 
