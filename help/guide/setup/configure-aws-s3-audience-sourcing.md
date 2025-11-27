@@ -101,7 +101,7 @@ ht-degree: 1%
 
 接下来，提供您的[!DNL Amazon S3]凭据以将您的S3存储段连接到Collaboration。
 
-按照&#x200B;**[为受众源配置AWS权限](./configure-aws-permissions-audience-sourcing.md)**&#x200B;中概述的步骤操作，以授予Adobe对您的服务器的访问权限
+按照&#x200B;**[为受众源配置AWS权限](./configure-aws-permissions-audience-sourcing.md)**中概述的步骤操作，以授予Adobe对您的服务器的访问权限
 [!DNL Amazon S3]存储。 完成后，将您的值输入到以下UI字段中：
 
 * IAM 角色
@@ -197,7 +197,7 @@ ht-degree: 1%
 
 在协作项目中使用受众之前，请使用此视图确认受众配置和可见性设置。
 
-有关详细信息，请参阅[查看受众仪表板文档](https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)。
+有关详细信息，请参阅[查看受众仪表板文档](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)。
 
 ## 查看S3数据连接 {#view-s3-connection}
 
