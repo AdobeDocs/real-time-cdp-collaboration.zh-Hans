@@ -2,9 +2,9 @@
 title: 访问控制概述
 description: 了解如何获取Adobe Real-Time Customer Data Platform (CDP) Collaboration的访问权限。
 audience: admin
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 2%
@@ -28,14 +28,14 @@ Adobe Real-Time CDP Collaboration的访问控制是通过[Adobe Experience Cloud
 这些指南将介绍如何为系统管理员、产品管理员和最终用户配置访问权限。 请参阅下表以了解角色之间的主要区别。
 
 | 角色 | 描述 |
-| --- | --- | 
+| --- | --- |
 | 系统管理员 | 组织的超级用户。 他们可以在Admin Console中执行所有管理任务，并有权将管理功能委派给其他用户。 |
 | 产品管理员 | 管理分配给他们的产品以及所有相关管理功能，例如向组织添加用户，在产品配置文件中添加或删除用户，以及在产品中添加或删除其他产品管理员。 |
 | 最终用户 | 您组织中使用该产品的用户。 |
 
 {style="table-layout:auto"}
 
-有关管理角色的详细信息，请访问[Adobe帮助中心](https://helpx.adobe.com/cn/enterprise/using/admin-roles.html)。
+有关管理角色的详细信息，请访问[Adobe帮助中心](https://helpx.adobe.com/enterprise/using/admin-roles.html)。
 
 >[!TIP]
 >
@@ -65,7 +65,7 @@ Adobe Real-Time CDP Collaboration的访问控制是通过[Adobe Experience Cloud
 > 超级用户是指系统管理员可以获得的最高级别的访问权限。 超级用户可以执行所有管理任务和用户功能。 系统管理员没有开箱即用的产品功能，需要为自己授予适当的访问权限，如下图所示。
 
 | 用例 | 所需角色 | 从何处开始 |
-| --- | --- | --- | 
+| --- | --- | --- |
 | 没有现有Experience Platform产品访问权限的超级用户。 | 系统管理员。 | [配置产品管理员访问权限](./manage-user-access.md#admin-access) |
 | 具有&#x200B;**Experience Platform UI访问权限的现有Experience Platform系统管理员**&#x200B;的超级用户。 | 系统管理员。 | [配置Collaboration访问权限](./manage-user-access.md#RTCDP-collab-access) |
 | 现有Experience Platform系统管理员&#x200B;**的超级用户，无** Experience Platform UI访问权限。 | 系统管理员。 | [配置产品管理员访问权限](./manage-user-access.md#admin-access) |
