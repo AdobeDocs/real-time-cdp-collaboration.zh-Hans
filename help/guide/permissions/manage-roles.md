@@ -2,7 +2,7 @@
 title: 通过权限管理角色
 description: 了解提供对Real-Time CDP Collaboration UI中不同组件的访问权限的所有可用角色资源。
 audience: admin
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 59cf5bf2-421b-4ebc-beab-30eafb098649
 source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
 workflow-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-要管理用户对Adobe Real-Time CDP Collaboration UI其他组件的访问权限，[管理员](./manage-user-access.md#system-admin-gain-access)可以定义和分配角色。 角色定义管理员或用户对您组织中的[资源](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions){target="_blank"}的访问权限。 本指南将介绍Real-Time CDP Collaboration中提供的标准角色，以及可分配给自定义角色的各个权限。
+要管理用户对Adobe Real-Time CDP Collaboration UI其他组件的访问权限，[管理员](./manage-user-access.md#system-admin-gain-access)可以定义和分配角色。 角色定义管理员或用户对您组织中的[资源](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home#permissions){target="_blank"}的访问权限。 本指南将介绍Real-Time CDP Collaboration中提供的标准角色，以及可分配给自定义角色的各个权限。
 
 要开始管理角色，管理员需要访问Experience Platform产品。 有关获取管理访问权限或获取Experience Platform访问权限的信息，请参阅[管理用户访问权限](./manage-user-access.md#manage-user-access-through-permissions)指南。
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 ## 创建特定的访问角色 {#specific-access-roles}
 
-您可能需要创建其他角色，以便为不同用户提供不同级别的访问权限。 创建角色时，您可以通过选择&#x200B;**[!UICONTROL 协作]**&#x200B;资源中的特定权限来管理不同的访问级别。 要了解如何创建和管理角色，请参阅[角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"}指南。
+您可能需要创建其他角色，以便为不同用户提供不同级别的访问权限。 创建角色时，您可以通过选择&#x200B;**[!UICONTROL 协作]**&#x200B;资源中的特定权限来管理不同的访问级别。 要了解如何创建和管理角色，请参阅[角色](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"}指南。
 
 >[!NOTE]
 > 要访问Collaboration，用户必须有权访问Adobe Experience Platform中的&#x200B;**[!UICONTROL Prod]**&#x200B;沙盒。 要授予用户访问此沙盒的权限，必须将他们分配给&#x200B;**[!UICONTROL 沙盒]**&#x200B;资源中包含&#x200B;**[!UICONTROL Prod]**&#x200B;权限的角色。
@@ -61,4 +61,4 @@ ht-degree: 1%
 
 ## 后续步骤
 
-在创建定义Collaboration访问权限的角色后，您需要将角色[分配给管理员和用户](./manage-user-access.md#assign-a-role)。 有关管理角色的完整概述，请参阅[角色的管理权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions)指南。
+在创建定义Collaboration访问权限的角色后，您需要将角色[分配给管理员和用户](./manage-user-access.md#assign-a-role)。 有关管理角色的完整概述，请参阅[角色的管理权限](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions)指南。
