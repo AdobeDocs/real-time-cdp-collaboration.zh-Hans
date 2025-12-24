@@ -2,9 +2,9 @@
 title: 配置和管理您的帐户
 description: 了解如何在Real-Time CDP Collaboration中配置和管理帐户的各个方面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
+source-git-commit: c9e2e8607dde87c4a36b131ed434195ef77730e6
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 14%
@@ -122,15 +122,15 @@ Collaboration支持三种类型的匹配键：第一方人员ID、第一方设�
 
 合作伙伴 ID 是一种外部合作伙伴提供的用于协调受众的标识符。当前支持的ID包括：
 
-* **[!UICONTROL Adfixus ID]**
+* **[!UICONTROL AdFixus ID]**
 
 >[!NOTE]
 >
->Adobe与[!DNL Adfixus]的集成将每个帐户的唯一[!UICONTROL Adfixus ID]映射到常见的Adobe编码格式。 这些映射用于标识协作者之间的重叠。 使用&#x200B;**[!UICONTROL Adfixus ID]**&#x200B;激活受众时，将使用原始ID。 Adobe编码的格式永远不会离开Collaboration。
+>Adobe与[!DNL AdFixus]的集成将每个帐户的唯一[!UICONTROL AdFixus ID]映射到通用的Adobe编码格式。 这些映射用于标识协作者之间的重叠。 使用&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;激活受众时，将使用原始ID。 Adobe编码的格式永远不会离开Collaboration。
 
-选择&#x200B;**[!UICONTROL Adfixus ID]**&#x200B;时，您需要在&#x200B;**[!UICONTROL 帐户凭据]**&#x200B;部分提供来自外部合作伙伴的对应ID。 此选项仅在&#x200B;*切换* Adfixus ID **[!UICONTROL 后]**&#x200B;可用。 在&#x200B;**[!UICONTROL 帐户ID]**&#x200B;字段中输入您的Adfixus ID，并确保仔细检查该值是否准确。
+选择&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;时，您需要在&#x200B;**[!UICONTROL 帐户凭据]**&#x200B;部分提供来自外部合作伙伴的对应ID。 此选项仅在&#x200B;*AdFixus ID*&#x200B;上切换&#x200B;**[!UICONTROL 后]**&#x200B;可用。 在&#x200B;**[!UICONTROL 帐户ID]**&#x200B;字段中输入您的AdFixus ID，并确保仔细检查该值是否准确。
 
-![已打开Adfixus ID的“匹配密钥”对话框，并突出显示了“帐户凭据”部分。](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
+![已打开AdFixus ID的“匹配密钥”对话框，并突出显示了“帐户凭据”部分。](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
 
 选择所有所需的匹配键后，选择&#x200B;**[!UICONTROL 完成]**&#x200B;以完成帐户设置工作流。
 
@@ -164,11 +164,11 @@ Collaboration支持三种类型的匹配键：第一方人员ID、第一方设�
 
 ![在帐户的“匹配密钥”部分中，突出显示具有“编辑”选项的“设置”工作区。](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-出现&#x200B;**[!UICONTROL 匹配键]**&#x200B;对话框。 打开和关闭任何匹配的密钥，或者更新&#x200B;**[!UICONTROL Adfixus ID]**&#x200B;的[!UICONTROL 帐户ID]，然后选择&#x200B;**[!UICONTROL 保存]**&#x200B;以确认更改。
+出现&#x200B;**[!UICONTROL 匹配键]**&#x200B;对话框。 打开和关闭任何匹配的密钥，或者更新&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;的[!UICONTROL 帐户ID]，然后选择&#x200B;**[!UICONTROL 保存]**&#x200B;以确认更改。
 
 >[!IMPORTANT]
 >
->更改[!UICONTROL Adfixus ID]不会触发使用匹配键刷新现有数据连接的[数据草图](../glossary.md#sketches)。 草图数据后，对您的[!UICONTROL Adfixus ID]所做的任何更改都将不会反映在您的下一个受众刷新之前，直到您的[数据连接计划](./manage-data-connection.md#scheduling)设置。 如果在下次刷新之前需要进行更改，可以删除并重新创建数据连接。
+>更改您的[!UICONTROL AdFixus ID]不会使用匹配键触发现有数据连接的[数据草图](../glossary.md#sketches)刷新。 草图数据后，对您的[!UICONTROL AdFixus ID]所做的任何更改都不会反映在下一个受众刷新之前，该刷新操作将遵循[数据连接计划](./manage-data-connection.md#scheduling)设置。 如果在下次刷新之前需要进行更改，可以删除并重新创建数据连接。
 
 ![突出显示了“保存”选项的“匹配键”对话框。](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
