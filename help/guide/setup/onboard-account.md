@@ -2,7 +2,7 @@
 title: 配置和管理您的帐户
 description: 了解如何在Real-Time CDP Collaboration中配置和管理帐户的各个方面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: c9e2e8607dde87c4a36b131ed434195ef77730e6
 workflow-type: tm+mt
