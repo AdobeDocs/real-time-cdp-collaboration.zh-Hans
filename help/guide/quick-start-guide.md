@@ -2,7 +2,7 @@
 title: Real-Time CDP Collaboration快速入门和设置指南
 description: 了解如何设置Real-Time CDP Collaboration、配置角色和帐户、配置源受众、激活数据以及安全地与合作伙伴联系。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
 source-git-commit: d0ad2d66ac7178c24449be415a613b89d9b3bee1
 workflow-type: tm+mt
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 观看本视频，了解如何使用Admin Console和Experience Platform为Collaboration分配产品访问权限。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452240/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 第2步：设置您的Collaboration帐户 {#set-up-your-account}
 
