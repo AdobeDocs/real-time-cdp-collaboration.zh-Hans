@@ -2,12 +2,12 @@
 title: 配置和管理您的帐户
 description: 了解如何在Real-Time CDP Collaboration中配置和管理帐户的各个方面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: c9e2e8607dde87c4a36b131ed434195ef77730e6
+source-git-commit: 873af5b0ef5e4e0c937c540de4697ec314624669
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 14%
+source-wordcount: '1373'
+ht-degree: 11%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="第一方设备 ID"
->abstract="第一方设备 ID（例如 ECID 或 IP 地址）直接与设备连接，这些设备可以由多个人共享。IPv4 是目前唯一受支持的第一方设备 ID。"
+>abstract="第一方设备ID（如ECID或IP地址）直接连接到可能在多个人之间共享的设备。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
@@ -117,6 +117,8 @@ Collaboration支持三种类型的匹配键：第一方人员ID、第一方设�
 第一方设备ID是连接到特定设备的标识符。 当前支持的ID包括：
 
 * **[!UICONTROL 哈希IPv4]**：哈希IPv4地址
+* **[!UICONTROL IDFA]**： Apple iOS设备中使用的广告商标识符(IDFA)
+* **[!UICONTROL GAID]**： Android设备中使用的Google广告商ID
 
 ##### 合作伙伴 ID
 
