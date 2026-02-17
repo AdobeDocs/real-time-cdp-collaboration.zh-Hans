@@ -2,9 +2,9 @@
 title: Real-Time CDP Collaboration快速入门和设置指南
 description: 了解如何设置Real-Time CDP Collaboration、配置角色和帐户、配置源受众、激活数据以及安全地与合作伙伴联系。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: d0ad2d66ac7178c24449be415a613b89d9b3bee1
+source-git-commit: bd6c28c3d21ea98434c6cdf585a3e439f7d2ce70
 workflow-type: tm+mt
 source-wordcount: '1389'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 观看本视频，了解如何使用Admin Console和Experience Platform为Collaboration分配产品访问权限。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452240/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 第2步：设置您的Collaboration帐户 {#set-up-your-account}
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 ### 选项B：来自Snowflake或Amazon S3的Source
 
-要配置云源（如[!DNL Snowflake]或[!DNL Amazon S3]），请使用[受众规范PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)准备受众数据
+要配置云源（如[!DNL Snowflake]或[!DNL Amazon S3]），请使用[受众规范PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)准备受众数据
 
 您可以将[!DNL Amazon S3]配置为自助数据源。 有关设置说明，请参阅[Amazon S3源指南](./setup/configure-aws-s3-audience-sourcing.md)
 
