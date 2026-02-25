@@ -2,12 +2,12 @@
 title: 管理数据连接
 description: 了解如何在Real-Time CDP Collaboration中管理数据连接，包括匹配键、计划、用例和受众筛选
 audience: administrator, data engineer
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
+source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 10%
+source-wordcount: '1132'
+ht-degree: 5%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 10%
 >title="匹配键"
 >abstract="匹配键决定如何匹配来自不同来源的数据。下面显示的匹配键是您将源字段映射到那里的目标字段。"
 
-匹配键是您[将源字段映射到](./onboard-audiences.md#map-fields)的目标字段。 您无法编辑最初为数据连接选择的匹配键。 要更新匹配键，必须创建新的数据连接。 要了解有关匹配键如何工作的更多信息，请参阅[匹配键](./onboard-account.md#set-up-match-keys)指南。
+匹配键是您[将源字段映射到](./onboard-audiences.md#map-fields)的目标字段。 要了解有关匹配键如何工作的更多信息，请参阅[匹配键](./onboard-account.md#set-up-match-keys)指南。
 
 ![突出显示匹配键部分的数据连接工作区。](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -41,11 +41,11 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="日程计划"
->abstract="查看数据连接的调度详细信息，并在需要时编辑刷新频率。"
+>abstract="查看数据连接的计划详细信息，并根据需要编辑配置。"
 
 查看和管理数据连接的计划设置。 计划决定了刷新受众的频率。
 
-创建数据连接后，可以直接从数据连接工作区的&#x200B;**[!UICONTROL 计划]**&#x200B;部分更新其刷新频率。
+创建数据连接后，可以直接从数据连接工作区的&#x200B;**[!UICONTROL 计划]**&#x200B;部分更新其刷新频率、开始日期和结束日期。
 
 >[!NOTE]
 >
@@ -55,19 +55,82 @@ ht-degree: 10%
 
 ![突出显示计划部分的数据连接的工作区。](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
-#### 编辑计划 {#edit-scheduling}
+## 编辑数据连接 {#edit-data-connection}
+
+请阅读以下部分，了解如何更新匹配键以及现有数据连接的计划设置。
+
+### 编辑匹配键 {#edit-match-keys}
+
+>[!IMPORTANT]
+>
+>在编辑数据连接的匹配键之前，请注意以下事项：
+>
+>* 只有为您的帐户配置的匹配键才能用于数据连接。
+>* 此时，您可以向数据连接添加其他匹配键，但一旦启用了匹配键，就无法将其删除。
+
+从&#x200B;**[!UICONTROL 匹配键]**&#x200B;部分中选择&#x200B;**[!UICONTROL 编辑]**。
+
+![突出显示了“编辑”选项的“匹配键”部分。](/help/assets/setup/manage-data-connection/edit-match-keys.png){zoomable="yes"}
+
+此时将显示确认对话框，其中说明对数据连接所做的任何更改都将应用于所有关联受众。 选择&#x200B;**[!UICONTROL 确定]**&#x200B;确认。 您可以选择以后跳过此确认。
+
+![确认对话框，其中显示对数据连接所做的任何更改都将应用于所有关联的受众。](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+
+在&#x200B;**[!UICONTROL 匹配键]**&#x200B;对话框中，可以查看源字段与其对应的目标字段（匹配键）之间的现有映射。 您可以通过更新映射的源字段来编辑匹配键，或者添加其他映射字段行以填充新的匹配键。
+
+![显示源字段和相应目标字段之间现有映射的“匹配键”对话框。](/help/assets/setup/manage-data-connection/match-keys-dialog.png){zoomable="yes"}
+
+#### 添加匹配键 {#add-match-keys}
+
+选择&#x200B;**[!UICONTROL 添加字段]**&#x200B;以添加新字段行。
+
+![选择“添加字段”后，“匹配键”对话框将显示一个空的新映射字段可供输入。](/help/assets/setup/manage-data-connection/add-new-field.png){zoomable="yes"}
+
+接下来，选择空的源字段。 将显示&#x200B;**[!UICONTROL 选择源字段]**&#x200B;对话框，其中包含&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;和&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;选项。 您可以筛选列表并使用搜索选项查找所需的源字段。
+
+选择所需的源字段，然后选择&#x200B;**[!UICONTROL 选择]**。
+
+![已选择GAID选项的“选择源字段”对话框。](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+
+在&#x200B;**[!UICONTROL 匹配键]**&#x200B;对话框中，使用下拉菜单将新的源字段映射到目标字段。 所有可用的目标字段都是为Collaborator帐户配置的匹配键。 如果未看到所需的目标字段，请[编辑帐户的匹配键](./onboard-account.md#edit-match-keys)以添加它。
+
+如果您要将非哈希字段源到哈希目标字段，例如将纯文本电子邮件源字段映射到&#x200B;**[!UICONTROL 哈希电子邮件]**&#x200B;目标字段，请使用&#x200B;**[!UICONTROL 应用转换]**&#x200B;选项。
+
+![下拉菜单显示所有可用目标字段以与新的源字段映射。](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
+
+完成字段映射后，查看更新并选择&#x200B;**[!UICONTROL 确认]**&#x200B;以应用更改。
+
+![显示更新字段映射的“匹配键”对话框突出显示“确认”选项。](/help/assets/setup/manage-data-connection/review-and-confirm.png){zoomable="yes"}
+
+确认对话框用于确认匹配键已成功更新。
+
+### 编辑计划 {#edit-scheduling}
+
+创建数据连接后，可以直接从数据连接工作区的&#x200B;**[!UICONTROL 计划]**&#x200B;部分更新其刷新频率、开始日期和结束日期。
 
 您可以编辑现有数据连接的频率，以更好地控制刷新受众的频率。 要编辑计划，请在计划卡片的数据连接中选择&#x200B;**[!UICONTROL 编辑]**。
 
-此计划将会影响源自数据连接的所有受众。
+![突出显示了“编辑”选项的“计划”部分。](/help/assets/setup/manage-data-connection/edit-scheduling.png){zoomable="yes"}
 
-在&#x200B;**[!UICONTROL 计划]**&#x200B;对话框中，选择下拉菜单以更新&#x200B;**[!UICONTROL 频率]**。 将刷新频率设置为每天或每两到六天运行一次。 完成后，选择&#x200B;**[!UICONTROL 保存]**&#x200B;以应用更改。
+此时将显示确认对话框，其中说明对数据连接所做的任何更改都将应用于所有关联受众。 选择&#x200B;**[!UICONTROL 确定]**&#x200B;确认。 您可以选择以后跳过此确认。
 
-![计划对话框，显示用于设置频率和日期范围的选项。](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
+![确认对话框，其中显示对数据连接所做的任何更改都将应用于所有关联的受众。](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+
+在&#x200B;**[!UICONTROL 计划]**&#x200B;对话框中，选择下拉菜单以更新&#x200B;**[!UICONTROL 频率]**。 将刷新频率设置为每天或每两到六天运行一次。
+
+![展开了“计划”对话框，其中的“频率”下拉菜单显示受众刷新频率选项。](../../assets/setup/manage-data-connection/edit-frequency.png){zoomable="yes"}
+
+接下来，如果要更新填充和刷新受众的时段，请选择&#x200B;**[!UICONTROL 日期范围]**。
+
+![显示“日期范围”下拉列表的“计划”对话框已展开，可编辑受众填充和刷新的开始和结束日期。](../../assets/setup/manage-data-connection/edit-date-range.png){zoomable="yes"}
+
+完成后，查看更新并选择&#x200B;**[!UICONTROL 保存]**&#x200B;以应用更改。
+
+![“计划”对话框突出显示“更新和保存”选项。](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## 删除数据连接
 
-删除数据连接将会删除整个Collaboration中的所有基础受众、关联设置和使用情况。 此操作无法撤消。
+删除数据连接将会删除整个Collaboration中的所有基础受众、关联设置和使用情况。 无法撤消此操作。
 
 要删除现有的数据连接，请选择单个数据连接工作区中的删除图标（![删除图标](/help/assets/common/delete.svg)）。
 
