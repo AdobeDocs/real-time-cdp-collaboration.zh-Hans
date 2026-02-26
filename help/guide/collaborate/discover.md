@@ -2,7 +2,7 @@
 title: 发现重叠并比较受众
 description: 发现与协作者受众之间的重叠。 了解如何发现可在营销活动中使用的最佳受众。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 发现]**&#x200B;工作区仅在连接过程&#x200B;**中启用了**&#x200B;受众发现[用例时才可用。 &#x200B;](../connect/establishing-connections.md#connection-settings)有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 发现]**&#x200B;工作区仅在连接过程&#x200B;**中启用了**&#x200B;受众发现[用例时才可用。 ](../connect/establishing-connections.md#connection-settings)有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
 在[创建项目](/help/guide/collaborate/manage-projects.md)之后，您可以将受众与协作者进行比较。 这有助于您识别营销活动的相关受众，并决定要将哪些受众发送给协作者进行激活。
 
@@ -86,7 +86,7 @@ ht-degree: 17%
 | **[!UICONTROL 身份计数]** （您的协作者） | 协作者受众中的唯一ID数量。 |
 | **[!UICONTROL 身份重叠]** | 您的和协作者受众中同时存在的唯一ID数量。 |
 | **[!UICONTROL 重叠%]** | 您和您的协作者所选受众之间重叠的轮廓百分比。 |
-| **[!UICONTROL 受众索引]** | 一个分数，根据基础受众计数和重叠情况指示一个受众与另一个受众之间的关联程度。 要了解有关分数含义的更多信息，请阅读[受众索引分数](#audience-index-score)部分。 与协作者的基线（所有受众）进行比较时，无法使用受众索引分数。 |
+| **[!UICONTROL 受众索引]** | 一个分数，根据基础受众规模和重叠情况指示一个受众与另一个受众之间的关联程度。 要了解有关分数含义的更多信息，请阅读[受众索引分数](#audience-index-score)部分。 与协作者的基线（所有受众）进行比较时，无法使用受众索引分数。 |
 | **[!UICONTROL 按匹配键划分身份]** | 根据为每个协作者选择的受众，细分与项目中选择的每个匹配键匹配的身份。 |
 
 {style="table-layout:auto"}
@@ -119,7 +119,7 @@ ht-degree: 17%
 | **[!UICONTROL 身份计数]** | 受众中唯一ID的数量。 |
 | **[!UICONTROL 身份重叠]** | 推荐的受众与您的所有受众之间重叠的唯一ID数量。 |
 | **[!UICONTROL 重叠%]** | 推荐受众和您的所有受众之间重叠身份的百分比。 |
-| **[!UICONTROL 受众索引]** | 一个分数，根据基础受众计数和重叠情况指示一个受众与另一个受众之间的关联程度。 要了解有关分数含义的更多信息，请阅读[受众索引分数](#audience-index-score)部分。 |
+| **[!UICONTROL 受众索引]** | 一个分数，根据基础受众规模和重叠情况指示一个受众与另一个受众之间的关联程度。 要了解有关分数含义的更多信息，请阅读[受众索引分数](#audience-index-score)部分。 |
 | **[!UICONTROL 受众类别]** | 您的协作者分配给受众的类别。 |
 | **[!UICONTROL 匹配键]** | 您的协作者为受众选择的匹配键。 |
 
@@ -132,7 +132,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
 >title="发现与个体受众的重叠"
->abstract="深入了解您与协作者受众之间的重合情况。"
+>abstract="洞察您与协作者受众之间的重合情况。"
 
 发现重叠，深入了解受众与协作者受众的对比情况。 默认情况下，此部分会将您的所有受众与协作者各自的受众进行比较。 使用部分底部的分页控件在可用受众中导航。
 
@@ -159,7 +159,7 @@ ht-degree: 17%
 | **[!UICONTROL 身份计数]** | 受众中唯一ID的数量。 |
 | **[!UICONTROL 身份重叠]** | 推荐的受众与您的所有受众之间重叠的唯一ID数量。 |
 | **[!UICONTROL 重叠%]** | 推荐受众和您的所有受众之间重叠身份的百分比。 |
-| **[!UICONTROL 受众索引]** | 一个分数，根据基础受众计数和重叠情况指示一个受众与另一个受众之间的关联程度。 要了解有关分数含义的更多信息，请阅读[受众索引分数](#audience-index-score)部分。 |
+| **[!UICONTROL 受众索引]** | 一个分数，根据基础受众规模和重叠情况指示一个受众与另一个受众之间的关联程度。 要了解有关分数含义的更多信息，请阅读[受众索引分数](#audience-index-score)部分。 |
 | **[!UICONTROL 受众类别]** | 您的协作者分配给受众的类别。 |
 | **[!UICONTROL 匹配键]** | 您的协作者为受众选择的匹配键。 |
 
