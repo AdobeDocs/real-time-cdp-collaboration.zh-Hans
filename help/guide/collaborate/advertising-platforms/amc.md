@@ -2,7 +2,7 @@
 title: Amazon Marketing Cloud
 description: 了解如何在Real-Time CDP Collaboration中与Amazon Marketing Cloud协作。
 audience: publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
 source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
 workflow-type: tm+mt
@@ -57,7 +57,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->受众数据通过上传到您[!DNL Amazon Ads]帐户的受众进行处理。 要了解如何使用Experience Platform的目标功能将受众发送到您的[!DNL Amazon Ads]帐户，请阅读[Amazon Ads连接](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads)指南。
+>受众数据通过上传到您[!DNL Amazon Ads]帐户的受众进行处理。 要了解如何使用Experience Platform的目标功能将受众发送到您的[!DNL Amazon Ads]帐户，请阅读[Amazon Ads连接](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/advertising/amazon-ads)指南。
 
 ![使用Amazon Marketing Cloud的项目中的“发现”部分。](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
