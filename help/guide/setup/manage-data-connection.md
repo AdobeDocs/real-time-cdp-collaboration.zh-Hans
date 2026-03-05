@@ -2,12 +2,12 @@
 title: 管理数据连接
 description: 了解如何在Real-Time CDP Collaboration中管理数据连接，包括匹配键、计划、用例和受众筛选
 audience: administrator, data engineer
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
+source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 5%
+source-wordcount: '1149'
+ht-degree: 6%
 
 ---
 
@@ -60,6 +60,12 @@ ht-degree: 5%
 请阅读以下部分，了解如何更新匹配键以及现有数据连接的计划设置。
 
 ### 编辑匹配键 {#edit-match-keys}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
+>title="扩充"
+>abstract="不支持关闭扩充。您可以改为更改扩充连接键。"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="扩充"
 
 >[!IMPORTANT]
 >
