@@ -5,7 +5,7 @@ exl-id: 566ceb1b-a72a-413d-b07d-409723892616
 source-git-commit: 43134d6f334ee500834a6451bdf1a8f7372f8d10
 workflow-type: tm+mt
 source-wordcount: '1583'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -68,8 +68,8 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_specifications"
 >title="请为加入过程准备好您的数据"
->abstract="请参阅受众源规格指南，了解如何设置和构建适用于Collaboration的Amazon S3中的受众数据。"
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="请参阅指南"
+>abstract="阅读受众来源规范指南，了解如何为 Collaboration 格式化和构建来自 Amazon S3 的受众数据。"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="查看指南"
 
 此时将显示一个对话框，其中说明必须如何构建受众文件。 使用指向&#x200B;**[[!UICONTROL 受众源规格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;的链接了解如何设置和构建[!DNL Amazon S3]中的受众数据，以便Collaboration能够正确读取。
 
@@ -88,21 +88,21 @@ ht-degree: 1%
 
 ![包含指向受众源规范链接的“准备数据以进行源”对话框。](../../assets/setup/aws-audience-sourcing/prepare-data-sourcing-dialog.png)
 
-### 验证S3连接 {#authenticate-s3-connection}
+### 对您的 S3 连接进行身份验证 {#authenticate-s3-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_sources_s3_folderpath"
 >title="文件夹路径格式"
->abstract="输入存储受众文件的[!DNL Amazon S3]存储段内的文件夹路径（前缀）。<br><ul><li>路径不能以正斜杠(/)开头。</li><li>在路径末尾包括尾随斜杠。</li><ul><br>有效示例： `base/path/`<br>无效示例： `/base/path`"
+>abstract="输入您 [!DNL Amazon S3] 存储桶中存放受众文件的文件夹路径（前缀）。<br><ul><li>路径不要以正斜杠 (/) 开头。</li><li>路径末尾必须包含正斜杠。</li><ul><br>有效示例：`base/path/`<br>无效示例：`/base/path`"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_amazon_s3"
->title="添加Amazon S3受众"
->abstract="要连接您的Amazon S3存储，请授权Adobe的服务用户检索您的受众数据以供处理。 按照Experience League中概述的步骤，授予Adobe对Amazon S3存储的访问权限。"
+>title="添加 Amazon S3 受众"
+>abstract="要连接您的 Amazon S3 存储，请授权 Adobe 的服务用户检索您的受众数据以进行处理。按照 Experience League 中列出的步骤，授予 Adobe 访问您的 Amazon S3 存储的权限。"
 
 接下来，提供您的[!DNL Amazon S3]凭据以将您的S3存储段连接到Collaboration。
 
-按照&#x200B;**[为受众源配置AWS权限](./configure-aws-permissions-audience-sourcing.md)**&#x200B;中概述的步骤操作，以授予Adobe对您的服务器的访问权限
+按照&#x200B;**[为受众源配置AWS权限](./configure-aws-permissions-audience-sourcing.md)**中概述的步骤操作，以授予Adobe对您的服务器的访问权限
 [!DNL Amazon S3]存储。 完成后，将您的值输入到以下UI字段中：
 
 * IAM 角色
