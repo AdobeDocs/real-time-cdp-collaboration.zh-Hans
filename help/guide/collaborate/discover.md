@@ -17,7 +17,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 发现]**&#x200B;工作区仅在连接过程&#x200B;**中启用了**&#x200B;受众发现[用例时才可用。 ](../connect/establishing-connections.md#connection-settings)有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 发现]**&#x200B;工作区仅在连接过程&#x200B;**中启用了**&#x200B;受众发现[用例时才可用。 &#x200B;](../connect/establishing-connections.md#connection-settings)有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
 在[创建项目](/help/guide/collaborate/manage-projects.md)之后，您可以将受众与协作者进行比较。 这有助于您识别营销活动的相关受众，并决定要将哪些受众发送给协作者进行激活。
 
