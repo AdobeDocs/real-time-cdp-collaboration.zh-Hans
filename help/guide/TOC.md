@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration支持广告商和出版商之间的无缝和安全数据共享和协作，促进实时受众洞察和个性化营销策略。
-source-git-commit: 469c1e650235e15d7b09650d3affa3c8c7563b09
+source-git-commit: 692435be1921043148c5fa70fbdf615d2af088bd
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 27%
+source-wordcount: '179'
+ht-degree: 32%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 27%
       * [上传CSV文件以进行受众源](./setup/upload-csv-audience-sourcing.md)
    * [管理数据连接](./setup/manage-data-connection.md)
    * [配置和管理目标](./setup/manage-destinations.md)
-   * [跟踪您的信用消耗活动](/help/guide/setup/my-activity.md)
+   * [跟踪您的额度使用情况](/help/guide/setup/my-activity.md)
    * [身份标识对照表](./setup/identity-crosswalk.md)
-   * [添加和管理测量数据](./setup/onboard-measurement-data.md)
+   * [添加和管理衡量数据](./setup/onboard-measurement-data.md)
    * [审核日志](./setup/audit-logs.md)
 * 建立连接 {#connect}
    * [Overview.md](./connect/overview.md)
@@ -51,6 +51,7 @@ ht-degree: 27%
       * [测量](./collaborate/measure.md)
    * Advertising平台连接 {#ad-platform-connections}
       * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
+      * [创建AMC测量报表](./collaborate/advertising-platforms/amc-measure.md)
 * 目标 {#destinations}
    * [概述](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
