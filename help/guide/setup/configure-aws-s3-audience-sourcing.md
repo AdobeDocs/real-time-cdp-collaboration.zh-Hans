@@ -69,7 +69,7 @@ ht-degree: 8%
 >id="rtcdp_collaboration_audience_sourcing_specifications"
 >title="请为加入过程准备好您的数据"
 >abstract="阅读受众来源规范指南，了解如何为 Collaboration 格式化和构建来自 Amazon S3 的受众数据。"
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing_cn" text="查看指南"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="查看指南"
 
 此时将显示一个对话框，其中说明必须如何构建受众文件。 使用指向&#x200B;**[[!UICONTROL 受众源规格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;的链接了解如何设置和构建[!DNL Amazon S3]中的受众数据，以便Collaboration能够正确读取。
 
