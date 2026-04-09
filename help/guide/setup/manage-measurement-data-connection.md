@@ -2,7 +2,7 @@
 title: 管理测量数据连接
 description: 了解如何在Real-Time CDP Collaboration中管理测量数据连接，包括详细信息和匹配键
 audience: administrator, data engineer
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 494277f421606eda62b74c254f1fdd29b22e3473
 workflow-type: tm+mt
 source-wordcount: '1338'
