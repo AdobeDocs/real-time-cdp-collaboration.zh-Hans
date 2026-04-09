@@ -17,7 +17,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->只有在连接过程](../connect/establishing-connections.md#connection-settings)期间启用了[的&#x200B;**测量**&#x200B;用例时，**[!UICONTROL 测量]**&#x200B;工作区才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>只有在连接过程[&#128279;](../connect/establishing-connections.md#connection-settings)期间启用了的&#x200B;**测量**&#x200B;用例时，**[!UICONTROL 测量]**&#x200B;工作区才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
 了解Adobe Real-Time CDP Collaboration中的可用报表，并了解如何衡量和分析营销活动在各种渠道中的表现。
 
@@ -27,9 +27,9 @@ ht-degree: 7%
 
 * [Connect](/help/guide/connect/establishing-connections.md)与启用了&#x200B;**Measurement**&#x200B;用例的协作者
 * 与您的协作者协作处理至少一个项目。 了解如何[创建项目](/help/guide/collaborate/manage-projects.md#create-project)。
-* 运行您的营销活动，并确保为营销活动](../collaborate/manage-projects.md#manage-campaign-id)提供了[营销活动ID：
+* 运行您的营销活动，并确保为营销活动[&#128279;](../collaborate/manage-projects.md#manage-campaign-id)提供了营销活动ID：
    * 如果您是发布者，请输入链接到广告商促销活动的Campaign ID。
-   * 如果您是广告商，请要求您的协作者（发布者）提供营销活动ID。 在度量值工作区](#create-measurement-report)中[生成报告时需要此项。
+   * 如果您是广告商，请要求您的协作者（发布者）提供营销活动ID。 在度量值工作区[&#128279;](#create-measurement-report)中生成报告时需要此项。
 * 如果要[创建归因报表](#create-attribution-report)，请[将测量数据](/help/guide/setup/onboard-measurement-data.md)上传到Collaboration。
 
 ## 查看报告 {#view-reports}

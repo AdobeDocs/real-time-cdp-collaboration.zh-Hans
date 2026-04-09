@@ -118,7 +118,7 @@ ht-degree: 3%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-或者，在Collaboration](./setup/onboard-audiences.md#source-and-manage-audiences)中查看有关[来源受众的文档。
+或者，在Collaboration[&#128279;](./setup/onboard-audiences.md#source-and-manage-audiences)中查看有关来源受众的文档。
 
 ### 选项B：来自Snowflake或Amazon S3的Source
 
@@ -157,7 +157,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->只有在连接进程](./connect/establishing-connections.md#connection-settings)期间启用了[的&#x200B;**[!UICONTROL 测量]**&#x200B;用例时，**[!UICONTROL 测量]**&#x200B;工作区才可用。 有关用例的更多信息，请参阅[管理项目](./collaborate/manage-projects.md#project-use-cases)指南。
+>只有在连接进程[&#128279;](./connect/establishing-connections.md#connection-settings)期间启用了的&#x200B;**[!UICONTROL 测量]**&#x200B;用例时，**[!UICONTROL 测量]**&#x200B;工作区才可用。 有关用例的更多信息，请参阅[管理项目](./collaborate/manage-projects.md#project-use-cases)指南。
 
 Collaboration提供了多种报告来分析促销活动的范围、频率和有效性。 虽然&#x200B;**[!UICONTROL Measure]**&#x200B;工作区在UI中可用，但完整的报表功能可能需要后端启用。
 
