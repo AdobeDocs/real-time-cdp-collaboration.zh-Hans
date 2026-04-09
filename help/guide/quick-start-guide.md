@@ -2,12 +2,12 @@
 title: Real-Time CDP Collaboration快速入门和设置指南
 description: 了解如何设置 Real-Time CDP Collaboration，配置角色和帐户、引入受众、激活数据，并安全地与合作伙伴建立连接。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: bd6c28c3d21ea98434c6cdf585a3e439f7d2ce70
+source-git-commit: a937773267f42f254b45c14a0fd2f5f1d3b32b8b
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 1%
+source-wordcount: '1406'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 - 为您的组织创建并分配给用户的[角色](./permissions/manage-roles.md)。
 - 访问品牌推广资产，如贵组织的名称、徽标和横幅。
 - [定义的匹配键策略](./setup/onboard-account.md#set-up-match-keys)
-- （可选）如果您没有使用Experience Platform进行受众管理，请访问支持的云源(Amazon S3或Snowflake)。
+- （可选）如果您没有使用Experience Platform进行受众管理，请访问支持的云源（Amazon S3或Snowflake）。
 
 ## 步骤1：完成基于角色的设置 {#complete-role-based-setup}
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 观看本视频，了解如何使用Admin Console和Experience Platform为Collaboration分配产品访问权限。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452240/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 第2步：设置您的Collaboration帐户 {#set-up-your-account}
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 - **品牌推广资产** — 将以下内容添加到您的帐户：
    - 帐户名称（最多100个字符）
    - 描述（最多1,000个字符）
-   - 徽标(SVG &lt;20 KB，最好为正方形)
+   - 徽标（SVG &lt;20 KB，最好为正方形）
 
 >[!NOTE]
 >
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452264/?learn=on&enablevpops)
 
-## 步骤3：Source受众(来自Experience Platform或云源) {#source-audiences}
+## 步骤3：Source受众（来自Experience Platform或云源） {#source-audiences}
 
 在创建帐户并配置品牌和匹配键后，您就可以开始获取受众了。 根据您的数据存储和业务需求，选择以下来源补充方法之一。
 
@@ -86,7 +86,7 @@ ht-degree: 1%
 
 配置如何准备、匹配和管理受众以用于连接。
 
-- **选择受众** *(仅限Experience Platform)* — 选择具有支持标识符的受众区段。
+- **选择受众** *（仅限Experience Platform）* — 选择具有支持标识符的受众区段。
 - **映射匹配键** — 将受众字段与配置的匹配键对齐。
 - **根据需要应用转换** — 哈希纯文本值（例如，电子邮件）。
 - **计划刷新** — 定义更新频率（例如，每天）。
@@ -118,7 +118,7 @@ ht-degree: 1%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-或者，在Collaboration[中查看有关](./setup/onboard-audiences.md#source-and-manage-audiences)来源受众的文档。
+或者，在Collaboration](./setup/onboard-audiences.md#source-and-manage-audiences)中查看有关[来源受众的文档。
 
 ### 选项B：来自Snowflake或Amazon S3的Source
 
@@ -134,7 +134,7 @@ ht-degree: 1%
 >
 >在此阶段，上传文件中的所有受众都将完全获得来源。 [受众可见性设置](/help/guide/setup/onboard-audiences.md#metadata-visibility)确定您的协作者是否可以查看受众，以及是否通过Collaboration UI进行管理。
 
-## 步骤4：激活受众(到Experience Platform或云目标) {#activate-audiences}
+## 步骤4：激活受众（到Experience Platform或云目标） {#activate-audiences}
 
 接下来，将受众激活到您的Experience Platform实例或云目标。
 
@@ -149,19 +149,15 @@ ht-degree: 1%
 
 ### 选项B：激活到云
 
-要配置云目标（例如，[!DNL AWS S3]或[!DNL Snowflake]），请联系您的Adobe客户代表以启动设置过程。 根据云目标，您将需要提供云目标详细信息，例如文件路径、凭据、帐户位置等。 在提供所需信息后，Adobe将配置云目标设置。
+要配置云目标（例如，[!DNL AWS S3]或[!DNL Snowflake]），请联系您的Adobe客户代表以启动设置过程。 根据云目标，您将需要提供云目标详细信息，例如文件路径、凭据、帐户位置等。在提供所需信息后，Adobe将配置云目标设置。
 
 发送到云目标的受众数据遵循预定义架构。 有关必填字段和格式的详细说明，请下载[Collaboration Audience Activation指南](../assets/quick-start/RTCDP_Collaboration_Audience_Activation_Spec_v1.0.pdf)。
 
 ## 步骤5：设置测量（可选） {#set-up-measurement}
 
->[!AVAILABILITY]
->
->此功能处于&#x200B;**测试版**&#x200B;中，仅供有限可用性计划中的客户使用。 请联系您的Adobe代表以请求获取访问权限。
-
 >[!IMPORTANT]
 >
->只有在连接进程&#x200B;**[!UICONTROL 期间启用了]**&#x200B;的&#x200B;**[!UICONTROL 测量]**&#x200B;用例时，[测量](./connect/establishing-connections.md#connection-settings)工作区才可用。 有关用例的更多信息，请参阅[管理项目](./collaborate/manage-projects.md#project-use-cases)指南。
+>只有在连接进程](./connect/establishing-connections.md#connection-settings)期间启用了[的&#x200B;**[!UICONTROL 测量]**&#x200B;用例时，**[!UICONTROL 测量]**&#x200B;工作区才可用。 有关用例的更多信息，请参阅[管理项目](./collaborate/manage-projects.md#project-use-cases)指南。
 
 Collaboration提供了多种报告来分析促销活动的范围、频率和有效性。 虽然&#x200B;**[!UICONTROL Measure]**&#x200B;工作区在UI中可用，但完整的报表功能可能需要后端启用。
 

@@ -2,12 +2,12 @@
 title: 创建和管理项目
 description: 了解如何在Adobe Real-Time CDP Collaboration中创建和管理项目
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: 99443e1270a8a52a44dc7d0258c5bee7e4017db6
+source-git-commit: 0cf888e36ffc4730fc8de4d8adccae0e0fc2caa8
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 19%
+source-wordcount: '680'
+ht-degree: 13%
 
 ---
 
@@ -32,16 +32,16 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_create_project_advertisername_amc"
 >title="广告商名称（Amazon Marketing Cloud）"
->abstract="对于 Amazon Marketing Cloud（AMC）连接，此字段表示您的 Amazon Ads 登录帐户可访问的 AMC 实例。该字段并不表示广告商名称。如果所需实例未列出，请联系您的 Amazon Marketing Cloud 管理员申请访问权限。"
+>abstract="对于 Amazon Marketing Cloud（AMC）连接，此字段表示您的 Amazon Ads 登录帐户可访问的 AMC 实例。 该字段并不表示广告商名称。 如果所需实例未列出，请联系您的 Amazon Marketing Cloud 管理员申请访问权限。"
 
 要创建项目，您必须先[与协作者建立连接](/help/guide/connect/establishing-connections.md)。 建立连接后，即可使用该协作者创建项目。
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
 >title="广告商名称"
->abstract="从下拉菜单中选择广告商名称。这些选项由发布者在连接设置中预先配置，以确保与他们的系统兼容。"
+>abstract="从下拉菜单中选择广告商名称。 这些选项由发布者在连接设置中预先配置，以确保与他们的系统兼容。"
 
-依次导航到&#x200B;**[!UICONTROL 协作]**&#x200B;和&#x200B;**[!UICONTROL 我的项目]**。 如果这是您的第一个项目，则可以选择&#x200B;**[!UICONTROL 创建项目]**。 否则，您可以选择添加图标（![添加图标）。](/help/assets/icons/plus.png))以随时创建新项目。
+依次导航到&#x200B;**[!UICONTROL 协作]**&#x200B;和&#x200B;**[!UICONTROL 我的项目]**。 如果这是您的第一个项目，则可以选择&#x200B;**[!UICONTROL 创建项目]**。 否则，您可以选择添加图标（![添加图标。](/help/assets/icons/plus.png)） 以随时创建新项目。
 
 ![选择加号或创建项目以设置新项目。](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
@@ -60,3 +60,30 @@ ht-degree: 19%
 您现在可以根据在连接设置期间选择的用例查看新项目、其详细信息和可用部分。
 
 ![项目概述工作区。](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
+
+## 管理营销活动ID {#manage-campaign-id}
+
+**促销活动ID**&#x200B;将您的项目链接到特定促销活动，并且是[生成测量报告](./measure.md#create-measurement-report)所必需的。 如果使用同一协作者运行多个营销活动，则可以将多个营销活动ID添加到一个项目。 所有这些营销活动都可在报表中进行选择。
+
+- **发布者**：在运行报告之前，在Collaboration UI中输入或更新促销活动ID和相关名称。
+- **广告商**：请求您的协作者（发布者）根据需要添加促销活动ID。
+
+要添加或更新营销活动ID，请导航到&#x200B;**[!UICONTROL 协作]**&#x200B;工作区，然后在相关项目信息卡中选择&#x200B;**[!UICONTROL 查看]**。
+
+![协作工作区在项目信息卡中突出显示“查看”选项。](/help/assets/collaborate/manage-view-projects/view-project.png){zoomable="yes"}
+
+显示相应的&#x200B;**[!UICONTROL 项目概述]**&#x200B;工作区，其中具有&#x200B;**[!UICONTROL 促销活动ID和名称]**&#x200B;部分，该部分列出了链接到项目的所有促销活动。 如果尚未添加营销活动，请选择&#x200B;**[!UICONTROL 添加]**。 如果已有营销活动，请选择&#x200B;**[!UICONTROL 编辑]**&#x200B;以更新详细信息或添加其他营销活动。
+
+![项目概述工作区显示“活动ID”和“名称”部分，其中突出显示“编辑”选项。](/help/assets/collaborate/manage-view-projects/edit-campaign-id.png){zoomable="yes"}
+
+在&#x200B;**[!UICONTROL 促销活动ID和名称]**&#x200B;对话框中，选择&#x200B;**[!UICONTROL 添加促销活动ID]**&#x200B;以添加一个新行，您可以在其中输入促销活动详细信息。
+
+![选择“添加营销活动ID”选项后，“营销活动ID和名称”对话框显示空的营销活动行。](/help/assets/collaborate/manage-view-projects/add-campaign-row.png){zoomable="yes"}
+
+提供&#x200B;**[!UICONTROL 促销活动ID]**&#x200B;和&#x200B;**[!UICONTROL 促销活动名称]**，然后选择&#x200B;**[!UICONTROL 保存]**。
+
+![显示新促销活动详细信息和“保存”选项的促销活动ID和名称对话框突出显示。](/help/assets/collaborate/manage-view-projects/save-campaign-id.png){zoomable="yes"}
+
+检查&#x200B;**[!UICONTROL 促销活动ID和名称]**&#x200B;部分以查看您的最新促销活动和最近的更改。 您现在可以使用新的Campaign ID生成测量报告。
+
+![项目概述工作区显示更新后的营销活动ID和名称部分。](/help/assets/collaborate/manage-view-projects/view-updated-campaigns.png){zoomable="yes"}
