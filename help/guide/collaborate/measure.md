@@ -2,12 +2,12 @@
 title: 衡量绩效
 description: 衡量不同渠道中的促销活动效果。 了解如何使用和解读各种报表。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: 0cf888e36ffc4730fc8de4d8adccae0e0fc2caa8
+source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
 workflow-type: tm+mt
-source-wordcount: '1949'
-ht-degree: 7%
+source-wordcount: '2612'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->只有在连接过程[&#128279;](../connect/establishing-connections.md#connection-settings)期间启用了的&#x200B;**测量**&#x200B;用例时，**[!UICONTROL 测量]**&#x200B;工作区才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>只有在连接过程](../connect/establishing-connections.md#connection-settings)期间启用了[的&#x200B;**测量**&#x200B;用例时，**[!UICONTROL 测量]**&#x200B;工作区才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
 了解Adobe Real-Time CDP Collaboration中的可用报表，并了解如何衡量和分析营销活动在各种渠道中的表现。
 
@@ -27,9 +27,9 @@ ht-degree: 7%
 
 * [Connect](/help/guide/connect/establishing-connections.md)与启用了&#x200B;**Measurement**&#x200B;用例的协作者
 * 与您的协作者协作处理至少一个项目。 了解如何[创建项目](/help/guide/collaborate/manage-projects.md#create-project)。
-* 运行您的营销活动，并确保为营销活动[&#128279;](../collaborate/manage-projects.md#manage-campaign-id)提供了营销活动ID：
+* 运行您的营销活动，并确保为营销活动](../collaborate/manage-projects.md#manage-campaign-id)提供了[营销活动ID：
    * 如果您是发布者，请输入链接到广告商促销活动的Campaign ID。
-   * 如果您是广告商，请要求您的协作者（发布者）提供营销活动ID。 在度量值工作区[&#128279;](#create-measurement-report)中生成报告时需要此项。
+   * 如果您是广告商，请要求您的协作者（发布者）提供营销活动ID。 在度量值工作区](#create-measurement-report)中[生成报告时需要此项。
 * 如果要[创建归因报表](#create-attribution-report)，请[将测量数据](/help/guide/setup/onboard-measurement-data.md)上传到Collaboration。
 
 ## 查看报告 {#view-reports}
@@ -239,3 +239,81 @@ ht-degree: 7%
 一旦可用，您就可以随时在项目工作区的&#x200B;**[!UICONTROL 度量]**&#x200B;选项卡中查看报告。
 
 ![创建测量报告屏幕显示的信息和突出显示的创建选项。](/help/assets/collaborate/measure/attribution-review.png)
+
+## 编辑测量报告 {#edit-measurement-report}
+
+>[!IMPORTANT]
+>
+>仅当计划在将来运行测量报表时，才能编辑测量报表的设置。 对于已执行的报表，无法更改设置。
+
+更新测量报表设置，以确保报表在特定时间段内提供对营销活动的正确分析，并在所需的日期运行。
+
+要开始，请导航到要更新的测量报告的工作区。 选择删除图标旁边的编辑图标（![编辑图标](/help/assets/icons/edit.png)）。
+
+![突出显示“编辑”图标的测量报告工作区。](/help/assets/collaborate/measure/edit-report.png)
+
+>[!TIP]
+>
+>在&#x200B;**[!UICONTROL 度量]**&#x200B;选项卡中，导航到要编辑的报告部分。 选择&#x200B;**[!UICONTROL 查看完整报告]**&#x200B;旁边的编辑图标（![编辑图标](/help/assets/icons/edit.png)）以更新其设置。
+>![“度量”选项卡突出显示报表节中的“编辑”图标。](/help/assets/collaborate/measure/measure-tab-edit-report.png)
+
+此时将显示&#x200B;**[!UICONTROL 编辑测量报告]**&#x200B;对话框，其中包含报告当前设置，具体包含以下部分：
+
+* [**计费详细信息**](#billing-details)：在运行测量报告时显示积分信息。 无需配置。
+* [**促销活动详细信息**](#campaign-details)：显示广告商、促销活动ID、报告时段和用户友好报表名称的设置。
+* [**报告详细信息**](#report-details)：显示特定于归因报告的报告类型、报告运行日期和配置选项的设置。
+
+![“编辑测量报告”对话框显示“计费详细信息”、“促销活动详细信息”和“报告详细信息”部分下的当前设置。](/help/assets/collaborate/measure/edit-measurement-report-dialog.png)
+
+### 编辑营销活动详细信息 {#edit-campaign-details}
+
+在&#x200B;**[!UICONTROL 编辑度量报告]**&#x200B;对话框中，使用&#x200B;**[!UICONTROL 广告商ID （名称）]**&#x200B;和&#x200B;**[!UICONTROL 促销活动ID]**&#x200B;下拉菜单编辑报告的广告商和促销活动ID。
+
+![突出显示Campaign ID下拉菜单的“编辑测量报告”对话框打开。](/help/assets/collaborate/measure/edit-campaign-id.png)
+
+接下来，选择&#x200B;**[!UICONTROL 报告日期范围]**&#x200B;并使用日历更改报告的开始和结束日期。
+
+![突出显示报告日期范围日历的“编辑测量报告”对话框打开。](/help/assets/collaborate/measure/edit-report-date-range.png)
+
+输入更新的友好报表名称以捕获您最近的更改。 这有助于您识别并在将来查找此报告。
+
+![突出显示更新的友好报告名称的“编辑测量报告”对话框。](/help/assets/collaborate/measure/edit-friendly-report-name.png)
+
+### 编辑报告详细信息 {#edit-report-details}
+
+要计划其他日期的报告，请导航到&#x200B;**[!UICONTROL 报告详细信息]**&#x200B;部分。 选择当前运行日期选项，然后使用日历选择首选日期。
+
+![突出显示报告运行日期日历的“编辑测量报告”对话框。](/help/assets/collaborate/measure/edit-report-run-date.png)
+
+作为广告商，除了&#x200B;**[!UICONTROL 促销活动摘要]**&#x200B;之外，您还可以选择或删除&#x200B;**[!UICONTROL 归因]**&#x200B;报表类型。 如果选择&#x200B;**[!UICONTROL 归因]**，则您的归因报表将包括标准“促销活动摘要”量度和深入的归因分析。 有关&#x200B;**促销活动摘要**&#x200B;和&#x200B;**归因**&#x200B;报告类型的详细信息，请参阅[创建测量报告](#create-measurement-report)部分。
+
+>[!IMPORTANT]
+>
+>如果您是&#x200B;**发布者**，则默认报表类型为&#x200B;**[!UICONTROL 营销活动摘要]**，此时无法更改。
+
+* 如果选择&#x200B;**[!UICONTROL 归因]**&#x200B;作为报表类型，则必须在&#x200B;**[!UICONTROL 归因]**&#x200B;部分中填写必填字段。 有关设置说明，请参阅[归因报告详细信息](#report-details-attribution)部分。
+* 如果您之前在创建报告时配置了归因设置，则可以选择编辑回顾时间范围（以天为单位测量）并选择要报告的转化事件。
+
+要更新&#x200B;**[!UICONTROL 以天]**&#x200B;为单位的回溯时段，请输入一个数值，或使用增量/减量选项对其进行调整。 接下来，选择要报告的转化事件。 您可以从可用列表中选择最多&#x200B;**3**&#x200B;次转化。
+
+![突出显示已更新的转化事件的“编辑测量报告”对话框。](/help/assets/collaborate/measure/edit-conversion-events.png)
+
+完成后，查看更新并选择&#x200B;**[!UICONTROL 编辑]**&#x200B;以应用更改。
+
+![突出显示了“编辑”选项的“编辑测量报告”对话框。](/help/assets/collaborate/measure/edit-report-confirm.png)
+
+确认对话框用于确认您的报告已成功保存。
+
+## 删除测量报表 {#delete-measurement-report}
+
+删除Collaboration中的测量报表会将其从系统中永久删除。 无法撤消此操作。 为此，请在&#x200B;**[!UICONTROL 度量]**&#x200B;选项卡中选择要删除的报告。
+
+在测量报表工作区中，选择删除图标（![删除图标](/help/assets/common/delete.svg)）。
+
+![突出显示“删除”图标的测量报告工作区。](/help/assets/collaborate/measure/delete-report.png)
+
+出现&#x200B;**[!UICONTROL 删除报告]**&#x200B;对话框，提示您确认删除。 选择&#x200B;**[!UICONTROL 删除]**。
+
+![突出显示带有“删除”选项的“删除报告”对话框。](/help/assets/collaborate/measure/delete-report-confirm.png)
+
+确认对话框用于确认报告已成功删除。

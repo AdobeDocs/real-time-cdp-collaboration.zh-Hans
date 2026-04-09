@@ -2,12 +2,12 @@
 title: 添加和管理衡量数据
 description: 了解如何将测量数据添加到Adobe Real-Time CDP Collaboration。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
-source-git-commit: 42bbd17878701cfaf2cba170a9471cf5c7285796
+source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 6%
+source-wordcount: '2720'
+ht-degree: 5%
 
 ---
 
@@ -132,7 +132,7 @@ ht-degree: 6%
 
 ![突出显示“电子邮件源”字段和“选择”选项的“选择源字段”对话框。](../../assets/setup/add-manage-measurement-data/select-source-field-dialog.png){zoomable="yes"}
 
-接下来，使用下拉菜单将选定的源字段映射到相应的目标字段。 所有可用的目标字段都是为您的Collaborator帐户[&#128279;](./onboard-account.md#set-up-match-keys)配置的匹配键。
+接下来，使用下拉菜单将选定的源字段映射到相应的目标字段。 所有可用的目标字段都是为您的Collaborator帐户](./onboard-account.md#set-up-match-keys)配置的[匹配键。
 
 ![下拉菜单显示要与选定源字段映射的所有可用目标字段。](../../assets/setup/add-manage-measurement-data/select-target-field-dropdown.png){zoomable="yes"}
 
@@ -150,12 +150,11 @@ ht-degree: 6%
 
 ![需要确认且“下一步”选项突出显示的管理同意屏幕。](../../assets/setup/add-manage-measurement-data/manage-consent.png){zoomable="yes"}
 
-如果在映射步骤[&#128279;](#enrich-event-data)期间启用配置文件扩充，则可以从预定义选项的列表中配置同意策略。 这包括：
+如果在映射步骤](#enrich-event-data)期间[启用配置文件扩充，则可以从预定义选项的列表中配置同意策略。 这包括：
 
 * **营销操作**：使用这些营销操作可以控制要将哪些受众数据从Experience Platform引入Collaboration。
 * **同意规则**：选择要应用于源自Collaboration的数据的同意规则。
 * **受众**：使用受众筛选器包含或排除要同意的受众配置文件。
-
 
 >[!NOTE]
 >
@@ -238,6 +237,100 @@ ht-degree: 6%
 * **[!UICONTROL 条件]**：显示应用于此转化事件的条件规则。
 
 ![显示转化事件详细信息的“概述”屏幕。](../../assets/setup/add-manage-measurement-data/conversion-event-overview.png){zoomable="yes"}
+
+## 编辑测量数据 {#edit-measurement-data}
+
+获取测量数据后，您可以随时编辑转化事件的详细信息和条件规则。
+
+从&#x200B;**[!UICONTROL 我的测量数据]**&#x200B;选项卡中，选择相关转化事件卡片中的省略号选项（![更多图标](/help/assets/icons/more.png)）。 然后从下拉菜单中选择&#x200B;**[!UICONTROL 查看转化]**&#x200B;以打开该转化事件的详细页面。
+
+![我的测量数据选项卡，省略号菜单处于打开状态，并且视图转换选项高亮显示。](/help/assets/setup/add-manage-measurement-data/conversion-event-list.png){zoomable="yes"}
+
+### 编辑名称和描述 {#edit-name-and-description}
+
+要更新事件的名称和描述，请选择页面右上角的编辑图标（![编辑图标](/help/assets/icons/edit.png)）。
+
+![右上角显示“编辑”图标的“网站访问”事件页面。](/help/assets/setup/add-manage-measurement-data/edit-name-description.png){zoomable="yes"}
+
+在&#x200B;**[!UICONTROL 编辑名称和描述]**&#x200B;对话框中，使用所需的值更新字段，然后选择&#x200B;**[!UICONTROL 保存]**&#x200B;以应用更改。
+
+![突出显示带有“保存”选项的“编辑名称和描述”对话框。](/help/assets/setup/add-manage-measurement-data/edit-name-description-dialog.png){zoomable="yes"}
+
+将显示确认对话框，确认详细信息已成功更新。
+
+### 编辑转化详细信息 {#edit-conversion-details}
+
+您可以更新事件的以下转化详细信息：
+
+| 字段 | 描述 |
+|-------------------|-------------|
+| 转化类型 | 转化事件的类别，如网站访问、购买或注册。 |
+| 重复数据删除键 | 事件数据集中属于同一转化事件（例如，同一时间戳）的行的标识符。 防止重复计数。 |
+| 转化值 | 与每次转化关联的值。 |
+
+{style="table-layout:auto"}
+
+要开始编辑，请在&#x200B;**[!UICONTROL 转换详细信息]**&#x200B;面板中选择&#x200B;**[!UICONTROL 编辑]**。
+
+![网站访问事件页面在转化详细信息面板中突出显示“编辑”选项。](/help/assets/setup/add-manage-measurement-data/edit-conversion-details.png){zoomable="yes"}
+
+在&#x200B;**[!UICONTROL 编辑转换详细信息]**&#x200B;对话框中，使用下拉菜单更新转换类型。 您可以输入转换值，如果不想分配值，则将其留空。 要编辑复制键，请选择现有键选项。
+
+![突出显示了“示例人员ID”选项的“编辑转换详细信息”对话框。](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-dialog.png){zoomable="yes"}
+
+**[!UICONTROL 复制键]**&#x200B;对话框显示分组在选项（如&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;和&#x200B;**[!UICONTROL 事件架构]**）下的可用字段列表。 查找并选择所需的键，然后选择&#x200B;**[!UICONTROL 选择]**。
+
+![显示所选键和Select选项的“重复键”对话框。](../../assets/setup/add-manage-measurement-data/edit-duplication-key-dialog.png){zoomable="yes"}
+
+完成后，查看更新并选择&#x200B;**[!UICONTROL 保存]**&#x200B;以应用更改。
+
+![突出显示了“保存”选项的“编辑转换详细信息”对话框。](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-save.png){zoomable="yes"}
+
+将显示确认对话框，确认详细信息已成功更新。
+
+### 编辑条件 {#edit-conditions}
+
+条件规则指定将事件数据集中的哪些数据行作为转化包括在内。 根据需要更新这些规则，以确保您的测量仅反映与分析最相关的数据。
+
+要编辑条件，请在&#x200B;**[!UICONTROL 条件]**&#x200B;面板中选择&#x200B;**[!UICONTROL 编辑]**。
+
+![网站访问事件页面在“条件”面板中突出显示“编辑”选项。](/help/assets/setup/add-manage-measurement-data/edit-conditions.png){zoomable="yes"}
+
+在&#x200B;**[!UICONTROL 编辑转换规则]**&#x200B;对话框中，可以查看所有条件的当前详细信息。 选择现有条件选项以更新其详细信息，包括源字段、逻辑规则和值。
+
+![“编辑转换规则”对话框突出显示用于编辑现有条件的源字段、逻辑规则和值的选项。](/help/assets/setup/add-manage-measurement-data/edit-exisiting-condition.png){zoomable="yes"}
+
+要包含其他转换规则，请选择&#x200B;**[!UICONTROL 添加条件]**。 然后选择新的空条件选项。
+
+![选择“添加条件”选项后，“编辑转换规则”对话框将显示新的空条件选项。](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-add-condition.png){zoomable="yes"}
+
+在&#x200B;**[!UICONTROL 选择源字段]**&#x200B;对话框中，您可以看到分组在选项（如&#x200B;**[!UICONTROL 标识命名空间]**&#x200B;和&#x200B;**[!UICONTROL 事件架构]**）下的可用字段。 选择要用于条件的相应字段，然后选择&#x200B;**[!UICONTROL 选择]**。 您可以使用&#x200B;**[!UICONTROL 搜索]**&#x200B;选项快速查找您的首选字段。
+
+![显示所选字段和选择选项的“选择源字段”对话框。](../../assets/setup/add-manage-measurement-data/edit-condition-source-key.png){zoomable="yes"}
+
+接下来，使用下拉菜单从可用列表中选择逻辑运算符，并输入条件的值。
+
+![突出显示逻辑下拉菜单的“编辑转换规则”对话框。](../../assets/setup/add-manage-measurement-data/edit-condition-logic-dropdown.png){zoomable="yes"}
+
+如果每次转换都需要所有指定的条件，请使用&#x200B;**[!UICONTROL 包含所有条件]**，或者使用&#x200B;**[!UICONTROL 包含任何条件]**&#x200B;以允许至少匹配一个条件的转换。 完成更新后，查看并选择&#x200B;**[!UICONTROL 保存]**&#x200B;以应用更改。
+
+![突出显示了“保存”选项的“编辑转换规则”对话框。](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-save.png){zoomable="yes"}
+
+将显示确认对话框，确认详细信息已成功更新。
+
+## 删除测量数据 {#delete-measurement-data}
+
+删除测量数据会永久从您的项目中删除关联的转化事件和所有关联的测量详细信息。 任何依赖此事件的测量报表都将丢失相应的转化量度，并且无法再更新。 无法撤消此操作。
+
+要删除现有的转化事件，请导航到&#x200B;**[!UICONTROL 设置]**&#x200B;工作区中的&#x200B;**[!UICONTROL 我的测量数据]**&#x200B;选项卡。 在网格视图中，选择相关事件信息卡中的&#x200B;**[!UICONTROL 删除]**。 在表格视图中，选择事件名称旁边的删除图标（![删除图标](/help/assets/common/delete.svg)）。
+
+![我的测量数据选项卡在转化事件行中突出显示“删除”选项。](/help/assets/setup/add-manage-measurement-data/delete-measurement-data.png){zoomable="yes"}
+
+出现&#x200B;**[!UICONTROL 删除测量]**&#x200B;对话框，提示您确认删除事件。 选择&#x200B;**[!UICONTROL 删除]**。
+
+![突出显示了“删除”选项的“删除测量”对话框。](/help/assets/setup/add-manage-measurement-data/delete-measurement-dialog.png){zoomable="yes"}
+
+将显示确认对话框，以确认已成功删除转换事件。
 
 ## 后续步骤 {#next-steps}
 
