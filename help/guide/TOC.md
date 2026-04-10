@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration支持广告商和出版商之间的无缝和安全数据共享和协作，促进实时受众洞察和个性化营销策略。
-source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 28%
    * [帐户角色](./overview/roles.md)
    * [Collaboration模式](./overview/collaboration-patterns.md)
    * [端到端工作流程](./overview/end-to-end-workflow.md)
-   * [Real-Time CDP Collaboration Starter](./overview/starter-overview.md)
+   * {hide-from-toc}[Real-Time CDP Collaboration Starter](./overview/starter-overview.md)
 * 设置 {#setup}
    * [设置部分概述](./setup/setup-overview.md)
    * [载入并管理您的帐户](./setup/onboard-account.md)
@@ -32,14 +32,14 @@ ht-degree: 28%
    * [管理数据连接](./setup/manage-data-connection.md)
    * [配置和管理目标](./setup/manage-destinations.md)
    * [跟踪您的额度使用情况](/help/guide/setup/my-activity.md)
-   * [身份标识对照表](./setup/identity-crosswalk.md)
+   * {hide-from-toc}[标识交叉通道](./setup/identity-crosswalk.md)
    * [添加和管理衡量数据](./setup/onboard-measurement-data.md)
    * [管理测量数据连接](./setup/manage-measurement-data-connection.md)
    * [审核日志](./setup/audit-logs.md)
    * Real-Time CDP Collaboration Starter设置 {#starter-setup}
-      * [配置管理员访问权限](./setup/starter-admin-access.md)
-      * [配置权限控件](./setup/starter-permission-controls.md)
-      * [信用使用情况和消耗量](./setup/starter-credit-usage.md)
+      * {hide-from-toc}[配置管理员访问权限](./setup/starter-admin-access.md)
+      * {hide-from-toc}[配置权限控件](./setup/starter-permission-controls.md)
+      * {hide-from-toc}[信用使用量和消耗量](./setup/starter-credit-usage.md)
 * 建立连接 {#connect}
    * [Overview.md](./connect/overview.md)
    * [探索协作者](./connect/discover-collaborators.md)
@@ -57,7 +57,7 @@ ht-degree: 28%
       * [测量](./collaborate/measure.md)
    * Advertising平台连接 {#ad-platform-connections}
       * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
-      * [创建AMC测量报表](./collaborate/advertising-platforms/amc-measure.md)
+      * {hide-from-toc}[创建AMC测量报告](./collaborate/advertising-platforms/amc-measure.md)
 * 目标 {#destinations}
    * [概述](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
@@ -67,5 +67,5 @@ ht-degree: 28%
    * [管理角色](./permissions/manage-roles.md)
 * 参考 {#reference}
    * [常见问题和疑难解答提示](./faqs/common-questions.md)
-   * [术语表](./glossary.md)
+   * {hide-from-toc}[术语表](./glossary.md)
 * [最新发行说明](./release-notes/latest.md)

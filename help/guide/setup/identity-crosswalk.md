@@ -2,14 +2,13 @@
 title: 身份标识对照表
 description: 全面了解Real-Time CDP Collaboration中的身份交叉通道，包括如何从不同来源引入身份交叉通道，以及如何管理身份交叉通道
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hidefromtoc: true
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 22%
+source-wordcount: '546'
+ht-degree: 24%
 
 ---
 
@@ -29,7 +28,7 @@ ht-degree: 22%
 
 ## 将身份交叉通道导入Real-Time CDP Collaboration {#import-crosswalk}
 
-导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 标识交叉通道]**&#x200B;选项卡，选择添加图标（![添加图标）。](/help/assets/icons/plus.png))，并选择&#x200B;**[!UICONTROL 标识交叉通道]**
+导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 身份交叉验证]**&#x200B;选项卡，选择添加图标（![添加图标。](/help/assets/icons/plus.png)），然后选择&#x200B;**[!UICONTROL 身份交叉验证]**
 
 ![如何进入屏幕添加身份交叉路线的录制](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 
@@ -58,9 +57,9 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_crosswalk_join_key"
 >title="连接键"
->abstract="连接键是用于匹配和链接不同数据集之间的记录的唯一标识符。它确保来自各种来源的数据能够准确地与同一个人或实体相关联。所选交叉表中的任何列标题都可以作为连接键。"
+>abstract="连接键是用于匹配和链接不同数据集之间的记录的唯一标识符。 它确保来自各种来源的数据能够准确地与同一个人或实体相关联。 所选交叉表中的任何列标题都可以作为连接键。"
 
-连接键是用于匹配和链接不同数据集之间的记录的唯一标识符。它确保来自各种来源的数据能够准确地与同一个人或实体相关联。通过选择适当的连接键，您可以有效地合并和协调数据，从而提高营销策划的准确性和完整性。
+连接键是用于匹配和链接不同数据集之间的记录的唯一标识符。 它确保来自各种来源的数据能够准确地与同一个人或实体相关联。 通过选择适当的连接键，您可以有效地合并和协调数据，从而提高营销策划的准确性和完整性。
 
 所选交叉表中的任何列标题都可以作为连接键。
 
