@@ -3,13 +3,12 @@ title: 术语表
 description: 了解Real-Time CDP Collaboration的关键术语
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hidefromtoc: true
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 2%
+source-wordcount: '837'
+ht-degree: 5%
 
 ---
 
@@ -103,7 +102,7 @@ In the context of identity crosswalks, a join key is a unique identifier used to
 
 Adobe Real-Time CDP Collaboration中的项目是一个工作区，用户可以在该工作区中协作完成特定数据集成和受众分段任务。 项目有助于组织和管理数据共享工作，使协作更加高效和简化。
 
-### 公共受众
+### 公开受众
 
 在项目上下文中，这是可由您的协作者发现的受众。 受众可以是private、custom或public。 任何其他协作者均无法发现专用受众。 自定义受众只能由某些协作者发现，而公共受众则可由所有协作者发现。
 
