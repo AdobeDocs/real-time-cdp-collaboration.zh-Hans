@@ -2,11 +2,11 @@
 title: 发现重叠并比较受众
 description: 发现与协作者受众之间的重叠。 了解如何发现可在营销活动中使用的最佳受众。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2120'
 ht-degree: 17%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 发现]**&#x200B;工作区仅在连接过程&#x200B;**中启用了**&#x200B;受众发现[用例时才可用。 &#x200B;](../connect/establishing-connections.md#connection-settings)有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 发现]**&#x200B;工作区仅在连接过程](../connect/establishing-connections.md#connection-settings)中启用了[受众发现&#x200B;**用例时才可用。**&#x200B;有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
 在[创建项目](/help/guide/collaborate/manage-projects.md)之后，您可以将受众与协作者进行比较。 这有助于您识别营销活动的相关受众，并决定要将哪些受众发送给协作者进行激活。
 
@@ -25,7 +25,7 @@ ht-degree: 17%
 >
 >任何[数据草图](/help/guide/glossary.md#sketches)未更新或未刷新将在7天后删除。 发生这种情况时，此页面上各种重叠报表中显示的数字将变为零，并且受众共享将对这些过期的受众不可用。 数据草图将自动刷新具有[活动刷新计划](/help/guide/setup/onboard-audiences.md#schedule)的受众。
 
-在连接过程[中设置](/help/guide/connect/establishing-connections.md#connection-settings)用于发现和比较受众的匹配键。 匹配键用于计算受众之间的重叠，可以开关该键。 要编辑匹配键，请选择&#x200B;**[!UICONTROL 编辑匹配键]**&#x200B;选项。
+在连接过程](/help/guide/connect/establishing-connections.md#connection-settings)中设置[用于发现和比较受众的匹配键。 匹配键用于计算受众之间的重叠，可以开关该键。 要编辑匹配键，请选择&#x200B;**[!UICONTROL 编辑匹配键]**&#x200B;选项。
 
 ![显示受众分析的“发现”选项卡工作区。](/help/assets/collaborate/discover/discover-overview.png)
 
@@ -52,7 +52,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_compare_audiences"
 >title="比较受众"
->abstract="发现您和您的协作者的受众群体之间的重叠部分。您可以调整下拉选择器中的设置，发现您的一个或多个受众与您协作者的一个或多个受众之间的重叠部分。"
+>abstract="发现您和您的协作者的受众群体之间的重叠部分。 您可以调整下拉选择器中的设置，发现您的一个或多个受众与您协作者的一个或多个受众之间的重叠部分。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
@@ -102,7 +102,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="相关受众"
->abstract="根据重叠百分比，这些受众可能非常适合您的营销活动。<br><br><b>身份标识计数</b>是协作者的受众规模。<br><br> <b>重叠的身份标识</b>表示推荐受众与您的所有受众之间的重叠。<br><br><b>重叠率</b>是指重叠的身份标识数量除以您的<i>所有</i>受众的规模。"
+>abstract="根据重叠百分比，这些受众可能非常适合您的营销活动。<br><br> <b>身份标识数量</b>表示协作者的受众计数。<br><br> <b>重叠的身份标识</b>表示推荐受众与您的所有受众之间的重叠。<br><br> <b>重叠百分比</b>是指重叠的身份标识数量除以您的<i>所有</i>受众的规模。"
 
 **[!UICONTROL 发现]**&#x200B;选项卡中的&#x200B;**[!UICONTROL 相关受众]**&#x200B;部分根据协作者受众与所有受众之间的重叠百分比，提供了前五个受众的策划列表。 此功能可帮助您快速识别重叠程度最高的受众，使您能够更有效地定位营销活动。 使用部分右上角的页面选择器，在相关受众之间切换。
 
@@ -170,9 +170,9 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_audience_index_score"
 >title="受众指数分数"
->abstract="受众指数分数是一个精细的量度，显示了以受众数量和重叠度为基础的一个受众与另一个受众之间的关联强度。原始指数分数被转换为相关性范围，此范围将受众指数分数划分为从非常低到非常高的不同类别。这使您可以快速评估您的受众与协作者的受众之间的关联强度。"
+>abstract="受众指数分数是一个精细的量度，显示了以受众数量和重叠度为基础的一个受众与另一个受众之间的关联强度。 原始指数分数被转换为相关性范围，此范围将受众指数分数划分为从非常低到非常高的不同类别。 这使您可以快速评估您的受众与协作者的受众之间的关联强度。"
 
-受众指数分数是一个精细的量度，显示了以受众数量和重叠度为基础的一个受众与另一个受众之间的关联强度。这有助于使受众见解符合情境，并确定潜在受众和营销活动定位的潜在受众。
+受众指数分数是一个精细的量度，显示了以受众数量和重叠度为基础的一个受众与另一个受众之间的关联强度。 这有助于使受众见解符合情境，并确定潜在受众和营销活动定位的潜在受众。
 
 使用以下公式计算索引得分：
 
