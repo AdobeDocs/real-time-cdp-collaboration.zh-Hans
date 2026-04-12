@@ -6,8 +6,8 @@ badgelimitedavailability: label="有限发布版" type="Informative" url="https:
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '2812'
-ht-degree: 8%
+source-wordcount: '2881'
+ht-degree: 9%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 8%
 
 >[!TIP]
 >
->本指南介绍了广告商与发布商和品牌与品牌协作模式的连接过程。 要了解如何连接广告平台，请参阅[连接概述](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection)指南中的[广告商到广告平台连接](/help/guide/connect/overview.md)部分。
+>本指南介绍了广告商与发布商和品牌与品牌协作模式的连接过程。 要了解如何连接广告平台，请参阅[连接概述](/help/guide/connect/overview.md)指南中的[广告商到广告平台连接](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection)部分。
 
 ## 连接 {#connect}
 
@@ -96,7 +96,7 @@ ht-degree: 8%
 
 ![设置工作区中的“我的帐户”选项卡，其中突出显示了Connect代码。](/help/assets/connect/establish-connection/connect-code.png){zoomable="yes"}
 
-选择![Connect代码](/help/assets/icons/copy.png)旁边的复制图标（**[!UICONTROL 复制图标]**）以将其复制到剪贴板。 然后，您可以在产品之外与协作者共享此代码。
+选择&#x200B;**[!UICONTROL Connect代码]**&#x200B;旁边的复制图标（![复制图标](/help/assets/icons/copy.png)）以将其复制到剪贴板。 然后，您可以在产品之外与协作者共享此代码。
 
 ![突出显示复制图标的Connect代码。](/help/assets/connect/establish-connection/copy-connect-code.png){zoomable="yes"}
 
@@ -108,7 +108,7 @@ ht-degree: 8%
 >
 >在挂起邀请期间刷新您的&#x200B;**[!UICONTROL Connect代码]**&#x200B;可能会阻止接受该邀请。 如果刷新代码，您的协作者可能需要使用新代码重新发送专用连接邀请。
 
-要刷新&#x200B;**[!UICONTROL Connect代码]**，请选择![Connect代码](/help/assets/icons/refresh.png)旁边的刷新图标（**[!UICONTROL 刷新图标]**）。
+要刷新&#x200B;**[!UICONTROL Connect代码]**，请选择&#x200B;**[!UICONTROL Connect代码]**&#x200B;旁边的刷新图标（![刷新图标](/help/assets/icons/refresh.png)）。
 
 ![刷新图标突出显示的Connect代码。](/help/assets/connect/establish-connection/refresh-connect-code.png){zoomable="yes"}
 
@@ -163,12 +163,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_usecases"
 >title="用例"
->abstract="用例已预先填充所有选项。您可以在提交连接设置之前编辑用例。"
+>abstract="用例已预先填充所有选项。 您可以在提交连接设置之前编辑用例。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="匹配键"
->abstract="匹配键通过您和您的协作者在帐户级别选择的共用匹配键进行预填充。您可以关掉不想在此连接中使用的任何匹配键。"
+>abstract="匹配键通过您和您的协作者在帐户级别选择的共用匹配键进行预填充。 您可以关掉不想在此连接中使用的任何匹配键。"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="帐户匹配键"
 
 >[!CONTEXTUALHELP]
@@ -178,18 +178,18 @@ ht-degree: 8%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
->title="受众共享 "
+>title="受众共享"
 >abstract="Audience Activation 额度的消耗基于为激活准备的匹配 ID 数量。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="测量"
->abstract="执行相关活动以生成营销活动绩效报告和洞察分析。额度的消耗取决于所有营销活动报告中的数据行数以及报告的生成频率（每日、每三日或每周）。"
+>abstract="执行相关活动以生成营销活动绩效报告和洞察分析。 额度的消耗取决于所有营销活动报告中的数据行数以及报告的生成频率（每日、每三日或每周）。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="广告商名称"
->abstract="<p>可选设置。表示发布者知道的该广告商的名称和 ID。</p><p>您在此处输入的广告商名称将用于在创建项目步骤中进行预先填充。</p><ul><li>如果发布者配置了多个名称，请从列表中选择一个。</li><li>如果仅配置了一个名称，就会自动预选此名称。</li><li>如果未配置名称，这个字段中将预先填充为 Collaboration 中的广告商帐户名称。</li></ul>"
+>abstract="<p>可选设置。 表示发布者知道的该广告商的名称和 ID。</p><p>您在此处输入的广告商名称将用于在创建项目步骤中进行预先填充。</p><ul><li>如果发布者配置了多个名称，请从列表中选择一个。</li><li>如果仅配置了一个名称，就会自动预选此名称。</li><li>如果未配置名称，这个字段中将预先填充为 Collaboration 中的广告商帐户名称。</li></ul>"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="创建项目"
 
 >[!CONTEXTUALHELP]

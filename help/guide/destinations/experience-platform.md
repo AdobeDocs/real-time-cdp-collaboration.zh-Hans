@@ -6,8 +6,8 @@ badgelimitedavailability: label="有限发布版" type="Informative" url="https:
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 11%
+source-wordcount: '1534'
+ht-degree: 14%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_audience_expiration"
 >title="受众过期"
->abstract="受众在 Adobe Experience Platform 中不再可用的时间期限。默认过期时间为 30 天，但您可以将其设置为 1 至 30 天之间的任意值。"
+>abstract="受众在 Adobe Experience Platform 中不再可用的时间期限。 默认过期时间为 30 天，但您可以将其设置为 1 至 30 天之间的任意值。"
 
 首先，您必须选择将发送受众数据的沙盒。
 
@@ -69,7 +69,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_target_namespaces"
 >title="目标命名空间"
->abstract="目标命名空间用于指定匹配键在 Adobe Experience Platform 中将映射到的身份标识命名空间。经过哈希处理的匹配键必须映射到支持哈希值的目标命名空间。"
+>abstract="目标命名空间用于指定匹配键在 Adobe Experience Platform 中将映射到的身份标识命名空间。 经过哈希处理的匹配键必须映射到支持哈希值的目标命名空间。"
 
 默认情况下，为您的帐户启用的所有匹配密钥都包含在激活映射中。 如果不希望将匹配键直接映射到目标命名空间，则可以使用链接键选项将其替换为其他匹配键。 有关链接键的更多信息，请参阅下面的[部分](#linked-keys)。
 
@@ -79,7 +79,7 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->哈希匹配键必须映射到支持哈希值的目标命名空间。 例如，**[!UICONTROL 哈希电子邮件]**&#x200B;匹配键必须映射到Adobe Experience Platform中的&#x200B;**[!UICONTROL Email（SHA256，小写）]**&#x200B;身份命名空间。 您无法将&#x200B;**[!UICONTROL 哈希电子邮件]**&#x200B;匹配键映射到&#x200B;**[!UICONTROL 电子邮件]**&#x200B;身份命名空间，因为此命名空间不支持哈希值。
+>经过哈希处理的匹配键必须映射到支持哈希值的目标命名空间。 例如，**[!UICONTROL 哈希电子邮件]**&#x200B;匹配键必须映射到Adobe Experience Platform中的&#x200B;**[!UICONTROL Email（SHA256，小写）]**&#x200B;身份命名空间。 您无法将&#x200B;**[!UICONTROL 哈希电子邮件]**&#x200B;匹配键映射到&#x200B;**[!UICONTROL 电子邮件]**&#x200B;身份命名空间，因为此命名空间不支持哈希值。
 
 ![突出显示了“选择”选项的“选择源字段”对话框……](/help/assets/destinations/adobe-experience-platform/select-target-namespace.png)
 
@@ -90,15 +90,15 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_destinations_linked_key"
 >title="关联的键"
->abstract="关联的键允许您指定在激活期间使用不同的匹配键取代原始匹配键。要激活一个轮廓，它必须同时具有原始匹配键和关联匹配键的两个值。"
+>abstract="关联的键允许您指定在激活期间使用不同的匹配键取代原始匹配键。 要激活一个轮廓，它必须同时具有原始匹配键和关联匹配键的两个值。"
 
-关联的键允许您指定在激活期间使用不同的匹配键取代原始匹配键。要更好地了解链接键的工作方式，请考虑以下示例：
+关联的键允许您指定在激活期间使用不同的匹配键取代原始匹配键。 要更好地了解链接键的工作方式，请考虑以下示例：
 
 retailer希望将激活到Experience Platform的数据发送到其CRM系统。 retailer启用了将IP作为匹配键的哈希，以便其帐户在激活受众时提高匹配率。 但是，retailer的CRM系统不支持将哈希IP作为身份命名空间，因此他们希望在将受众激活到Experience Platform时改用CRM ID匹配键。 retailer可以使用链接键选项，通过CRM ID而不是哈希IP将受众激活到Experience Platform。
 
 >[!NOTE]
 >
->对于要激活的配置文件，它必须具有原始匹配键和链接的匹配键的值。 例如，如果哈希ID链接到CRM ID，则配置文件必须具有哈希ID和CRM ID的值才能激活。 如果缺少任一值，则不会激活配置文件。
+>要激活一个轮廓，它必须同时具有原始匹配键和关联匹配键的两个值。 例如，如果哈希ID链接到CRM ID，则配置文件必须具有哈希ID和CRM ID的值才能激活。 如果缺少任一值，则不会激活配置文件。
 
 若要使用链接键，请打开要在其位置使用的匹配键旁边的&#x200B;**[!UICONTROL 链接键]**&#x200B;选项。 出现&#x200B;**[!UICONTROL 链接键]**&#x200B;部分，要求您创建映射。
 

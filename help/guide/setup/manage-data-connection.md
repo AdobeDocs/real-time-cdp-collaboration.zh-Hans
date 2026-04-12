@@ -7,7 +7,7 @@ exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
 workflow-type: tm+mt
 source-wordcount: '1168'
-ht-degree: 8%
+ht-degree: 41%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 8%
 >id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
 >title="扩充"
 >abstract="不支持关闭扩充。 您可以改为更改扩充连接键。"
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="扩充"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections_cn" text="扩充"
 
 >[!IMPORTANT]
 >

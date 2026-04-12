@@ -6,8 +6,8 @@ badgelimitedavailability: label="有限发布版" type="Informative" url="https:
 exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
 source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 20%
+source-wordcount: '665'
+ht-degree: 21%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 20%
 
 >[!IMPORTANT]
 >
->[!DNL AMC]唯一支持的用例是&#x200B;**受众发现**&#x200B;和&#x200B;**测量**。 当前，在具有&#x200B;**[!UICONTROL 的项目中，只有]**&#x200B;发现[!DNL AMC]部分可用。
+>[!DNL AMC]唯一支持的用例是&#x200B;**受众发现**&#x200B;和&#x200B;**测量**。 当前，在具有[!DNL AMC]的项目中，只有&#x200B;**[!UICONTROL 发现]**&#x200B;部分可用。
 
 ## 发现 {#discover}
 
@@ -53,7 +53,7 @@ ht-degree: 20%
 >title="按 Amazon 广告产品细分"
 >abstract="按 Amazon Ads 赞助产品和/或 Amazon Ads DSP 触达的“广告曝光重叠 ID”进行分类统计。"
 
-在&#x200B;**[!UICONTROL 发现]**&#x200B;部分中，您可以将AMC受众与通过Amazon广告访问的所有消费者进行比较。 您还可以查看受众与重叠程度最高的区段的Amazon定位，其中仅考虑DSP展示次数(这些区段只能在DSP中定位)。
+在&#x200B;**[!UICONTROL 发现]**&#x200B;部分中，您可以将AMC受众与通过Amazon广告访问的所有消费者进行比较。 您还可以查看受众与重叠程度最高的区段的Amazon定位，其中仅考虑DSP展示次数（这些区段只能在DSP中定位）。
 
 >[!IMPORTANT]
 >
@@ -68,20 +68,20 @@ ht-degree: 20%
 | 量度 | 描述 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
 | [!UICONTROL 已解析的ID] | 使用您的受众数据能够解析的ID数量[!DNL Amazon’s Identity Resolution]。 |
-| [!UICONTROL 重叠的广告公开ID] | 已上传受众中也通过[!UICONTROL 向广告公开的]已解决ID[!DNL Amazon Ads]的数量。 |
-| [!UICONTROL 重叠%] | 已通过[!UICONTROL 向广告公开的]已解析ID[!DNL Amazon Ads]的比例。 |
+| [!UICONTROL 重叠的广告公开ID] | 已上传受众中也通过[!DNL Amazon Ads]向广告公开的[!UICONTROL 已解决ID]的数量。 |
+| [!UICONTROL 重叠%] | 已通过[!DNL Amazon Ads]向广告公开的[!UICONTROL 已解析ID]的比例。 |
 | [!UICONTROL 按Amazon广告产品细分] | [!UICONTROL 赞助的产品]和/或[!UICONTROL DSP]所达到的[!UICONTROL 重叠的广告公开ID]的划分。 每个ID均以广告公开ID总数的单个百分比表示。 由于ID同时属于[!UICONTROL 赞助的产品]和[!UICONTROL DSP]，因此百分比总和不能为100%。 |
 
 
 ### 相关受众 {#relevant-audiences}
 
-**[!UICONTROL 相关受众]**&#x200B;部分提供了有关您的受众与重叠程度最高的区段或受众的[!DNL Amazon]的分析，其中仅考虑了DSP展示次数(这些区段只能在DSP中定位)。 您可以在所有相关受众之间切换，并在每个部分中，查看以下量度：
+**[!UICONTROL 相关受众]**&#x200B;部分提供了有关您的受众与重叠程度最高的区段或受众的[!DNL Amazon]的分析，其中仅考虑了DSP展示次数（这些区段只能在DSP中定位）。 您可以在所有相关受众之间切换，并在每个部分中，查看以下量度：
 
 | 量度 | 描述 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
 | [!UICONTROL 已解析的ID] | 使用您的受众数据能够解析的ID数量[!DNL Amazon’s Identity Resolution]。 |
-| [!UICONTROL 重叠的广告公开ID] | 这表示已上传受众中也已通过[!UICONTROL 向广告公开的]已解析ID[!DNL Amazon Ads]的数量。 这仅考虑DSP展示次数。 |
-| [!UICONTROL 重叠%] | 已通过[!UICONTROL 向广告公开的]已解析ID[!DNL Amazon Ads]的比例。 |
+| [!UICONTROL 重叠的广告公开ID] | 这表示已上传受众中也已通过[!DNL Amazon Ads]向广告公开的[!UICONTROL 已解析ID]的数量。 这仅考虑DSP展示次数。 |
+| [!UICONTROL 重叠%] | 已通过[!DNL Amazon Ads]向广告公开的[!UICONTROL 已解析ID]的比例。 |
 | [!UICONTROL 类别] | 受众所属的类别。 一个受众可以属于多个类别。 |
 
 ### 发现与[!DNL Amazon Marketing Cloud]的重叠 {#discover-overlaps}
@@ -91,5 +91,5 @@ ht-degree: 20%
 | 量度 | 描述 |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
 | [!UICONTROL 已解析的ID] | 使用您的受众数据能够解析的ID数量[!DNL Amazon’s Identity Resolution]。 |
-| [!UICONTROL 重叠的广告公开ID] | 这表示已上传受众中也已通过[!UICONTROL 向广告公开的]已解析ID[!DNL Amazon Ads]的数量。 这仅考虑DSP展示次数。 |
-| [!UICONTROL 重叠%] | 已通过[!UICONTROL 向广告公开的]已解析ID[!DNL Amazon Ads]的比例。 |
+| [!UICONTROL 重叠的广告公开ID] | 这表示已上传受众中也已通过[!DNL Amazon Ads]向广告公开的[!UICONTROL 已解析ID]的数量。 这仅考虑DSP展示次数。 |
+| [!UICONTROL 重叠%] | 已通过[!DNL Amazon Ads]向广告公开的[!UICONTROL 已解析ID]的比例。 |
