@@ -2,7 +2,7 @@
 title: Adobe Real-Time CDP Collaboration中的协作者角色。
 description: 了解Adobe Real-Time CDP Collaboration中的两个帐户角色
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f0b95f61-b798-400d-af52-a597d1cb66a5
 source-git-commit: 901b17c7493e76b17e780b6f7b05a69fa22303d2
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 title: Adobe Real-Time CDP Collaboration中的协作模式。
 description: 了解Adobe Real-Time CDP Collaboration中的两种协作模式
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 31729675-cdd8-4569-9195-1d9a61d68d30
 source-git-commit: 7efd33179b4f4e6751853f6c513bdded63c23ee7
 workflow-type: tm+mt
