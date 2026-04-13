@@ -4,10 +4,10 @@ description: 了解Adobe Real-Time CDP Collaboration中的两种协作模式
 audience: admin, publisher, advertiser, decision-maker
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 31729675-cdd8-4569-9195-1d9a61d68d30
-source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
+source-git-commit: 7efd33179b4f4e6751853f6c513bdded63c23ee7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 0%
+source-wordcount: '664'
+ht-degree: 2%
 
 ---
 
@@ -46,3 +46,27 @@ Adobe Real-Time CDP Collaboration中的Collaboration模式是定义协作者如�
 ![广告商与广告平台协作示例。](/help/assets/overview/advertiser-to-advertising-platform.png)
 
 要详细了解广告商如何以这种模式与广告平台协作，请阅读[端到端工作流程](/help/guide/overview/end-to-end-workflow.md)指南。
+
+## 广告商到数据合作伙伴 {#advertiser-to-data-partner}
+
+广告商到数据合作伙伴模式使品牌商能够直接与第三方数据提供商协作，以丰富客户档案、构建更准确的受众并访问潜在客户群体以进行客户获取。 此模式将传统的外部数据工作流引入到一个安全的隐私环境中，在该环境中，第一方和第三方数据可以合并，而无需原始数据移动。
+
+![广告商与数据合作伙伴协作示例。](/help/assets/overview/advertiser-to-data-partner.png)
+
+要了解有关广告商和数据合作伙伴如何以这种模式进行协作的更多信息，请阅读[端到端工作流程](/help/guide/overview/end-to-end-workflow.md#advertiser-to-data-partner-workflow)指南。
+
+## 代理到发布者 {#agency-to-publisher}
+
+代理与发布商之间的模式允许媒体代理直接与发布商协作，以使用共享的受众分析来规划、激活和衡量促销活动。 代理机构作为中介，利用广告商数据（获得许可）识别重叠并与发布商合作伙伴执行媒体策略。
+
+![代理与发布者协作示例。](/help/assets/overview/agency-to-publisher.png)
+
+要了解有关代理和发布者如何以这种模式进行协作的更多信息，请阅读[端到端工作流程](/help/guide/overview/end-to-end-workflow.md#agency-to-publisher-workflow)指南。
+
+## 广告商到代理平台 {#advertiser-to-agency-platform}
+
+广告商到代理平台模式使品牌可在隐私安全的环境中与他们的媒体代理商协作，允许广告商与其代理商发送和接收数据，而无需直接数据传输。 此模式支持营销活动计划、受众构建和激活，同时保持广告商对数据使用的控制。
+
+![广告商与代理平台协作示例。](/help/assets/overview/advertiser-to-agency-platform.png)
+
+要了解有关广告商和代理平台如何以这种模式进行协作的更多信息，请阅读[端到端工作流程](/help/guide/overview/end-to-end-workflow.md#advertiser-to-agency-platform-workflow)指南。
