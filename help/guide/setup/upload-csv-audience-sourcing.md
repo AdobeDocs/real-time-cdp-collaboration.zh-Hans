@@ -134,4 +134,4 @@ CSV文件上传是一种为协作项目获取第一方受众数据的方法。 �
 * 查看受众重叠和见解。 查看[衡量促销活动效果](../../guide/collaborate/measure.md)。
 * 管理受众设置和可见性。 查看[Source并管理受众](./onboard-audiences.md)。
 
-有关其他受众源方法的信息，请参阅[为受众源配置AWS S3](./configure-aws-s3-audience-sourcing.md)或从Experience Platform](./onboard-audiences.md)配置[Source受众。
+有关其他受众源方法的信息，请参阅[为受众源配置AWS S3](./configure-aws-s3-audience-sourcing.md)或从Experience Platform[&#128279;](./onboard-audiences.md)配置Source受众。

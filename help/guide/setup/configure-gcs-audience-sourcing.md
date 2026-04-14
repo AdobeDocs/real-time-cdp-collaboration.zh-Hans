@@ -245,7 +245,7 @@ ht-degree: 7%
 
 有关其他受众来源补充方法，请参阅：
 
-* [为受众源配置 [!DNL Amazon S3] ](./configure-aws-s3-audience-sourcing.md)
-* [为受众源配置 [!DNL Snowflake] ](./configure-snowflake-audience-sourcing.md)
+* [为受众源配置 [!DNL Amazon S3] &#x200B;](./configure-aws-s3-audience-sourcing.md)
+* [为受众源配置 [!DNL Snowflake] &#x200B;](./configure-snowflake-audience-sourcing.md)
 * [来自Experience Platform的Source受众](./onboard-audiences.md)
 * [上传CSV文件以进行受众源](./upload-csv-audience-sourcing.md)

@@ -17,7 +17,7 @@ ht-degree: 6%
 
 目标是指用于将目标受众发送到外部平台的集成。 通过这些集成，您可以跨各种营销渠道和平台激活受众，以用于营销活动和客户参与。
 
-协作者可以配置目标以将受众发送到外部平台，例如Adobe Experience Platform，以用于营销活动。 协作者随后可以[激活项目](../collaborate/activate.md)中的受众，这些受众将发送到其连接的配置目标。 根据连接](/help/guide/connect/establishing-connections.md#configure-connection-settings)中配置的受众激活设置[，激活可由协作者完成。
+协作者可以配置目标以将受众发送到外部平台，例如Adobe Experience Platform，以用于营销活动。 协作者随后可以[激活项目](../collaborate/activate.md)中的受众，这些受众将发送到其连接的配置目标。 根据连接[&#128279;](/help/guide/connect/establishing-connections.md#configure-connection-settings)中配置的受众激活设置，激活可由协作者完成。
 
 >[!IMPORTANT]
 >
