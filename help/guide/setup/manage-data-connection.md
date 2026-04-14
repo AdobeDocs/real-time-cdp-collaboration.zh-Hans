@@ -4,10 +4,10 @@ description: 了解如何在Real-Time CDP Collaboration中管理数据连接，�
 audience: administrator, data engineer
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: 4bfa57ba36336dd835551fb846f1d567d6830bf9
+source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 41%
+source-wordcount: '1179'
+ht-degree: 40%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 41%
 ## 概述
 
 在Real-Time CDP Collaboration中使用数据连接从各种平台获取受众。 了解如何管理匹配键并为现有数据连接计划数据刷新。 此外，您还可以按不同属性过滤受众，以获得更精细的见解。
+
+>[!NOTE]
+>
+>要创建新的数据连接，请参阅[添加和管理受众](./onboard-audiences.md)。
 
 ## 查看数据连接
 

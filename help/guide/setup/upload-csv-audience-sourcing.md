@@ -1,10 +1,11 @@
 ---
 title: 为受众源上传CSV文件
 description: 了解如何将CSV文件作为自助数据源上传，以将受众数据摄取到Real-Time CDP Collaboration。
-source-git-commit: 96d3f87cedcfde73ce01c2b53c0b2ce4365fd277
+exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
+source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 0%
+source-wordcount: '1100'
+ht-degree: 16%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 ## 概述 {#overview}
 
-CSV文件上传是一种为协作项目获取第一方受众数据的方法。 这是[连接您的AWS S3存储桶](./configure-aws-s3-audience-sourcing.md)或[从Experience Platform获取受众的替代方法](./onboard-audiences.md)。
+CSV文件上传是一种为协作项目获取第一方受众数据的方法。 这是[连接AWS S3存储段](./configure-aws-s3-audience-sourcing.md)、[连接Google Cloud Storage](./configure-gcs-audience-sourcing.md)或[从Experience Platform获取受众的替代方法](./onboard-audiences.md)。
 
 按照此工作流程，将包含受众数据的CSV文件上传到Collaboration中的源和管理第一方受众。 您可以映射标识字段以进行激活和重叠分析。 上传并处理文件后，源受众将在&#x200B;**[!UICONTROL 我的受众]**&#x200B;工作区中可用，您可以在其中查看、激活和管理协作项目。
 
@@ -34,7 +35,7 @@ CSV文件上传是一种为协作项目获取第一方受众数据的方法。 �
 
 ## 上传 CSV 文件 {#upload-csv-file}
 
-从&#x200B;**[!UICONTROL 设置]**&#x200B;工作区的&#x200B;**[!UICONTROL 我的受众]**&#x200B;选项卡中，选择添加图标（![添加图标）。](/help/assets/icons/plus.png))，然后选择&#x200B;**[!UICONTROL 受众]**。
+从&#x200B;**[!UICONTROL 设置]**&#x200B;工作区的&#x200B;**[!UICONTROL 我的受众]**&#x200B;选项卡中，选择添加图标（![添加图标。](/help/assets/icons/plus.png)） 然后选择&#x200B;**[!UICONTROL 受众]**。
 
 如果这是您的第一个受众，您还可以选择&#x200B;**[!UICONTROL 添加]**&#x200B;选项。
 
@@ -133,4 +134,4 @@ CSV文件上传是一种为协作项目获取第一方受众数据的方法。 �
 * 查看受众重叠和见解。 查看[衡量促销活动效果](../../guide/collaborate/measure.md)。
 * 管理受众设置和可见性。 查看[Source并管理受众](./onboard-audiences.md)。
 
-有关其他受众源方法的信息，请参阅[为受众源配置AWS S3](./configure-aws-s3-audience-sourcing.md)或从Experience Platform[配置](./onboard-audiences.md)Source受众。
+有关其他受众源方法的信息，请参阅[为受众源配置AWS S3](./configure-aws-s3-audience-sourcing.md)或从Experience Platform[&#128279;](./onboard-audiences.md)配置Source受众。

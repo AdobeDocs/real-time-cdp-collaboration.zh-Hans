@@ -4,10 +4,10 @@ description: 了解如何在Adobe Real-Time CDP Collaboration中获取和管理�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: c535412589a5004cde6147e6800c05f3b5f7bb27
+source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
 workflow-type: tm+mt
-source-wordcount: '3636'
-ht-degree: 19%
+source-wordcount: '3680'
+ht-degree: 18%
 
 ---
 
@@ -42,9 +42,11 @@ ht-degree: 19%
 >
 >在建立您的第一个数据连接并获取您的第一个受众后，您可以从现有数据连接获取多个受众。 添加其他受众时，您将从[选择受众](#select-audiences)步骤开始，因为数据连接已建立。
 
-数据连接是从中获取受众的数据源。 目前，唯一支持的数据连接是Adobe Experience Platform。
+数据连接是将受众摄取到Collaboration中的来源。 支持的源包括Adobe Experience Platform、CSV文件上传、[!DNL Amazon S3]、[!DNL Snowflake]和[!DNL Google Cloud Storage]，每个源都有自己的工作流。
 
-您为数据连接配置的任何设置都将应用于来自此数据连接的所有受众。
+以下部分介绍了选择&#x200B;**Adobe Experience Platform**&#x200B;以及完成特定于Experience Platform的步骤（沙盒、治理和同意）。 如果您选择CSV、[!DNL Amazon S3]、[!DNL Snowflake]或[!DNL Google Cloud Storage]，请使用链接在[为选项选择数据源](#select-data-source)下的指南。
+
+您为Experience Platform数据连接配置的任何设置都将应用于源自该连接的所有受众。
 
 >[!TIP]
 >
@@ -62,7 +64,7 @@ ht-degree: 19%
 * **CSV文件**：上传包含受众数据的CSV文件，以便快速而直接地摄取数据。 请参阅[上传CSV文件以获取受众源](./upload-csv-audience-sourcing.md)指南以开始操作。
 * **Amazon Web Services**：直接从S3存储桶连接到Amazon S3存储以源受众数据。 有关分步说明，请参阅[为受众源配置AWS S3](./configure-aws-s3-audience-sourcing.md)指南。
 * **Snowflake**：使用Snowflake数据仓库无缝提取受众数据。 请参阅[配置 [!DNL Snowflake] 受众源](./configure-snowflake-audience-sourcing.md)指南。
-* **Google Cloud Platform**（未来版本）：连接到Google Cloud Storage，以直接从GCS存储桶获取受众数据。
+* **Google Cloud Storage**：连接到您的GCS存储桶以源受众数据。 有关分步说明，请参阅[为受众源配置GCS](./configure-gcs-audience-sourcing.md)指南。
 
 选择数据源，然后选择&#x200B;**[!UICONTROL 下一步]**。
 
