@@ -2,11 +2,11 @@
 title: Real-Time CDP Collaboration快速入门和设置指南
 description: 了解如何设置 Real-Time CDP Collaboration，配置角色和帐户、引入受众、激活数据，并安全地与合作伙伴建立连接。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: a937773267f42f254b45c14a0fd2f5f1d3b32b8b
+source-git-commit: 156135fdad5f176cedb91c05c07d9bc0e1903557
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1417'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 - 为您的组织创建并分配给用户的[角色](./permissions/manage-roles.md)。
 - 访问品牌推广资产，如贵组织的名称、徽标和横幅。
 - [定义的匹配键策略](./setup/onboard-account.md#set-up-match-keys)
-- （可选）如果您没有使用Experience Platform进行受众管理，请访问支持的云源（Amazon S3或Snowflake）。
+- （可选）如果您未使用Experience Platform进行受众管理，请访问支持的云源（Amazon S3、Google Cloud Storage或Snowflake）。
 
 ## 步骤1：完成基于角色的设置 {#complete-role-based-setup}
 
@@ -41,7 +41,7 @@ ht-degree: 3%
 
 观看本视频，了解如何使用Admin Console和Experience Platform为Collaboration分配产品访问权限。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452240/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 第2步：设置您的Collaboration帐户 {#set-up-your-account}
 
@@ -118,15 +118,15 @@ ht-degree: 3%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-或者，在Collaboration[&#128279;](./setup/onboard-audiences.md#source-and-manage-audiences)中查看有关来源受众的文档。
+或者，在Collaboration](./setup/onboard-audiences.md#source-and-manage-audiences)中查看有关[来源受众的文档。
 
-### 选项B：来自Snowflake或Amazon S3的Source
+### 选项B：Snowflake、Amazon S3或Google Cloud Storage中的Source
 
-要配置云源（如[!DNL Snowflake]或[!DNL Amazon S3]），请使用[受众规范PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)准备受众数据
+要配置云源（如[!DNL Snowflake]、[!DNL Amazon S3]或[!DNL Google Cloud Storage]），请使用[受众规范PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)准备受众数据
 
-您可以将[!DNL Amazon S3]配置为自助数据源。 有关设置说明，请参阅[Amazon S3源指南](./setup/configure-aws-s3-audience-sourcing.md)
+您可以将[!DNL Amazon S3]、[!DNL Google Cloud Storage]或[!DNL Snowflake]配置为自助数据源。 有关设置说明，请参阅[Amazon S3源指南](./setup/configure-aws-s3-audience-sourcing.md)、[GCS源指南](./setup/configure-gcs-audience-sourcing.md)或[Snowflake源指南](./setup/configure-snowflake-audience-sourcing.md)。
 
-如果您使用的是[!DNL Snowflake]或其他云服务提供商，请联系您的Adobe客户代表以完成设置。
+对于其他云服务提供商，请联系您的Adobe客户代表以完成设置。
 
 >[!IMPORTANT]
 >
@@ -157,7 +157,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->只有在连接进程[&#128279;](./connect/establishing-connections.md#connection-settings)期间启用了的&#x200B;**[!UICONTROL 测量]**&#x200B;用例时，**[!UICONTROL 测量]**&#x200B;工作区才可用。 有关用例的更多信息，请参阅[管理项目](./collaborate/manage-projects.md#project-use-cases)指南。
+>只有在连接进程](./connect/establishing-connections.md#connection-settings)期间启用了[的&#x200B;**[!UICONTROL 测量]**&#x200B;用例时，**[!UICONTROL 测量]**&#x200B;工作区才可用。 有关用例的更多信息，请参阅[管理项目](./collaborate/manage-projects.md#project-use-cases)指南。
 
 Collaboration提供了多种报告来分析促销活动的范围、频率和有效性。 虽然&#x200B;**[!UICONTROL Measure]**&#x200B;工作区在UI中可用，但完整的报表功能可能需要后端启用。
 

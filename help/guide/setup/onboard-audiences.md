@@ -2,12 +2,12 @@
 title: Source和管理受众
 description: 了解如何在Adobe Real-Time CDP Collaboration中获取和管理受众
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: c535412589a5004cde6147e6800c05f3b5f7bb27
+source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
 workflow-type: tm+mt
-source-wordcount: '3636'
-ht-degree: 19%
+source-wordcount: '3680'
+ht-degree: 18%
 
 ---
 
@@ -36,15 +36,17 @@ ht-degree: 19%
 >title="营销操作"
 >abstract="<p>使用营销操作来控制从 Experience Platform 向 Real-Time CDP Collaboration 导入哪些受众数据。 <strong>数据协作</strong>营销操作支持 C4、C5 和 C9 数据使用标签。 <strong>数据科学</strong>营销操作支持 C9 数据使用标签。</p> <p> <ul><li> <em>启用</em>该复选框后，Experience Platform 中标有上述标签的任何数据都会排除，并且<strong>不</strong>会纳入 Real-Time CDP Collaboration。</li><li> <em>禁用</em>该复选框后，从 Experience Platform 引入 Real-Time CDP Collaboration 的数据不受限制。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hans" text="数据使用标签概述"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hans" text="数据使用标签词汇表"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="数据使用标签词汇表"
 
 >[!IMPORTANT]
 >
 >在建立您的第一个数据连接并获取您的第一个受众后，您可以从现有数据连接获取多个受众。 添加其他受众时，您将从[选择受众](#select-audiences)步骤开始，因为数据连接已建立。
 
-数据连接是从中获取受众的数据源。 目前，唯一支持的数据连接是Adobe Experience Platform。
+数据连接是将受众摄取到Collaboration中的来源。 支持的源包括Adobe Experience Platform、CSV文件上传、[!DNL Amazon S3]、[!DNL Snowflake]和[!DNL Google Cloud Storage]，每个源都有自己的工作流。
 
-您为数据连接配置的任何设置都将应用于来自此数据连接的所有受众。
+以下部分介绍了选择&#x200B;**Adobe Experience Platform**&#x200B;以及完成特定于Experience Platform的步骤（沙盒、治理和同意）。 如果您选择CSV、[!DNL Amazon S3]、[!DNL Snowflake]或[!DNL Google Cloud Storage]，请使用链接在[为选项选择数据源](#select-data-source)下的指南。
+
+您为Experience Platform数据连接配置的任何设置都将应用于源自该连接的所有受众。
 
 >[!TIP]
 >
@@ -62,7 +64,7 @@ ht-degree: 19%
 * **CSV文件**：上传包含受众数据的CSV文件，以便快速而直接地摄取数据。 请参阅[上传CSV文件以获取受众源](./upload-csv-audience-sourcing.md)指南以开始操作。
 * **Amazon Web Services**：直接从S3存储桶连接到Amazon S3存储以源受众数据。 有关分步说明，请参阅[为受众源配置AWS S3](./configure-aws-s3-audience-sourcing.md)指南。
 * **Snowflake**：使用Snowflake数据仓库无缝提取受众数据。 请参阅[配置 [!DNL Snowflake] 受众源](./configure-snowflake-audience-sourcing.md)指南。
-* **Google Cloud Platform**（未来版本）：连接到Google Cloud Storage，以直接从GCS存储桶获取受众数据。
+* **Google Cloud Storage**：连接到您的GCS存储桶以源受众数据。 有关分步说明，请参阅[为受众源配置GCS](./configure-gcs-audience-sourcing.md)指南。
 
 选择数据源，然后选择&#x200B;**[!UICONTROL 下一步]**。
 
@@ -80,7 +82,7 @@ ht-degree: 19%
 
 使用营销操作可以控制要将哪些受众数据从Experience Platform引入Collaboration。 **[!UICONTROL 数据协作]**&#x200B;营销操作支持 C4、C5 和 C9 数据使用标签。 **[!UICONTROL 数据科学]**&#x200B;营销操作支持 C9 数据使用标签。
 
-详细了解[C4、C5和C9数据使用标签](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
+详细了解[C4、C5和C9数据使用标签](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
 
 * 当复选框为&#x200B;***已启用***&#x200B;时，Experience Platform中标记如上所述的任何数据都将被排除，**不会**&#x200B;引入Collaboration。
 * 禁用复选框&#x200B;***后***，对来自Experience Platform的数据没有限制。
@@ -125,13 +127,13 @@ ht-degree: 19%
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="身份标识命名空间"
 >abstract="从 Experience Platform 组织中可用的标准的及自定义的身份标识命名空间中选择一个身份标识命名空间。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hans#standard" text="Experience Platform 中的标准和身份标识命名空间"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform 中的标准和身份标识命名空间"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="轮廓属性"
 >abstract="从 Experience Platform 中的轮廓类的并集架构中选择属性。 此视图显示并集架构中存在的属于 XDM 个人轮廓类的属性。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hans" text="Experience Platform 中的联合架构"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform 中的联合架构"
 
 接下来，您将选择要映射到Collaboration中目标字段的源字段。 可用的目标字段将基于您在帐户设置期间选择的匹配键。
 
@@ -147,7 +149,7 @@ ht-degree: 19%
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source字段]**&#x200B;是Experience Platform中的身份命名空间和属性。 这些命名空间包括[标准](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hans#standard){target="_blank"}和[自定义](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hans#create-namespaces){target="_blank"}身份命名空间。 它们还包含[联合架构](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hans){target="_blank"}中存在的属于XDM个人资料类的个人资料属性。
+**[!UICONTROL Source字段]**&#x200B;是Experience Platform中的身份命名空间和属性。 这些命名空间包括[标准](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard){target="_blank"}和[自定义](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}身份命名空间。 它们还包含[联合架构](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html){target="_blank"}中存在的属于XDM个人资料类的个人资料属性。
 
 Source字段会被映射到Collaboration中定义的目标字段。
 

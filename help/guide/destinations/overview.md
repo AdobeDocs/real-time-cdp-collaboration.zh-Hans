@@ -2,11 +2,11 @@
 title: 设计概述
 description: 了解Real-Time CDP Collaboration中的目标。
 audience: admin, publisher
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
+source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '360'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 目标是指用于将目标受众发送到外部平台的集成。 通过这些集成，您可以跨各种营销渠道和平台激活受众，以用于营销活动和客户参与。
 
-协作者可以配置目标以将受众发送到外部平台，例如Adobe Experience Platform，以用于营销活动。 协作者随后可以[激活项目](../collaborate/activate.md)中的受众，这些受众将发送到其连接的配置目标。 根据连接[中配置的受众激活设置](/help/guide/connect/establishing-connections.md#configure-connection-settings)，激活可由协作者完成。
+协作者可以配置目标以将受众发送到外部平台，例如Adobe Experience Platform，以用于营销活动。 协作者随后可以[激活项目](../collaborate/activate.md)中的受众，这些受众将发送到其连接的配置目标。 根据连接](/help/guide/connect/establishing-connections.md#configure-connection-settings)中配置的受众激活设置[，激活可由协作者完成。
 
 >[!IMPORTANT]
 >
@@ -44,10 +44,14 @@ ht-degree: 6%
 | 目标 | 可用性 |
 | --- | --- |
 | [Adobe Experience Platform](./experience-platform.md) | 可用 |
-| Amazon S3 | 即将推出。 |
-| Snowflake | 即将推出。 |
-| Google 云存储 | 即将推出。 |
-| Azure Blob Storage | 即将推出。 |
+| [!DNL Amazon S3] | 即将推出。 |
+| [!DNL Snowflake] | 即将推出。 |
+| [!DNL Google Cloud Storage] | 即将推出。 |
+| [!DNL Azure Blob Storage] | 即将推出。 |
+
+>[!NOTE]
+>
+>此表中的&#x200B;**[!DNL Google Cloud Storage]**&#x200B;引用&#x200B;**目标** （Collaboration在激活期间发送受众的位置）。 若要从&#x200B;**[!UICONTROL 设置]**&#x200B;工作区中的GCS存储段&#x200B;**中**&#x200B;获取受众，请参阅[为受众获取配置GCS](../setup/configure-gcs-audience-sourcing.md)。
 
 ## 后续步骤
 
