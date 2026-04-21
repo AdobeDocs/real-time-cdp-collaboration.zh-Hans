@@ -4,10 +4,10 @@ description: 了解如何将 [!DNL Snowflake Secure Data Share] 配置为自助�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 19a516b472b1ddde68990f98b57667dd302f1fbc
+source-git-commit: 72ad1e401fc595ddeace715af5befe9701402c8e
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 21%
+source-wordcount: '1550'
+ht-degree: 18%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 21%
 
 在配置[!DNL Snowflake]连接之前，请确保满足以下先决条件：
 
-* 您已创建一个[!DNL Snowflake Share]并在您的[!DNL Snowflake]帐户中设置必要的权限来授予对您的[!DNL Snowflake Secure Data Share]的Adobe访问权限。
+* 您已创建一个[!DNL Snowflake Share]并在您的[!DNL Snowflake]帐户中设置必要的权限来授予对您的[!DNL Snowflake Secure Data Share]的Adobe访问权限。 了解[如何配置 [!DNL Snowflake] 权限](#set-up-snowflake-permissions)。
 * 您已准备好[!DNL Snowflake Share]个值：
 
    * **共享名称**
@@ -36,7 +36,91 @@ ht-degree: 21%
 * [!DNL Snowflake Secure Data Share]中的受众数据必须符合[受众源规格(v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)指南中所述的格式要求。
 * 还必须为您的Collaboration帐户启用[!DNL Snowflake]受众文件中的所有匹配键。 了解如何[启用匹配键](./onboard-account.md#set-up-match-keys)或[将新的匹配键](./onboard-account.md#edit-match-keys)添加到您的帐户。
 
+## 设置[!DNL Snowflake]权限 {#setup-snowflake-permissions}
+
+[!DNL Snowflake Secure Data Share]提供了一种在[!DNL Snowflake]帐户之间安全地共享实时只读数据的方法，而无需复制或移动数据。 要授予Adobe对您[!DNL Secure Data Share]的访问权限，请确保在您的[!DNL Snowflake]帐户中配置适当的权限。
+
+在继续操作之前，请确保满足以下条件：
+
+* 您有权访问[!DNL Snowflake]帐户。
+* 您的[!DNL Snowflake]帐户已订阅私人列表。 您需要Snowflake的管理员权限才能配置所需的权限。
+* 您知道您的[!DNL Snowflake]帐户的云提供商和地区。
+
+有关必要权限的更多信息，请阅读[[!DNL Snowflake] 文档](https://docs.snowflake.com/en/collaboration/consumer-listings-access#access-a-private-listing)。
+
+### 收集Adobe的[!DNL Snowflake]帐户信息 {#collect-account-information}
+
+要开始配置，请找到并记下与您所在地区匹配的Adobe [!DNL Snowflake]帐户标识符。 在后续步骤中，您将需要此标识符来授予Adobe访问权限。
+
+| 区域 | [!DNL Snowflake]生产帐户完整标识符 |
+| ------------- | --------------- |
+| 北美洲 | Adobe.AGORA_SF_02 |
+| EMEA | Adobe.RTCDP_COLLABORATION_DEU1_EXTERNAL |
+| 澳大利亚 | Adobe.RTCDP_COLLABORATION_AUS3_EXTERNAL |
+
+{style="table-layout:auto"}
+
+### 创建并授予[!DNL Snowflake Share]的访问权限 {#create-grant-access-to-share}
+
+接下来，按照以下步骤在您的[!DNL Snowflake]帐户中创建[!DNL Secure Data Share]，并授予Adobe对您的受众数据的只读访问权限。
+
+1. 创建一个安全视图，仅对源表中的必要列具有有限访问权限。
+
+   ```sql
+   CREATE OR REPLACE SECURE VIEW my_database.my_schema.secure_view_for_adobe AS
+   SELECT 
+       column1,
+       column2,
+       column3
+   FROM my_database.my_schema.source_table;
+   ```
+
+2. 创建新[!DNL Snowflake Secure Data Share]。
+
+   ```sql
+   CREATE OR REPLACE SHARE adobe_data_share;
+   ```
+
+3. 将数据库的USAGE权限授予[!DNL Snowflake Secure Data Share]，以便它可以访问数据库中的对象。
+
+   ```sql
+   GRANT USAGE ON DATABASE my_database TO SHARE adobe_data_share;
+   ```
+
+4. 将架构上的USAGE授予[!DNL Snowflake Secure Data Share]，以使其能够访问架构中的对象。
+
+   ```sql
+   GRANT USAGE ON SCHEMA my_database.my_schema TO SHARE adobe_data_share;
+   ```
+
+5. 将安全视图的SELECT权限授予[!DNL Snowflake Secure Data Share]，以便Adobe能够读取您的受众数据。
+
+   ```sql
+   GRANT SELECT ON VIEW my_database.my_schema.secure_view_for_adobe TO SHARE adobe_data_share;
+   ```
+
+6. 使用您所在地区的正确标识符将Adobe的[!DNL Snowflake]帐户添加到[!DNL Snowflake Secure Data Share]。 请参阅[&#128279;](#collect-account-information)上方的区域/帐户映射表。
+
+   ```sql
+   ALTER SHARE adobe_data_share ADD ACCOUNTS = <Account Identifier based on region from the mapping table>;
+   ```
+
+### 收集[!DNL Snowflake Share]详细信息 {#collect-share-details}
+
+最后，收集您[!DNL Snowflake Share]的详细信息，如下表所示。 您需要此信息才能设置[!DNL Snowflake Share]与Collaboration之间的连接。
+
+| 字段 | 示例 |
+| -------------------------- | --------------- |
+| 帐户标识符 | CUSTOMER_ORG.CUSTOMER_SNOWFLAKE_ACCOUNT |
+| [!DNL Share]名称 | adobe_data_share |
+| 架构名称 | customer_schema |
+| 视图名称 | secure_view_for_adobe |
+
+{style="table-layout:auto"}
+
 ## 配置您的[!DNL Snowflake]连接 {#configure-snowflake-connection}
+
+完成[Snowflake权限配置](#set-up-snowflake-permissions)并确保满足所有[先决条件](#prerequisites)后，您现在可以将您的[!DNL Snowflake Secure Data Share]连接到Collaboration以开始获取受众。
 
 从&#x200B;**[!UICONTROL 设置]**&#x200B;工作区的&#x200B;**[!UICONTROL 我的受众]**&#x200B;选项卡中，选择添加图标（![添加图标。](/help/assets/icons/plus.png)） 然后选择&#x200B;**[!UICONTROL 受众]**。
 
