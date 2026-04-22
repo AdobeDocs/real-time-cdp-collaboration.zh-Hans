@@ -2,7 +2,7 @@
 title: 为Collaboration [!DNL Starter] 载入配置权限控制
 description: 了解如何使用Adobe Experience Cloud中的权限配置Adobe Real-Time CDP Collaboration [!DNL Starter] 的权限。
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 4e50b6cc-58f7-4a0c-8b6d-f5aa4f092e9f
 source-git-commit: 147fd5847bc5074e4b4f8a05a9a1c3afc089be56
 workflow-type: tm+mt
@@ -58,7 +58,7 @@ ht-degree: 4%
 
 {style="table-layout:auto"}
 
-有关特定角色及其权限的深入概述，请参阅[管理角色的权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions)指南。
+有关特定角色及其权限的深入概述，请参阅[管理角色的权限](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions)指南。
 
 查看信息并选择要分配给帐户的角色。 完成后，选择&#x200B;**[!UICONTROL 保存]**。
 
