@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration支持广告商和出版商之间的无缝和安全数据共享和协作，促进实时受众洞察和个性化营销策略。
-source-git-commit: 156135fdad5f176cedb91c05c07d9bc0e1903557
+source-git-commit: 8d3b7ac316826b6a31d4d6b2f831ea8c2adb8daf
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 27%
+source-wordcount: '270'
+ht-degree: 21%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 27%
    * [帐户角色](./overview/roles.md)
    * [Collaboration模式](./overview/collaboration-patterns.md)
    * [端到端工作流程](./overview/end-to-end-workflow.md)
-   * {hide-from-toc}[Real-Time CDP Collaboration Starter](./overview/starter-overview.md)
+   * [Real-Time CDP Collaboration Starter](./overview/starter-overview.md)
 * 设置 {#setup}
    * [设置部分概述](./setup/setup-overview.md)
    * [载入并管理您的帐户](./setup/onboard-account.md)
@@ -38,32 +38,32 @@ ht-degree: 27%
    * [管理测量数据连接](./setup/manage-measurement-data-connection.md)
    * [审核日志](./setup/audit-logs.md)
    * Real-Time CDP Collaboration Starter设置 {#starter-setup}
-      * {hide-from-toc}[配置管理员访问权限](./setup/starter-admin-access.md)
-      * {hide-from-toc}[配置权限控件](./setup/starter-permission-controls.md)
-      * {hide-from-toc}[信用使用量和消耗量](./setup/starter-credit-usage.md)
+      * [配置管理员访问权限](./setup/starter-admin-access.md)
+      * [配置权限控件](./setup/starter-permission-controls.md)
+      * [信用使用情况和消耗量](./setup/starter-credit-usage.md)
 * 建立连接 {#connect}
-   * [Overview.md](./connect/overview.md)
+   * [概述](/help/guide/connect/overview.md)
    * [探索协作者](./connect/discover-collaborators.md)
    * [建立协作者连接](./connect/establishing-connections.md)
    * [管理连接](./connect/manage-connections.md)
    * Advertising平台连接 {#ad-platform-connections}
-      * [概述](./connect/advertising-platforms/overview.md)
+      * [概述](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/connect/ad-platform-connections/overview)
       * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * 协作 {#collaborate}
-   * [概述](./collaborate/overview.md)
+   * [概述](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/overview)
    * [管理项目](./collaborate/manage-projects.md)
    * 协作者连接 {#collaborator-connections}
       * [发现](./collaborate/discover.md)
       * [激活](./collaborate/activate.md)
       * [测量](./collaborate/measure.md)
    * Advertising平台连接 {#ad-platform-connections}
-      * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
+      * [Amazon Marketing Cloud](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/ad-platform-connections/amc)
       * {hide-from-toc}[创建AMC测量报告](./collaborate/advertising-platforms/amc-measure.md)
 * 目标 {#destinations}
-   * [概述](./destinations/overview.md)
+   * [概述](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/overview)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * 权限 {#permissions}
-   * [概述](./permissions/overview.md)
+   * [概述](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/permissions/overview)
    * [管理用户访问权限](./permissions/manage-user-access.md)
    * [管理角色](./permissions/manage-roles.md)
 * 参考 {#reference}
