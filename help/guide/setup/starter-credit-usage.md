@@ -2,7 +2,7 @@
 title: Real-Time CDP Collaboration [!DNL Starter]中的信用使用量和消耗量
 description: 了解Adobe Real-Time CDP Collaboration [!DNL Starter]中信用使用量和消耗量的工作方式。
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d1c15141-56c4-48aa-aba8-8d6f77024f63
 source-git-commit: 1952ea15da6da320b5630307528fb2f9fdb17118
 workflow-type: tm+mt
