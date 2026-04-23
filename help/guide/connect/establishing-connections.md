@@ -2,12 +2,12 @@
 title: 与协作者建立连接
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
+source-git-commit: 27fdbdf7e70ba83b323e1057ab614585aa7d0045
 workflow-type: tm+mt
-source-wordcount: '2881'
-ht-degree: 9%
+source-wordcount: '3349'
+ht-degree: 8%
 
 ---
 
@@ -119,6 +119,8 @@ ht-degree: 9%
 #### 发送专用连接邀请 {#send-private-connection-invite}
 
 从协作者处获得&#x200B;**[!UICONTROL 连接代码]**&#x200B;后，即可发送专用连接邀请。 为此，请导航到&#x200B;**[!UICONTROL 连接]**&#x200B;工作区，然后选择右上角的加号图标（![加号图标](/help/assets/icons/plus.png)）。
+
+然后，选择&#x200B;**[!UICONTROL 使用邀请代码连接]**。
 
 ![连接工作区中突出显示的加号图标。](/help/assets/connect/establish-connection/private-connection-invite.png){zoomable="yes"}
 
@@ -291,17 +293,81 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 
 ![突出显示了“我的连接”工作区，其中包含“查看连接设置”选项。](/help/assets/connect/establish-connection/review-connection-settings.png){zoomable="yes"}
 
-查看协作者提议的设置。 您可以接受或拒绝连接设置。 如果拒绝连接设置，则需要与协作者就要在产品外部进行的更改进行沟通。 协作者联系信息显示在连接设置工作区的&#x200B;**[!UICONTROL 联系人]**&#x200B;部分中。 然后，所有者可以修订连接设置并重新发送这些设置以供审阅。
+查看协作者提议的设置。 您可以接受或拒绝连接设置。 如果拒绝连接设置，则需要与协作者就要在产品外部进行的更改进行沟通。 协作者联系信息显示在连接设置工作区的&#x200B;**[!UICONTROL 联系人]**&#x200B;部分中。 The owner can then revise the connection settings and resend them for review.
 
-![选中了“接受并拒绝”选项的连接设置工作区。](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
+![The connection settings workspace with the Accept and Reject option highlighted.](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
-此外，如果您是连接到广告商的发布者，则现在可以在连接设置中添加广告商名称。 要了解有关此过程的更多信息，请参阅[连接设置](#connection-settings)部分。
+Additionally, if you&#39;re a publisher connecting with an advertiser, you can now add advertiser names in the connection settings. To learn more about this process, see the [connection settings](#connection-settings) section.
 
 >[!NOTE]
 >
-> 接受连接设置后，您将无法再添加或编辑广告商名称。
+> Once you&#39;ve accepted the connection settings, you are no longer able to add or edit advertiser names.
 
-接下来，选择&#x200B;**[!UICONTROL 接受]**&#x200B;以继续连接。 连接状态将更改为&#x200B;**[!UICONTROL 活动]**，您现在可以开始协作处理项目。
+Next, select **[!UICONTROL Accept]** to proceed with the connection. The connection status will change to **[!UICONTROL Active]**, and you can now start collaborating on projects.
+
+## 邀请一个协作者 {#invite-collaborator}
+
+Follow the steps below to invite your partner to join Real-Time CDP Collaboration [!DNL Starter]. If you want more details about Collaboration [!DNL Starter] and a step-by-step overview of the process, refer to the [[!DNL Starter] overview documentation](../overview/starter-overview.md).
+
+Before initiating the invitation process, collect the following information from your collaborator:
+
+| 字段 | 描述 |
+|-------|-------------|
+| Company | The collaborator&#39;s company name. |
+| 名称 | The full name of the person you are inviting. |
+| 电子邮件地址 | The email address that the collaborator uses to access Real-Time CDP Collaboration [!DNL Starter]. |
+| 标题 | The main contact&#39;s job title. |
+
+{style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>By inviting another collaborator, you acknowledge that you are responsible for any charges incurred through their activities. Learn more about [credit usage and consumption in Collaboration Starter](../setup/starter-credit-usage.md)
+
+### Send an invitation {#send-invitation}
+
+Invite your partner organization to join Collaboration [!DNL Starter] directly through the user interface.
+
+To begin, navigate to the **[!UICONTROL Connect]** workspace and select the plus icon (![plus icon](/help/assets/icons/plus.png)) in the upper right corner. Then, select **[!UICONTROL Invite a collaborator]**.
+
+![The Connect workspace with the plus icon and the Invite a collaborator option highlighted.](/help/assets/connect/establish-connection/invite-collaborator/invite-collaborator.png){zoomable="yes"}
+
+The **[!UICONTROL Invite a collaborator]** dialog appears, prompting you to enter the information of the invited collaborator. Fill in the required fields for [!UICONTROL Company name], [!UICONTROL First name], [!UICONTROL Last name], and [!UICONTROL Email].
+
+>[!IMPORTANT]
+>
+>Invitations are **tied to the email address provided**. 确保电子邮件地址准确，因为受邀用户必须使用该确切的电子邮件来接受邀请并访问产品。
+
+接下来，使用下拉菜单为您的合作伙伴选择适当的角色。 有关Collaboration中可用角色类型的详细信息，请参阅[帐户角色文档](../overview/roles.md)。
+
+![突出显示“角色”下拉列表的“邀请协作者”对话框。](/help/assets/connect/establish-connection/invite-collaborator/role-dropdown.png){zoomable="yes"}
+
+完成后，查看信息并选择&#x200B;**[!UICONTROL 发送邀请]**。
+
+![突出显示了“邀请协作者”对话框中的“发送邀请”选项。](/help/assets/connect/establish-connection/invite-collaborator/send-invite.png){zoomable="yes"}
+
+确认对话框用于确认邀请已成功发送给您的合作伙伴组织。
+
+![确认对话框用于确认邀请已成功发送。](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
+
+### 接受邀请并签署条款 {#accept-invitation-sign-terms}
+
+发送邀请后，您的合作伙伴组织会收到一封电子邮件，其中包含有关查看和接受Real-Time Collaboration条款和条件的说明。 在接受之前，他们还可以探索Collaboration的功能。
+
+![加入Collaboration Starter的邀请电子邮件。](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
+
+在您的合作伙伴组织接受条款和条件后，Adobe将开始为其帐户配置Real-Time CDP Collaboration [!DNL Starter]。
+
+### 配置确认 {#provisioning-confirmation}
+
+配置过程完成后，将向受邀组织发送欢迎电子邮件，确认Collaboration [!DNL Starter]已准备好使用。 此电子邮件提供了有关如何完成以下操作的说明：
+
+- [配置管理员和用户访问权限](../setup/starter-admin-access.md)
+- [设置访问Collaboration的权限](../setup/starter-permission-controls.md)
+
+![向受邀组织发送欢迎电子邮件，其中包含设置必要访问和权限的说明。](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
+
+一旦您的合作伙伴有权访问Collaboration，您和受邀组织都可以[建立连接](#connect)和[设置连接设置](#configure-connection-settings)以开始协作处理项目。
 
 ## 后续步骤
 
