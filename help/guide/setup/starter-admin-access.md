@@ -2,7 +2,7 @@
 title: 配置Collaboration [!DNL Starter] 入门的管理员访问权限
 description: 了解如何使用Adobe Experience Cloud中的Admin Console配置Adobe Real-Time CDP Collaboration [!DNL Starter] 的管理员访问权限。
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7b5aa5e2-1238-4a0b-be20-becfe6c9e0b7
 source-git-commit: db4cc34592e49254163d7db54f93238146ce72a4
 workflow-type: tm+mt
@@ -88,7 +88,7 @@ You are now in the **[!UICONTROL Adobe Experience Platform]** product dashboard.
 
 接下来，选择&#x200B;**[!UICONTROL 产品]**&#x200B;下的添加图标![添加图标](../../assets/icons/plus.png)。
 
-此时将显示一个对话框，其中包含可用[产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)的列表。 选择&#x200B;**[!UICONTROL AEP-Default-All-Users]**&#x200B;和&#x200B;**[!UICONTROL 默认的生产所有访问]**。 然后选择&#x200B;**[!UICONTROL 应用]**。
+此时将显示一个对话框，其中包含可用[产品配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html)的列表。 选择&#x200B;**[!UICONTROL AEP-Default-All-Users]**&#x200B;和&#x200B;**[!UICONTROL 默认的生产所有访问]**。 然后选择&#x200B;**[!UICONTROL 应用]**。
 
 ![选择产品配置文件对话框显示所选的产品配置文件，并突出显示“应用”选项。](../../assets/setup/starter/admin-access/select-product-profiles.png){zoomable="yes"}
 
