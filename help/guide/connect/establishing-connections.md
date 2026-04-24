@@ -322,7 +322,7 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 
 >[!IMPORTANT]
 >
->邀请其他协作者，即表示您确认自己需对通过其活动产生的任何费用负责。 在Collaboration Starter](../setup/starter-credit-usage.md)中了解有关[信用使用情况和消费情况的更多信息
+>邀请其他协作者，即表示您确认自己需对通过其活动产生的任何费用负责。 在Collaboration Starter[&#128279;](../setup/starter-credit-usage.md)中了解有关信用使用情况和消费情况的更多信息
 
 ### 发送邀请 {#send-invitation}
 

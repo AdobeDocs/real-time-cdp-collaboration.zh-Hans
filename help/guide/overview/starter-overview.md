@@ -44,7 +44,7 @@ ht-degree: 4%
 
 | 护栏 | 描述 |
 |----------| ------------|
-| 受众来源 | 您可以将&#x200B;**[!DNL Amazon S3]**&#x200B;作为源，将受众数据引入Collaboration。 有关分步说明，请参阅[如何为受众源配置 [!DNL Amazon S3] ](../setup/configure-aws-s3-audience-sourcing.md)。 |
+| 受众来源 | 您可以将&#x200B;**[!DNL Amazon S3]**&#x200B;作为源，将受众数据引入Collaboration。 有关分步说明，请参阅[如何为受众源配置 [!DNL Amazon S3] &#x200B;](../setup/configure-aws-s3-audience-sourcing.md)。 |
 | 受众 | 您的[!DNL Starter]帐户有权使用的最大值为：<ul><li>来自[!DNL AWS S3]存储段的10个受众</li><li>总身份数5,000万（由受众数据中的行数计算）</li><li>每个受众每6天刷新1次</li></ul> |
 | 受众重叠和见解 | 您的受众可以运行受众重叠和分析的频率没有使用限制。 了解如何[发现重叠和比较受众](../collaborate/discover.md)。 |
 | 激活 | 作为[!DNL Starter]用户，您只能激活受众并与邀请您的合作伙伴共享受众。 目标到外部平台的配置不可用。 了解有关[激活受众的详细信息](../collaborate/activate.md)。 |
@@ -83,7 +83,7 @@ ht-degree: 4%
 
 ### 了解信用使用情况 {#understand-credit-usage}
 
-所有Collaboration [!DNL Starter]活动都使用积分。 但是，作为受邀用户，您无需购买或管理这些积分。 邀请您的协作者涵盖与您的活动关联的所有信用使用情况。 若要了解更多信息，请参阅Collaboration [!DNL Starter]](../setup/starter-credit-usage.md)文档中的[信用使用情况和使用情况。
+所有Collaboration [!DNL Starter]活动都使用积分。 但是，作为受邀用户，您无需购买或管理这些积分。 邀请您的协作者涵盖与您的活动关联的所有信用使用情况。 若要了解更多信息，请参阅Collaboration [!DNL Starter][&#128279;](../setup/starter-credit-usage.md)文档中的信用使用情况和使用情况。
 
 ## 后续步骤 {#next-steps}
 
