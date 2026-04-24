@@ -2,7 +2,7 @@
 title: 与协作者建立连接
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
 workflow-type: tm+mt
@@ -330,7 +330,7 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 >id="rtcdp_collaboration_starter_invite_collaborator"
 >title="邀请一个协作者"
 >abstract="请填写此表单以邀请您的合作伙伴组织加入Collaboration Starter。 被邀请者将收到一封邀请电子邮件，必须使用指定的电子邮件地址完成注册。"
->additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="详细了解Collaboration Starter"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="详细了解Collaboration Starter"
 
 邀请您的合作伙伴组织直接通过用户界面加入Collaboration [!DNL Starter]。
 
