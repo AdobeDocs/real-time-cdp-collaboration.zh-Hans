@@ -2,10 +2,10 @@
 title: '为受众源配置 [!DNL Google Cloud Storage] '
 description: 了解如何在Real-Time CDP Collaboration中将 [!DNL Google Cloud Storage] 存储段连接为自助受众源，包括先决条件、身份验证、字段映射、计划和验证。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 2f1a40f60d244bda70d6e36a653cb46885c424ac
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
-source-wordcount: '2855'
+source-wordcount: '2858'
 ht-degree: 7%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 7%
 >id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
 >title="请为加入过程准备好您的数据"
 >abstract="请参阅受众源规格指南，了解如何设置和构建适用于Collaboration的Google云存储中的受众数据。"
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="查看指南"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="请参阅《受众源规格指南》"
 
 数据源选择屏幕列出了所有可用的连接类型。 选择&#x200B;**[!UICONTROL Google Cloud Storage]**，然后选择&#x200B;**[!UICONTROL 下一步]**。
 
@@ -275,7 +275,7 @@ ht-degree: 7%
 
 #### 将IAM角色分配给Adobe {#assign-role}
 
-接下来，在[!DNL Google Cloud Console]中打开&#x200B;[**[!DNL Buckets]**&#x200B;页面](https://console.cloud.google.com/storage/browser)，并选择包含受众数据的存储桶。
+接下来，在[!DNL Google Cloud Console]中打开&#x200B;[**[!DNL Buckets]**页面](https://console.cloud.google.com/storage/browser)，并选择包含受众数据的存储桶。
 
 导航到&#x200B;**[!DNL Permissions]**&#x200B;选项卡，选择&#x200B;**[!DNL View by principals]**，然后选择&#x200B;**[!DNL Grant access]**。
 
@@ -308,7 +308,7 @@ Adobe现在可以在选定的GCS存储段中安全访问您的受众数据。 �
 
 有关其他受众来源补充方法，请参阅：
 
-* [为受众源配置 [!DNL Amazon S3] &#x200B;](./configure-aws-s3-audience-sourcing.md)
-* [为受众源配置 [!DNL Snowflake] &#x200B;](./configure-snowflake-audience-sourcing.md)
+* [为受众源配置 [!DNL Amazon S3] ](./configure-aws-s3-audience-sourcing.md)
+* [为受众源配置 [!DNL Snowflake] ](./configure-snowflake-audience-sourcing.md)
 * [来自Experience Platform的Source受众](./onboard-audiences.md)
 * [上传CSV文件以进行受众源](./upload-csv-audience-sourcing.md)
