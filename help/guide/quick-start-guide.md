@@ -4,9 +4,21 @@ description: 了解如何设置 Real-Time CDP Collaboration，配置角色和帐
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 156135fdad5f176cedb91c05c07d9bc0e1903557
+TQID: https://experienceleague.adobe.com/rhIArZZm0Thkj3E-qiHtVHO6qxpr1vd-Qs4hWt4tf1U
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: 1417
 ht-degree: 3%
 
 ---
@@ -216,18 +228,18 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 设置完成后，您的组织现在可以通过发送或接受邀请并提交项目设置以供审批来与协作者联系。 此连接过程包括发送或接收邀请、审核和提交连接设置（如用例和信用消耗）以及确认连接。
 
-作为广告商，请使用左侧导航菜单中的&#x200B;**[!UICONTROL 连接]**&#x200B;工作区来浏览可用的发布者。 或者，协作者可通过[私人连接邀请](./connect/establishing-connections.md#private-connection-invite){target="_blank"}直接相互连接。
+作为广告商，请使用左侧导航菜单中的&#x200B;**[!UICONTROL 连接]**&#x200B;工作区来浏览可用的发布者。 Alternatively, collaborators may connect with each other directly through [private connection invitations](./connect/establishing-connections.md#private-connection-invite){target="_blank"}.
 
 >[!NOTE]
 >
->目前，只有广告商可以浏览发布者。 发布者无法浏览或启动与广告商的连接。
+>Currently, only advertisers can browse publishers. Publishers cannot browse or initiate connections with advertisers.
 
-有关此流的概述，请参阅[建立连接指南](./connect/establishing-connections.md){target="_blank"}。 有关连接过程的可视化演练，包括浏览协作者和管理连接设置，请观看[广告商帐户设置视频](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}。
+For an overview of this flow, see the [establishing connections guide](./connect/establishing-connections.md){target="_blank"}. For a visual walkthrough of the connection process, including browsing collaborators and managing connection settings, watch the [advertiser account setup video](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## 后续步骤
 
-您现在已完成初始设置并配置您的组织以进行安全协作。 接下来，探索以下资源，以加深您对激活、测量和数据治理的了解：
+您现在已完成初始设置并配置您的组织以进行安全协作。 Next, explore the following resources to deepen your understanding of activation, measurement, and data governance:
 
-- [受众激活工作流文档](./collaborate/activate.md)
-- [测量用例](./collaborate/measure.md)
-- [Collaboration治理最佳实践](./setup/onboard-audiences.md#governance-policy-and-enforcement-actions)
+- [Audience activation workflow documentation](./collaborate/activate.md)
+- [Measurement use cases](./collaborate/measure.md)
+- [Collaboration governance best practices](./setup/onboard-audiences.md#governance-policy-and-enforcement-actions)

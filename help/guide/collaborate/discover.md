@@ -4,9 +4,17 @@ description: 发现与协作者受众之间的重叠。 了解如何发现可在
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
+TQID: https://experienceleague.adobe.com/ny3FgyvKMu4caNcmNTLrPRHXjBOKa6lDvPQ3C9YG9vo
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: 2120
 ht-degree: 17%
 
 ---
@@ -200,18 +208,18 @@ ht-degree: 17%
 
 为了能够轻松地对不同受众和营销活动进行比较，Collaboration将索引分数转换为相关性范围（从很低到很高）。 这使您可以快速评估您的受众与协作者的受众之间的关联强度。
 
-| 索引得分(i) | 相关性范围 | 描述 |
+| 索引得分(i) | Relevance Band | 描述 |
 |---------------|----------|-----------|
-| i &lt; 60 | 非常低 | 与您的受众相比，重叠在目标受众中较少发生，这表明关系非常薄弱。 使用此受众的客户访问其目标受众的可能性要低得多。 |
-| 60 &lt; i &lt; 80 | 低 | 与您的受众相比，重叠在目标受众中不太普遍，这表明关系薄弱。 使用此受众的客户访问其目标受众的可能性较小。 |
-| 80 &lt; i &lt; 120 | 媒介 | 重叠在目标受众中和在您的受众中一样普遍，这显示了典型的关系。 使用此受众的客户平均可能会访问其目标受众。 |
-| 120 &lt; i &lt; 140 | 高 | 与您的受众相比，重叠现象在目标受众中更为普遍，表现出很强的关系。 使用此受众的客户更有可能接触到其目标受众。 |
-| i > 140 | 非常高 | 与您的受众相比，重叠在目标受众中更为普遍，这反映了非常牢固的关系。 使用此受众的客户更有可能接触到其目标受众。 |
+| i &lt; 60 | 非常低 | The overlap is much less prevalent in the target audience compared to your audience, indicating a very weak relationship. Customers using this audience are much less likely to reach their target audience. |
+| 60 &lt; i &lt; 80 | 低 | The overlap is somewhat less prevalent in the target audience compared to your audience, suggesting a weak relationship. Customers using this audience are less likely to reach their target audience. |
+| 80 &lt; i &lt; 120 | 媒介 | The overlap is about as prevalent in the target audience as in your audience, indicating a typical relationship. Customers using this audience have an average likelihood of reaching their target audience. |
+| 120 &lt; i &lt; 140 | 高 | The overlap is more prevalent in the target audience compared to your audience, showing a strong relationship. Customers using this audience are more likely to reach their target audience. |
+| i > 140 | 非常高 | The overlap is much more prevalent in the target audience compared to your audience, reflecting a very strong relationship. Customers using this audience are much more likely to reach their target audience. |
 
 {style="table-layout:auto"}
 
-在发现重叠部分中，受众索引得分将与得分一起显示相关性范围。 得分将进行颜色编码以指示相关带，使得很容易一眼就识别关系的强度。 极低相关带和低相关带以橙色显示，中相关带以黑色显示，高相关带和极高相关带以绿色显示。
+Within the discover overlaps section, the audience index score will display the relevance band alongside the score. The score will be color-coded to indicate the relevance band, making it easy to identify the strength of the relationship at a glance. Very low and low relevance bands are displayed in orange, medium relevance bands in black, and high and very high relevance bands in green.
 
 ## 后续步骤
 
-浏览并发现所需的受众后，是时候[激活](/help/guide/collaborate/activate.md)应在营销活动中使用的受众了。
+After exploring and discovering the desired audiences, it&#39;s time to [activate](/help/guide/collaborate/activate.md) the audiences that should be used in the campaigns.

@@ -4,10 +4,15 @@ description: 了解如何在Real-Time CDP Collaboration中管理您的连接。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
-source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
+TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 1%
+source-wordcount: 1092
+ht-degree: 2%
 
 ---
 
@@ -62,7 +67,7 @@ ht-degree: 1%
 >
 >**所有者**&#x200B;是通过向&#x200B;**收件人**&#x200B;发送邀请来启动连接的协作者。 有关详细信息，请参阅[与协作者建立连接文档](./establishing-connections.md)。
 
-要编辑连接设置，请导航到连接设置工作区。 选择三点图标（![三点图标）。](/help/assets/icons/more.png))以查看可用的操作，然后选择&#x200B;**[!UICONTROL 编辑]**。
+要编辑连接设置，请导航到连接设置工作区。 选择三个圆点图标（![三个圆点图标。](/help/assets/icons/more.png)） 要查看可用的操作，请选择&#x200B;**[!UICONTROL 编辑]**。
 
 ![突出显示了“编辑”选项的连接设置工作区。](/help/assets/connect/manage-connections/edit-connection.png){zoomable="yes"}
 

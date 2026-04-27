@@ -4,9 +4,17 @@ description: 衡量不同渠道中的促销活动效果。 了解如何使用和
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
+TQID: https://experienceleague.adobe.com/pr-qF4sd-NHd55kxh1dCstHRnVCUEhIvtv-47-ljiu4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '2612'
+source-wordcount: 2612
 ht-degree: 5%
 
 ---
@@ -178,18 +186,18 @@ ht-degree: 5%
 
 一旦可用，您就可以随时在项目工作区的&#x200B;**[!UICONTROL 度量]**&#x200B;选项卡中查看报告。
 
-![创建测量报告屏幕显示的信息和突出显示的创建选项。](/help/assets/collaborate/measure/cs-review.png)
+![The Create measurement report screen showing the information and the Create option highlighted.](/help/assets/collaborate/measure/cs-review.png)
 
-### 创建归因报表 {#create-attribution-report}
+### Create attribution report {#create-attribution-report}
 
-作为广告商，您可以生成&#x200B;**归因**&#x200B;报告，以评估您的营销活动曝光次数对注册或购买等关键结果的贡献情况。 使用这些报表可了解用户与促销活动的交互情况、确定哪些接触点产生的影响最大，并告知更有效的营销策略。
+As an advertiser, you can generate **Attribution** reports to assess how your campaign exposures contribute to key outcomes such as sign-ups or purchases. Use these reports to understand user interactions with your campaign, identify which touchpoints drive the most impact, and inform more effective marketing strategies.
 
 >[!IMPORTANT]
 >
-> 在生成归因报表之前，您必须[将测量数据](../setup/onboard-measurement-data.md#add-measurement-data)源到Collaboration中。
->![具有测量数据要求和禁用的Measure选项的Measure选项卡。](/help/assets/collaborate/measure/require-measurement-data.png)
+> You must [source your measurement data](../setup/onboard-measurement-data.md#add-measurement-data) into Collaboration before generating Attribution reports.
+>![The Measure tab with the requirements for Measurement data and the disabled Measure option.](/help/assets/collaborate/measure/require-measurement-data.png)
 
-要生成&#x200B;**归因**&#x200B;报告，请从&#x200B;**[!UICONTROL Collaborator]**&#x200B;工作区导航到项目工作区。 从&#x200B;**[!UICONTROL 度量]**&#x200B;选项卡中，选择添加图标（![添加图标。](/help/assets/icons/plus.png)） 然后选择&#x200B;**[!UICONTROL 度量]**。
+To generate an **Attribution** report, navigate to the project workspace from the **[!UICONTROL Collaborator]** workspace. 从&#x200B;**[!UICONTROL 度量]**&#x200B;选项卡中，选择添加图标（![添加图标。](/help/assets/icons/plus.png)） 然后选择&#x200B;**[!UICONTROL 度量]**。
 
 如果这是您的第一个报告，您还可以选择&#x200B;**[!UICONTROL 运行报告]**&#x200B;选项。
 
@@ -197,29 +205,29 @@ ht-degree: 5%
 
 此时将显示&#x200B;**[!UICONTROL 创建测量报告]**&#x200B;屏幕，其中包含在&#x200B;**[!UICONTROL 帐单详细信息]**、**[!UICONTROL 促销活动详细信息]**&#x200B;和&#x200B;**[!UICONTROL 报告详细信息]**&#x200B;部分下分组的信息和输入字段。
 
-请阅读并按照[创建营销活动摘要报告](#create-campaign-summary-report)部分中的步骤来配置以下设置：
+Read and follow steps in the [Create campaign summary report](#create-campaign-summary-report) section to configure the following settings:
 
-* [帐单详细信息](#billing-details)
+* [Billing details](#billing-details)
 * [营销活动详细信息](#campaign-details)
 
-#### 归因报表的报表详细信息 {#report-details-attribution}
+#### Report details for Attribution reports {#report-details-attribution}
 
 **报告运行日期**
 
 >[!IMPORTANT]
 >
-> 对于归因报表，报表运行日期必须是将来的日期，并且必须在报表日期范围的结束日期加上定义的回溯时段的完整持续时间后至少一天发生。
-> **报告运行日期≥报告结束日期+回顾时间范围+ 1**
+> For attribution reports, the report run date must be a future date, and must occur at least one day after the end date of your report date range plus the full duration of the defined lookback window.
+> **Report run date ≥ report end date + lookback window + 1**
 > 
-> 例如，如果您的报表日期范围在6月15日结束并且回溯时段为14天，则报表运行日期为6月30日或更高版本。
+> For example, if your report date range ends on June 15 and the lookback window is 14 days, the report run date is June 30 or later.
 
 在&#x200B;**[!UICONTROL 报告详细信息]**&#x200B;部分，选择报告运行的日期。 选择&#x200B;**[!UICONTROL 报告运行日期]**&#x200B;并从日历中选择首选日期。
 
 **报告类型**
 
-作为广告商，除了&#x200B;**[!UICONTROL 促销活动摘要]**&#x200B;之外，您还可以选择&#x200B;**[!UICONTROL 归因]**&#x200B;作为报表类型。 当您选择归因报表时，您的结果既包括标准的促销活动摘要量度，又包括详细的归因分析，从而全面了解促销活动效果。
+As an advertiser, you can select **[!UICONTROL Attribution]** as a report type in addition to **[!UICONTROL Campaign summary]**. When you choose the Attribution report, your results include both standard Campaign Summary metrics and detailed Attribution analysis, providing a comprehensive view of campaign performance.
 
-![创建测量报告屏幕突出显示所选的Campaign摘要和归因报告类型。](/help/assets/collaborate/measure/attribution-report-type.png)
+![The Create measurement report screen highlighting both the Campaign summary and Attribution report types selected.](/help/assets/collaborate/measure/attribution-report-type.png)
 
 选择&#x200B;**[!UICONTROL 归因]**&#x200B;作为报表类型时，将显示&#x200B;**[!UICONTROL 归因]**&#x200B;配置部分，其中包含其他必需的设置：
 
