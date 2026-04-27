@@ -2,11 +2,14 @@
 title: 添加和管理衡量数据
 description: 了解如何将测量数据添加到Adobe Real-Time CDP Collaboration。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
-source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
+TQID: https://experienceleague.adobe.com/uJgTdRoA4K-Y-Me287MRvI5-jmuW2glaigB8JMAtME4
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '2720'
+source-wordcount: 2720
 ht-degree: 5%
 
 ---
@@ -132,7 +135,7 @@ ht-degree: 5%
 
 ![突出显示“电子邮件源”字段和“选择”选项的“选择源字段”对话框。](../../assets/setup/add-manage-measurement-data/select-source-field-dialog.png){zoomable="yes"}
 
-接下来，使用下拉菜单将选定的源字段映射到相应的目标字段。 所有可用的目标字段都是为您的Collaborator帐户[&#128279;](./onboard-account.md#set-up-match-keys)配置的匹配键。
+接下来，使用下拉菜单将选定的源字段映射到相应的目标字段。 所有可用的目标字段都是为您的Collaborator帐户](./onboard-account.md#set-up-match-keys)配置的[匹配键。
 
 ![下拉菜单显示要与选定源字段映射的所有可用目标字段。](../../assets/setup/add-manage-measurement-data/select-target-field-dropdown.png){zoomable="yes"}
 
@@ -150,7 +153,7 @@ ht-degree: 5%
 
 ![需要确认且“下一步”选项突出显示的管理同意屏幕。](../../assets/setup/add-manage-measurement-data/manage-consent.png){zoomable="yes"}
 
-如果在映射步骤[&#128279;](#enrich-event-data)期间启用配置文件扩充，则可以从预定义选项的列表中配置同意策略。 这包括：
+如果在映射步骤](#enrich-event-data)期间[启用配置文件扩充，则可以从预定义选项的列表中配置同意策略。 这包括：
 
 * **营销操作**：使用这些营销操作可以控制要将哪些受众数据从Experience Platform引入Collaboration。
 * **同意规则**：选择要应用于源自Collaboration的数据的同意规则。
@@ -233,52 +236,52 @@ ht-degree: 5%
 
 在网格视图或表格视图中，选择行项或事件信息卡中的&#x200B;**[!UICONTROL 查看转换]**&#x200B;选项，以查看特定转换事件的概览。 它显示事件的状态、源和数据连接名称，以及以下内容的详细面板：
 
-* **[!UICONTROL 转化详细信息]**：显示有关转化的关键信息，包括其类型、用于标识唯一事件的复制关键和分配的转化值（如果已指定）。
-* **[!UICONTROL 条件]**：显示应用于此转化事件的条件规则。
+* **[!UICONTROL Conversion details]**: Displays key information about the conversion, including its type, the duplication key used to identify unique events, and the assigned conversion value (if specified).
+* **[!UICONTROL Conditions]**: Displays the condition rules applied to this conversion event.
 
-![显示转化事件详细信息的“概述”屏幕。](../../assets/setup/add-manage-measurement-data/conversion-event-overview.png){zoomable="yes"}
+![The Overview screen displaying the details for a conversion event.](../../assets/setup/add-manage-measurement-data/conversion-event-overview.png){zoomable="yes"}
 
-## 编辑测量数据 {#edit-measurement-data}
+## Edit measurement data {#edit-measurement-data}
 
-获取测量数据后，您可以随时编辑转化事件的详细信息和条件规则。
+After sourcing your measurement data, you can edit the details and condition rules of a conversion event at anytime.
 
-从&#x200B;**[!UICONTROL 我的测量数据]**&#x200B;选项卡中，选择相关转化事件卡片中的省略号选项（![更多图标](/help/assets/icons/more.png)）。 然后从下拉菜单中选择&#x200B;**[!UICONTROL 查看转化]**&#x200B;以打开该转化事件的详细页面。
+From the **[!UICONTROL My measurement data]** tab, select the ellipsis option (![More icon](/help/assets/icons/more.png)) within the relevant conversion event card. Then select **[!UICONTROL View conversion]** from the dropdown menu to open the detailed page for that conversion event.
 
-![我的测量数据选项卡，省略号菜单处于打开状态，并且视图转换选项高亮显示。](/help/assets/setup/add-manage-measurement-data/conversion-event-list.png){zoomable="yes"}
+![My measurement data tab with the ellipsis menu open and the View conversion option highlighted.](/help/assets/setup/add-manage-measurement-data/conversion-event-list.png){zoomable="yes"}
 
 ### 编辑名称和描述 {#edit-name-and-description}
 
-要更新事件的名称和描述，请选择页面右上角的编辑图标（![编辑图标](/help/assets/icons/edit.png)）。
+To update the event&#39;s name and description, select the edit icon (![Edit icon](/help/assets/icons/edit.png)) at the top right of the page.
 
-![右上角显示“编辑”图标的“网站访问”事件页面。](/help/assets/setup/add-manage-measurement-data/edit-name-description.png){zoomable="yes"}
+![The Site Visit event page with the Edit icon on the top right highlighted.](/help/assets/setup/add-manage-measurement-data/edit-name-description.png){zoomable="yes"}
 
-在&#x200B;**[!UICONTROL 编辑名称和描述]**&#x200B;对话框中，使用所需的值更新字段，然后选择&#x200B;**[!UICONTROL 保存]**&#x200B;以应用更改。
+In the **[!UICONTROL Edit name and description]** dialog, update the fields with the desired values, then select **[!UICONTROL Save]** to apply your changes.
 
-![突出显示带有“保存”选项的“编辑名称和描述”对话框。](/help/assets/setup/add-manage-measurement-data/edit-name-description-dialog.png){zoomable="yes"}
+![The Edit name and description dialog with the Save option highlighted.](/help/assets/setup/add-manage-measurement-data/edit-name-description-dialog.png){zoomable="yes"}
 
-将显示确认对话框，确认详细信息已成功更新。
+A confirmation dialog appears to confirm that the details are successfully updated.
 
 ### 编辑转化详细信息 {#edit-conversion-details}
 
-您可以更新事件的以下转化详细信息：
+You can update the following conversion details of the event:
 
 | 字段 | 描述 |
 |-------------------|-------------|
-| 转化类型 | 转化事件的类别，如网站访问、购买或注册。 |
-| 重复数据删除键 | 事件数据集中属于同一转化事件（例如，同一时间戳）的行的标识符。 防止重复计数。 |
-| 转化值 | 与每次转化关联的值。 |
+| 转化类型 | The category of the conversion event, such as a site visit, purchase, or sign-up. |
+| 重复数据删除键 | Identifier for rows in the event dataset belonging to the same conversion event (for example, same timestamp). Prevents duplicate counts. |
+| 转化值 | The value associated with each conversion. |
 
 {style="table-layout:auto"}
 
-要开始编辑，请在&#x200B;**[!UICONTROL 转换详细信息]**&#x200B;面板中选择&#x200B;**[!UICONTROL 编辑]**。
+To start editing, select **[!UICONTROL Edit]** within the **[!UICONTROL Conversion details]** panel.
 
-![网站访问事件页面在转化详细信息面板中突出显示“编辑”选项。](/help/assets/setup/add-manage-measurement-data/edit-conversion-details.png){zoomable="yes"}
+![The Site Visit event page highlighting the Edit option within the Conversion details panel.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details.png){zoomable="yes"}
 
-在&#x200B;**[!UICONTROL 编辑转换详细信息]**&#x200B;对话框中，使用下拉菜单更新转换类型。 您可以输入转换值，如果不想分配值，则将其留空。 要编辑复制键，请选择现有键选项。
+In the **[!UICONTROL Edit conversion details]** dialog, use the dropdown menu to update the conversion type. You can enter a value for the conversion, or leave it empty if you do not wish to assign a value. To edit the duplication key, select the existing key option.
 
-![突出显示了“示例人员ID”选项的“编辑转换详细信息”对话框。](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-dialog.png){zoomable="yes"}
+![The Edit conversion details dialog with the Example Person ID option highlighted.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-dialog.png){zoomable="yes"}
 
-**[!UICONTROL 复制键]**&#x200B;对话框显示分组在选项（如&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;和&#x200B;**[!UICONTROL 事件架构]**）下的可用字段列表。 查找并选择所需的键，然后选择&#x200B;**[!UICONTROL 选择]**。
+The **[!UICONTROL Duplication key]** dialog displays a list of available fields grouped under options such as **[!UICONTROL Identity namespace]** and **[!UICONTROL Event schema]**. 查找并选择所需的键，然后选择&#x200B;**[!UICONTROL 选择]**。
 
 ![显示所选键和Select选项的“重复键”对话框。](../../assets/setup/add-manage-measurement-data/edit-duplication-key-dialog.png){zoomable="yes"}
 

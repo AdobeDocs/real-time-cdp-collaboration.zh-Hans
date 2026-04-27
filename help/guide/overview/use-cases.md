@@ -1,40 +1,44 @@
 ---
-title: Adobe Real-Time CDP Collaboration中的用例
-description: 了解Adobe Real-Time CDP Collaboration每个用例的主要优势。
+title: Use cases in Adobe Real-Time CDP Collaboration
+description: Understand the main benefits of each use case of Adobe Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
-source-git-commit: 66db8aa03d779b4b81021b6d502613a7f13d0771
+TQID: https://experienceleague.adobe.com/2dJ1AD-ZbnY903-uk8fjAge7AAOnyGfNvLq7iThzZuU
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 1%
+source-wordcount: 272
+ht-degree: 6%
 
 ---
 
-# Collaboration用例
+# Collaboration use cases
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time CDP Collaboration支持与广告商和发布商协作，为受众发现、激活和测量解锁新的机会。 这些连接通过利用共享数据来增强营销策略，同时维护隐私和安全性。
+Adobe Real-Time CDP Collaboration enables collaboration with advertisers and publishers, unlocking new opportunities for audience discovery, activation, and measurement. These connections enhance marketing strategies by leveraging shared data while maintaining privacy and security.
 
-Collaboration提供了与其他协作者建立关系时的三个主要用例：发现、激活和衡量。 每个用例都提供了独特的好处和功能来增强您的营销工作。 当您与协作者创建项目[以启动营销活动时，将](../collaborate/manage-projects.md#project-use-cases)选择这些用例，并将确定该项目中可用的特性和功能。
+Collaboration provides three main use cases in your connections with other collaborators: Discover, Activate, and Measure. Each use case offers unique benefits and capabilities to enhance your marketing efforts. These uses cases are [selected when you create a project](../collaborate/manage-projects.md#project-use-cases) with a collaborator to kick off a campaign, and will determine the features and functionalities available in that project.
 
 ## 发现 {#discover}
 
-![发现受众分析仪表板模块。](/help/assets/use-cases/discover.png)
+![Discover audience insights dashboard modules.](/help/assets/use-cases/discover.png)
 
-利用项目中的&#x200B;**[!UICONTROL 受众分析]**&#x200B;仪表板发现营销活动的目标受众。 将insight纳入受众与协作者之间的重叠百分比和重叠身份数中。 这有助于您识别营销活动的潜在新受众。 要了解有关发现用例的强大功能的更多信息，请参阅[发现](../collaborate/discover.md)指南。
+Discover target audiences for campaigns by leveraging the **[!UICONTROL Audience insights]** dashboard within your projects. Get insight into overlap percentages and the number of overlapping identities between your audiences and those of your collaborators. This helps you identify potential new audiences for your campaigns. To learn more about the power of the discover use case, refer to the [discover](../collaborate/discover.md) guide.
 
 ## 激活 {#activate}
 
-![激活受众仪表板模块。](/help/assets/use-cases/activate.png)
+![Activate audiences dashboard modules.](/help/assets/use-cases/activate.png)
 
-协作者可以使用自助式[目标](/help/guide/destinations/experience-platform.md)或云数据仓库（如[!DNL Amazon S3]或[!DNL Snowflake]）将受众激活到Experience Platform以用于营销活动。 要了解有关激活受众的更多信息，请参阅[激活](../collaborate/activate.md)指南。
+Collaborators can activate audiences to Experience Platform using self-serve [destinations](/help/guide/destinations/experience-platform.md) or cloud data warehouses (such as [!DNL Amazon S3] or [!DNL Snowflake]) for use in campaigns. To learn more about activating audiences, refer to the [activate](../collaborate/activate.md) guide.
 
 >[!NOTE]
 >
-> 要设置Cloud Data Warehouse目标，请联系您的Adobe代表。
+> To set up a cloud data warehouse destination, please contact your Adobe representative.
 
 ## 测量 {#measure}
 
-结合并探索来自各种来源（如Web展示等）的已知客户参与度。 在简化且可自定义的报表中查看促销活动效果。
+Combine and explore known customer engagement from various sources such as web impressions and more. View campaign performance in simplified and customizable reports.

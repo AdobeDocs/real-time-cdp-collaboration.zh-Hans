@@ -1,13 +1,16 @@
 ---
 title: 审核日志
-description: 了解如何使用Real-Time CDP Collaboration中的审核日志功能来跟踪用户活动和更改。
+description: Learn how to use the Audit Logs functionality in Real-Time CDP Collaboration to track user activities and changes.
 audience: admin
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+TQID: https://experienceleague.adobe.com/zb09-bUpxJ2VPDknETHeayMuLpNRCaQ2VTnV9QnTRgE
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 1%
+source-wordcount: 950
+ht-degree: 2%
 
 ---
 
@@ -15,34 +18,34 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-为了提高系统中所执行活动的透明度和可见性，您可以在Adobe Experience Platform中以审核日志的形式审核各种服务和功能的用户活动。 这些日志形成审核跟踪，可以帮助对Adobe Real-Time CDP Collaboration中的问题进行故障诊断，并帮助您的企业有效地遵守公司数据管理政策和法规要求。
+In order to increase the transparency and visibility of activities performed in the system, you can audit user activity for various services and capabilities in the form of audit logs in Adobe Experience Platform. These logs form an audit trail that can help with troubleshooting issues in Adobe Real-Time CDP Collaboration, and help your business effectively comply with corporate data stewardship policies and regulatory requirements.
 
-从基本意义上说，审核日志可告知&#x200B;*谁*&#x200B;执行了&#x200B;*什么*&#x200B;操作，以及&#x200B;*何时*。 日志中记录的每个操作都包含元数据，这些元数据指示操作类型、日期和时间、执行操作的用户的电子邮件ID以及与操作类型相关的其他属性。
+In a basic sense, an audit log tells *who* performed *what* action, and *when*. Each action recorded in a log contains metadata that indicates the action type, date and time, the email ID of the user who performed the action, and additional attributes relevant to the action type.
 
-使用Collaboration中的审核日志功能来跟踪平台中的用户活动和更改。 此功能与Experience Platform审核服务集成，并且此功能的UI驻留在Experience Platform中。
+Use the audit logs functionality in Collaboration to track user activities and changes within the platform. This feature is integrated with the Experience Platform audit service, and the UI for this functionality resides in Experience Platform.
 
-![审核日志功能的高级概览屏幕。](/help/assets/setup/audit-logs/audit-logs-overview.png)
+![High-level overview screen of the audit logs functionality.](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-有关审核日志的更全面信息，请访问[Experience Platform审核日志文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}。
+For more comprehensive information about audit logs, visit the [Experience Platform audit logs documentation](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
-## 访问审核日志
+## Access audit logs
 
-您可以通过两种方式访问审核日志，如下节所述。 这两个选项都会显示一个审核日志列表，其中捕获了在Collaboration内执行的各种活动。
+You can access audit logs in two ways, as described in the sections below. Both options display a list of audit logs capturing various activities performed within Collaboration.
 
-### 从Collaboration用户界面访问审核日志
+### Access audit logs from the Collaboration user interface
 
-1. 导航到Collaboration中&#x200B;**[!UICONTROL 设置]**&#x200B;工作区的&#x200B;**[!UICONTROL 我的活动]**&#x200B;选项卡。
-2. 在页面顶部的文本中选择Experience Platform链接。
+1. Navigate to the **[!UICONTROL My Activity]** tab in **[!UICONTROL Setup]** workspace in Collaboration.
+2. Select the Experience Platform link in the text at the top of the page.
 
-![从Collaboration的“我的活动”选项卡访问审核日志。](/help/assets/setup/audit-logs/access-from-collaboration-ui.png)
+![Access audit logs from the My activity tab in Collaboration.](/help/assets/setup/audit-logs/access-from-collaboration-ui.png)
 
-### 直接在Experience Platform用户界面中访问审核日志
+### Access audit logs directly in the Experience Platform user interface
 
-1. 导航到[Experience Platform](https://platform.adobe.com/)，然后从左侧菜单中选择&#x200B;**[!UICONTROL 审核]**&#x200B;部分。 如果您无法查看审核日志，请联系贵组织的系统管理员以获取必要权限。
+1. Navigate to [Experience Platform](https://platform.adobe.com/) and select the **[!UICONTROL Audits]** section from the left-hand menu. Reach out to your organization&#39;s system administrators to obtain the necessary permissions if you cannot view audit logs.
 
-![从Experience Platform访问审核日志。](/help/assets/setup/audit-logs/access-from-experience-platform-ui.png)
+![Access audit logs from Experience Platform.](/help/assets/setup/audit-logs/access-from-experience-platform-ui.png)
 
-## 查看和使用审核日志
+## View and use audit logs
 
 要查看审核日志，请执行以下操作：
 
@@ -62,7 +65,7 @@ ht-degree: 1%
 * **操作**：执行的特定操作，如创建或删除。
 * **用户**：执行操作的用户的电子邮件地址。
 
-这些日志可全面跟踪Collaboration实例中的所有活动，这对数据治理和法规遵从性非常有用。 阅读有关[在UI](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui)中管理审核日志的更多信息。
+这些日志可全面跟踪Collaboration实例中的所有活动，这对数据治理和法规遵从性非常有用。 阅读有关[在UI](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui)中管理审核日志的更多信息。
 
 ### 筛选审核日志 {#filter-audit-logs}
 
@@ -75,7 +78,7 @@ ht-degree: 1%
 * **状态**：操作的状态，如允许或拒绝。
 * **日期范围**：要查看其日志的日期范围。
 
-阅读有关[筛选审核日志](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs)的详细信息。
+阅读有关[筛选审核日志](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs)的详细信息。
 
 ## 优点
 

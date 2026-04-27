@@ -2,11 +2,15 @@
 title: Real-Time CDP Collaboration快速入门和设置指南
 description: 了解如何设置 Real-Time CDP Collaboration，配置角色和帐户、引入受众、激活数据，并安全地与合作伙伴建立连接。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 156135fdad5f176cedb91c05c07d9bc0e1903557
+TQID: https://experienceleague.adobe.com/rhIArZZm0Thkj3E-qiHtVHO6qxpr1vd-Qs4hWt4tf1U
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: 1417
 ht-degree: 3%
 
 ---
@@ -41,7 +45,7 @@ ht-degree: 3%
 
 观看本视频，了解如何使用Admin Console和Experience Platform为Collaboration分配产品访问权限。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452240/?captions=chi_hans&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## 第2步：设置您的Collaboration帐户 {#set-up-your-account}
 
@@ -118,7 +122,7 @@ ht-degree: 3%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-或者，在Collaboration[&#128279;](./setup/onboard-audiences.md#source-and-manage-audiences)中查看有关来源受众的文档。
+或者，在Collaboration](./setup/onboard-audiences.md#source-and-manage-audiences)中查看有关[来源受众的文档。
 
 ### 选项B：Snowflake、Amazon S3或Google Cloud Storage中的Source
 
@@ -157,7 +161,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->只有在连接进程[&#128279;](./connect/establishing-connections.md#connection-settings)期间启用了的&#x200B;**[!UICONTROL 测量]**&#x200B;用例时，**[!UICONTROL 测量]**&#x200B;工作区才可用。 有关用例的更多信息，请参阅[管理项目](./collaborate/manage-projects.md#project-use-cases)指南。
+>只有在连接进程](./connect/establishing-connections.md#connection-settings)期间启用了[的&#x200B;**[!UICONTROL 测量]**&#x200B;用例时，**[!UICONTROL 测量]**&#x200B;工作区才可用。 有关用例的更多信息，请参阅[管理项目](./collaborate/manage-projects.md#project-use-cases)指南。
 
 Collaboration提供了多种报告来分析促销活动的范围、频率和有效性。 虽然&#x200B;**[!UICONTROL Measure]**&#x200B;工作区在UI中可用，但完整的报表功能可能需要后端启用。
 
@@ -216,18 +220,18 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 设置完成后，您的组织现在可以通过发送或接受邀请并提交项目设置以供审批来与协作者联系。 此连接过程包括发送或接收邀请、审核和提交连接设置（如用例和信用消耗）以及确认连接。
 
-作为广告商，请使用左侧导航菜单中的&#x200B;**[!UICONTROL 连接]**&#x200B;工作区来浏览可用的发布者。 或者，协作者可通过[私人连接邀请](./connect/establishing-connections.md#private-connection-invite){target="_blank"}直接相互连接。
+作为广告商，请使用左侧导航菜单中的&#x200B;**[!UICONTROL 连接]**&#x200B;工作区来浏览可用的发布者。 Alternatively, collaborators may connect with each other directly through [private connection invitations](./connect/establishing-connections.md#private-connection-invite){target="_blank"}.
 
 >[!NOTE]
 >
->目前，只有广告商可以浏览发布者。 发布者无法浏览或启动与广告商的连接。
+>Currently, only advertisers can browse publishers. Publishers cannot browse or initiate connections with advertisers.
 
-有关此流的概述，请参阅[建立连接指南](./connect/establishing-connections.md){target="_blank"}。 有关连接过程的可视化演练，包括浏览协作者和管理连接设置，请观看[广告商帐户设置视频](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}。
+For an overview of this flow, see the [establishing connections guide](./connect/establishing-connections.md){target="_blank"}. For a visual walkthrough of the connection process, including browsing collaborators and managing connection settings, watch the [advertiser account setup video](https://experienceleague.adobe.com/zh-hans/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## 后续步骤
 
-您现在已完成初始设置并配置您的组织以进行安全协作。 接下来，探索以下资源，以加深您对激活、测量和数据治理的了解：
+您现在已完成初始设置并配置您的组织以进行安全协作。 Next, explore the following resources to deepen your understanding of activation, measurement, and data governance:
 
-- [受众激活工作流文档](./collaborate/activate.md)
-- [测量用例](./collaborate/measure.md)
-- [Collaboration治理最佳实践](./setup/onboard-audiences.md#governance-policy-and-enforcement-actions)
+- [Audience activation workflow documentation](./collaborate/activate.md)
+- [Measurement use cases](./collaborate/measure.md)
+- [Collaboration governance best practices](./setup/onboard-audiences.md#governance-policy-and-enforcement-actions)

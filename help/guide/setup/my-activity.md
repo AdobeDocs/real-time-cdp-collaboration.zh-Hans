@@ -2,11 +2,14 @@
 title: 跟踪您的额度使用情况
 description: 了解如何在Real-Time CDP Collaboration中跟踪贵组织的信用消耗活动。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: 4fc9b4e814f7392e1dfdb5847b7189d7d6e21702
+TQID: https://experienceleague.adobe.com/hDvkKFUCBYvsX8wntcYFrL6qZTxOo5CZOWAbxNwk7mw
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: 585
 ht-degree: 9%
 
 ---
@@ -71,6 +74,6 @@ ht-degree: 9%
 
 要有效地管理您的信用消费，请执行以下操作：
 
-1. **了解**&#x200B;与每个活动关联的信用消耗量。 检查[Collaboration产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}以了解每个活动使用的积分表。
+1. **了解**&#x200B;与每个活动关联的信用消耗量。 检查[Collaboration产品描述](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}以了解每个活动使用的积分表。
 2. **定期监控**：请经常查看您的活动仪表板以了解使用模式。
 3. **按连接跟踪**：使用连接名称识别哪些连接占用最多积分。

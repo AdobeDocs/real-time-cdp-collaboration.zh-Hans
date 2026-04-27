@@ -1,13 +1,17 @@
 ---
-title: 通过权限管理角色
-description: 了解提供对Real-Time CDP Collaboration UI中不同组件的访问权限的所有可用角色资源。
+title: Manage roles through Permissions
+description: Understand all available role resources that provide access to different components within the Real-Time CDP Collaboration UI.
 audience: admin
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 59cf5bf2-421b-4ebc-beab-30eafb098649
-source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
+TQID: https://experienceleague.adobe.com/dB7nEQtEGG8PvCSE7eDDelH-ml2EhKOQ8ovvGXG1Ejg
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 1%
+source-wordcount: 623
+ht-degree: 3%
 
 ---
 
@@ -15,24 +19,24 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-要管理用户对Adobe Real-Time CDP Collaboration UI其他组件的访问权限，[管理员](./manage-user-access.md#system-admin-gain-access)可以定义和分配角色。 角色定义管理员或用户对您组织中的[资源](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home#permissions){target="_blank"}的访问权限。 本指南将介绍Real-Time CDP Collaboration中提供的标准角色，以及可分配给自定义角色的各个权限。
+To manage user access to different components of the Adobe Real-Time CDP Collaboration UI, an [administrator](./manage-user-access.md#system-admin-gain-access) can define and assign roles. Roles define the access that an administrator or user has to [resources](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions){target="_blank"} in your organization. This guide will provide information on the standard roles provided in Real-Time CDP Collaboration, as well as the individual permissions you that can be assign to custom roles.
 
-要开始管理角色，管理员需要访问Experience Platform产品。 有关获取管理访问权限或获取Experience Platform访问权限的信息，请参阅[管理用户访问权限](./manage-user-access.md#manage-user-access-through-permissions)指南。
+To begin managing roles, an administrator will need access to the Experience Platform product. For information on gaining administrative access, or on gaining access to Experience Platform, read the [manage user access](./manage-user-access.md#manage-user-access-through-permissions) guide.
 
-## 标准角色 {#standard-roles}
+## Standard roles {#standard-roles}
 
-为您提供的两个标准角色填写了两个常见的访问控制用例。 这些是“只读”角色，这意味着无法对其进行自定义。
+There are two standard roles provided to you that fill two common access control use cases. These are &quot;read only&quot; roles meaning they cannot be customized.
 
-| 角色名称 | 角色描述 | 权限 |
+| 角色名称 | Role description | 权限 |
 | --- | --- | --- |
-| Collaboration Managers | 这是完全访问权限，包含所有15个权限。 这允许用户读取、创建和编辑所有数据。 它还提供对Experience Platform中&#x200B;**[!UICONTROL Prod]**&#x200B;沙盒的访问权限，从而允许您将受众导入Real-Time CDP Collaboration。 | 下表显示全部内容。 |
-| Collaboration查看器 | 这是只读访问权限。 用户可以读取和发现数据、活动、连接等。 它还提供对Experience Platform中&#x200B;**[!UICONTROL Prod]**&#x200B;沙盒的访问权限，从而允许您将受众导入Real-Time CDP Collaboration。 | 下表中的所有读取权限。 |
+| Collaboration Managers | This is all-access permission, containing all 15 permissions. This allows the user to read, create, and edit all data. It also provides access to the **[!UICONTROL Prod]** sandbox in Experience Platform, allowing you to import audiences into Real-Time CDP Collaboration. | All from the table below. |
+| Collaboration Viewers | This is a read-only access permission. A user can read and discover data, activities, connections, and more. It also provides access to the **[!UICONTROL Prod]** sandbox in Experience Platform, allowing you to import audiences into Real-Time CDP Collaboration. | All read permissions from the table below. |
 
 {style="table-layout:auto"}
 
-## 创建特定的访问角色 {#specific-access-roles}
+## Create specific access roles {#specific-access-roles}
 
-您可能需要创建其他角色，以便为不同用户提供不同级别的访问权限。 创建角色时，您可以通过选择&#x200B;**[!UICONTROL 协作]**&#x200B;资源中的特定权限来管理不同的访问级别。 要了解如何创建和管理角色，请参阅[角色](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"}指南。
+您可能需要创建其他角色，以便为不同用户提供不同级别的访问权限。 创建角色时，您可以通过选择&#x200B;**[!UICONTROL 协作]**&#x200B;资源中的特定权限来管理不同的访问级别。 要了解如何创建和管理角色，请参阅[角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"}指南。
 
 >[!NOTE]
 > 要访问Collaboration，用户必须有权访问Adobe Experience Platform中的&#x200B;**[!UICONTROL Prod]**&#x200B;沙盒。 要授予用户访问此沙盒的权限，必须将他们分配给&#x200B;**[!UICONTROL 沙盒]**&#x200B;资源中包含&#x200B;**[!UICONTROL Prod]**&#x200B;权限的角色。
@@ -61,4 +65,4 @@ ht-degree: 1%
 
 ## 后续步骤
 
-在创建定义Collaboration访问权限的角色后，您需要将角色[分配给管理员和用户](./manage-user-access.md#assign-a-role)。 有关管理角色的完整概述，请参阅[角色的管理权限](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions)指南。
+在创建定义Collaboration访问权限的角色后，您需要将角色[分配给管理员和用户](./manage-user-access.md#assign-a-role)。 有关管理角色的完整概述，请参阅[角色的管理权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions)指南。

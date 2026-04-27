@@ -2,11 +2,14 @@
 title: 通过权限管理用户访问
 description: 管理对Real-Time CDP Collaboration UI不同组件的权限和用户访问权限。
 audience: admin
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
-source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
+TQID: https://experienceleague.adobe.com/uPFss3qIstJmeVFF1YpQQJ0V848SiDEfy6BYyEcgPZw
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: 1406
 ht-degree: 2%
 
 ---
@@ -15,7 +18,7 @@ ht-degree: 2%
 
 {{limited-availability-release-note}}
 
-通过Experience Cloud [权限](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"}界面管理对Adobe Real-Time CDP Collaboration中各个组件的权限和用户访问权限。 权限允许系统和产品管理员定义[角色](./manage-roles.md)来管理用户对特定功能和资源的访问权限。
+通过Experience Cloud [权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"}界面管理对Adobe Real-Time CDP Collaboration中各个组件的权限和用户访问权限。 权限允许系统和产品管理员定义[角色](./manage-roles.md)来管理用户对特定功能和资源的访问权限。
 
 ## 配置对权限的访问 {#permissions-access}
 
@@ -53,7 +56,7 @@ ht-degree: 2%
 
 ### 管理员：配置用户对Experience Platform的访问权限 {#user-access}
 
-现在您已授予用户产品管理员访问权限，您需要向他们提供对Experience Platform产品的用户访问权限。 作为访问配置的一部分，您将分配特定于用户的[产品配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html)。
+现在您已授予用户产品管理员访问权限，您需要向他们提供对Experience Platform产品的用户访问权限。 作为访问配置的一部分，您将分配特定于用户的[产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)。
 
 >[!TIP]
 >
@@ -83,7 +86,7 @@ ht-degree: 2%
 
 ### 管理员：配置Experience Platform UI访问权限 {#product-access}
 
-在Real-Time CDP Collaboration中，管理员和最终用户将使用Experience Platform中的数据，如受众和审核日志。 此数据保存在称为沙盒的Experience Platform实例中。 为确保用户可以与此数据交互，您需要将[默认角色](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home#default-roles){target="_blank"}分配给用户。
+在Real-Time CDP Collaboration中，管理员和最终用户将使用Experience Platform中的数据，如受众和审核日志。 此数据保存在称为沙盒的Experience Platform实例中。 为确保用户可以与此数据交互，您需要将[默认角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles){target="_blank"}分配给用户。
 
 要开始，请导航到[Adobe Experience Cloud](https://experience.adobe.com/)。 您现在应该会在&#x200B;**[!UICONTROL 快速访问]**&#x200B;中看到&#x200B;**[!UICONTROL Experience Platform]**&#x200B;和&#x200B;**[!UICONTROL 权限]**。
 
@@ -109,7 +112,7 @@ ht-degree: 2%
 
 ![已选中“添加角色”对话框，其中默认的生产所有访问和沙盒管理员已选中，并且已突出显示“保存”。](../../assets/permissions/add-roles.png){zoomable="yes"}
 
-您现在可以访问Experience Platform和权限。 在最后一步，您将授予对Real-Time CDP Collaboration的访问权限。
+You now have access to Experience Platform and Permissions. In the final step, you&#39;ll grant access to Real-Time CDP Collaboration.
 
 ### 管理员：配置 Real-Time CDP Collaboration 访问权限 {#RTCDP-collaboration-access}
 
@@ -118,40 +121,40 @@ ht-degree: 2%
 >title="管理用户访问权限指南"
 >abstract=""
 
-要授予用户访问Collaboration的权限，您将使用称为角色的访问控制概念。 角色定义管理员或用户在组织中对[资源](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home#permissions)的访问权限级别。
+To grant users access to Collaboration, you&#39;ll use an access control concept called roles. Roles define the level of access a administrator or user has to [resources](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) in your organization.
 
-在配置个人对Collaboration的访问权限时，您将分配包含协作资源权限的用户角色。 您可以使用[管理角色](./manage-roles.md)指南查找以下信息：
+When configuring individual access to Collaboration, you&#39;ll assign users&#39; roles containing permissions from the Collaborations resource. You can use the [manage roles](./manage-roles.md) guide to find out information on:
 
-- [两个标准角色](./manage-roles.md#standard-roles)及其授予Collaboration的访问权限级别
-- 使用Collaboration资源创建[自定义角色](./manage-roles.md#specific-access-roles)
-- 协作资源中包含的权限列表
+- the [two standard roles](./manage-roles.md#standard-roles) and the levels of access they grant to Collaboration
+- creating [custom roles](./manage-roles.md#specific-access-roles) using the Collaboration resource
+- the list of permissions included in the Collaborations resource
 
 >[!NOTE]
 >
->此外，必须将用户分配给&#x200B;**[!UICONTROL 沙盒]**&#x200B;资源中包含&#x200B;**[!UICONTROL Prod]**&#x200B;权限的角色。 两个标准角色都包含此权限。 如果选择为用户分配自定义角色而不是标准角色，则必须确保分配给用户的其中一个角色包含此权限。
+>Additionally, a user must be assigned to a role containing the **[!UICONTROL Prod]** permission in the **[!UICONTROL Sandboxes]** resources. Both standard roles contain this permission. If you choose to assign a user a custom role instead of a standard role, you must ensure one of the roles they are assigned to contain this permission.
 
-选择或创建包含用户所需访问级别的角色后，您需要将用户分配给该角色。
+Once you&#39;ve chosen or created a role that encompasses the level of access your user needs, you need to assign the user to that role.
 
-#### 分配角色
+#### Assign a role
 
-您可以将多个角色分配给单个用户，也可以将多个用户分配给单个角色。 前面讨论过第一种情况，即[分配默认角色](#product-access)以授予用户访问Experience Platform的权限。 在接下来的步骤中，您将直接将用户分配给您选择的角色。
+You may assign multiple roles to a single user or assign multiple users to a single role. The first case was covered earlier when [assigning the default roles](#product-access) to give a user access to Experience Platform. In the next steps, you&#39;ll assign users directly to the role you&#39;ve selected.
 
-在&#x200B;**[!UICONTROL 权限]**&#x200B;中，从左侧面板中选择&#x200B;**[!UICONTROL 角色]**，然后从列表中选择您的角色。
+In **[!UICONTROL Permissions]** select **[!UICONTROL Roles]** from the left panel and then select your role from the list.
 
-![显示了“角色”工作区并突出显示了一个角色的“权限”仪表板。](../../assets/permissions/select-role.png){zoomable="yes"}
+![The Permissions dashboard with the Roles workspace displayed and a role highlighted.](../../assets/permissions/select-role.png){zoomable="yes"}
 
-将显示角色的详细信息页面。 选择&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 添加用户]**。
+The role&#39;s detail page displays. Select the **[!UICONTROL Users]** tab and then select **[!UICONTROL Add Users]**.
 
-![显示了“用户”选项卡并突出显示了“添加用户”的角色详细信息工作区。](../../assets/permissions/role-users.png){zoomable="yes"}
+![The role&#39;s detail workspace with the Users tab displayed and Add Users highlighted.](../../assets/permissions/role-users.png){zoomable="yes"}
 
-出现&#x200B;**[!UICONTROL 添加用户]**&#x200B;对话框。 从列表中选择用户，然后选择&#x200B;**[!UICONTROL 保存]**。
+The **[!UICONTROL Add Users]** dialog appears. Select the user(s) from the list and then select **[!UICONTROL Save]**.
 
-![用户选择并突出显示保存选项的“添加用户”对话框。](../../assets/permissions/add-users-to-role.png){zoomable="yes"}
+![The Add Users dialog with a user select and the Save option highlighted.](../../assets/permissions/add-users-to-role.png){zoomable="yes"}
 
-用户现在应该看到&#x200B;**[!UICONTROL RTCDP Collaboration]**&#x200B;在Experience Cloud中的&#x200B;**[!UICONTROL 快速访问]**&#x200B;下列为产品。
+The user should now see **[!UICONTROL RTCDP Collaboration]** listed as a product under **[!UICONTROL Quick Access]** in Experience Cloud.
 
-在“快速访问”下突出显示带有RTCDP Collaboration产品的![Experience Cloud](../../assets/permissions/rtcdp-experience-cloud.png)
+![Experience Cloud with RTCDP Collaboration product highlighted under Quick access](../../assets/permissions/rtcdp-experience-cloud.png)
 
 ## 后续步骤
 
-现在，用户有权访问Real-Time CDP Collaboration，他们可以开始使用产品了。 若要详细了解整个产品，请阅读[概述指南](../home.md)。
+Now that users have access to Real-Time CDP Collaboration, they can begin using the product. To learn more about the product as a whole, read the [overview guide](../home.md).
