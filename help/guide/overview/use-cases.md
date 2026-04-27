@@ -2,7 +2,7 @@
 title: Use cases in Adobe Real-Time CDP Collaboration
 description: Understand the main benefits of each use case of Adobe Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
 TQID: https://experienceleague.adobe.com/2dJ1AD-ZbnY903-uk8fjAge7AAOnyGfNvLq7iThzZuU
 product_v2:

@@ -2,7 +2,7 @@
 title: 审核日志
 description: Learn how to use the Audit Logs functionality in Real-Time CDP Collaboration to track user activities and changes.
 audience: admin
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
 TQID: https://experienceleague.adobe.com/zb09-bUpxJ2VPDknETHeayMuLpNRCaQ2VTnV9QnTRgE
 product_v2:
@@ -33,7 +33,7 @@ Use the audit logs functionality in Collaboration to track user activities and c
 
 ![High-level overview screen of the audit logs functionality.](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-For more comprehensive information about audit logs, visit the [Experience Platform audit logs documentation](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+For more comprehensive information about audit logs, visit the [Experience Platform audit logs documentation](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Access audit logs
 
@@ -72,7 +72,7 @@ You can access audit logs in two ways, as described in the sections below. Both 
 * **操作**：执行的特定操作，如创建或删除。
 * **用户**：执行操作的用户的电子邮件地址。
 
-这些日志可全面跟踪Collaboration实例中的所有活动，这对数据治理和法规遵从性非常有用。 阅读有关[在UI](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui)中管理审核日志的更多信息。
+这些日志可全面跟踪Collaboration实例中的所有活动，这对数据治理和法规遵从性非常有用。 阅读有关[在UI](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui)中管理审核日志的更多信息。
 
 ### 筛选审核日志 {#filter-audit-logs}
 
@@ -85,7 +85,7 @@ You can access audit logs in two ways, as described in the sections below. Both 
 * **状态**：操作的状态，如允许或拒绝。
 * **日期范围**：要查看其日志的日期范围。
 
-阅读有关[筛选审核日志](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs)的详细信息。
+阅读有关[筛选审核日志](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs)的详细信息。
 
 ## 优点
 

@@ -2,7 +2,7 @@
 title: 概述
 description: 了解如何使用 Adobe Real-Time Customer Data Platform (CDP) Collaboration，在不依赖第三方 Cookie 的情况下发现、激活并衡量高价值受众。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
 TQID: https://experienceleague.adobe.com/fPHinK-IJUQ0LNel3NRf8wFKFPUejZgeTIXugcDKAOY
 product_v2:
@@ -54,7 +54,7 @@ ht-degree: 11%
 
 ## 资源
 
-浏览[术语表](/help/guide/glossary.md)以了解有关产品中所用术语的详细信息。 如需支持，请访问Adobe [客户支持](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"}页面。
+浏览[术语表](/help/guide/glossary.md)以了解有关产品中所用术语的详细信息。 如需支持，请访问Adobe [客户支持](https://experienceleague.adobe.com/home?lang=zh-Hans&support-tab=open-ticket#support){target="_blank"}页面。
 
 ## 联系我们
 

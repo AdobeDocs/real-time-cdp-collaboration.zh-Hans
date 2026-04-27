@@ -2,7 +2,7 @@
 title: Manage roles through Permissions
 description: Understand all available role resources that provide access to different components within the Real-Time CDP Collaboration UI.
 audience: admin
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 59cf5bf2-421b-4ebc-beab-30eafb098649
 TQID: https://experienceleague.adobe.com/dB7nEQtEGG8PvCSE7eDDelH-ml2EhKOQ8ovvGXG1Ejg
 product_v2:
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-To manage user access to different components of the Adobe Real-Time CDP Collaboration UI, an [administrator](./manage-user-access.md#system-admin-gain-access) can define and assign roles. Roles define the access that an administrator or user has to [resources](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions){target="_blank"} in your organization. This guide will provide information on the standard roles provided in Real-Time CDP Collaboration, as well as the individual permissions you that can be assign to custom roles.
+To manage user access to different components of the Adobe Real-Time CDP Collaboration UI, an [administrator](./manage-user-access.md#system-admin-gain-access) can define and assign roles. Roles define the access that an administrator or user has to [resources](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home#permissions){target="_blank"} in your organization. This guide will provide information on the standard roles provided in Real-Time CDP Collaboration, as well as the individual permissions you that can be assign to custom roles.
 
 To begin managing roles, an administrator will need access to the Experience Platform product. For information on gaining administrative access, or on gaining access to Experience Platform, read the [manage user access](./manage-user-access.md#manage-user-access-through-permissions) guide.
 
@@ -42,7 +42,7 @@ There are two standard roles provided to you that fill two common access control
 
 ## Create specific access roles {#specific-access-roles}
 
-您可能需要创建其他角色，以便为不同用户提供不同级别的访问权限。 创建角色时，您可以通过选择&#x200B;**[!UICONTROL 协作]**&#x200B;资源中的特定权限来管理不同的访问级别。 要了解如何创建和管理角色，请参阅[角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"}指南。
+您可能需要创建其他角色，以便为不同用户提供不同级别的访问权限。 创建角色时，您可以通过选择&#x200B;**[!UICONTROL 协作]**&#x200B;资源中的特定权限来管理不同的访问级别。 要了解如何创建和管理角色，请参阅[角色](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"}指南。
 
 >[!NOTE]
 > 要访问Collaboration，用户必须有权访问Adobe Experience Platform中的&#x200B;**[!UICONTROL Prod]**&#x200B;沙盒。 要授予用户访问此沙盒的权限，必须将他们分配给&#x200B;**[!UICONTROL 沙盒]**&#x200B;资源中包含&#x200B;**[!UICONTROL Prod]**&#x200B;权限的角色。
@@ -71,4 +71,4 @@ There are two standard roles provided to you that fill two common access control
 
 ## 后续步骤
 
-在创建定义Collaboration访问权限的角色后，您需要将角色[分配给管理员和用户](./manage-user-access.md#assign-a-role)。 有关管理角色的完整概述，请参阅[角色的管理权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions)指南。
+在创建定义Collaboration访问权限的角色后，您需要将角色[分配给管理员和用户](./manage-user-access.md#assign-a-role)。 有关管理角色的完整概述，请参阅[角色的管理权限](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/permissions)指南。

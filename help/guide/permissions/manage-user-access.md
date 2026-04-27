@@ -2,7 +2,7 @@
 title: 通过权限管理用户访问
 description: 管理对Real-Time CDP Collaboration UI不同组件的权限和用户访问权限。
 audience: admin
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
 TQID: https://experienceleague.adobe.com/uPFss3qIstJmeVFF1YpQQJ0V848SiDEfy6BYyEcgPZw
 product_v2:
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 {{limited-availability-release-note}}
 
-通过Experience Cloud [权限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"}界面管理对Adobe Real-Time CDP Collaboration中各个组件的权限和用户访问权限。 权限允许系统和产品管理员定义[角色](./manage-roles.md)来管理用户对特定功能和资源的访问权限。
+通过Experience Cloud [权限](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"}界面管理对Adobe Real-Time CDP Collaboration中各个组件的权限和用户访问权限。 权限允许系统和产品管理员定义[角色](./manage-roles.md)来管理用户对特定功能和资源的访问权限。
 
 ## 配置对权限的访问 {#permissions-access}
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 ### 管理员：配置用户对Experience Platform的访问权限 {#user-access}
 
-现在您已授予用户产品管理员访问权限，您需要向他们提供对Experience Platform产品的用户访问权限。 作为访问配置的一部分，您将分配特定于用户的[产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)。
+现在您已授予用户产品管理员访问权限，您需要向他们提供对Experience Platform产品的用户访问权限。 作为访问配置的一部分，您将分配特定于用户的[产品配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html)。
 
 >[!TIP]
 >
@@ -88,7 +88,7 @@ ht-degree: 2%
 
 ### 管理员：配置Experience Platform UI访问权限 {#product-access}
 
-在Real-Time CDP Collaboration中，管理员和最终用户将使用Experience Platform中的数据，如受众和审核日志。 此数据保存在称为沙盒的Experience Platform实例中。 为确保用户可以与此数据交互，您需要将[默认角色](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles){target="_blank"}分配给用户。
+在Real-Time CDP Collaboration中，管理员和最终用户将使用Experience Platform中的数据，如受众和审核日志。 此数据保存在称为沙盒的Experience Platform实例中。 为确保用户可以与此数据交互，您需要将[默认角色](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home#default-roles){target="_blank"}分配给用户。
 
 要开始，请导航到[Adobe Experience Cloud](https://experience.adobe.com/)。 您现在应该会在&#x200B;**[!UICONTROL 快速访问]**&#x200B;中看到&#x200B;**[!UICONTROL Experience Platform]**&#x200B;和&#x200B;**[!UICONTROL 权限]**。
 
@@ -123,7 +123,7 @@ You now have access to Experience Platform and Permissions. In the final step, y
 >title="管理用户访问权限指南"
 >abstract=""
 
-To grant users access to Collaboration, you&#39;ll use an access control concept called roles. Roles define the level of access a administrator or user has to [resources](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) in your organization.
+To grant users access to Collaboration, you&#39;ll use an access control concept called roles. Roles define the level of access a administrator or user has to [resources](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home#permissions) in your organization.
 
 When configuring individual access to Collaboration, you&#39;ll assign users&#39; roles containing permissions from the Collaborations resource. You can use the [manage roles](./manage-roles.md) guide to find out information on:
 

@@ -2,7 +2,7 @@
 title: Advertising平台概述
 description: 了解Real-Time CDP Collaboration中的广告平台。
 audience: publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 9a99fdeb-0cb7-4fa2-a94c-d06ed56dfb5d
 TQID: https://experienceleague.adobe.com/29BckMlqhZfQEBLtnnAFN4WYXusZHcj3-Y08RuvyJPM
 product_v2:
