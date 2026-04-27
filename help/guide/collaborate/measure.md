@@ -5,9 +5,13 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 TQID: https://experienceleague.adobe.com/pr-qF4sd-NHd55kxh1dCstHRnVCUEhIvtv-47-ljiu4
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 2612
@@ -21,7 +25,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->只有在连接过程](../connect/establishing-connections.md#connection-settings)期间启用了[的&#x200B;**测量**&#x200B;用例时，**[!UICONTROL 测量]**&#x200B;工作区才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>只有在连接过程[&#128279;](../connect/establishing-connections.md#connection-settings)期间启用了的&#x200B;**测量**&#x200B;用例时，**[!UICONTROL 测量]**&#x200B;工作区才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
 了解Adobe Real-Time CDP Collaboration中的可用报表，并了解如何衡量和分析营销活动在各种渠道中的表现。
 
@@ -31,9 +35,9 @@ ht-degree: 5%
 
 * [Connect](/help/guide/connect/establishing-connections.md)与启用了&#x200B;**Measurement**&#x200B;用例的协作者
 * 与您的协作者协作处理至少一个项目。 了解如何[创建项目](/help/guide/collaborate/manage-projects.md#create-project)。
-* 运行您的营销活动，并确保为营销活动](../collaborate/manage-projects.md#manage-campaign-id)提供了[营销活动ID：
+* 运行您的营销活动，并确保为营销活动[&#128279;](../collaborate/manage-projects.md#manage-campaign-id)提供了营销活动ID：
    * 如果您是发布者，请输入链接到广告商促销活动的Campaign ID。
-   * 如果您是广告商，请要求您的协作者（发布者）提供营销活动ID。 在度量值工作区](#create-measurement-report)中[生成报告时需要此项。
+   * 如果您是广告商，请要求您的协作者（发布者）提供营销活动ID。 在度量值工作区[&#128279;](#create-measurement-report)中生成报告时需要此项。
 * 如果要[创建归因报表](#create-attribution-report)，请[将测量数据](/help/guide/setup/onboard-measurement-data.md)上传到Collaboration。
 
 ## 查看报告 {#view-reports}

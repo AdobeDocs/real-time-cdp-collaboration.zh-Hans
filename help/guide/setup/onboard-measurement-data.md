@@ -5,8 +5,11 @@ audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
 TQID: https://experienceleague.adobe.com/uJgTdRoA4K-Y-Me287MRvI5-jmuW2glaigB8JMAtME4
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 2720
@@ -135,7 +138,7 @@ ht-degree: 5%
 
 ![突出显示“电子邮件源”字段和“选择”选项的“选择源字段”对话框。](../../assets/setup/add-manage-measurement-data/select-source-field-dialog.png){zoomable="yes"}
 
-接下来，使用下拉菜单将选定的源字段映射到相应的目标字段。 所有可用的目标字段都是为您的Collaborator帐户](./onboard-account.md#set-up-match-keys)配置的[匹配键。
+接下来，使用下拉菜单将选定的源字段映射到相应的目标字段。 所有可用的目标字段都是为您的Collaborator帐户[&#128279;](./onboard-account.md#set-up-match-keys)配置的匹配键。
 
 ![下拉菜单显示要与选定源字段映射的所有可用目标字段。](../../assets/setup/add-manage-measurement-data/select-target-field-dropdown.png){zoomable="yes"}
 
@@ -153,7 +156,7 @@ ht-degree: 5%
 
 ![需要确认且“下一步”选项突出显示的管理同意屏幕。](../../assets/setup/add-manage-measurement-data/manage-consent.png){zoomable="yes"}
 
-如果在映射步骤](#enrich-event-data)期间[启用配置文件扩充，则可以从预定义选项的列表中配置同意策略。 这包括：
+如果在映射步骤[&#128279;](#enrich-event-data)期间启用配置文件扩充，则可以从预定义选项的列表中配置同意策略。 这包括：
 
 * **营销操作**：使用这些营销操作可以控制要将哪些受众数据从Experience Platform引入Collaboration。
 * **同意规则**：选择要应用于源自Collaboration的数据的同意规则。
