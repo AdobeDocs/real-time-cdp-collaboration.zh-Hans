@@ -7,7 +7,7 @@ exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
 source-git-commit: 72ad1e401fc595ddeace715af5befe9701402c8e
 workflow-type: tm+mt
 source-wordcount: '1550'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -138,12 +138,12 @@ ht-degree: 18%
 
 ![具有[!DNL Snowflake]的数据连接选择屏幕可用作可选选项。](../../assets/setup/snowflake-audience-sourcing/select-snowflake-data-connection.png)
 
-### 查看受众文件 {#review-audience-file}
+### 审阅受众文件 {#review-audience-file}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_specifications_snowflake"
 >title="请为加入过程准备好您的数据"
->abstract="请参阅《受众源规格指南》，了解如何设置和构建适用于Collaboration的Snowflake中的受众数据。"
+>abstract="阅读受众来源规范指南，了解如何为 Collaboration 格式化和结构化来自 Snowflake 的受众数据。"
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="查看指南"
 
 此时会出现一个对话框，说明在开始获取之前[!DNL Snowflake Share]和[!DNL Snowflake]受众文件的要求。 确保使用正确的共享名、帐户标识符、架构和视图创建您的[!DNL Snowflake Share]。 要确认受众数据的格式和结构正确无误，以便在Collaboration中使用，请查看&#x200B;**[[!UICONTROL 受众源规格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;指南。
