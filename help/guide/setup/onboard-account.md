@@ -2,19 +2,15 @@
 title: 配置和管理您的帐户
 description: 了解如何在Real-Time CDP Collaboration中配置和管理帐户的各个方面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 TQID: https://experienceleague.adobe.com/PRmSkRSE2tQ-5t5hHKzDAGrkF6-irmZid2Akq6-PQv8
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1393
-ht-degree: 14%
+source-wordcount: 1410
+ht-degree: 10%
 
 ---
 
@@ -77,20 +73,29 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="第一方人员 ID"
->abstract="第一方人员 ID（例如经过哈希处理的电子邮件地址和电话号码，或者 CRM ID）直接与个人轮廓连接。"
+>title="人员ID"
+>abstract="人员ID（例如经过哈希处理的电子邮件地址、电话号码或CRM ID）直接连接到个人资料。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
->title="第一方设备 ID"
->abstract="第一方设备 ID（例如 ECID 或 IP 地址）直接与设备连接，而这些设备可能由多个人共同使用。"
+>title="设备 ID"
+>abstract="设备ID（如ECID或IP地址）直接连接到可能在多个用户之间共享的设备。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="支持的合作伙伴 ID"
 >abstract="合作伙伴 ID 是一种外部合作伙伴提供的用于协调受众的标识符。 合作伙伴 ID 不与个人轮廓直接连接。"
 
-![支持的匹配键。](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
+下表显示了Collaboration中支持的匹配键：
+
+| 人员ID | 设备 ID | 合作伙伴 ID |
+| ------------- | ------------- | ------------- |
+| [!DNL Hashed email] | [!DNL Hashed IPv4] | [!DNL Adfixus ID] |
+| [!DNL Hashed phone] | [!DNL IDFA] | |
+| [!DNL CRM ID] | [!DNL GAID] | |
+| [!DNL Loyalty ID] | [!DNL Demdex ID (ECID)] | |
+
+{style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
@@ -102,16 +107,16 @@ ht-degree: 14%
 
 #### 支持的匹配键 {#supported-match-keys}
 
-Collaboration支持三种类型的匹配键：第一方人员ID、第一方设备ID和合作伙伴ID。 所有匹配键必须满足以下要求：
+Collaboration支持三种类型的匹配键：人员ID、设备ID和合作伙伴ID。 所有匹配键必须满足以下要求：
 
 * 匹配键必须是&#x200B;**修剪**，**小写**
 * 哈希匹配键必须为&#x200B;**SHA256-hashed**。
 * 如果您提供的哈希值使用大写字符，Collaboration会自动将其转换为小写。
 * 如果源包含&#x200B;**纯文本标识符**，请在[数据连接设置](./manage-data-connection.md#match-keys)期间使用&#x200B;**[!UICONTROL 应用转换]**&#x200B;选项来应用散列。 仅当从Experience Platform获取受众时，此选项才可用，而基于云的源不支持此选项。
 
-##### 第一方人员 ID
+##### 人员ID
 
-第一方人员ID直接关联到个人资料。 当前支持的ID包括：
+人员ID直接连接到个人资料。 当前支持的ID包括：
 
 * **[!UICONTROL 散列电子邮件]**
 * **[!UICONTROL 散列电话]**
@@ -119,13 +124,14 @@ Collaboration支持三种类型的匹配键：第一方人员ID、第一方设�
 * **[!UICONTROL 忠诚度ID]**
 <!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
-##### 第一方设备 ID
+##### 设备 ID
 
-第一方设备ID是连接到特定设备的标识符。 当前支持的ID包括：
+设备ID是连接到特定设备的标识符。 当前支持的ID包括：
 
-* **[!UICONTROL 哈希IPv4]**：哈希IPv4地址
-* **[!UICONTROL IDFA]**： Apple iOS设备中使用的广告商标识符(IDFA)
-* **[!UICONTROL GAID]**： Android设备中使用的Google广告商ID
+* **[!UICONTROL 散列IPv4]**
+* **[!UICONTROL IDFA]**： Apple iOS设备中使用的广告商标识符(IDFA)。
+* **[!UICONTROL GAID]**： Android设备中使用的Google广告商ID。
+* **[!UICONTROL Demdex ID (ECID)]**：启用第三方Cookie后，ECID将包含Adobe的第三方Cookie [!DNL Demdex ID]。 [!DNL Demdex ID]可用于匹配基于Cookie、未经身份验证的访客。
 
 ##### 合作伙伴 ID
 
