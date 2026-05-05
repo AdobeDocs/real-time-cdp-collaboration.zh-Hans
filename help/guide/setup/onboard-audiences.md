@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 3680
+source-wordcount: 3753
 ht-degree: 18%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 18%
 >
 >在建立您的第一个数据连接并获取您的第一个受众后，您可以从现有数据连接获取多个受众。 添加其他受众时，您将从[选择受众](#select-audiences)步骤开始，因为数据连接已建立。
 
-数据连接是将受众摄取到Collaboration中的来源。 支持的源包括Adobe Experience Platform、CSV文件上传、[!DNL Amazon S3]、[!DNL Snowflake]和[!DNL Google Cloud Storage]，每个源都有自己的工作流。
+数据连接是将受众摄取到Collaboration中的来源。 支持的源包括Adobe Experience Platform、CSV文件上传、[!DNL Amazon S3]、[!DNL Snowflake]和[!DNL Google Cloud Storage]，每个源都有自己的工作流。 Adobe Audience Manager即将推出。
 
 以下部分介绍了选择&#x200B;**Adobe Experience Platform**&#x200B;以及完成特定于Experience Platform的步骤（沙盒、治理和同意）。 如果您选择CSV、[!DNL Amazon S3]、[!DNL Snowflake]或[!DNL Google Cloud Storage]，请使用链接在[为选项选择数据源](#select-data-source)下的指南。
 
@@ -63,7 +63,7 @@ ht-degree: 18%
 
 ![突出显示了“添加新数据连接”选项的“添加受众”工作区。](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-#### 选择数据源
+#### 选择数据源 {#select-data-source}
 
 接下来，您将选择数据连接的源。 可用的源包括：
 
@@ -72,12 +72,13 @@ ht-degree: 18%
 * **Amazon Web Services**：直接从S3存储桶连接到Amazon S3存储以源受众数据。 有关分步说明，请参阅[为受众源配置AWS S3](./configure-aws-s3-audience-sourcing.md)指南。
 * **Snowflake**：使用Snowflake数据仓库无缝提取受众数据。 请参阅[配置 [!DNL Snowflake] 受众源](./configure-snowflake-audience-sourcing.md)指南。
 * **Google Cloud Storage**：连接到您的GCS存储桶以源受众数据。 有关分步说明，请参阅[为受众源配置GCS](./configure-gcs-audience-sourcing.md)指南。
+* **Adobe Audience Manager** （_即将推出_）：从Adobe Audience ManagerSource您的受众区段。
 
 选择数据源，然后选择&#x200B;**[!UICONTROL 下一步]**。
 
 ![突出显示了Adobe Experience Platform选项的“添加受众”工作区。](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
-#### 选择沙盒
+#### 选择沙盒 {#select-sandbox}
 
 选择数据源后，必须选择沙盒，其中包含要用于Collaboration的受众。 从可用沙盒列表中选择沙盒，然后选择&#x200B;**[!UICONTROL 下一步]**
 
@@ -107,7 +108,7 @@ ht-degree: 18%
 
 ![选中了复选框和“确定”选项的“治理策略和执行操作”对话框。](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
-### 提供详细信息
+### 提供详细信息 {#provide-details}
 
 接下来，提供数据连接的名称和描述。 此信息将帮助您以后识别数据连接。
 
@@ -142,11 +143,9 @@ ht-degree: 18%
 >abstract="从 Experience Platform 中的轮廓类的并集架构中选择属性。 此视图显示并集架构中存在的属于 XDM 个人轮廓类的属性。"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hans" text="Experience Platform 中的联合架构"
 
-接下来，您将选择要映射到Collaboration中目标字段的源字段。 可用的目标字段将基于您在帐户设置期间选择的匹配键。
+接下来，您将选择要映射到Collaboration中目标字段的源字段。 可用的目标字段将基于您在[帐户设置](./onboard-account.md#set-up-match-keys)期间选择的匹配键。
 
->[!IMPORTANT]
->
->目前，您无法编辑数据连接以包含新的映射字段。 如果在创建数据连接后向帐户中添加新的匹配键，则需要创建新数据连接以映射到它们。
+如果您在帐户设置期间选择[!DNL Demdex ID (ECID)]作为匹配键，则将自动从ECID提取和映射[!DNL Demdex ID]，并且您无需执行任何操作。 要了解有关[!DNL Demdex IDs]的更多信息，请参阅[[!DNL Demdex ID]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/identity/unified-identity-support)指南。
 
 ![添加受众工作区，可选择将源字段映射到目标字段。](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -177,6 +176,11 @@ Source字段会被映射到Collaboration中定义的目标字段。
 继续为每个目标字段添加映射对。 如果您不想使用匹配键，可以使用字段旁边的删除（![删除图标](/help/assets/icons/delete.png)）图标将其删除。 如果删除了匹配键，则在从连接采购任何受众时，您将无法使用该匹配键。
 
 ![添加受众工作区，在突出显示的目标字段旁边具有删除选项。](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+
+如果您添加新字段并选择&#x200B;**[!UICONTROL Demdex ID (ECID)]**&#x200B;作为目标字段，则将自动选择&#x200B;**[!UICONTROL ECID]**&#x200B;作为相应的源字段。 无需执行其他操作。
+
+<!-- The current screenshot does not show the text under the mapping dropdown as in design. Update this when it's available in the UI. -->
+![具有ECID源字段的添加受众工作区自动映射到Demdex ID (ECID)目标字段。](/help/assets/setup/add-manage-audiences/ECID-automapped-field.png){zoomable="yes"}
 
 完成字段映射后，选择&#x200B;**[!UICONTROL 下一步]**&#x200B;以继续。
 

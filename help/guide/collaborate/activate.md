@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1016
+source-wordcount: 997
 ht-degree: 3%
 
 ---
@@ -55,41 +55,41 @@ Audience Activation允许您激活受众，以便在营销活动中使用。 根
 >
 >在激活使用了多个匹配键的受众时，如果一个（或多个）匹配键没有重叠、没有受众规模或低于阈值，则整个激活将失败。 在激活之前，请确保您的受众有足够的重叠，并满足所有匹配键中1000个ID的最低阈值。
 
-选择要在营销活动中激活的受众，然后选择&#x200B;**[!UICONTROL 保存]**。 The audience is now, displayed and you can see the **[!UICONTROL Identity count]**, **[!UICONTROL Overlapping identities]**, and **[!UICONTROL Overlap %]** for the selected audience.
+选择要在营销活动中激活的受众，然后选择&#x200B;**[!UICONTROL 保存]**。 该受众现在显示出来，您可以看到所选受众的&#x200B;**[!UICONTROL 身份计数]**、**[!UICONTROL 重叠身份]**&#x200B;和&#x200B;**[!UICONTROL 重叠%]**。
 
-![The Audience activation workflow with the selected audience displayed.](/help/assets/collaborate/activate/audience-selected.png)
+![显示具有选定受众的受众激活工作流。](/help/assets/collaborate/activate/audience-selected.png)
 
 ### 编辑匹配键 {#edit-match-keys}
 
-Next, you can edit the audience&#39;s match keys by selecting **[!UICONTROL Edit match keys]** within the select audience. These options are inherited from your match key selections when the connection between collaborators was initially set up. You can remove match keys that were selected if they don&#39;t apply to a specific campaign, but you cannot add new match keys.
+接下来，您可以通过选择受众中的&#x200B;**[!UICONTROL 编辑匹配键]**&#x200B;来编辑受众的匹配键。 最初设置协作者之间的连接时，这些选项继承自匹配的键选择。 如果所选匹配键不适用于特定营销活动，则可以将其删除，但无法添加新的匹配键。
 
-![The Audience activation workflow with the Edit match keys option highlighted.](/help/assets/collaborate/activate/edit-match-keys.png)
+![突出显示了“编辑匹配键”选项的Audience激活工作流。](/help/assets/collaborate/activate/edit-match-keys.png)
 
-The **[!UICONTROL Edit match keys]** dialog opens, where you can toggle off the match keys that you don&#39;t want to use. Select **[!UICONTROL Save]** to save your changes.
+**[!UICONTROL 编辑匹配键]**&#x200B;对话框打开，您可以在其中关闭不想使用的匹配键。 选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存更改。
 
 >[!NOTE]
 >
->At least one match key must be selected. In the current release, the only match keys available is **[!UICONTROL Hashed email]**, so you cannot remove this match key.
+>必须至少选择一个匹配键。
 
-![The Edit match keys dialog in the Audiece activation workflow.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
+![受众激活工作流中的“编辑匹配密钥”对话框。](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 
-### Set audience refresh frequency {#set-audience-refresh-frequency}
+### 设置受众刷新频率 {#set-audience-refresh-frequency}
 
-Finally, set the desired frequency and date range for the audience to refresh. In the current release, the only supported frequency option is **[!UICONTROL Once]**. The **[!UICONTROL Once]** frequency means the audiences are activated a single time and are not refreshed. The **[!UICONTROL Date]** option is auto-populated with the current date.
+最后，设置受众刷新的所需频率和日期范围。 在当前版本中，唯一支持的频率选项是&#x200B;**[!UICONTROL 一次]**。 **[!UICONTROL 一次]**&#x200B;频率表示只激活一次受众，不刷新受众。 **[!UICONTROL Date]**&#x200B;选项自动填充了当前日期。
 
-![The Audience activation workflow with the Frequency section highlighted.](/help/assets/collaborate/activate/audience-frequency.png)
+![已突出显示“频率”部分的Audience激活工作流。](/help/assets/collaborate/activate/audience-frequency.png)
 
-When satisfied with your selections, select **[!UICONTROL Activate]** to complete the workflow.
+如果对您的选择满意，请选择&#x200B;**[!UICONTROL 激活]**&#x200B;以完成工作流。
 
-## Activate dashboard {#activate-dashboard}
+## 激活仪表板 {#activate-dashboard}
 
-In the **[!UICONTROL Activate]** tab, you can view all audiences sent to your collaborator, as well as all audiences your collaborator has activated to your destination.
+在&#x200B;**[!UICONTROL 激活]**&#x200B;选项卡中，可以查看发送给协作者的所有受众，以及协作者激活到目标的所有受众。
 
-![The Activate dashboard showing the Sent audiences and Activated audiences sections.](/help/assets/collaborate/activate/activate-dashboard.png)
+![显示“已发送受众”和“已激活受众”部分的“激活”仪表板。](/help/assets/collaborate/activate/activate-dashboard.png)
 
-## View sent audiences {#view-sent-audiences}
+## 查看已发送受众 {#view-sent-audiences}
 
-In the **[!UICONTROL Sent audiences to]** collaborator section, all the audiences you&#39;ve sent will be listed. Currently, audiences are automatically sent to your collaborator&#39;s configured destination after you&#39;ve sent them. In your collaborator&#39;s view, these audiences are displayed in the **[!UICONTROL Activated audiences]** section.
+在&#x200B;**[!UICONTROL 将受众发送到]**&#x200B;协作者部分中，将列出您发送的所有受众。 目前，在发送受众后，受众会自动发送到协作者的配置目标。 在协作者的视图中，这些受众显示在&#x200B;**[!UICONTROL 激活的受众]**&#x200B;部分中。
 
 在每个已发送受众中，您可以看到以下量度：
 

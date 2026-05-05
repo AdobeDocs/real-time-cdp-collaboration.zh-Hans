@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1179
-ht-degree: 37%
+source-wordcount: 1253
+ht-degree: 35%
 
 ---
 
@@ -90,21 +90,21 @@ ht-degree: 37%
 
 ![突出显示了“编辑”选项的“匹配键”部分。](/help/assets/setup/manage-data-connection/edit-match-keys.png){zoomable="yes"}
 
-此时将显示确认对话框，其中说明对数据连接所做的任何更改都将应用于所有关联受众。 选择&#x200B;**[!UICONTROL 确定]**&#x200B;确认。 You can choose to skip this confirmation in the future.
+此时将显示确认对话框，其中说明对数据连接所做的任何更改都将应用于所有关联受众。 选择&#x200B;**[!UICONTROL 确定]**&#x200B;确认。 您可以选择以后跳过此确认。
 
-![Confirmation dialog showing that any changes to the data connection will apply to all associated audiences.](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+![确认对话框，其中显示对数据连接所做的任何更改都将应用于所有关联的受众。](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
 
 在&#x200B;**[!UICONTROL 匹配键]**&#x200B;对话框中，可以查看源字段与其对应的目标字段（匹配键）之间的现有映射。 您可以通过更新映射的源字段来编辑匹配键，或者添加其他映射字段行以填充新的匹配键。
 
-![The Match keys dialog showing the existing mappings between source fields and the corresponding target fields.](/help/assets/setup/manage-data-connection/match-keys-dialog.png){zoomable="yes"}
+![显示源字段和相应目标字段之间现有映射的“匹配键”对话框。](/help/assets/setup/manage-data-connection/match-keys-dialog.png){zoomable="yes"}
 
-#### Add match keys {#add-match-keys}
+#### 添加匹配键 {#add-match-keys}
 
-Select **[!UICONTROL Add field]** to add a new field row.
+选择&#x200B;**[!UICONTROL 添加字段]**&#x200B;以添加新字段行。
 
 ![选择“添加字段”后，“匹配键”对话框将显示一个空的新映射字段可供输入。](/help/assets/setup/manage-data-connection/add-new-field.png){zoomable="yes"}
 
-Next, select the empty source field. 将显示&#x200B;**[!UICONTROL 选择源字段]**&#x200B;对话框，其中包含&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;和&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;选项。 您可以筛选列表并使用搜索选项查找所需的源字段。
+接下来，选择空的源字段。 将显示&#x200B;**[!UICONTROL 选择源字段]**&#x200B;对话框，其中包含&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;和&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;选项。 您可以筛选列表并使用搜索选项查找所需的源字段。
 
 选择所需的源字段，然后选择&#x200B;**[!UICONTROL 选择]**。
 
@@ -116,53 +116,61 @@ Next, select the empty source field. 将显示&#x200B;**[!UICONTROL 选择源字
 
 ![下拉菜单显示所有可用目标字段以与新的源字段映射。](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
 
+##### 添加[!DNL Demdex ID (ECID)] {#add-demdex-id-ecid}
+
+如果要将[!DNL Demdex ID (ECID)]添加为匹配键，请首先确保在帐户设置[&#128279;](../setup/onboard-account.md#set-up-match-keys)中启用了。 有关[!DNL Demdex ID (ECID)]的详细信息，请阅读[支持的匹配键](../setup/onboard-account.md#supported-match-keys)。
+
+在&#x200B;**[!UICONTROL 匹配键]**&#x200B;对话框中，添加新的映射字段行。 然后，选择&#x200B;**[!UICONTROL ECID]**&#x200B;作为源字段，并从下拉列表中选择&#x200B;**[!UICONTROL Demdex ID (ECID)]**&#x200B;作为目标字段。
+
+![包含Demdex ID (ECID)匹配键映射字段的“匹配键”对话框突出显示。](/help/assets/setup/manage-data-connection/demdex-id-ecid-match-key.png){zoomable="yes"}
+
 完成字段映射后，查看更新并选择&#x200B;**[!UICONTROL 确认]**&#x200B;以应用更改。
 
-![The Match keys dialog showing the updated field mapping with the Confirm option highlighted.](/help/assets/setup/manage-data-connection/review-and-confirm.png){zoomable="yes"}
+![显示更新字段映射的“匹配键”对话框突出显示“确认”选项。](/help/assets/setup/manage-data-connection/review-and-confirm.png){zoomable="yes"}
 
-A confirmation dialog confirms that the match keys were updated successfully.
+确认对话框用于确认匹配键已成功更新。
 
-### Edit scheduling {#edit-scheduling}
+### 编辑计划 {#edit-scheduling}
 
 创建数据连接后，可以直接从数据连接工作区的&#x200B;**[!UICONTROL 计划]**&#x200B;部分更新其刷新频率、开始日期和结束日期。
 
-You can edit the frequency of an existing data connection to better control how often audiences are refreshed. To edit the schedule, select **[!UICONTROL Edit]** from within the data connection in the scheduling card.
+您可以编辑现有数据连接的频率，以更好地控制刷新受众的频率。 要编辑计划，请在计划卡片的数据连接中选择&#x200B;**[!UICONTROL 编辑]**。
 
-![The Scheduling section with the Edit option highlighted.](/help/assets/setup/manage-data-connection/edit-scheduling.png){zoomable="yes"}
+![突出显示了“编辑”选项的“计划”部分。](/help/assets/setup/manage-data-connection/edit-scheduling.png){zoomable="yes"}
 
-此时将显示确认对话框，其中说明对数据连接所做的任何更改都将应用于所有关联受众。 选择&#x200B;**[!UICONTROL 确定]**&#x200B;确认。 You can choose to skip this confirmation in the future.
+此时将显示确认对话框，其中说明对数据连接所做的任何更改都将应用于所有关联受众。 选择&#x200B;**[!UICONTROL 确定]**&#x200B;确认。 您可以选择以后跳过此确认。
 
-![Confirmation dialog showing that any changes to the data connection will apply to all associated audiences.](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+![确认对话框，其中显示对数据连接所做的任何更改都将应用于所有关联的受众。](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
 
-In the **[!UICONTROL Scheduling]** dialog, select the dropdown menu to update the **[!UICONTROL Frequency]**. Set the refresh frequency to run daily or every two to six days.
+在&#x200B;**[!UICONTROL 计划]**&#x200B;对话框中，选择下拉菜单以更新&#x200B;**[!UICONTROL 频率]**。 将刷新频率设置为每天或每两到六天运行一次。
 
-![The Scheduling dialog with the Frequency dropdown expanded to display audience refresh frequency options.](../../assets/setup/manage-data-connection/edit-frequency.png){zoomable="yes"}
+![展开了“计划”对话框，其中的“频率”下拉菜单显示受众刷新频率选项。](../../assets/setup/manage-data-connection/edit-frequency.png){zoomable="yes"}
 
-Next, select **[!UICONTROL Date range]** if you want to update the period during which audiences are populated and refreshed.
+接下来，如果要更新填充和刷新受众的时段，请选择&#x200B;**[!UICONTROL 日期范围]**。
 
-![The Scheduling dialog showing the Date range dropdown expanded to edit the start and end dates for audience population and refresh.](../../assets/setup/manage-data-connection/edit-date-range.png){zoomable="yes"}
+![显示“日期范围”下拉列表的“计划”对话框已展开，可编辑受众填充和刷新的开始和结束日期。](../../assets/setup/manage-data-connection/edit-date-range.png){zoomable="yes"}
 
-When you&#39;re done, review the updates and select **[!UICONTROL Save]** to apply your changes.
+完成后，查看更新并选择&#x200B;**[!UICONTROL 保存]**&#x200B;以应用更改。
 
-![The Scheduling dialog highlighting the updates and Save option.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
+![“计划”对话框突出显示“更新和保存”选项。](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## 删除数据连接
 
-Deleting a data connection will remove all underlying audiences, associated settings, and usage across Collaboration. 无法撤消此操作。
+删除数据连接将会删除整个Collaboration中的所有基础受众、关联设置和使用情况。 无法撤消此操作。
 
-To delete an existing data connection, select the delete icon (![Delete icon](/help/assets/common/delete.svg)) within an individual data connection&#39;s workspace.
+要删除现有的数据连接，请选择单个数据连接工作区中的删除图标（![删除图标](/help/assets/common/delete.svg)）。
 
-![A data connections workspace with the delete option highlighted.](/help/assets/setup/manage-data-connection/delete-data-connection.png){zoomable="yes"}
+![突出显示删除选项的数据连接工作区。](/help/assets/setup/manage-data-connection/delete-data-connection.png){zoomable="yes"}
 
-A confirmation dialogue will appear. Select **[!UICONTROL Delete]** to finish deleting the data connection.
+将出现一个确认对话框。 选择&#x200B;**[!UICONTROL 删除]**&#x200B;以完成数据连接的删除。
 
-![The Delete data connection dialog with the Delete option highlighted.](/help/assets/setup/manage-data-connection/delete-data-connection-confirm.png){zoomable="yes"}
+![突出显示带有“删除”选项的“删除数据连接”对话框。](/help/assets/setup/manage-data-connection/delete-data-connection-confirm.png){zoomable="yes"}
 
-## Manage audiences {#manage-audiences}
+## 管理受众 {#manage-audiences}
 
-附加到数据连接的受众列表将显示在工作区底部。 该列表显示每个受众的简要概述，包括其状态、来源和连接访问。 To edit an audience&#39;s categories, connection access, or metadata visbility, select the audience&#39;s name. 有关管理受众的完整指南，请参阅[查看各个受众](./onboard-audiences.md#view-individual-audiences)指南。
+附加到数据连接的受众列表将显示在工作区底部。 该列表显示每个受众的简要概述，包括其状态、来源和连接访问。 要编辑受众的类别、连接访问权限或元数据可见性，请选择受众的名称。 有关管理受众的完整指南，请参阅[查看各个受众](./onboard-audiences.md#view-individual-audiences)指南。
 
-![A data connections workspace with the audiences highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
+![突出显示受众的数据连接工作区。](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 
 ## 后续步骤
 
