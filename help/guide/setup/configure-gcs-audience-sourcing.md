@@ -3,9 +3,9 @@ title: '为受众源配置 [!DNL Google Cloud Storage] '
 description: 了解如何在Real-Time CDP Collaboration中将 [!DNL Google Cloud Storage] 存储段连接为自助受众源，包括先决条件、身份验证、字段映射、计划和验证。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2898'
 ht-degree: 8%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 8%
 >id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
 >title="请为加入过程准备好您的数据"
 >abstract="阅读受众来源规范指南，了解如何为 Collaboration 格式化和结构化来自 Google 云存储的受众数据。"
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="请参阅《受众源规格指南》"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="请参阅受众来源规范指南"
 
 数据源选择屏幕列出了所有可用的连接类型。 选择&#x200B;**[!UICONTROL Google Cloud Storage]**，然后选择&#x200B;**[!UICONTROL 下一步]**。
 
@@ -90,6 +90,11 @@ ht-degree: 8%
 ![“准备GCS存储段以供载入”模式列出了先决条件，包括创建GCS存储段、为Adobe配置IAM访问权限和遵守Audience Sourcing Specification，以及使用“取消”和“开始载入”选项。](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
 ### 输入您的[!DNL Google Cloud Storage]连接详细信息 {#authenticate-gcs-connection}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_gcs"
+>title="从Google云存储添加受众"
+>abstract="要连接您的Google云存储，请授权Adobe的服务用户检索您的受众数据以供处理。 按照Experience League中概述的步骤，授予Adobe对Google云存储的访问权限。"
 
 提供允许Collaboration访问您的[!DNL Google Cloud Storage]存储段所需的详细信息。 输入所需信息后，选择&#x200B;**[!UICONTROL 下一步]**。
 

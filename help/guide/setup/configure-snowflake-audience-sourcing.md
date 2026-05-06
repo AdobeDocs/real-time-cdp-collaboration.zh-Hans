@@ -4,10 +4,10 @@ description: 了解如何将 [!DNL Snowflake Secure Data Share] 配置为自助�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 72ad1e401fc595ddeace715af5befe9701402c8e
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 19%
+source-wordcount: '1586'
+ht-degree: 18%
 
 ---
 
@@ -153,6 +153,11 @@ ht-degree: 19%
 ![使用指向受众源规范的链接准备[!DNL Snowflake Share]以加入对话框。](../../assets/setup/snowflake-audience-sourcing/prepare-snowflake-share-onboarding-dialog.png)
 
 ### 验证[!DNL Snowflake Share]连接 {#authenticate-snowflake-share-connection}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sharing_snowflake"
+>title="从Snowflake添加受众"
+>abstract="要连接您的Snowflake共享，请授权Adobe的服务用户检索您的受众数据以供处理。 按照Experience League中概述的步骤，授予Adobe对Snowflake共享的访问权限。"
 
 在此步骤中，您需要提供将您的[!DNL Snowflake Share]连接到Collaboration所需的[!DNL Snowflake Share]凭据：
 
