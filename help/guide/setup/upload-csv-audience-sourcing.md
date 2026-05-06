@@ -3,14 +3,11 @@ title: 为受众源上传CSV文件
 description: 了解如何将CSV文件作为自助数据源上传，以将受众数据摄取到Real-Time CDP Collaboration。
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
 TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: 1100
+source-wordcount: 1121
 ht-degree: 16%
 
 ---
@@ -58,6 +55,11 @@ CSV文件上传是一种为协作项目获取第一方受众数据的方法。 �
 ![具有CSV文件的数据连接选择屏幕可用作可选选项。](../../assets/setup/csv-audience-sourcing/select-csv-data-connection.png)
 
 ### 选择文件 {#select-file}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_csv"
+>title="从CSV文件添加受众"
+>abstract="从您的计算机中上传CSV文件，以将受众获取到Real-Time CDP Collaboration中。"
 
 选择&#x200B;**[!UICONTROL 从计算机中选择]**&#x200B;以从本地系统上传CSV文件。 或者，您也可以将要上载的CSV文件拖放到[!UICONTROL 拖放CSV文件]面板。
 
@@ -140,4 +142,4 @@ CSV文件上传是一种为协作项目获取第一方受众数据的方法。 �
 * 查看受众重叠和见解。 查看[衡量促销活动效果](../../guide/collaborate/measure.md)。
 * 管理受众设置和可见性。 查看[Source并管理受众](./onboard-audiences.md)。
 
-有关其他受众源方法的信息，请参阅[为受众源配置AWS S3](./configure-aws-s3-audience-sourcing.md)或从Experience Platform[&#128279;](./onboard-audiences.md)配置Source受众。
+有关其他受众源方法的信息，请参阅[为受众源配置AWS S3](./configure-aws-s3-audience-sourcing.md)或从Experience Platform](./onboard-audiences.md)配置[Source受众。
