@@ -14,7 +14,7 @@ topic_v2:
 source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
 source-wordcount: 1410
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -77,13 +77,13 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="人员ID"
->abstract="人员ID（例如经过哈希处理的电子邮件地址、电话号码或CRM ID）直接连接到个人资料。"
+>title="人员 ID"
+>abstract="人员 ID，例如经过哈希处理的电子邮件地址和电话号码或者 CRM ID，直接与个人轮廓连接。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="设备 ID"
->abstract="设备ID（如ECID或IP地址）直接连接到可能在多个用户之间共享的设备。"
+>abstract="设备 ID，例如 ECID 或 IP 地址，直接与设备连接，而这些设备可能由多个人共同使用。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
@@ -92,7 +92,7 @@ ht-degree: 10%
 
 下表显示了Collaboration中支持的匹配键：
 
-| 人员ID | 设备 ID | 合作伙伴 ID |
+| 人员 ID | 设备 ID | 合作伙伴 ID |
 | ------------- | ------------- | ------------- |
 | [!DNL Hashed email] | [!DNL Hashed IPv4] | [!DNL Adfixus ID] |
 | [!DNL Hashed phone] | [!DNL IDFA] | |
@@ -118,7 +118,7 @@ Collaboration支持三种类型的匹配键：人员ID、设备ID和合作伙伴
 * 如果您提供的哈希值使用大写字符，Collaboration会自动将其转换为小写。
 * 如果源包含&#x200B;**纯文本标识符**，请在[数据连接设置](./manage-data-connection.md#match-keys)期间使用&#x200B;**[!UICONTROL 应用转换]**&#x200B;选项来应用散列。 仅当从Experience Platform获取受众时，此选项才可用，而基于云的源不支持此选项。
 
-##### 人员ID
+##### 人员 ID
 
 人员ID直接连接到个人资料。 当前支持的ID包括：
 
