@@ -2,21 +2,16 @@
 title: 与协作者建立连接
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
 source-wordcount: 3398
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -282,7 +277,7 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 
 完成后，选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存更改。
 
-创建项目时，将根据连接期间建立的以下设置预填充广告商名称    ：
+创建项目时，将根据在连接期间建立的以下设置预填充广告商名称：
 
 1. **未设置广告商名称**：如果未添加广告商名称，Collaboration默认使用广告商名称作为广告商名称。
 2. **一个广告商名称集**：如果添加了一个广告商名称，Collaboration会自动将该名称用作项目的广告商名称。
@@ -331,15 +326,15 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 
 >[!IMPORTANT]
 >
->邀请其他协作者，即表示您确认自己需对通过其活动产生的任何费用负责。 在Collaboration Starter[&#128279;](../setup/starter-credit-usage.md)中了解有关信用使用情况和消费情况的更多信息
+>邀请其他协作者，即表示您确认自己需对通过其活动产生的任何费用负责。 在Collaboration Starter](../setup/starter-credit-usage.md)中了解有关[信用使用情况和消费情况的更多信息
 
-### 发送邀请 {#send-invitation}
+### 发送一个邀请 {#send-invitation}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_starter_invite_collaborator"
 >title="邀请一个协作者"
->abstract="请填写此表单以邀请您的合作伙伴组织加入Collaboration Starter。 被邀请者将收到一封邀请电子邮件，必须使用指定的电子邮件地址完成注册。"
->additional-url="https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="详细了解Collaboration Starter"
+>abstract="填写此表单，邀请您的合作伙伴组织成为协作发起者。 受邀者将收到一封邀请邮件，必须使用其中指定的电子邮件地址完成注册。"
+>additional-url="https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="了解更多关于协作发起者的信息"
 
 邀请您的合作伙伴组织直接通过用户界面加入Collaboration [!DNL Starter]。
 

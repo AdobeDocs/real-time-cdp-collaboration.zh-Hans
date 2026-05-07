@@ -3,11 +3,8 @@ title: 为受众源上传CSV文件
 description: 了解如何将CSV文件作为自助数据源上传，以将受众数据摄取到Real-Time CDP Collaboration。
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
 TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: 1121
@@ -145,4 +142,4 @@ CSV文件上传是一种为协作项目获取第一方受众数据的方法。 �
 * 查看受众重叠和见解。 查看[衡量促销活动效果](../../guide/collaborate/measure.md)。
 * 管理受众设置和可见性。 查看[Source并管理受众](./onboard-audiences.md)。
 
-有关其他受众源方法的信息，请参阅[为受众源配置AWS S3](./configure-aws-s3-audience-sourcing.md)或从Experience Platform[&#128279;](./onboard-audiences.md)配置Source受众。
+有关其他受众源方法的信息，请参阅[为受众源配置AWS S3](./configure-aws-s3-audience-sourcing.md)或从Experience Platform](./onboard-audiences.md)配置[Source受众。
