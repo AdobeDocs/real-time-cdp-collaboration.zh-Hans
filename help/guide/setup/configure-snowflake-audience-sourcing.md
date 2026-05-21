@@ -99,7 +99,7 @@ ht-degree: 21%
    GRANT SELECT ON VIEW my_database.my_schema.secure_view_for_adobe TO SHARE adobe_data_share;
    ```
 
-6. 使用您所在地区的正确标识符将Adobe的[!DNL Snowflake]帐户添加到[!DNL Snowflake Secure Data Share]。 请参阅](#collect-account-information)上方的区域/帐户映射表[。
+6. 使用您所在地区的正确标识符将Adobe的[!DNL Snowflake]帐户添加到[!DNL Snowflake Secure Data Share]。 请参阅[&#128279;](#collect-account-information)上方的区域/帐户映射表。
 
    ```sql
    ALTER SHARE adobe_data_share ADD ACCOUNTS = <Account Identifier based on region from the mapping table>;
@@ -258,6 +258,6 @@ ht-degree: 21%
 
 有关其他受众来源补充方法的信息，请参阅以下文档：
 
-* [为受众源配置 [!DNL Amazon S3] ](./configure-aws-s3-audience-sourcing.md)
+* [为受众源配置 [!DNL Amazon S3] &#x200B;](./configure-aws-s3-audience-sourcing.md)
 * [来自Experience Platform的Source受众](./onboard-audiences.md)
 * [上传CSV文件以进行受众源](./upload-csv-audience-sourcing.md)
