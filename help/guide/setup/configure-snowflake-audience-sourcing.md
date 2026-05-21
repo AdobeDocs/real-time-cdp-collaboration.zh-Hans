@@ -4,7 +4,7 @@ description: 了解如何将 [!DNL Snowflake Secure Data Share] 配置为自助�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 3e8c39de61dc9560b038b994d178e4cc486cf6c7
+source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 21%
@@ -33,7 +33,7 @@ ht-degree: 21%
    * **架构**
    * **视图**
 
-* [!DNL Snowflake Secure Data Share]中的受众数据必须符合[受众源规格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)指南中所述的格式要求。
+* [!DNL Snowflake Secure Data Share]中的受众数据必须符合[受众源规格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)指南中所述的格式要求。
 * 还必须为您的Collaboration帐户启用[!DNL Snowflake]受众文件中的所有匹配键。 了解如何[启用匹配键](./onboard-account.md#set-up-match-keys)或[将新的匹配键](./onboard-account.md#edit-match-keys)添加到您的帐户。
 
 ## 设置[!DNL Snowflake]权限 {#setup-snowflake-permissions}
@@ -146,7 +146,7 @@ ht-degree: 21%
 >abstract="阅读受众来源规范指南，了解如何为 Collaboration 格式化和结构化来自 Snowflake 的受众数据。"
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="查看指南"
 
-此时会出现一个对话框，说明在开始获取之前[!DNL Snowflake Share]和[!DNL Snowflake]受众文件的要求。 确保使用正确的共享名、帐户标识符、架构和视图创建您的[!DNL Snowflake Share]。 要确认受众数据的格式和结构正确无误，以便在Collaboration中使用，请查看&#x200B;**[[!UICONTROL 受众源规格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**&#x200B;指南。
+此时会出现一个对话框，说明在开始获取之前[!DNL Snowflake Share]和[!DNL Snowflake]受众文件的要求。 确保使用正确的共享名、帐户标识符、架构和视图创建您的[!DNL Snowflake Share]。 要确认受众数据的格式和结构正确无误，以便在Collaboration中使用，请查看&#x200B;**[[!UICONTROL 受众源规格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**&#x200B;指南。
 
 完成后，选择&#x200B;**[!UICONTROL 开始载入]**。
 
@@ -186,7 +186,7 @@ ht-degree: 21%
 
 ### 映射字段 {#map-fields}
 
-**[!UICONTROL 映射]**&#x200B;屏幕当前为只读。 不能添加、删除或应用转换。 Collaboration根据&#x200B;**[受众源规格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**&#x200B;自动将源标识字段从[!DNL Snowflake Share]数据映射到目标字段。
+**[!UICONTROL 映射]**&#x200B;屏幕当前为只读。 不能添加、删除或应用转换。 Collaboration根据&#x200B;**[受众源规格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**&#x200B;自动将源标识字段从[!DNL Snowflake Share]数据映射到目标字段。
 
 以可视方式确认映射的字段并选择&#x200B;**[!UICONTROL 下一步]**&#x200B;以继续。 您还可以使用&#x200B;**[!UICONTROL 预览源数据]**&#x200B;选项预览[!DNL Snowflake Share]中的示例数据。
 

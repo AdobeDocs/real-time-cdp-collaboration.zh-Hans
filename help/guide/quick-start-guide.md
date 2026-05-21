@@ -16,7 +16,7 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5f2ab62d1e7be17c2fe98e263d7de630bf96f14a
+source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: 1417
 ht-degree: 3%
@@ -134,7 +134,7 @@ ht-degree: 3%
 
 ### 选项B：Snowflake、Amazon S3或Google Cloud Storage中的Source
 
-要配置云源（如[!DNL Snowflake]、[!DNL Amazon S3]或[!DNL Google Cloud Storage]），请使用[受众规范PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)准备受众数据
+要配置云源（如[!DNL Snowflake]、[!DNL Amazon S3]或[!DNL Google Cloud Storage]），请使用[受众规范PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)准备受众数据。
 
 您可以将[!DNL Amazon S3]、[!DNL Google Cloud Storage]或[!DNL Snowflake]配置为自助数据源。 有关设置说明，请参阅[Amazon S3源指南](./setup/configure-aws-s3-audience-sourcing.md)、[GCS源指南](./setup/configure-gcs-audience-sourcing.md)或[Snowflake源指南](./setup/configure-snowflake-audience-sourcing.md)。
 
