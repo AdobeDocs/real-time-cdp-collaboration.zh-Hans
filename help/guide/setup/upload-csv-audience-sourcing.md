@@ -11,7 +11,7 @@ topic_v2:
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: 1121
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -61,8 +61,8 @@ CSV文件上传是一种为协作项目获取第一方受众数据的方法。 �
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_csv"
->title="从CSV文件添加受众"
->abstract="从您的计算机中上传CSV文件，以将受众获取到Real-Time CDP Collaboration中。"
+>title="从 CSV 文件添加受众"
+>abstract="从您的电脑上传 CSV 文件，将您的受众导入 Real-Time CDP Collaboration。"
 
 选择&#x200B;**[!UICONTROL 从计算机中选择]**&#x200B;以从本地系统上传CSV文件。 或者，您也可以将要上载的CSV文件拖放到[!UICONTROL 拖放CSV文件]面板。
 
