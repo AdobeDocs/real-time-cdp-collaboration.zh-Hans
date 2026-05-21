@@ -2,11 +2,11 @@
 title: '为受众源配置 [!DNL Google Cloud Storage] '
 description: 了解如何在Real-Time CDP Collaboration中将 [!DNL Google Cloud Storage] 存储段连接为自助受众源，包括先决条件、身份验证、字段映射、计划和验证。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 8%
 
 ### 准备受众数据 {#prepare-audience-data}
 
-您的受众文件必须符合&#x200B;**[受众源规格(v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**，然后才能开始源。 查看完整模式定义和字段级示例的规范。 主要要求包括：
+您的受众文件必须符合&#x200B;**[受众源规格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**，然后才能开始源。 查看完整模式定义和字段级示例的规范。 主要要求包括：
 
 * **文件格式：** CSV，使用逗号作为字段分隔符，使用管道字符(`|`)作为单个字段中多个值的分隔符。
 * **必填字段：**&#x200B;每个记录都必须包含一个`AUDIENCE_ID`列和至少一个受支持的匹配键列。
@@ -85,16 +85,16 @@ ht-degree: 8%
 
 ![添加受众工作流程显示选定了Google云存储并突出显示了“下一步”的数据源选择屏幕。](../../assets/setup/gcs-audience-sourcing/gcs-data-source-selection.png)
 
-此时会出现一个先决条件对话框，其中概述了所需的配置步骤（例如，GCS存储段设置和IAM角色分配），并指出，数据必须符合&#x200B;**[[!UICONTROL 受众源规格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**。 选择&#x200B;**[!UICONTROL 开始载入]**&#x200B;以确认合规性，然后再继续。
+此时会出现一个先决条件对话框，其中概述了所需的配置步骤（例如，GCS存储段设置和IAM角色分配），并指出，数据必须符合&#x200B;**[[!UICONTROL 受众源规格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**。 选择&#x200B;**[!UICONTROL 开始载入]**&#x200B;以确认合规性，然后再继续。
 
 ![“准备GCS存储段以供载入”模式列出了先决条件，包括创建GCS存储段、为Adobe配置IAM访问权限和遵守Audience Sourcing Specification，以及使用“取消”和“开始载入”选项。](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
-### 输入您的[!DNL Google Cloud Storage]连接详细信息 {#authenticate-gcs-connection}
+### 输入您的 [!DNL Google Cloud Storage] 连接详细信息 {#authenticate-gcs-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_gcs"
->title="从Google云存储添加受众"
->abstract="要连接您的Google云存储，请授权Adobe的服务用户检索您的受众数据以供处理。 按照Experience League中概述的步骤，授予Adobe对Google云存储的访问权限。"
+>title="从 Google Cloud Storage 添加受众"
+>abstract="要连接您的 Google Cloud Storage，请授权 Adobe 的服务用户能够检索您的受众数据以进行处理。 按照 Experience League 中列出的步骤，授予 Adobe 对您的 Google Cloud Storage 的访问权限。"
 
 提供允许Collaboration访问您的[!DNL Google Cloud Storage]存储段所需的详细信息。 输入所需信息后，选择&#x200B;**[!UICONTROL 下一步]**。
 
@@ -130,7 +130,7 @@ ht-degree: 8%
 
 ![“GCS数据预览”对话框，其中显示了一个受众数据示例表，该表包含AUDIENCE_ID和HASHED_EMAIL_SHA_256等列，并在右下角显示了一个“关闭”按钮。](../../assets/setup/gcs-audience-sourcing/gcs-data-preview.png){zoomable="yes"}
 
-确认显示的映射反映了受众文件中的字段。 如果不符合，请先停止并更正您的文件以符合[受众源规范](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)，然后再继续。 选择&#x200B;**[!UICONTROL 下一步]**&#x200B;以继续。
+确认显示的映射反映了受众文件中的字段。 如果不符合，请先停止并更正您的文件以符合[受众源规范](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)，然后再继续。 选择&#x200B;**[!UICONTROL 下一步]**&#x200B;以继续。
 
 ![在“映射字段”步骤中添加受众工作流，其中显示自动映射的源字段（AUDIENCE\_ID和HASHED\_EMAIL\_SHA\_256）以定向标识字段，并显示“预览源数据”选项和右上角的“下一步”按钮。](../../assets/setup/gcs-audience-sourcing/gcs-mapping-auto-fields.png)
 
@@ -233,7 +233,7 @@ ht-degree: 8%
 
 在计划的刷新期间出现&#x200B;**受众文件格式错误**
 
-* 确认存储桶中更新的文件符合[受众源规格](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)中的列结构和字段要求。
+* 确认存储桶中更新的文件符合[受众源规格](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)中的列结构和字段要求。
 * 请确保配置的文件夹路径中的所有文件都使用相同的列结构。 同一路径中的混合格式文件可能会导致部分源失败。
 
 ## 设置[!DNL Google Cloud Storage]权限 {#setup-gcs-permissions}
@@ -280,7 +280,7 @@ ht-degree: 8%
 
 #### 将IAM角色分配给Adobe {#assign-role}
 
-接下来，在[!DNL Google Cloud Console]中打开&#x200B;[**[!DNL Buckets]**&#x200B;页面](https://console.cloud.google.com/storage/browser)，并选择包含受众数据的存储桶。
+接下来，在[!DNL Google Cloud Console]中打开&#x200B;[**[!DNL Buckets]**页面](https://console.cloud.google.com/storage/browser)，并选择包含受众数据的存储桶。
 
 导航到&#x200B;**[!DNL Permissions]**&#x200B;选项卡，选择&#x200B;**[!DNL View by principals]**，然后选择&#x200B;**[!DNL Grant access]**。
 
@@ -313,7 +313,7 @@ Adobe现在可以在选定的GCS存储段中安全访问您的受众数据。 �
 
 有关其他受众来源补充方法，请参阅：
 
-* [为受众源配置 [!DNL Amazon S3] &#x200B;](./configure-aws-s3-audience-sourcing.md)
-* [为受众源配置 [!DNL Snowflake] &#x200B;](./configure-snowflake-audience-sourcing.md)
+* [为受众源配置 [!DNL Amazon S3] ](./configure-aws-s3-audience-sourcing.md)
+* [为受众源配置 [!DNL Snowflake] ](./configure-snowflake-audience-sourcing.md)
 * [来自Experience Platform的Source受众](./onboard-audiences.md)
 * [上传CSV文件以进行受众源](./upload-csv-audience-sourcing.md)

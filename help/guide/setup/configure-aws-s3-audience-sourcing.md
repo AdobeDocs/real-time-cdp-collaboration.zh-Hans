@@ -2,10 +2,10 @@
 title: '为受众源配置 [!DNL Amazon S3] '
 description: 了解如何将 [!DNL Amazon S3] 存储配置并连接为自助数据源，以将受众数据摄取到Real-Time CDP Collaboration。
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
+source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 94%
 
 在配置S3数据连接之前，请确保：
 
-* 您有权访问包含符合&#x200B;**[受众源规格(v1.1)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;的受众文件的活动&#x200B;**[!DNL Amazon S3]存储段**。
+* 您有权访问包含符合&#x200B;**[受众源规格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**&#x200B;的受众文件的活动&#x200B;**[!DNL Amazon S3]存储段**。
 * 您已在AWS中创建了一个&#x200B;**IAM角色**，该角色授予Adobe使用&#x200B;**假定角色**&#x200B;方法（不是访问/密钥密钥）访问存储段的权限。 有关详细说明，请参阅&#x200B;**[为受众源配置AWS权限](./configure-aws-permissions-audience-sourcing.md)**。 IAM角色必须包括以下权限：
 
    * `ListBucket`
@@ -71,7 +71,7 @@ ht-degree: 94%
 >abstract="阅读受众来源规范指南，了解如何为 Collaboration 格式化和构建来自 Amazon S3 的受众数据。"
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="查看指南"
 
-此时将显示一个对话框，其中说明必须如何构建受众文件。 使用指向&#x200B;**[[!UICONTROL 受众源规格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;的链接了解如何设置和构建[!DNL Amazon S3]中的受众数据，以便Collaboration能够正确读取。
+此时将显示一个对话框，其中说明必须如何构建受众文件。 使用指向&#x200B;**[[!UICONTROL 受众源规格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**&#x200B;的链接了解如何设置和构建[!DNL Amazon S3]中的受众数据，以便Collaboration能够正确读取。
 
 >[!IMPORTANT]
 >
@@ -102,7 +102,7 @@ ht-degree: 94%
 
 接下来，提供您的[!DNL Amazon S3]凭据以将您的S3存储段连接到Collaboration。
 
-按照&#x200B;**[为受众源配置AWS权限](./configure-aws-permissions-audience-sourcing.md)**&#x200B;中概述的步骤操作，以授予Adobe对您的服务器的访问权限
+按照&#x200B;**[为受众源配置AWS权限](./configure-aws-permissions-audience-sourcing.md)**中概述的步骤操作，以授予Adobe对您的服务器的访问权限
 [!DNL Amazon S3]存储。 完成后，将您的值输入到以下UI字段中：
 
 * IAM 角色

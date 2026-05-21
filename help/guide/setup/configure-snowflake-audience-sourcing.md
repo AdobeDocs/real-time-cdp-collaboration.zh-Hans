@@ -2,12 +2,12 @@
 title: '为受众源配置 [!DNL Snowflake] '
 description: 了解如何将 [!DNL Snowflake Secure Data Share] 配置为自助数据源并将其连接，以将受众数据摄取到Real-Time CDP Collaboration。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
+source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
 workflow-type: tm+mt
 source-wordcount: '1586'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 18%
    * **架构**
    * **视图**
 
-* [!DNL Snowflake Secure Data Share]中的受众数据必须符合[受众源规格(v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)指南中所述的格式要求。
+* [!DNL Snowflake Secure Data Share]中的受众数据必须符合[受众源规格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)指南中所述的格式要求。
 * 还必须为您的Collaboration帐户启用[!DNL Snowflake]受众文件中的所有匹配键。 了解如何[启用匹配键](./onboard-account.md#set-up-match-keys)或[将新的匹配键](./onboard-account.md#edit-match-keys)添加到您的帐户。
 
 ## 设置[!DNL Snowflake]权限 {#setup-snowflake-permissions}
@@ -99,7 +99,7 @@ ht-degree: 18%
    GRANT SELECT ON VIEW my_database.my_schema.secure_view_for_adobe TO SHARE adobe_data_share;
    ```
 
-6. 使用您所在地区的正确标识符将Adobe的[!DNL Snowflake]帐户添加到[!DNL Snowflake Secure Data Share]。 请参阅[&#128279;](#collect-account-information)上方的区域/帐户映射表。
+6. 使用您所在地区的正确标识符将Adobe的[!DNL Snowflake]帐户添加到[!DNL Snowflake Secure Data Share]。 请参阅](#collect-account-information)上方的区域/帐户映射表[。
 
    ```sql
    ALTER SHARE adobe_data_share ADD ACCOUNTS = <Account Identifier based on region from the mapping table>;
@@ -146,18 +146,18 @@ ht-degree: 18%
 >abstract="阅读受众来源规范指南，了解如何为 Collaboration 格式化和结构化来自 Snowflake 的受众数据。"
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="查看指南"
 
-此时会出现一个对话框，说明在开始获取之前[!DNL Snowflake Share]和[!DNL Snowflake]受众文件的要求。 确保使用正确的共享名、帐户标识符、架构和视图创建您的[!DNL Snowflake Share]。 要确认受众数据的格式和结构正确无误，以便在Collaboration中使用，请查看&#x200B;**[[!UICONTROL 受众源规格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;指南。
+此时会出现一个对话框，说明在开始获取之前[!DNL Snowflake Share]和[!DNL Snowflake]受众文件的要求。 确保使用正确的共享名、帐户标识符、架构和视图创建您的[!DNL Snowflake Share]。 要确认受众数据的格式和结构正确无误，以便在Collaboration中使用，请查看&#x200B;**[[!UICONTROL 受众源规格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**&#x200B;指南。
 
 完成后，选择&#x200B;**[!UICONTROL 开始载入]**。
 
 ![使用指向受众源规范的链接准备[!DNL Snowflake Share]以加入对话框。](../../assets/setup/snowflake-audience-sourcing/prepare-snowflake-share-onboarding-dialog.png)
 
-### 验证[!DNL Snowflake Share]连接 {#authenticate-snowflake-share-connection}
+### 对 [!DNL Snowflake Share] 连接进行身份验证 {#authenticate-snowflake-share-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_snowflake"
->title="从Snowflake添加受众"
->abstract="要连接您的Snowflake共享，请授权Adobe的服务用户检索您的受众数据以供处理。 按照Experience League中概述的步骤，授予Adobe对Snowflake共享的访问权限。"
+>title="从 Snowflake 添加受众"
+>abstract="要连接您的 Snowflake Share，请授权 Adobe 的服务用户能够检索您的受众数据以进行处理。 按照 Experience League 中列出的步骤，授予 Adobe 对您的 Snowflake Share 的访问权限。"
 
 在此步骤中，您需要提供将您的[!DNL Snowflake Share]连接到Collaboration所需的[!DNL Snowflake Share]凭据：
 
@@ -186,7 +186,7 @@ ht-degree: 18%
 
 ### 映射字段 {#map-fields}
 
-**[!UICONTROL 映射]**&#x200B;屏幕当前为只读。 不能添加、删除或应用转换。 Collaboration根据&#x200B;**[受众源规格(v1.2)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;自动将源标识字段从[!DNL Snowflake Share]数据映射到目标字段。
+**[!UICONTROL 映射]**&#x200B;屏幕当前为只读。 不能添加、删除或应用转换。 Collaboration根据&#x200B;**[受众源规格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**&#x200B;自动将源标识字段从[!DNL Snowflake Share]数据映射到目标字段。
 
 以可视方式确认映射的字段并选择&#x200B;**[!UICONTROL 下一步]**&#x200B;以继续。 您还可以使用&#x200B;**[!UICONTROL 预览源数据]**&#x200B;选项预览[!DNL Snowflake Share]中的示例数据。
 
@@ -258,6 +258,6 @@ ht-degree: 18%
 
 有关其他受众来源补充方法的信息，请参阅以下文档：
 
-* [为受众源配置 [!DNL Amazon S3] &#x200B;](./configure-aws-s3-audience-sourcing.md)
+* [为受众源配置 [!DNL Amazon S3] ](./configure-aws-s3-audience-sourcing.md)
 * [来自Experience Platform的Source受众](./onboard-audiences.md)
 * [上传CSV文件以进行受众源](./upload-csv-audience-sourcing.md)
