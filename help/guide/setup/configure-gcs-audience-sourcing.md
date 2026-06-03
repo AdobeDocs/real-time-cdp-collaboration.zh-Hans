@@ -2,7 +2,7 @@
 title: '为受众源配置 [!DNL Google Cloud Storage] '
 description: 了解如何在Real-Time CDP Collaboration中将 [!DNL Google Cloud Storage] 存储段连接为自助受众源，包括先决条件、身份验证、字段映射、计划和验证。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
 source-wordcount: '2898'
