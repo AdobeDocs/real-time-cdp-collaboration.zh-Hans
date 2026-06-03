@@ -2,12 +2,12 @@
 title: '为受众源配置 [!DNL Snowflake] '
 description: 了解如何将 [!DNL Snowflake Secure Data Share] 配置为自助数据源并将其连接，以将受众数据摄取到Real-Time CDP Collaboration。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
+source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 21%
+source-wordcount: '1622'
+ht-degree: 20%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 21%
 
 ## 概述 {#overview}
 
-[!DNL Snowflake]是支持将第一方受众数据获取到Collaboration中的选项之一。 其他可用方法包括从[Experience Platform](./onboard-audiences.md)获取受众、连接[[!DNL AWS S3] 存储桶](./configure-aws-s3-audience-sourcing.md)或上传[CSV文件](./upload-csv-audience-sourcing.md)。
+[!DNL Snowflake]是支持将第一方受众数据获取到Collaboration中的选项之一。 其他可用方法包括从[Experience Platform](./onboard-audiences.md)获取受众、连接[[!DNL AWS S3] 存储桶](./configure-aws-s3-audience-sourcing.md)或上传[CSV文件](./upload-csv-audience-sourcing.md)。 要了解有关Collaboration中所有可用源的更多信息，请参阅[源概述](./source-overview.md)。
 
 按照以下步骤连接您的[!DNL Snowflake Secure Data Share]并将受众数据来源到Collaboration。 设置完成后，您可以审核、激活和管理协作项目的来源受众。
 
@@ -99,7 +99,7 @@ ht-degree: 21%
    GRANT SELECT ON VIEW my_database.my_schema.secure_view_for_adobe TO SHARE adobe_data_share;
    ```
 
-6. 使用您所在地区的正确标识符将Adobe的[!DNL Snowflake]帐户添加到[!DNL Snowflake Secure Data Share]。 请参阅[&#128279;](#collect-account-information)上方的区域/帐户映射表。
+6. 使用您所在地区的正确标识符将Adobe的[!DNL Snowflake]帐户添加到[!DNL Snowflake Secure Data Share]。 请参阅](#collect-account-information)上方的区域/帐户映射表[。
 
    ```sql
    ALTER SHARE adobe_data_share ADD ACCOUNTS = <Account Identifier based on region from the mapping table>;
@@ -258,6 +258,6 @@ ht-degree: 21%
 
 有关其他受众来源补充方法的信息，请参阅以下文档：
 
-* [为受众源配置 [!DNL Amazon S3] &#x200B;](./configure-aws-s3-audience-sourcing.md)
+* [为受众源配置 [!DNL Amazon S3] ](./configure-aws-s3-audience-sourcing.md)
 * [来自Experience Platform的Source受众](./onboard-audiences.md)
 * [上传CSV文件以进行受众源](./upload-csv-audience-sourcing.md)

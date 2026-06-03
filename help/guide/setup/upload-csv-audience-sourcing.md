@@ -3,15 +3,12 @@ title: 为受众源上传CSV文件
 description: 了解如何将CSV文件作为自助数据源上传，以将受众数据摄取到Real-Time CDP Collaboration。
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
 TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
 workflow-type: tm+mt
-source-wordcount: 1121
-ht-degree: 18%
+source-wordcount: 1070
+ht-degree: 19%
 
 ---
 
@@ -132,7 +129,7 @@ CSV文件上传是一种为协作项目获取第一方受众数据的方法。 �
 **[!UICONTROL 身份]**：显示数据可用时的身份总数和划分。
 **[!UICONTROL 类别]**：显示用于组织或筛选受众的任何标记。
 **[!UICONTROL 连接访问]**：显示受众是私有受众、公共受众还是与特定协作者共享。
-**[!UICONTROL 元数据可见性]**：显示对协作者可见的受众信息（如身份计数、重叠百分比和索引）。
+**[!UICONTROL 元数据可见性]**：显示对协作者可见的受众信息（例如身份计数、重叠百分比和索引）。
 
 在协作项目中使用受众之前，请使用此视图确认受众配置和可见性设置。 有关详细信息，请参阅[如何查看单个受众](./onboard-audiences.md#view-individual-audiences)。
 
@@ -145,4 +142,4 @@ CSV文件上传是一种为协作项目获取第一方受众数据的方法。 �
 * 查看受众重叠和见解。 查看[衡量促销活动效果](../../guide/collaborate/measure.md)。
 * 管理受众设置和可见性。 查看[Source并管理受众](./onboard-audiences.md)。
 
-有关其他受众源方法的信息，请参阅[为受众源配置AWS S3](./configure-aws-s3-audience-sourcing.md)或从Experience Platform[&#128279;](./onboard-audiences.md)配置Source受众。
+要了解有关Collaboration中所有可用源的更多信息，请参阅[源概述](./source-overview.md)。
