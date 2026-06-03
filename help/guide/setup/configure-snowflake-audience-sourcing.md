@@ -4,10 +4,10 @@ description: 了解如何将 [!DNL Snowflake Secure Data Share] 配置为自助�
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
+source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 21%
+source-wordcount: '1622'
+ht-degree: 20%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 21%
 
 ## 概述 {#overview}
 
-[!DNL Snowflake]是支持将第一方受众数据获取到Collaboration中的选项之一。 其他可用方法包括从[Experience Platform](./onboard-audiences.md)获取受众、连接[[!DNL AWS S3] 存储桶](./configure-aws-s3-audience-sourcing.md)或上传[CSV文件](./upload-csv-audience-sourcing.md)。
+[!DNL Snowflake]是支持将第一方受众数据获取到Collaboration中的选项之一。 其他可用方法包括从[Experience Platform](./onboard-audiences.md)获取受众、连接[[!DNL AWS S3] 存储桶](./configure-aws-s3-audience-sourcing.md)或上传[CSV文件](./upload-csv-audience-sourcing.md)。 要了解有关Collaboration中所有可用源的更多信息，请参阅[源概述](./source-overview.md)。
 
 按照以下步骤连接您的[!DNL Snowflake Secure Data Share]并将受众数据来源到Collaboration。 设置完成后，您可以审核、激活和管理协作项目的来源受众。
 

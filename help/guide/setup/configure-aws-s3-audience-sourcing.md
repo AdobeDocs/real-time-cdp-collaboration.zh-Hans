@@ -2,10 +2,10 @@
 title: '为受众源配置 [!DNL Amazon S3] '
 description: 了解如何将 [!DNL Amazon S3] 存储配置并连接为自助数据源，以将受众数据摄取到Real-Time CDP Collaboration。
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
+source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 93%
+source-wordcount: '1582'
+ht-degree: 96%
 
 ---
 
@@ -216,6 +216,6 @@ ht-degree: 93%
 
 您现在已成功配置并连接[!DNL Amazon S3]存储作为Collaboration中的数据源。 通过完成此工作流，您启用了用于激活和重叠分析的第一方受众数据的安全来源。
 
-要改用[!DNL Google Cloud Storage]，请参阅[为受众源配置GCS](./configure-gcs-audience-sourcing.md)。
-
 完成源获取后，您的受众将出现在&#x200B;**[!UICONTROL 我的受众]**&#x200B;工作区中，可随时进行协作和激活。 有关详细管理选项，请参阅[源和管理受众文档](./onboard-audiences.md)。
+
+要了解有关Collaboration中所有可用源的更多信息，请参阅[源概述](./source-overview.md)。

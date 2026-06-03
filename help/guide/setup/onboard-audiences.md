@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
 workflow-type: tm+mt
-source-wordcount: 3753
+source-wordcount: 3741
 ht-degree: 18%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="营销操作"
->abstract="<p>使用营销操作来控制从 Experience Platform 向 Real-Time CDP Collaboration 导入哪些受众数据。 <strong>数据协作</strong>营销操作支持 C4、C5 和 C9 数据使用标签。 <strong>数据科学</strong>营销操作支持 C9 数据使用标签。</p> <p> <ul><li> <em>启用</em>该复选框后，Experience Platform 中标有上述标签的任何数据都会排除，并且<strong>不</strong>会纳入 Real-Time CDP Collaboration。</li><li> <em>禁用</em>该复选框后，从 Experience Platform 引入 Real-Time CDP Collaboration 的数据不受限制。</li></ul></p>"
+>abstract="<p>使用营销操作来控制从 Experience Platform 向 Real-Time CDP Collaboration 导入哪些受众数据。 <strong>数据协作</strong>营销操作支持 C4、C5 和 C9 数据使用标签。 <strong>数据科学</strong>营销操作支持 C9 数据使用标签。</p> <p> <ul><li> <em>启用</em>该复选框后，Experience Platform 中标有上述标签的任何数据都会被排除，并且<strong>不</strong>被纳入 Real-Time CDP Collaboration。</li><li> <em>禁用</em>该复选框后，从 Experience Platform 引入 Real-Time CDP Collaboration 的数据不受限制。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hans" text="数据使用标签概述"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hans" text="数据使用标签词汇表"
 
@@ -49,7 +49,7 @@ ht-degree: 18%
 >
 >在建立您的第一个数据连接并获取您的第一个受众后，您可以从现有数据连接获取多个受众。 添加其他受众时，您将从[选择受众](#select-audiences)步骤开始，因为数据连接已建立。
 
-数据连接是将受众摄取到Collaboration中的来源。 支持的源包括Adobe Experience Platform、CSV文件上传、[!DNL Amazon S3]、[!DNL Snowflake]和[!DNL Google Cloud Storage]，每个源都有自己的工作流。 Adobe Audience Manager即将推出。
+数据连接是将受众摄取到Collaboration中的来源。 要了解有关所有可用源的更多信息，请参阅[源概述](./source-overview.md)。
 
 以下部分介绍了选择&#x200B;**Adobe Experience Platform**&#x200B;以及完成特定于Experience Platform的步骤（沙盒、治理和同意）。 如果您选择CSV、[!DNL Amazon S3]、[!DNL Snowflake]或[!DNL Google Cloud Storage]，请使用链接在[为选项选择数据源](#select-data-source)下的指南。
 

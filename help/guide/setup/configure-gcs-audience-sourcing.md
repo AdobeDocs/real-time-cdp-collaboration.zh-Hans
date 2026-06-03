@@ -3,7 +3,7 @@ title: '为受众源配置 [!DNL Google Cloud Storage] '
 description: 了解如何在Real-Time CDP Collaboration中将 [!DNL Google Cloud Storage] 存储段连接为自助受众源，包括先决条件、身份验证、字段映射、计划和验证。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
+source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 9%
@@ -21,7 +21,7 @@ ht-degree: 9%
 
 源自[!DNL Google Cloud Storage]的受众遵循与源自Adobe Experience Platform的受众相同的治理和数据处理规则。
 
-其他可用的源方法包括[Experience Platform](./onboard-audiences.md)、[Amazon S3](./configure-aws-s3-audience-sourcing.md)、[Snowflake](./configure-snowflake-audience-sourcing.md)和[CSV文件上传](./upload-csv-audience-sourcing.md)。
+其他可用的源方法包括[Experience Platform](./onboard-audiences.md)、[Amazon S3](./configure-aws-s3-audience-sourcing.md)、[Snowflake](./configure-snowflake-audience-sourcing.md)和[CSV文件上传](./upload-csv-audience-sourcing.md)。 要了解有关Collaboration中所有可用源的更多信息，请参阅[源概述](./source-overview.md)。
 
 ## 先决条件 {#prerequisites}
 
