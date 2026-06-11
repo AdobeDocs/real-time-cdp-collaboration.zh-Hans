@@ -2,20 +2,15 @@
 title: 与协作者建立连接
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 06d4477f3254e9811f410340c934ec5682a92cb0
 workflow-type: tm+mt
-source-wordcount: 3398
+source-wordcount: 3420
 ht-degree: 10%
 
 ---
@@ -25,6 +20,13 @@ ht-degree: 10%
 {{limited-availability-release-note}}
 
 协作者必须先建立连接，然后才能一起处理营销活动。 利用此连接，他们可以激活受众、创建项目并运行营销活动效果报表。
+
+Collaboration支持以下邀请方法：
+
+- [公共连接邀请](#discover-collaborators)：通过&#x200B;**[!UICONTROL 发现协作者]**&#x200B;工作区与另一个许可客户连接。
+- [专用连接邀请](#private-connection-invite)：使用连接代码直接与另一个许可客户连接。
+- [入门邀请](#invite-non-licensed-collaborator)：与没有许可证的组织连接。
+- [身份验证](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection)：与受支持的第三方广告平台连接。
 
 连接是根据您选择的协作模式建立的。 Collaboration支持两种关键协作模式：广告商到发布商和品牌到品牌。 要了解有关这些模式的更多信息，请参阅[用例](/help/guide/overview/use-cases.md)指南。
 
@@ -55,9 +57,6 @@ ht-degree: 10%
 
 ![品牌到品牌连接过程的高级图表。](/help/assets/connect/establish-connection/brand-to-brand-flow.png){zoomable="yes"}
 
->[!TIP]
->
->本指南介绍了广告商与发布商和品牌与品牌协作模式的连接过程。 要了解如何连接广告平台，请参阅[连接概述](/help/guide/connect/overview.md)指南中的[广告商到广告平台连接](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection)部分。
 
 ## 连接 {#connect}
 
@@ -314,9 +313,9 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 
 接下来，选择&#x200B;**[!UICONTROL 接受]**&#x200B;以继续连接。 连接状态将更改为&#x200B;**[!UICONTROL 活动]**，您现在可以开始协作处理项目。
 
-## 邀请一个协作者 {#invite-collaborator}
+## 邀请未许可的协作者（入门） {#invite-non-licensed-collaborator}
 
-请按照以下步骤邀请您的合作伙伴加入Real-Time CDP Collaboration [!DNL Starter]。 如果您想了解有关Collaboration [!DNL Starter]的更多详细信息以及此过程的分步概述，请参阅[[!DNL Starter] 概述文档](../overview/starter-overview.md)。
+请按照以下步骤邀请您的非许可合作伙伴加入Real-Time CDP Collaboration [!DNL Starter]。 如果您想了解有关Collaboration [!DNL Starter]的更多详细信息以及此过程的分步概述，请参阅[[!DNL Starter] 概述文档](../overview/starter-overview.md)。
 
 在启动邀请流程之前，请收集协作者的以下信息：
 
@@ -331,7 +330,7 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 
 >[!IMPORTANT]
 >
->邀请其他协作者，即表示您确认自己需对通过其活动产生的任何费用负责。 在Collaboration Starter[&#128279;](../setup/starter-credit-usage.md)中了解有关信用使用情况和消费情况的更多信息
+>邀请其他协作者，即表示您确认自己需对通过其活动产生的任何费用负责。 在Collaboration Starter](../setup/starter-credit-usage.md)中了解有关[信用使用情况和消费情况的更多信息
 
 ### 发送一个邀请 {#send-invitation}
 

@@ -2,9 +2,9 @@
 title: RTCDP Collaboration入门概述
 description: 了解Adobe Real-Time CDP Collaboration Starter如何帮助您与许可合作伙伴扩展和增强以隐私为中心的协作，而无需您自己的完整Real-Time CDP许可证。
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
+source-git-commit: d0d854f73fa835984e5cff5207ce3e01297c8deb
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 4%
@@ -36,7 +36,7 @@ ht-degree: 4%
 * 角色（广告商/发布商）：广告商
 * 行业
 
-收到并接受邀请后，贵组织必须通过Adobe查看和签署免费销售订单才能访问Collaboration [!DNL Starter]。 有关邀请流程的更多详细信息，请参阅[邀请协作者加入Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator)指南。
+收到并接受邀请后，贵组织必须通过Adobe查看和签署免费销售订单才能访问Collaboration [!DNL Starter]。 有关邀请流程的更多详细信息，请参阅[邀请协作者加入Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-non-licensed-collaborator)指南。
 
 ## 护栏 {#guardrails}
 
@@ -44,7 +44,7 @@ ht-degree: 4%
 
 | 护栏 | 描述 |
 |----------| ------------|
-| 受众来源 | 您可以将&#x200B;**[!DNL Amazon S3]**&#x200B;作为源，将受众数据引入Collaboration。 有关分步说明，请参阅[如何为受众源配置 [!DNL Amazon S3] &#x200B;](../setup/configure-aws-s3-audience-sourcing.md)。 |
+| 受众来源 | 您可以将&#x200B;**[!DNL Amazon S3]**&#x200B;作为源，将受众数据引入Collaboration。 有关分步说明，请参阅[如何为受众源配置 [!DNL Amazon S3] ](../setup/configure-aws-s3-audience-sourcing.md)。 |
 | 受众 | 您的[!DNL Starter]帐户有权使用的最大值为：<ul><li>来自[!DNL AWS S3]存储段的10个受众</li><li>总身份数5,000万（由受众数据中的行数计算）</li><li>每个受众每6天刷新1次</li></ul> |
 | 受众重叠和见解 | 您的受众可以运行受众重叠和分析的频率没有使用限制。 了解如何[发现重叠和比较受众](../collaborate/discover.md)。 |
 | 激活 | 作为[!DNL Starter]用户，您只能激活受众并与邀请您的合作伙伴共享受众。 目标到外部平台的配置不可用。 了解有关[激活受众的详细信息](../collaborate/activate.md)。 |
@@ -61,11 +61,11 @@ ht-degree: 4%
 
 首先，使用&#x200B;**管理员访问权限**&#x200B;工作区授予您自己必要的访问权限。 这可以确保您同时具有Experience Platform产品的管理权限和用户访问权限。 有关如何设置初始访问的详细步骤，请参阅[管理员访问说明](../setup/starter-admin-access.md)。
 
-完成后，您应会在[Experience Platform](https://experience.adobe.com/){target="_blank"}主页上的&#x200B;**[!UICONTROL 快速访问]**&#x200B;部分中看到&#x200B;**[!UICONTROL 权限]**、**[!UICONTROL Adobe Experience Cloud]**&#x200B;和&#x200B;**[!UICONTROL Real-Time CDP Collaboration]**。
+完成后，您应会在[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}主页上的&#x200B;**[!UICONTROL 快速访问]**&#x200B;部分中看到&#x200B;**[!UICONTROL 权限]**、**[!UICONTROL Experience Platform]**&#x200B;和&#x200B;**[!UICONTROL Real-Time CDP Collaboration]**。
 
-![Adobe Experience Cloud工作区在产品管理员访问设置后显示权限、Experience Platform和Real-Time CDP Collaboration。](/help/assets/overview/starter/setup-admin-access.png){zoomable="yes"}
+![在产品管理员访问设置后，Adobe Experience Cloud工作区显示权限、Experience Platform和Real-Time CDP Collaboration。](/help/assets/overview/starter/setup-admin-access.png){zoomable="yes"}
 
-有关访问角色和其他Adobe Experience Cloud产品的更多详细信息，请阅读[访问控制概述](../permissions/overview.md)。
+有关访问角色和不同Adobe Experience Cloud产品的更多详细信息，请阅读[访问控制概述](../permissions/overview.md)。
 
 ### 配置权限 {#configure-permissions}
 
@@ -83,7 +83,7 @@ ht-degree: 4%
 
 ### 了解信用使用情况 {#understand-credit-usage}
 
-所有Collaboration [!DNL Starter]活动都使用积分。 但是，作为受邀用户，您无需购买或管理这些积分。 邀请您的协作者涵盖与您的活动关联的所有信用使用情况。 若要了解更多信息，请参阅Collaboration [!DNL Starter][&#128279;](../setup/starter-credit-usage.md)文档中的信用使用情况和使用情况。
+所有Collaboration [!DNL Starter]活动都使用积分。 但是，作为受邀用户，您无需购买或管理这些积分。 邀请您的协作者涵盖与您的活动关联的所有信用使用情况。 若要了解更多信息，请参阅Collaboration [!DNL Starter]](../setup/starter-credit-usage.md)文档中的[信用使用情况和使用情况。
 
 ## 后续步骤 {#next-steps}
 
