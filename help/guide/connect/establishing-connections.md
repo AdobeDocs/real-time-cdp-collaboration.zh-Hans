@@ -13,9 +13,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+source-git-commit: 06d4477f3254e9811f410340c934ec5682a92cb0
 workflow-type: tm+mt
-source-wordcount: 3398
+source-wordcount: 3420
 ht-degree: 10%
 
 ---
@@ -25,6 +25,13 @@ ht-degree: 10%
 {{limited-availability-release-note}}
 
 协作者必须先建立连接，然后才能一起处理营销活动。 利用此连接，他们可以激活受众、创建项目并运行营销活动效果报表。
+
+Collaboration支持以下邀请方法：
+
+- [公共连接邀请](#discover-collaborators)：通过&#x200B;**[!UICONTROL 发现协作者]**&#x200B;工作区与另一个许可客户连接。
+- [专用连接邀请](#private-connection-invite)：使用连接代码直接与另一个许可客户连接。
+- [入门邀请](#invite-non-licensed-collaborator)：与没有许可证的组织连接。
+- [身份验证](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection)：与受支持的第三方广告平台连接。
 
 连接是根据您选择的协作模式建立的。 Collaboration支持两种关键协作模式：广告商到发布商和品牌到品牌。 要了解有关这些模式的更多信息，请参阅[用例](/help/guide/overview/use-cases.md)指南。
 
@@ -55,9 +62,6 @@ ht-degree: 10%
 
 ![品牌到品牌连接过程的高级图表。](/help/assets/connect/establish-connection/brand-to-brand-flow.png){zoomable="yes"}
 
->[!TIP]
->
->本指南介绍了广告商与发布商和品牌与品牌协作模式的连接过程。 要了解如何连接广告平台，请参阅[连接概述](/help/guide/connect/overview.md)指南中的[广告商到广告平台连接](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection)部分。
 
 ## 连接 {#connect}
 
@@ -314,9 +318,9 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 
 接下来，选择&#x200B;**[!UICONTROL 接受]**&#x200B;以继续连接。 连接状态将更改为&#x200B;**[!UICONTROL 活动]**，您现在可以开始协作处理项目。
 
-## 邀请一个协作者 {#invite-collaborator}
+## 邀请未许可的协作者（入门） {#invite-non-licensed-collaborator}
 
-请按照以下步骤邀请您的合作伙伴加入Real-Time CDP Collaboration [!DNL Starter]。 如果您想了解有关Collaboration [!DNL Starter]的更多详细信息以及此过程的分步概述，请参阅[[!DNL Starter] 概述文档](../overview/starter-overview.md)。
+请按照以下步骤邀请您的非许可合作伙伴加入Real-Time CDP Collaboration [!DNL Starter]。 如果您想了解有关Collaboration [!DNL Starter]的更多详细信息以及此过程的分步概述，请参阅[[!DNL Starter] 概述文档](../overview/starter-overview.md)。
 
 在启动邀请流程之前，请收集协作者的以下信息：
 

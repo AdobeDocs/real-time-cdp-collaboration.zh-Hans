@@ -4,7 +4,7 @@ description: 了解Adobe Real-Time CDP Collaboration Starter如何帮助您与�
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
+source-git-commit: d0d854f73fa835984e5cff5207ce3e01297c8deb
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 4%
@@ -36,7 +36,7 @@ ht-degree: 4%
 * 角色（广告商/发布商）：广告商
 * 行业
 
-收到并接受邀请后，贵组织必须通过Adobe查看和签署免费销售订单才能访问Collaboration [!DNL Starter]。 有关邀请流程的更多详细信息，请参阅[邀请协作者加入Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator)指南。
+收到并接受邀请后，贵组织必须通过Adobe查看和签署免费销售订单才能访问Collaboration [!DNL Starter]。 有关邀请流程的更多详细信息，请参阅[邀请协作者加入Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-non-licensed-collaborator)指南。
 
 ## 护栏 {#guardrails}
 
@@ -61,11 +61,11 @@ ht-degree: 4%
 
 首先，使用&#x200B;**管理员访问权限**&#x200B;工作区授予您自己必要的访问权限。 这可以确保您同时具有Experience Platform产品的管理权限和用户访问权限。 有关如何设置初始访问的详细步骤，请参阅[管理员访问说明](../setup/starter-admin-access.md)。
 
-完成后，您应会在[Experience Platform](https://experience.adobe.com/){target="_blank"}主页上的&#x200B;**[!UICONTROL 快速访问]**&#x200B;部分中看到&#x200B;**[!UICONTROL 权限]**、**[!UICONTROL Adobe Experience Cloud]**&#x200B;和&#x200B;**[!UICONTROL Real-Time CDP Collaboration]**。
+完成后，您应会在[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}主页上的&#x200B;**[!UICONTROL 快速访问]**&#x200B;部分中看到&#x200B;**[!UICONTROL 权限]**、**[!UICONTROL Experience Platform]**&#x200B;和&#x200B;**[!UICONTROL Real-Time CDP Collaboration]**。
 
-![Adobe Experience Cloud工作区在产品管理员访问设置后显示权限、Experience Platform和Real-Time CDP Collaboration。](/help/assets/overview/starter/setup-admin-access.png){zoomable="yes"}
+![在产品管理员访问设置后，Adobe Experience Cloud工作区显示权限、Experience Platform和Real-Time CDP Collaboration。](/help/assets/overview/starter/setup-admin-access.png){zoomable="yes"}
 
-有关访问角色和其他Adobe Experience Cloud产品的更多详细信息，请阅读[访问控制概述](../permissions/overview.md)。
+有关访问角色和不同Adobe Experience Cloud产品的更多详细信息，请阅读[访问控制概述](../permissions/overview.md)。
 
 ### 配置权限 {#configure-permissions}
 
