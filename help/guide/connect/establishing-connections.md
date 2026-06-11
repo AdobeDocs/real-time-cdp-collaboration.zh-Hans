@@ -2,18 +2,13 @@
 title: 与协作者建立连接
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 06d4477f3254e9811f410340c934ec5682a92cb0
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: fb824ee8d84cb8dc125da82a4afd6f50e3ce80cf
 workflow-type: tm+mt
 source-wordcount: 3420
 ht-degree: 10%
@@ -335,7 +330,7 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 
 >[!IMPORTANT]
 >
->邀请其他协作者，即表示您确认自己需对通过其活动产生的任何费用负责。 在Collaboration Starter[&#128279;](../setup/starter-credit-usage.md)中了解有关信用使用情况和消费情况的更多信息
+>邀请其他协作者，即表示您确认自己需对通过其活动产生的任何费用负责。 在Collaboration Starter](../setup/starter-credit-usage.md)中了解有关[信用使用情况和消费情况的更多信息
 
 ### 发送一个邀请 {#send-invitation}
 
