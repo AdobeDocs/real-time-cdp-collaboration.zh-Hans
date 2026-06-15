@@ -5,9 +5,13 @@ audience: admin, publisher
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5c0fd0c7a7914f5c7828b76150b266d4625b6266
 workflow-type: tm+mt
 source-wordcount: 1063
@@ -21,9 +25,9 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 激活]**&#x200B;工作区仅在连接进程](../connect/establishing-connections.md#connection-settings)期间[启用&#x200B;**受众激活**&#x200B;用例时才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>**[!UICONTROL 激活]**&#x200B;工作区仅在连接进程[&#128279;](../connect/establishing-connections.md#connection-settings)期间启用&#x200B;**受众激活**&#x200B;用例时才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
-Audience Activation允许您激活受众，以便在营销活动中使用。 根据连接](/help/guide/connect/establishing-connections.md#configure-connection-settings)中配置的受众激活设置[，激活可由协作者完成。 在您[发现营销活动的最佳受众](./discover.md)后，激活这些受众以使其可用。 激活受众后，该受众会发送到协作者的预配置目标，例如Adobe Experience Platform，可在其中用于营销活动。 有关设置目标的详细信息，请参阅[目标概述](../destinations/overview.md)指南。
+Audience Activation允许您激活受众，以便在营销活动中使用。 根据连接[&#128279;](/help/guide/connect/establishing-connections.md#configure-connection-settings)中配置的受众激活设置，激活可由协作者完成。 在您[发现营销活动的最佳受众](./discover.md)后，激活这些受众以使其可用。 激活受众后，该受众会发送到协作者的预配置目标，例如Adobe Experience Platform，可在其中用于营销活动。 有关设置目标的详细信息，请参阅[目标概述](../destinations/overview.md)指南。
 
 ## 激活新受众 {#activate-new-audiences}
 
