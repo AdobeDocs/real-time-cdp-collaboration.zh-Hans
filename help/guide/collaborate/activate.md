@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: 5c0fd0c7a7914f5c7828b76150b266d4625b6266
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1063
 ht-degree: 3%
 
 ---
@@ -75,9 +75,11 @@ Audience Activation允许您激活受众，以便在营销活动中使用。 根
 
 ### 设置受众刷新频率 {#set-audience-refresh-frequency}
 
-最后，设置受众刷新的所需频率和日期范围。 在当前版本中，唯一支持的频率选项是&#x200B;**[!UICONTROL 一次]**。 **[!UICONTROL 一次]**&#x200B;频率表示只激活一次受众，不刷新受众。 **[!UICONTROL Date]**&#x200B;选项自动填充了当前日期。
+最后，为受众激活设置所需的频率和日期范围。 使用&#x200B;**[!UICONTROL Frequency]**&#x200B;下拉菜单选择受众激活一次还是按定期计划刷新。 选择&#x200B;**[!UICONTROL 一次]**&#x200B;以一次激活受众，或选择循环频率，如&#x200B;**[!UICONTROL 每日]**、**[!UICONTROL 每两天]**、**[!UICONTROL 每三天]**、**[!UICONTROL 每四天]**、**[!UICONTROL 每五天]**、**[!UICONTROL 每六天]**、**[!UICONTROL 每两周]**、**[!UICONTROL 每三周]**&#x200B;或&#x200B;**[!UICONTROL 每月]**。
 
-![已突出显示“频率”部分的Audience激活工作流。](/help/assets/collaborate/activate/audience-frequency.png)
+![受众激活工作流程中的“频率”下拉菜单显示可用选项，包括“一次”、“每日”、“每2至6天”、“每2至3周”和“每月”。](/help/assets/collaborate/activate/activation-frequency.png)
+
+使用&#x200B;**[!UICONTROL 日期范围]**&#x200B;字段定义激活计划的开始和结束时间。
 
 如果对您的选择满意，请选择&#x200B;**[!UICONTROL 激活]**&#x200B;以完成工作流。
 
@@ -100,7 +102,7 @@ Audience Activation允许您激活受众，以便在营销活动中使用。 根
 | **[!UICONTROL 身份计数]** | 受众中的身份数。 |
 | **[!UICONTROL 身份重叠]** | 此受众与协作者库存中的配置文件总数之间的重叠身份数。 |
 | **[!UICONTROL 已创建]** | 最初发送受众的日期。 |
-| **[!UICONTROL 上次发送]** | 上次将受众发送给协作者时的日期。 |
+| **[!UICONTROL 上次发送]** | 上次通过激活工作流（一次性激活或定期计划）将受众提供给协作者时的日期。 |
 | **[!UICONTROL 匹配键]** | 指示用于受众的匹配键。 |
 
 ## 查看激活的受众 {#view-activated-audiences}
@@ -115,7 +117,7 @@ Audience Activation允许您激活受众，以便在营销活动中使用。 根
 | **[!UICONTROL 状态]** | 已激活受众的状态。 |
 | **[!UICONTROL 身份计数]** | 根据协作者发送受众时的重叠身份激活的身份数。 |
 | **[!UICONTROL 已创建]** | 激活受众的日期。 |
-| **[!UICONTROL 上次刷新时间]** | 根据激活期间选择的刷新计划，上次刷新受众的日期。 |
+| **[!UICONTROL 上次刷新时间]** | 基于激活期间选择的频率，上次刷新受众的日期。 |
 | **[!UICONTROL 目标]** | 受众激活到的目标。 |
 | **[!UICONTROL 匹配键]** | 指示用于受众的匹配键。 |
 
