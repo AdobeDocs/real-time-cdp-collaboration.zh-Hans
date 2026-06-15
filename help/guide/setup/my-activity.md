@@ -2,7 +2,7 @@
 title: 跟踪您的额度使用情况
 description: 了解如何在Real-Time CDP Collaboration中查看贵组织的信用电子钱包和跟踪信用消耗活动。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
 TQID: https://experienceleague.adobe.com/hDvkKFUCBYvsX8wntcYFrL6qZTxOo5CZOWAbxNwk7mw
 product_v2:
@@ -88,6 +88,6 @@ Credit Wallet显示您配置的信用额、已用信用额和可用信用额。
 
 要有效地管理您的信用消费，请执行以下操作：
 
-1. **了解**&#x200B;与每个活动关联的信用消耗量。 检查[Collaboration产品描述](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}以了解每个活动使用的积分表。
+1. **了解**&#x200B;与每个活动关联的信用消耗量。 检查[Collaboration产品描述](https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank}以了解每个活动使用的积分表。
 2. **定期监视使用情况**：查看可用信用和活动表，以了解受众管理、受众访问、受众出口和测量活动中的使用模式。
 3. **按连接跟踪**：使用连接名称识别哪些连接占用最多积分。
