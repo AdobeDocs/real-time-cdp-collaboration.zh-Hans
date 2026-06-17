@@ -2,21 +2,16 @@
 title: 与协作者建立连接
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: fb824ee8d84cb8dc125da82a4afd6f50e3ce80cf
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5e722bc0077495561181519121bab9bb267dc7e1
 workflow-type: tm+mt
-source-wordcount: 3420
-ht-degree: 10%
+source-wordcount: 3459
+ht-degree: 9%
 
 ---
 
@@ -320,7 +315,7 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 
 ## 邀请未许可的协作者（入门） {#invite-non-licensed-collaborator}
 
-请按照以下步骤邀请您的非许可合作伙伴加入Real-Time CDP Collaboration [!DNL Starter]。 如果您想了解有关Collaboration [!DNL Starter]的更多详细信息以及此过程的分步概述，请参阅[[!DNL Starter] 概述文档](../overview/starter-overview.md)。
+请按照以下步骤邀请您的非许可合作伙伴加入Real-Time CDP Collaboration [!DNL Starter]。 邀请将直接发送到协作者的电子邮件地址，并且必须在建立连接之前被接受。 如果您想了解有关Collaboration [!DNL Starter]的更多详细信息以及此过程的分步概述，请参阅[[!DNL Starter] 概述文档](../overview/starter-overview.md)。
 
 在启动邀请流程之前，请收集协作者的以下信息：
 
@@ -335,7 +330,7 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 
 >[!IMPORTANT]
 >
->邀请其他协作者，即表示您确认自己需对通过其活动产生的任何费用负责。 在Collaboration Starter[&#128279;](../setup/starter-credit-usage.md)中了解有关信用使用情况和消费情况的更多信息
+>邀请其他协作者，即表示您确认自己需对通过其活动产生的任何费用负责。 在Collaboration Starter](../setup/starter-credit-usage.md)中了解有关[信用使用情况和消费情况的更多信息
 
 ### 发送一个邀请 {#send-invitation}
 
@@ -369,9 +364,14 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 
 ![确认对话框用于确认邀请已成功发送。](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
 
+发送邀请后，您的合作伙伴组织会收到一封电子邮件，其中包含有关查看和签署Real-Time Collaboration条款和条件的说明。
+
 ### 接受邀请并签署条款 {#accept-invitation-sign-terms}
 
-发送邀请后，您的合作伙伴组织会收到一封电子邮件，其中包含有关查看和接受Real-Time Collaboration条款和条件的说明。 在接受之前，他们还可以探索Collaboration的功能。
+要继续，您的受邀合作伙伴组织必须：
+
+- 打开邀请电子邮件。
+- 按照链接查看并签署Real-Time CDP Collaboration条款和条件。
 
 ![加入Collaboration Starter的邀请电子邮件。](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
 
@@ -379,10 +379,11 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 
 ### 配置确认 {#provisioning-confirmation}
 
-配置过程完成后，将向受邀组织发送欢迎电子邮件，确认Collaboration [!DNL Starter]已准备好使用。 此电子邮件提供了有关如何完成以下操作的说明：
+配置过程完成后，将向受邀组织发送第二封电子邮件，以确认Collaboration [!DNL Starter]已准备好使用。 此欢迎电子邮件提供了有关如何完成以下操作的说明：
 
 - [配置管理员和用户访问权限](../setup/starter-admin-access.md)
 - [设置访问Collaboration的权限](../setup/starter-permission-controls.md)
+- [建立与邀请协作者之间的连接](#connect)
 
 ![向受邀组织发送欢迎电子邮件，其中包含设置必要访问和权限的说明。](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
 
@@ -390,4 +391,4 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 
 ## 后续步骤
 
-与协作者建立连接后，您和协作者现在可以[创建项目](/help/guide/collaborate/manage-projects.md#create-project)。
+建立连接后，可以与协作者[创建项目](/help/guide/collaborate/manage-projects.md#create-project)。
