@@ -2,7 +2,7 @@
 title: 来自Real-Time CDP Collaboration中 [!DNL Azure] storage的Source受众
 description: Source第一方受众数据从Azure Blob Storage或Azure Data Lake Storage Gen2转至Real-Time CDP Collaboration。
 keywords: Real-Time CDP Collaboration；受众源； [!DNL Azure Blob Storage]; [!DNL Azure Data Lake Storage] Gen2
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 3b62837cecf6cf7c288ce1633d43312ff6a92664
 workflow-type: tm+mt
 source-wordcount: '2050'
