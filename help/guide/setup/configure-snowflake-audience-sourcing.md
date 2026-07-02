@@ -6,8 +6,8 @@ badgelimitedavailability: label="有限发布版" type="Informative" url="https:
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
 source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 20%
+source-wordcount: '1598'
+ht-degree: 21%
 
 ---
 
