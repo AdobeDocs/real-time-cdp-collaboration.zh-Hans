@@ -2,10 +2,10 @@
 title: '为受众源配置 [!DNL Google Cloud Storage] '
 description: 了解如何在Real-Time CDP Collaboration中将 [!DNL Google Cloud Storage] 存储段连接为自助受众源，包括先决条件、身份验证、字段映射、计划和验证。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2910'
 ht-degree: 9%
 
 ---
@@ -280,7 +280,7 @@ ht-degree: 9%
 
 #### 将IAM角色分配给Adobe {#assign-role}
 
-接下来，在[!DNL Google Cloud Console]中打开&#x200B;[**[!DNL Buckets]**&#x200B;页面](https://console.cloud.google.com/storage/browser)，并选择包含受众数据的存储桶。
+接下来，在[!DNL Google Cloud Console]中打开&#x200B;[**[!DNL Buckets]**页面](https://console.cloud.google.com/storage/browser)，并选择包含受众数据的存储桶。
 
 导航到&#x200B;**[!DNL Permissions]**&#x200B;选项卡，选择&#x200B;**[!DNL View by principals]**，然后选择&#x200B;**[!DNL Grant access]**。
 
@@ -313,7 +313,7 @@ Adobe现在可以在选定的GCS存储段中安全访问您的受众数据。 �
 
 有关其他受众来源补充方法，请参阅：
 
-* [为受众源配置 [!DNL Amazon S3] &#x200B;](./configure-aws-s3-audience-sourcing.md)
-* [为受众源配置 [!DNL Snowflake] &#x200B;](./configure-snowflake-audience-sourcing.md)
+* [为受众源配置 [!DNL Amazon S3] ](./configure-aws-s3-audience-sourcing.md)
+* [为受众源配置 [!DNL Snowflake] ](./configure-snowflake-audience-sourcing.md)
 * [来自Experience Platform的Source受众](./onboard-audiences.md)
 * [上传CSV文件以进行受众源](./upload-csv-audience-sourcing.md)
