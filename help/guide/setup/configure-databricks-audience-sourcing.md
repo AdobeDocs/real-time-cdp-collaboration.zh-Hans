@@ -96,7 +96,7 @@ ht-degree: 8%
 >abstract="有关为受众源配置共享的说明，请参阅[!DNL Databricks Delta Share]源指南"
 
 提供允许Collaboration访问您的[!DNL Delta Share]所需的详细信息。 输入[!DNL Databricks Delta Share]中的提供程序、共享、架构和表详细信息。 所需的成员资格表必须在共享架构中可用。 如果使用元数据表，则该元数据表必须也可在同一共享架构中使用。
-输入所需信息后，选择**[!UICONTROL 连接]**。
+输入所需信息后，选择&#x200B;**[!UICONTROL 连接]**。
 
 Collaboration会在Adobe的工作区中验证并装载共享。 此步骤最多可能需要一分钟。 建立连接时将显示进度指示器。
 
@@ -313,8 +313,8 @@ Collaboration会在Adobe的工作区中验证并装载共享。 此步骤最多�
 
 有关其他受众来源补充方法，请参阅：
 
-* [为受众源配置 [!DNL Google Cloud Storage] ](./configure-gcs-audience-sourcing.md)
-* [为受众源配置 [!DNL Amazon S3] ](./configure-aws-s3-audience-sourcing.md)
-* [为受众源配置 [!DNL Snowflake] ](./configure-snowflake-audience-sourcing.md)
+* [为受众源配置 [!DNL Google Cloud Storage] &#x200B;](./configure-gcs-audience-sourcing.md)
+* [为受众源配置 [!DNL Amazon S3] &#x200B;](./configure-aws-s3-audience-sourcing.md)
+* [为受众源配置 [!DNL Snowflake] &#x200B;](./configure-snowflake-audience-sourcing.md)
 * [来自Experience Platform的Source受众](./onboard-audiences.md)
 * [上传CSV文件以进行受众源](./upload-csv-audience-sourcing.md)
