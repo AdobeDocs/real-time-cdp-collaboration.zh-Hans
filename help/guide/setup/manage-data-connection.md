@@ -5,9 +5,13 @@ audience: administrator, data engineer
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 TQID: https://experienceleague.adobe.com/QvkEpR1fJMZ5BXrucAzEtxFNSfSMS-2hIZvMSg63ySE
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
 workflow-type: tm+mt
 source-wordcount: 1253
@@ -114,7 +118,7 @@ ht-degree: 35%
 
 ##### 添加[!DNL Demdex ID (ECID)] {#add-demdex-id-ecid}
 
-如果要将[!DNL Demdex ID (ECID)]添加为匹配键，请首先确保在帐户设置](../setup/onboard-account.md#set-up-match-keys)中启用了[。 有关[!DNL Demdex ID (ECID)]的详细信息，请阅读[支持的匹配键](../setup/onboard-account.md#supported-match-keys)。
+如果要将[!DNL Demdex ID (ECID)]添加为匹配键，请首先确保在帐户设置[&#128279;](../setup/onboard-account.md#set-up-match-keys)中启用了。 有关[!DNL Demdex ID (ECID)]的详细信息，请阅读[支持的匹配键](../setup/onboard-account.md#supported-match-keys)。
 
 在&#x200B;**[!UICONTROL 匹配键]**&#x200B;对话框中，添加新的映射字段行。 然后，选择&#x200B;**[!UICONTROL ECID]**&#x200B;作为源字段，并从下拉列表中选择&#x200B;**[!UICONTROL Demdex ID (ECID)]**&#x200B;作为目标字段。
 
