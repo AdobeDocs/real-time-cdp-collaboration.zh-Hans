@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
+source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
 workflow-type: tm+mt
-source-wordcount: 3741
+source-wordcount: 3773
 ht-degree: 18%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 18%
 
 数据连接是将受众摄取到Collaboration中的来源。 要了解有关所有可用源的更多信息，请参阅[源概述](./source-overview.md)。
 
-以下部分介绍了选择&#x200B;**Adobe Experience Platform**&#x200B;以及完成特定于Experience Platform的步骤（沙盒、治理和同意）。 如果您选择CSV、[!DNL Amazon S3]、[!DNL Snowflake]或[!DNL Google Cloud Storage]，请使用链接在[为选项选择数据源](#select-data-source)下的指南。
+以下部分介绍了选择&#x200B;**Adobe Experience Platform**&#x200B;以及完成特定于Experience Platform的步骤（沙盒、治理和同意）。 如果您选择CSV、[!DNL Amazon S3]、[!DNL Snowflake]、[!DNL Google Cloud Storage]、Adobe Audience Manager或[!DNL Databricks Delta Share]，请使用链接在[为选项选择数据源](#select-data-source)下的指南。
 
 您为Experience Platform数据连接配置的任何设置都将应用于源自该连接的所有受众。
 
@@ -72,7 +72,8 @@ ht-degree: 18%
 * **Amazon Web Services**：直接从S3存储桶连接到Amazon S3存储以源受众数据。 有关分步说明，请参阅[为受众源配置AWS S3](./configure-aws-s3-audience-sourcing.md)指南。
 * **Snowflake**：使用Snowflake数据仓库无缝提取受众数据。 请参阅[配置 [!DNL Snowflake] 受众源](./configure-snowflake-audience-sourcing.md)指南。
 * **Google Cloud Storage**：连接到您的GCS存储桶以源受众数据。 有关分步说明，请参阅[为受众源配置GCS](./configure-gcs-audience-sourcing.md)指南。
-* **Adobe Audience Manager** （_即将推出_）：从Adobe Audience ManagerSource您的受众区段。
+* **[!DNL Databricks Delta Share]**：连接到您的[!DNL Databricks Delta Share]，以从[!DNL Databricks]环境获取第一方受众数据。 请参阅[配置 [!DNL Databricks Delta Share] 受众源](./configure-databricks-audience-sourcing.md)指南。
+* **Adobe Audience Manager**：从Adobe Audience ManagerSource您的受众区段。 要开始操作，请参阅[为受众源配置Adobe Audience Manager](./configure-aam-audience-sourcing.md)指南。
 
 选择数据源，然后选择&#x200B;**[!UICONTROL 下一步]**。
 

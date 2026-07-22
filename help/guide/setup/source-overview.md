@@ -2,9 +2,9 @@
 title: 源概述
 description: 了解Adobe Real-Time CDP Collaboration中的源连接器
 audience: admin, publisher, advertiser
-source-git-commit: b30d1b01e929e586404faac34650c7fd479d071b
+source-git-commit: 23f7d91d37d0d9c9b352716caa4827dcc87093d8
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '412'
 ht-degree: 10%
 
 ---
@@ -38,7 +38,8 @@ Collaboration中有以下源。 要查看该来源的分步采购指南，请选
 | [[!DNL Snowflake]](./configure-snowflake-audience-sourcing.md) | 连接您的[!DNL Snowflake Secure Data Share]以引入大规模受众数据集。 | 可用 |
 | [[!DNL Google Cloud Storage]](./configure-gcs-audience-sourcing.md) | 连接您的GCS存储桶以引入存储在您的[!DNL Google Cloud]环境中的受众数据。 | 可用 |
 | [CSV文件上传](./upload-csv-audience-sourcing.md) | 直接从本地系统上传格式化的CSV文件。 | 可用 |
-| Adobe Audience Manager | 将现有Audience Manager区段引入您的Collaboration项目。 | *即将推出* |
+| [Adobe Audience Manager](./configure-aam-audience-sourcing.md) | 将现有Audience Manager区段引入您的Collaboration项目。 | 可用 |
+| [[!DNL Databricks Delta Share]](./configure-databricks-audience-sourcing.md) | 连接您的[!DNL Databricks Delta Share]以从[!DNL Databricks]环境中引入大规模受众数据集。 | 可用 |
 | [[!DNL Azure Blob Storage]](./configure-azure-storage-audience-sourcing.md) | 将您的[!DNL Azure Blob Storage]容器连接到[!DNL Microsoft Azure]环境中的源第一方数据集。 | 可用 |
 | [[!DNL Azure Data Lake Storage]](./configure-azure-storage-audience-sourcing.md) | 连接您的[!DNL Azure Data Lake Storage Gen 2]帐户以引入存储在[!DNL Azure]数据湖中的受众数据。 | 可用 |
 
