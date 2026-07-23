@@ -15,10 +15,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 7affd3abf7a10019503825cb20d9be1ad4000603
+source-git-commit: e6156a39107edb0e15e2115db0762f6a86801ed6
 workflow-type: tm+mt
-source-wordcount: 1903
-ht-degree: 3%
+source-wordcount: 1968
+ht-degree: 4%
 
 ---
 
@@ -26,9 +26,21 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-**上次更新时间**：2026年4月。
+**上次更新时间**：2026年7月。
 
 以下发行说明介绍了Adobe Real-Time CDP Collaboration中发布的功能。 Collaboration版本在持续交付模型上运行，该模型允许大约每月一次的发布。 这些发行说明会经常更新，因此请务必定期检查。
+
+## 2026年7月 {#july-2026}
+
+Real-Time CDP Collaboration现在支持其他自助受众源选项。
+
+**新增功能或更新后的功能**
+
+| 功能 | 描述 |
+| ------- | ----------- |
+| 来自[!DNL Databricks Delta Share]和Adobe Audience Manager的自助受众源 | 您现在可以直接从[!DNL Databricks Delta Share]获取第一方受众，或将符合条件的Adobe Audience Manager区段引入Collaboration。 有关设置说明，请参阅以下指南： <ul><li>[为受众源配置 [!DNL Databricks Delta Share] &#x200B;](../setup/configure-databricks-audience-sourcing.md)</li><li>[为受众源配置Adobe Audience Manager](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+
+{style="table-layout:auto"}
 
 ## 2026 年 4 月 {#april-2026}
 
@@ -91,12 +103,12 @@ Real-Time CDP Collaboration现在可供&#x200B;**欧洲、中东和非洲(EMEA)*
 Real-Time CDP Collaboration现在可供&#x200B;**加拿大**&#x200B;的客户使用。 它自动提供给这些地区的Real-Time CDP Prime和Ultimate客户。
 
 * Collaboration现在支持以下[个匹配的键](../setup/onboard-account.md#supported-match-keys)：
-   * 哈希电子邮件
-   * 散列电话号码
-   * CRM ID
-   * 忠诚度 ID
-   * 哈希 IPv4
-   * AdFixus ID
+  * 哈希电子邮件
+  * 散列电话号码
+  * CRM ID
+  * 忠诚度 ID
+  * 哈希 IPv4
+  * AdFixus ID
 * 现在，Collaboration中提供了多个匹配键，使您能够扩展受众规模并提高匹配率。 在获取受众、建立连接和激活受众时，可以使用多个匹配键。 要了解有关使用多个匹配键的更多信息，请阅读[设置匹配键](../setup/onboard-account.md)和[来源受众](../setup/onboard-audiences.md#map-fields)指南。
 
 >[!IMPORTANT]
@@ -120,7 +132,7 @@ Real-time CDP Collaboration现在支持品牌到品牌协作。 协作者现在�
 
 * Real-Time CDP Collaboration现在可供&#x200B;**澳大利亚**&#x200B;和&#x200B;**新西兰**&#x200B;的客户使用。 它自动提供给这些地区的Real-Time CDP Prime和Ultimate客户。
 * Real-Time CDP Collaboration现在通过&#x200B;**[!UICONTROL 设置]**&#x200B;部分中的&#x200B;**[!UICONTROL 我的目标]**&#x200B;选项卡提供[自助目标](../setup/manage-destinations.md)。 目标允许您在第三方平台（如广告网络或数据管理平台）中激活受众，以通过各种渠道触及您的客户。 目前，仅支持Adobe Experience Platform目标。 如果您有兴趣配置其他目标，请联系您的Adobe代表。 若要了解有关目标的更多信息，请阅读[目标概述](../destinations/overview.md)指南。
-   * 目标还添加了对在[Collaboration受众门户](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences)中查看Adobe Experience Platform受众的支持。
+  * 目标还添加了对在[Collaboration受众门户](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences)中查看Adobe Experience Platform受众的支持。
 * 您现在可以在Collaboration中编辑现有数据连接的受众刷新频率。 目前，您可以选择每天或每两到六天刷新一次受众。 要了解有关如何编辑受众刷新频率的更多信息，请阅读[管理数据连接](../setup/manage-data-connection.md#scheduling)指南。
 * 现在，系统会为连接内选择的每个用例设置协作者之间的信用拆分。 您可以为每个用例设置不同的信用冲减规则，以更好地控制信用额的使用方式。 要了解有关信用拆分功能的更多信息，请阅读[连接设置](../connect/establishing-connections.md#connection-settings)指南。 若要了解有关如何使用积分的更多信息，请阅读[积分活动类型](../setup/my-activity.md#types-of-activities)指南。<br> ![显示信用拆分功能的连接设置屏幕。](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
 * 发布者现在可以在接受来自广告商的连接设置之前设置广告商名称和ID。 发布者可以设置与其内部系统一致的名称和ID，这可能与广告商的名称和ID不同。 要了解有关添加广告商名称和ID的详细信息，请阅读[连接设置](../connect/establishing-connections.md#connection-settings.md)指南。<br> ![连接设置屏幕，显示发布者设置广告商名称和ID。](/help/assets/release-notes/2025/add-advertiser-names-modal.png){zoomable="yes"}
@@ -134,9 +146,9 @@ Real-time CDP Collaboration现在支持品牌到品牌协作。 协作者现在�
 
 * 现在，当[将受众](/help/guide/setup/onboard-audiences.md)收集到Collaboration中时，您可以将受众刷新频率设置为每&#x200B;**天到每六天**，以便更好地管理[受众管理点数活动](/help/guide/setup/my-activity.md#types-of-activities)。 有关详细信息，请阅读[管理受众](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences)指南。<br> ![计划屏幕，其中显示更新受众成员资格的不同频率间隔。](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "计划屏幕，其中显示更新受众成员资格的不同频率间隔。"){width="250" align="center" zoomable="yes"}
 * 与协作者建立连接时，您现在可以从预定义的&#x200B;**用例**&#x200B;中进行选择。 所选用例确定哪些项目部分和产品功能可用。 有关详细信息，请阅读[管理项目](/help/guide/collaborate/manage-projects.md#project-use-cases)指南。
-   * *度量*&#x200B;启用&#x200B;**度量**&#x200B;项目节。
-   * *受众发现*&#x200B;启用&#x200B;**发现**&#x200B;项目部分。
-   * *受众激活*&#x200B;启用&#x200B;**激活**&#x200B;项目部分<br>
+  * *度量*&#x200B;启用&#x200B;**度量**&#x200B;项目节。
+  * *受众发现*&#x200B;启用&#x200B;**发现**&#x200B;项目部分。
+  * *受众激活*&#x200B;启用&#x200B;**激活**&#x200B;项目部分<br>
 * 现在，您可以删除与不希望再使用的协作者建立的连接。 要了解如何删除连接，请阅读[删除连接](/help/guide/connect/establishing-connections.md#delete-connections)指南。
 
 ## 2025 年 2 月 {#february-2025}
