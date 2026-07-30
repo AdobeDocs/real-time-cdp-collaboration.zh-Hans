@@ -2,16 +2,18 @@
 title: 源概述
 description: 了解Adobe Real-Time CDP Collaboration中的源连接器
 audience: admin, publisher, advertiser
-source-git-commit: 23f7d91d37d0d9c9b352716caa4827dcc87093d8
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 10%
+source-wordcount: '433'
+ht-degree: 9%
 
 ---
 
 # 源概述
 
 在Adobe Real-Time CDP Collaboration中，源（或数据连接）是受众数据的来源。 您可以从本地系统连接到各种源类型，如Adobe应用程序、基于云的存储或文件，以便[为Collaboration项目提供和管理受众](./onboard-audiences.md)。 在受众源工作流程中，您可以根据组织的需求选择和设置首选来源。
+
+有关受众、源、数据连接、项目和目标如何在Collaboration中组合的概念性概述，请参阅[受众概述](./audiences-overview.md)。
 
 ## 连接源 {#connect-a-source}
 

@@ -2,18 +2,14 @@
 title: Source和管理受众
 description: 了解如何在Adobe Real-Time CDP Collaboration中获取和管理受众
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: 3773
+source-wordcount: 3758
 ht-degree: 18%
 
 ---
@@ -23,6 +19,8 @@ ht-degree: 18%
 {{limited-availability-release-note}}
 
 受众是根据各种属性划分的特定用户或客户组。 通过这些功能，协作者可共同创作有针对性的营销和个性化体验，从而更有效地开展广告促销活动。 本指南介绍如何在Real-Time CDP Collaboration中获取受众、查看受众仪表板以及管理单个受众。
+
+有关Collaboration中受众的概念性说明，请参阅[受众概述](../setup/audiences-overview.md)。
 
 ## 将Source受众引入Collaboration {#source-audiences}
 
@@ -43,7 +41,7 @@ ht-degree: 18%
 >title="营销操作"
 >abstract="<p>使用营销操作来控制从 Experience Platform 向 Real-Time CDP Collaboration 导入哪些受众数据。 <strong>数据协作</strong>营销操作支持 C4、C5 和 C9 数据使用标签。 <strong>数据科学</strong>营销操作支持 C9 数据使用标签。</p> <p> <ul><li> <em>启用</em>该复选框后，Experience Platform 中标有上述标签的任何数据都会被排除，并且<strong>不</strong>被纳入 Real-Time CDP Collaboration。</li><li> <em>禁用</em>该复选框后，从 Experience Platform 引入 Real-Time CDP Collaboration 的数据不受限制。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hans" text="数据使用标签概述"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hans" text="数据使用标签词汇表"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="数据使用标签词汇表"
 
 >[!IMPORTANT]
 >
@@ -91,7 +89,7 @@ ht-degree: 18%
 
 使用营销操作可以控制要将哪些受众数据从Experience Platform引入Collaboration。 **[!UICONTROL 数据协作]**&#x200B;营销操作支持 C4、C5 和 C9 数据使用标签。 **[!UICONTROL 数据科学]**&#x200B;营销操作支持 C9 数据使用标签。
 
-详细了解[C4、C5和C9数据使用标签](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
+详细了解[C4、C5和C9数据使用标签](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
 
 * 当复选框为&#x200B;***已启用***&#x200B;时，Experience Platform中标记如上所述的任何数据都将被排除，**不会**&#x200B;引入Collaboration。
 * 禁用复选框&#x200B;***后***，对来自Experience Platform的数据没有限制。
@@ -136,17 +134,17 @@ ht-degree: 18%
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="身份标识命名空间"
 >abstract="从 Experience Platform 组织中可用的标准的及自定义的身份标识命名空间中选择一个身份标识命名空间。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hans#standard" text="Experience Platform 中的标准和身份标识命名空间"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform 中的标准和身份标识命名空间"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="轮廓属性"
 >abstract="从 Experience Platform 中的轮廓类的并集架构中选择属性。 此视图显示并集架构中存在的属于 XDM 个人轮廓类的属性。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hans" text="Experience Platform 中的联合架构"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform 中的联合架构"
 
 接下来，您将选择要映射到Collaboration中目标字段的源字段。 可用的目标字段将基于您在[帐户设置](./onboard-account.md#set-up-match-keys)期间选择的匹配键。
 
-如果您在帐户设置期间选择[!DNL Demdex ID (ECID)]作为匹配键，则将自动从ECID提取和映射[!DNL Demdex ID]，并且您无需执行任何操作。 要了解有关[!DNL Demdex IDs]的更多信息，请参阅[[!DNL Demdex ID]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/identity/unified-identity-support)指南。
+如果您在帐户设置期间选择[!DNL Demdex ID (ECID)]作为匹配键，则将自动从ECID提取和映射[!DNL Demdex ID]，并且您无需执行任何操作。 要了解有关[!DNL Demdex IDs]的更多信息，请参阅[[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support)指南。
 
 ![添加受众工作区，可选择将源字段映射到目标字段。](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -156,7 +154,7 @@ ht-degree: 18%
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source字段]**&#x200B;是Experience Platform中的身份命名空间和属性。 这些命名空间包括[标准](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hans#standard){target="_blank"}和[自定义](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hans#create-namespaces){target="_blank"}身份命名空间。 它们还包含[联合架构](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hans){target="_blank"}中存在的属于XDM个人资料类的个人资料属性。
+**[!UICONTROL Source字段]**&#x200B;是Experience Platform中的身份命名空间和属性。 这些命名空间包括[标准](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard){target="_blank"}和[自定义](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}身份命名空间。 它们还包含[联合架构](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html){target="_blank"}中存在的属于XDM个人资料类的个人资料属性。
 
 Source字段会被映射到Collaboration中定义的目标字段。
 
@@ -239,7 +237,7 @@ Source字段会被映射到Collaboration中定义的目标字段。
 | **[!UICONTROL 名称]** | 受众的名称。 |
 | **[!UICONTROL 标识]** | 指示此受众中存在的身份数。 请注意，如果同一配置文件具有两个或更多身份，并且这些身份在项目中被用作匹配键，则该配置文件将在计数中显示两次。 |
 | **[!UICONTROL 状态]** | 指示受众是否处于活动状态以及是否可以在项目中使用。 **[!UICONTROL Pending]**&#x200B;状态表示受众最近刚获得来源，并且身份尚未填充。 初次刷新后（通常在数据连接设置后的24小时内刷新），源受众将填充用户档案。 |
-| **[!UICONTROL Source]** | 指示受众源自何处。 在Collaboration的当前版本中，Experience Platform是唯一受支持的源。 |
+| **[!UICONTROL Source]** | 指示受众源自何处。 |
 | **[!UICONTROL 数据连接]** | 受众来源的数据连接。 您可以选择名称以查看数据连接。 |
 | **[!UICONTROL 连接访问]** | 定义受众是私有还是公共。 公共受众可在重叠报表中找到，并可在项目中激活。 |
 | **[!UICONTROL 已创建]** | 指示受众最初来源于Collaboration的时间。 |
@@ -265,7 +263,7 @@ Source字段会被映射到Collaboration中定义的目标字段。
 | 项目 | 描述 |
 |----------|---------|
 | **[!UICONTROL 状态]** | 指示受众是否处于活动状态以及是否可以在项目中使用。 |
-| **[!UICONTROL Source]** | 指示受众源自何处。 在Collaboration的当前版本中，Experience Platform是唯一受支持的源。 |
+| **[!UICONTROL Source]** | 指示受众源自何处。 |
 | **[!UICONTROL 数据连接]** | 受众来源的数据连接。 |
 | **[!UICONTROL 上次更新时间]** | 指示在Collaboration中更新受众的最后日期和时间。 这并非指上次刷新受众的时间，而是指上次更改受众配置或元数据的时间 |
 | **[!UICONTROL 上次更新者]** | 指示上次更新受众的用户。 |
