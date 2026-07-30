@@ -4,9 +4,13 @@ description: 了解如何将受众发送给协作者，并将收到的受众手�
 audience: admin, publisher, advertiser
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5d12a5004a6854392c130fd6b93a841fb22cf6ab
 workflow-type: tm+mt
 source-wordcount: 1565
@@ -20,7 +24,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 激活]**&#x200B;选项卡仅在连接进程](../connect/establishing-connections.md#connection-settings)期间[启用了&#x200B;**受众激活**&#x200B;用例时才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)。
+>**[!UICONTROL 激活]**&#x200B;选项卡仅在连接进程[&#128279;](../connect/establishing-connections.md#connection-settings)期间启用了&#x200B;**受众激活**&#x200B;用例时才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)。
 
 使用[发现选项卡](./discover.md)确定与您的活动最匹配的受众，然后将其发送给您的协作者。 接收协作者选择配置的目标并安排接收受众进行激活。
 

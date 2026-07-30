@@ -3,8 +3,11 @@ title: 配置和管理云存储目标
 description: 了解如何在Real-Time CDP Collaboration中配置、查看和删除Cloud Storage目标。
 audience: admin, publisher
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 60124235569ca9b17b3bb1cef502d57d39e82e1f
 workflow-type: tm+mt
 source-wordcount: 885
@@ -31,7 +34,7 @@ ht-degree: 2%
 * 您有权访问&#x200B;**[!UICONTROL 激活]**&#x200B;工作区。
 * 您拥有云存储提供商所需的连接信息。
 * 如果您需要创建帐户，则您拥有所需的凭据或权限。
-* 您已查看云存储目标](./cloud-storage-destination-requirements.md)的[要求。
+* 您已查看云存储目标[&#128279;](./cloud-storage-destination-requirements.md)的要求。
 
 ## 配置目标 {#configure-destination}
 

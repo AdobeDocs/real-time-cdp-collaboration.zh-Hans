@@ -42,7 +42,7 @@ Collaboration支持&#x200B;**[!UICONTROL 访问密钥]**&#x200B;和&#x200B;**[!U
 
 ### SFTP {#sftp}
 
-Collaboration支持使用密码&#x200B;]**的**[!UICONTROL  SFTP和使用SSH密钥&#x200B;]**身份验证的**[!UICONTROL  SFTP。 这两种方法都需要服务器域、端口和用户名。 端口默认为`22`。
+Collaboration支持使用密码&#x200B;**的**&#x200B;[!UICONTROL &#x200B; SFTP和使用SSH密钥&#x200B;]&#x200B;**身份验证的** SFTP。 这两种方法都需要服务器域、端口和用户名。 端口默认为`22`。
 
 有关SSH密钥格式、服务器、网络和的要求，请参阅[SFTP身份验证信息](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/sftp#authentication-information)。
 
