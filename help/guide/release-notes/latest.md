@@ -15,7 +15,7 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: e6156a39107edb0e15e2115db0762f6a86801ed6
+source-git-commit: ec15512bc5c6579ade907fc238cfe5394862dc7e
 workflow-type: tm+mt
 source-wordcount: 1968
 ht-degree: 4%
@@ -123,7 +123,7 @@ Real-Time CDP Collaboration现在可供&#x200B;**加拿大**&#x200B;的客户使
 Real-time CDP Collaboration现在支持品牌到品牌协作。 协作者现在可以建立连接，无论他们是广告商还是发布者。 这提供了更灵活的协作机会，并使品牌能够利用彼此的数据和见解。 要了解有关品牌到品牌协作和广告商到发布商协作之间的差异的更多信息，请阅读[协作模式](../overview/collaboration-patterns.md)指南。
 
 * 协作者现在可以使用[专用连接邀请](../connect/establishing-connections.md#private-connection-invites)相互连接。 与协作者共享您帐户的唯一连接代码，协作者随后可以使用该代码直接与您连接。 这是品牌到品牌协作的核心功能，它允许协作者在探索&#x200B;**[!UICONTROL 发现协作者目录]**&#x200B;的广告商之外建立连接。
-* [自助服务目标](../setup/manage-destinations.md)现在可供广告商和出版商使用。
+* [自助服务目标](../destinations/overview.md)现在可供广告商和出版商使用。
 * 现在，Audience Activation可用于连接中的两个协作者，无论他们的[帐户角色](../overview/roles.md)如何。 在[建立连接](../connect/establishing-connections.md#configure-connection-settings)时配置受众激活设置，允许您指定哪个协作者可以激活受众。 要了解有关受众激活的更多信息，请阅读[激活受众](../collaborate/activate.md)指南。
 * **[!UICONTROL 激活]**&#x200B;用例已重新配置为支持品牌到品牌协作。 项目中的&#x200B;**[!UICONTROL 激活]**&#x200B;选项卡现在显示已发送给协作者的受众，以及由协作者激活到目标的受众。 若要了解详细信息，请阅读[激活受众](../collaborate/activate.md)指南。<br> ![“激活”仪表板，其中的“受众”部分已发送至，而“受众”部分已激活。](/help/assets/release-notes/2025/activate-dashboard.png){zoomable="yes"}
 * 受众索引分数现在可在项目的&#x200B;**[!UICONTROL 发现]**&#x200B;选项卡中获得。 受众索引得分用于衡量受众与协作者受众的匹配程度。 此得分根据基础受众规模和重叠情况计算。 若要了解有关受众索引分数的详细信息，请阅读[受众索引分数](../collaborate/discover.md#audience-index-score)指南。
@@ -131,7 +131,7 @@ Real-time CDP Collaboration现在支持品牌到品牌协作。 协作者现在�
 ## 2025 年 5 月 {#may-2025}
 
 * Real-Time CDP Collaboration现在可供&#x200B;**澳大利亚**&#x200B;和&#x200B;**新西兰**&#x200B;的客户使用。 它自动提供给这些地区的Real-Time CDP Prime和Ultimate客户。
-* Real-Time CDP Collaboration现在通过&#x200B;**[!UICONTROL 设置]**&#x200B;部分中的&#x200B;**[!UICONTROL 我的目标]**&#x200B;选项卡提供[自助目标](../setup/manage-destinations.md)。 目标允许您在第三方平台（如广告网络或数据管理平台）中激活受众，以通过各种渠道触及您的客户。 目前，仅支持Adobe Experience Platform目标。 如果您有兴趣配置其他目标，请联系您的Adobe代表。 若要了解有关目标的更多信息，请阅读[目标概述](../destinations/overview.md)指南。
+* Real-Time CDP Collaboration现在通过&#x200B;**[!UICONTROL 设置]**&#x200B;部分中的&#x200B;**[!UICONTROL 我的目标]**&#x200B;选项卡提供[自助目标](../destinations/overview.md)。 目标允许您在第三方平台（如广告网络或数据管理平台）中激活受众，以通过各种渠道触及您的客户。 目前，仅支持Adobe Experience Platform目标。 如果您有兴趣配置其他目标，请联系您的Adobe代表。 若要了解有关目标的更多信息，请阅读[目标概述](../destinations/overview.md)指南。
   * 目标还添加了对在[Collaboration受众门户](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences)中查看Adobe Experience Platform受众的支持。
 * 您现在可以在Collaboration中编辑现有数据连接的受众刷新频率。 目前，您可以选择每天或每两到六天刷新一次受众。 要了解有关如何编辑受众刷新频率的更多信息，请阅读[管理数据连接](../setup/manage-data-connection.md#scheduling)指南。
 * 现在，系统会为连接内选择的每个用例设置协作者之间的信用拆分。 您可以为每个用例设置不同的信用冲减规则，以更好地控制信用额的使用方式。 要了解有关信用拆分功能的更多信息，请阅读[连接设置](../connect/establishing-connections.md#connection-settings)指南。 若要了解有关如何使用积分的更多信息，请阅读[积分活动类型](../setup/my-activity.md#types-of-activities)指南。<br> ![显示信用拆分功能的连接设置屏幕。](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}

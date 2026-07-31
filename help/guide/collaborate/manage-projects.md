@@ -11,10 +11,10 @@ feature_v2:
   - id: ba929a52-9339-4154-9487-317dc875a3c7
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: 680
-ht-degree: 13%
+source-wordcount: 702
+ht-degree: 12%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 13%
 {{limited-availability-release-note}}
 
 项目是Adobe Real-Time CDP Collaboration中工作流的核心。 与协作者联系后，创建一个项目以运行受众重叠计算并发现营销活动的相关受众。
+
+有关如何将受众来源于Collaboration以及如何在发现、激活和测量项目中使用的概述，请参阅[受众概述](../setup/audiences-overview.md)。
 
 >[!TIP]
 >

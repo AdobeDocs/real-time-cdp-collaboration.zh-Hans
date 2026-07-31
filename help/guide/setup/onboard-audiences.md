@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: 3773
+source-wordcount: 3758
 ht-degree: 18%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 18%
 {{limited-availability-release-note}}
 
 受众是根据各种属性划分的特定用户或客户组。 通过这些功能，协作者可共同创作有针对性的营销和个性化体验，从而更有效地开展广告促销活动。 本指南介绍如何在Real-Time CDP Collaboration中获取受众、查看受众仪表板以及管理单个受众。
+
+有关Collaboration中受众的概念性说明，请参阅[受众概述](../setup/audiences-overview.md)。
 
 ## 将Source受众引入Collaboration {#source-audiences}
 
@@ -239,7 +241,7 @@ Source字段会被映射到Collaboration中定义的目标字段。
 | **[!UICONTROL 名称]** | 受众的名称。 |
 | **[!UICONTROL 标识]** | 指示此受众中存在的身份数。 请注意，如果同一配置文件具有两个或更多身份，并且这些身份在项目中被用作匹配键，则该配置文件将在计数中显示两次。 |
 | **[!UICONTROL 状态]** | 指示受众是否处于活动状态以及是否可以在项目中使用。 **[!UICONTROL Pending]**&#x200B;状态表示受众最近刚获得来源，并且身份尚未填充。 初次刷新后（通常在数据连接设置后的24小时内刷新），源受众将填充用户档案。 |
-| **[!UICONTROL Source]** | 指示受众源自何处。 在Collaboration的当前版本中，Experience Platform是唯一受支持的源。 |
+| **[!UICONTROL Source]** | 指示受众源自何处。 |
 | **[!UICONTROL 数据连接]** | 受众来源的数据连接。 您可以选择名称以查看数据连接。 |
 | **[!UICONTROL 连接访问]** | 定义受众是私有还是公共。 公共受众可在重叠报表中找到，并可在项目中激活。 |
 | **[!UICONTROL 已创建]** | 指示受众最初来源于Collaboration的时间。 |
@@ -265,7 +267,7 @@ Source字段会被映射到Collaboration中定义的目标字段。
 | 项目 | 描述 |
 |----------|---------|
 | **[!UICONTROL 状态]** | 指示受众是否处于活动状态以及是否可以在项目中使用。 |
-| **[!UICONTROL Source]** | 指示受众源自何处。 在Collaboration的当前版本中，Experience Platform是唯一受支持的源。 |
+| **[!UICONTROL Source]** | 指示受众源自何处。 |
 | **[!UICONTROL 数据连接]** | 受众来源的数据连接。 |
 | **[!UICONTROL 上次更新时间]** | 指示在Collaboration中更新受众的最后日期和时间。 这并非指上次刷新受众的时间，而是指上次更改受众配置或元数据的时间 |
 | **[!UICONTROL 上次更新者]** | 指示上次更新受众的用户。 |

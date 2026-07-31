@@ -12,18 +12,18 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: c84582bb81289ce761c664af7db177535ff00a00
 workflow-type: tm+mt
-source-wordcount: 1534
-ht-degree: 14%
+source-wordcount: 1548
+ht-degree: 15%
 
 ---
 
 # 将Adobe Experience Platform配置为目标
 
-{{limited-availability-release-note}}
-
 配置此目标以将受众从您的项目激活到Adobe Experience Platform。 在Adobe Experience Platform中激活受众可让您利用该平台的功能在各种营销渠道中进行受众分段、分析和激活。 要了解有关Adobe Experience Platform的更多信息，请参阅[Experience Platform概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/landing/home){target="_blank"}。
+
+Adobe Experience Platform使用与[配置和管理云存储目标](./manage-destinations.md)中描述的云存储目标工作流不同的特定于目标的配置工作流。
 
 >[!WARNING]
 >
@@ -31,13 +31,11 @@ ht-degree: 14%
 
 ## 配置目标 {#configure-destination}
 
-要将Adobe Experience Platform配置为目标，请导航到&#x200B;**[!UICONTROL 设置]**，然后选择&#x200B;**[!UICONTROL 我的目标]**&#x200B;选项卡。 为Adobe Experience Platform选择&#x200B;**[!UICONTROL 设置]**。
+要将Adobe Experience Platform配置为目标，请导航到&#x200B;**[!UICONTROL 激活]**&#x200B;工作区，选择&#x200B;**[!UICONTROL 目录]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 为Adobe Experience Platform设置]**。
 
-![为Adobe Experience Platform目标突出显示具有“设置”选项的“我的目标”工作区。](/help/assets/destinations/adobe-experience-platform/setup-aep.png)
+![“目录”选项卡显示突出显示了Adobe Experience Platform卡的目标提供商卡。](../../assets/destinations/adobe-experience-platform/setup-experience-platform.png)
 
 出现&#x200B;**[!UICONTROL 创建目标]**&#x200B;工作流。
-
-![Adobe Experience Platform的“创建目标”工作流。](/help/assets/destinations/adobe-experience-platform/create-destination.png)
 
 ### 配置沙盒 {#configure-sandbox}
 
@@ -79,7 +77,7 @@ ht-degree: 14%
 >title="目标命名空间"
 >abstract="目标命名空间用于指定匹配键在 Adobe Experience Platform 中将映射到的身份标识命名空间。 经过哈希处理的匹配键必须映射到支持哈希值的目标命名空间。"
 
-默认情况下，为您的帐户启用的所有匹配密钥都包含在激活映射中。 如果不希望将匹配键直接映射到目标命名空间，则可以使用链接键选项将其替换为其他匹配键。 有关链接键的更多信息，请参阅下面的[部分](#linked-keys)。
+默认情况下，为您的帐户启用的所有匹配密钥都包含在激活映射中。 如果您不希望将匹配键直接映射到目标命名空间，则可以使用链接键选项将其替换为其他匹配键。 有关链接键的更多信息，请参阅下面的[部分](#linked-keys)。
 
 #### 映射目标命名空间 {#map-target-namespaces}
 
@@ -144,9 +142,9 @@ retailer希望将激活到Experience Platform的数据发送到其CRM系统。 r
 
 >[!IMPORTANT]
 >
->您&#x200B;**必须**&#x200B;将Experience Platform配置为目标&#x200B;*，然后*&#x200B;您的协作者才能激活受众。 如果未配置目标，则将会向您发送该受众，并在项目的&#x200B;**[!UICONTROL 激活]**&#x200B;选项卡中显示，但不会激活到Experience Platform。
+>您&#x200B;**必须**&#x200B;将Experience Platform配置为目标&#x200B;*，然后*&#x200B;您的协作者才能激活受众。 如果未配置目标，则受众将会发送给您并在项目级别的&#x200B;**[!UICONTROL 激活]**&#x200B;选项卡中可见，但不会激活到Experience Platform。
 
-在激活受众后，该受众将在Experience Platform的[受众门户](#audience-portal)中可用，其来源为Real-Time CDP Collaboration。  这些受众随后可用于营销活动和客户参与。
+在激活受众后，该受众将在Experience Platform的[受众门户](#audience-portal)中可用，其来源为Real-Time CDP Collaboration。 这些受众随后可用于营销活动和客户参与。
 
 ### 受众门户 {#audience-portal}
 

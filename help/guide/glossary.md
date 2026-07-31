@@ -18,10 +18,10 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
 workflow-type: tm+mt
-source-wordcount: 837
-ht-degree: 5%
+source-wordcount: 934
+ht-degree: 4%
 
 ---
 
@@ -32,6 +32,14 @@ ht-degree: 5%
 此术语表提供在Adobe Real-Time CDP Collaboration产品和文档中识别的关键术语的定义。 了解这些术语将有助于您更好地利用产品及其功能。
 
 ## A
+
+### 激活（对协作者）
+
+是指向共享项目中的其他协作者发送受众的操作。 向协作者激活受众后，该受众将发送到协作者预配置的目标，届时，该受众可在营销活动中使用。 有关说明，请参阅[激活受众](/help/guide/collaborate/activate.md)。 不要与&#x200B;**激活（到目标）**&#x200B;混淆。
+
+### 激活（到目标）
+
+指激活的受众登陆到的目标，如云存储平台或Adobe Experience Platform，以及配置、浏览和监控目标的工作区。 受众仍可通过项目中的[激活受众](/help/guide/collaborate/activate.md)操作到达目标；此工作区控制哪些目标可用以及如何设置这些目标。 有关说明，请参阅[目标概述](/help/guide/destinations/overview.md)。 不要与&#x200B;**激活（对协作者）**&#x200B;混淆。
 
 ### 广告商
 
@@ -127,7 +135,7 @@ Adobe Real-Time CDP Collaboration中的项目是一个工作区，用户可以�
 
 ### 草图 {#sketches}
 
-草图（或数据草图）是Real-Time CDP Collaboration中使用的受众数据的简化摘要。 品牌和出版商无需共享实际客户数据，即可分析受众重叠情况和见解。 将其视为匿名人数，而非详细的客户档案。
+草图（或数据草图）是Real-Time CDP Collaboration中使用的受众数据的简化摘要。品牌和出版商无需共享实际客户数据，即可分析受众重叠情况和见解。将其视为匿名人数，而非详细的客户档案。
 在Adobe Real-Time CDP Collaboration中，数据草图：
 
 * 帮助确定两个受众的相似程度
