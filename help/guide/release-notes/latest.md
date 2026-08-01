@@ -15,10 +15,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ec15512bc5c6579ade907fc238cfe5394862dc7e
+source-git-commit: c74300c6d38a33dfdc7c7d50306b26ef61a7494b
 workflow-type: tm+mt
-source-wordcount: 1968
-ht-degree: 4%
+source-wordcount: 2054
+ht-degree: 3%
 
 ---
 
@@ -32,13 +32,15 @@ ht-degree: 4%
 
 ## 2026年7月 {#july-2026}
 
-Real-Time CDP Collaboration现在支持其他自助受众源选项。
+Real-Time CDP Collaboration现在支持其他自助受众源选项，以及更简单的激活和目标设置工作流。
 
 **新增功能或更新后的功能**
 
 | 功能 | 描述 |
 | ------- | ----------- |
 | 来自[!DNL Databricks Delta Share]和Adobe Audience Manager的自助受众源 | 您现在可以直接从[!DNL Databricks Delta Share]获取第一方受众，或将符合条件的Adobe Audience Manager区段引入Collaboration。 有关设置说明，请参阅以下指南： <ul><li>[为受众源配置 [!DNL Databricks Delta Share] &#x200B;](../setup/configure-databricks-audience-sourcing.md)</li><li>[为受众源配置Adobe Audience Manager](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+| 手动激活收到的受众 | 您现在可以手动将从协作者收到的受众激活到配置的目标，并选择激活运行的时间。 这可以让收件人更好地控制受众投放。 有关分步说明，请参阅[激活受众](../collaborate/activate.md)。 |
+| 自助式云存储目标 | 您现在可以直接从激活工作区配置和管理支持的云存储目标，并使用它们激活接收的受众。 有关设置说明，请参阅[配置和管理云存储目标](../destinations/manage-destinations.md)。 |
 
 {style="table-layout:auto"}
 
