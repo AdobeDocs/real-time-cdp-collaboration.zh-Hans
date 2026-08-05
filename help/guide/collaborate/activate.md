@@ -4,16 +4,12 @@ description: 了解如何将受众发送给协作者，并将收到的受众手�
 audience: admin, publisher, advertiser
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d12a5004a6854392c130fd6b93a841fb22cf6ab
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 87a7ddb5b6ef1661e347a3dd7842523639d54859
 workflow-type: tm+mt
-source-wordcount: 1565
+source-wordcount: 1589
 ht-degree: 2%
 
 ---
@@ -24,7 +20,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 激活]**&#x200B;选项卡仅在连接进程[&#128279;](../connect/establishing-connections.md#connection-settings)期间启用了&#x200B;**受众激活**&#x200B;用例时才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)。
+>**[!UICONTROL 激活]**&#x200B;选项卡仅在连接进程](../connect/establishing-connections.md#connection-settings)期间[启用了&#x200B;**受众激活**&#x200B;用例时才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)。
 
 使用[发现选项卡](./discover.md)确定与您的活动最匹配的受众，然后将其发送给您的协作者。 接收协作者选择配置的目标并安排接收受众进行激活。
 
@@ -58,6 +54,10 @@ ht-degree: 2%
 ![未发送受众时，使用项目级别的“激活”选项卡。 显示消息为空说明您尚未发送受众，并显示“发送受众”按钮。](/help/assets/collaborate/activate/activate-new-audiences.png)
 
 将打开&#x200B;**[!UICONTROL 发送受众]**&#x200B;工作流。 使用受众选择器查找受众，或选择&#x200B;**[!UICONTROL 浏览受众]**&#x200B;来比较可用受众。
+
+>[!IMPORTANT]
+>
+>只有重叠身份数超过1000的受众才可供激活。 如果受众重叠接近于1000身份阈值，则激活可能会失败。
 
 ![包含受众选择器和浏览受众按钮的“发送受众”工作流。 工作流允许发件人在配置匹配密钥和访问设置之前选择受众。](/help/assets/collaborate/activate/audience-activation.png)
 
