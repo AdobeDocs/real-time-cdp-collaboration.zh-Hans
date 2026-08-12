@@ -2,16 +2,12 @@
 title: Amazon Marketing Cloud
 description: 了解如何在Real-Time CDP Collaboration中与Amazon Marketing Cloud协作。
 audience: publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
 TQID: https://experienceleague.adobe.com/jNTQWEaUuuvgqKboJWsUH4XoKStP49nB0GLUSze0eXw
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: b29c92fa411198ec4e9a0a493c91ee302a327697
 workflow-type: tm+mt
 source-wordcount: 699
@@ -61,7 +57,7 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->受众数据通过上传到您[!DNL Amazon Ads]帐户的受众进行处理。 要了解如何使用Experience Platform的目标功能将受众发送到您的[!DNL Amazon Ads]帐户，请阅读[Amazon Ads连接](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/catalog/advertising/amazon-ads)指南。
+>受众数据通过上传到您[!DNL Amazon Ads]帐户的受众进行处理。 要了解如何使用Experience Platform的目标功能将受众发送到您的[!DNL Amazon Ads]帐户，请阅读[Amazon Ads连接](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads)指南。
 
 ![使用Amazon Marketing Cloud的项目中的“发现”部分。](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 

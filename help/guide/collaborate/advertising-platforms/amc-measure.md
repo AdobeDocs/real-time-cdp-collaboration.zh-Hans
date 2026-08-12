@@ -4,7 +4,7 @@ description: 了解如何在Real-Time CDP Collaboration中为Amazon Marketing Cl
 audience: advertiser
 keywords: AMC， Amazon Marketing Cloud，测量报表，营销活动摘要，归因， Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
 workflow-type: tm+mt
 source-wordcount: '1574'
@@ -102,7 +102,7 @@ ht-degree: 8%
 
 报表运行后，结果将显示在[!DNL AMC]项目的&#x200B;**[!UICONTROL 度量值]**&#x200B;选项卡中。 找到您的报告并选择&#x200B;**[!UICONTROL 查看完整报告]**&#x200B;以查看结果。
 
-![&#x200B; [!DNL AMC]项目中的“度量”选项卡显示一个已完成的报表卡，其运行日期、报表类型和“查看完整报表”按钮突出显示。](../../../assets/collaborate/advertising-platforms/view-full-report.png){zoomable="yes"}
+![ [!DNL AMC]项目中的“度量”选项卡显示一个已完成的报表卡，其运行日期、报表类型和“查看完整报表”按钮突出显示。](../../../assets/collaborate/advertising-platforms/view-full-report.png){zoomable="yes"}
 
 报告显示所选报告类型的可用结果。 **[!UICONTROL 营销活动摘要]**&#x200B;报告显示所选Amazon营销活动的投放结果。
 
