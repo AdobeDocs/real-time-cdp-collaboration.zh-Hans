@@ -102,7 +102,7 @@ ht-degree: 8%
 
 报表运行后，结果将显示在[!DNL AMC]项目的&#x200B;**[!UICONTROL 度量值]**&#x200B;选项卡中。 找到您的报告并选择&#x200B;**[!UICONTROL 查看完整报告]**&#x200B;以查看结果。
 
-![ [!DNL AMC]项目中的“度量”选项卡显示一个已完成的报表卡，其运行日期、报表类型和“查看完整报表”按钮突出显示。](../../../assets/collaborate/advertising-platforms/view-full-report.png){zoomable="yes"}
+![&#x200B; [!DNL AMC]项目中的“度量”选项卡显示一个已完成的报表卡，其运行日期、报表类型和“查看完整报表”按钮突出显示。](../../../assets/collaborate/advertising-platforms/view-full-report.png){zoomable="yes"}
 
 报告显示所选报告类型的可用结果。 **[!UICONTROL 营销活动摘要]**&#x200B;报告显示所选Amazon营销活动的投放结果。
 
