@@ -15,10 +15,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: c74300c6d38a33dfdc7c7d50306b26ef61a7494b
+source-git-commit: 21f15134c9319aacf332a9f430b51d84f69498b0
 workflow-type: tm+mt
-source-wordcount: 2054
-ht-degree: 3%
+source-wordcount: 2131
+ht-degree: 4%
 
 ---
 
@@ -26,9 +26,21 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-**上次更新时间**：2026年7月。
+**上次更新**：2026年8月。
 
 以下发行说明介绍了Adobe Real-Time CDP Collaboration中发布的功能。 Collaboration版本在持续交付模型上运行，该模型允许大约每月一次的发布。 这些发行说明会经常更新，因此请务必定期检查。
+
+## 2026年8月 {#august-2026}
+
+Real-Time CDP Collaboration现在支持[!DNL Amazon Marketing Cloud] (AMC)测量报表，允许您在[!DNL AMC]项目中测量Amazon Ads促销活动效果。
+
+**新增功能或更新后的功能**
+
+| 功能 | 描述 |
+| ------- | ----------- |
+| [!DNL AMC]测量报告 | 直接在Collaboration中使用[!DNL AMC]数据衡量Amazon广告营销活动的效果。 从[!DNL AMC]项目中的[!UICONTROL 度量]选项卡，您可以创建&#x200B;**促销活动摘要**&#x200B;和&#x200B;**归因**&#x200B;报告，以评估促销活动绩效并了解转化归因。 有关详细信息，请参阅[创建Amazon Marketing Cloud测量报表](../collaborate/advertising-platforms/amc-measure.md)。 |
+
+{style="table-layout:auto"}
 
 ## 2026年7月 {#july-2026}
 
