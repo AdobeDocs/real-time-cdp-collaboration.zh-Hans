@@ -2,19 +2,15 @@
 title: 衡量绩效
 description: 衡量不同渠道中的促销活动效果。 了解如何使用和解读各种报表。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 TQID: https://experienceleague.adobe.com/pr-qF4sd-NHd55kxh1dCstHRnVCUEhIvtv-47-ljiu4
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ab26b139fe8ea3d22e38b234b55862c4d83b5c54
 workflow-type: tm+mt
-source-wordcount: 2612
+source-wordcount: 2776
 ht-degree: 5%
 
 ---
@@ -25,7 +21,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->只有在连接过程[&#128279;](../connect/establishing-connections.md#connection-settings)期间启用了的&#x200B;**测量**&#x200B;用例时，**[!UICONTROL 测量]**&#x200B;工作区才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
+>只有在连接过程](../connect/establishing-connections.md#connection-settings)期间启用了[的&#x200B;**测量**&#x200B;用例时，**[!UICONTROL 测量]**&#x200B;工作区才可用。 有关用例的更多信息，请参阅[管理项目](./manage-projects.md#project-use-cases)指南。
 
 了解Adobe Real-Time CDP Collaboration中的可用报表，并了解如何衡量和分析营销活动在各种渠道中的表现。
 
@@ -35,9 +31,9 @@ ht-degree: 5%
 
 * [Connect](/help/guide/connect/establishing-connections.md)与启用了&#x200B;**Measurement**&#x200B;用例的协作者
 * 与您的协作者协作处理至少一个项目。 了解如何[创建项目](/help/guide/collaborate/manage-projects.md#create-project)。
-* 运行您的营销活动，并确保为营销活动[&#128279;](../collaborate/manage-projects.md#manage-campaign-id)提供了营销活动ID：
-   * 如果您是发布者，请输入链接到广告商促销活动的Campaign ID。
-   * 如果您是广告商，请要求您的协作者（发布者）提供营销活动ID。 在度量值工作区[&#128279;](#create-measurement-report)中生成报告时需要此项。
+* 运行您的营销活动，并确保为营销活动](../collaborate/manage-projects.md#manage-campaign-id)提供了[营销活动ID：
+  * 如果您是发布者，请输入链接到广告商促销活动的Campaign ID。
+  * 如果您是广告商，请要求您的协作者（发布者）提供营销活动ID。 在度量值工作区](#create-measurement-report)中[生成报告时需要此项。
 * 如果要[创建归因报表](#create-attribution-report)，请[将测量数据](/help/guide/setup/onboard-measurement-data.md)上传到Collaboration。
 
 ## 查看报告 {#view-reports}
@@ -109,11 +105,11 @@ ht-degree: 5%
 
 ### 累计转化次数 {#cumulative-conversions}
 
-此视图以表格格式提供您选择测量的转化事件的详细细目。 该表包括：
+此视图以表格格式提供您选择测量的转化事件的详细细目。 在&#x200B;**促销活动ID**&#x200B;级别计算结果。 该表包括：
 
 * **转化事件**：您正在跟踪的每个转化事件的名称。
-* **转化计数**：每个事件发生的转化总数。
-* **预计收入**：归因于每个转化事件的预计值。
+* **转化计数**：促销活动ID中每个事件发生的转化总数。
+* **转化值**：促销活动ID中归因于每个转化事件的值。
 
 请查看此表以评估促销活动在推动所需操作方面的有效性。
 
@@ -124,6 +120,16 @@ ht-degree: 5%
 此图表按天划分您在创建归因报表时设置的每个事件的转化。 使用此视图可揭示每日模式，识别转化活动高或低的时段，并比较不同转化事件在营销活动时间轴中的执行情况。
 
 ![按天列出的转化。](/help/assets/collaborate/measure/conversions-by-day.gif)
+
+### 按投放位置显示的转化 {#conversions-by-placement}
+
+此表提供了为归因报表选择的转化事件的&#x200B;**版面ID级别细分**。 单个营销活动ID可以包含多个投放位置ID，因此使用此视图可以查看营销活动中的转化划分方式。 对于每个选定的转化事件，该表显示归因于每个投放位置的转化和相应的转化值。 该表包括：
+
+* **投放位置名称或ID**：创意在其中运行的投放位置的标识符。
+* **转化计数**：对于创建报告时选择的每个转化事件，归因于该投放位置的转化计数。 投放位置最多可显示三个转化事件，符合每个报表允许的最大转化事件数。
+* **转化值**：归因于该特定位置的每个转化事件的值。
+
+![按投放位置显示的转化。](/help/assets/collaborate/measure/conversions-by-placement.png)
 
 ## 创建测量报告 {#create-measurement-report}
 
@@ -186,18 +192,18 @@ ht-degree: 5%
 
 一旦可用，您就可以随时在项目工作区的&#x200B;**[!UICONTROL 度量]**&#x200B;选项卡中查看报告。
 
-![The Create measurement report screen showing the information and the Create option highlighted.](/help/assets/collaborate/measure/cs-review.png)
+![创建测量报告屏幕显示的信息和突出显示的创建选项。](/help/assets/collaborate/measure/cs-review.png)
 
-### Create attribution report {#create-attribution-report}
+### 创建归因报表 {#create-attribution-report}
 
-As an advertiser, you can generate **Attribution** reports to assess how your campaign exposures contribute to key outcomes such as sign-ups or purchases. Use these reports to understand user interactions with your campaign, identify which touchpoints drive the most impact, and inform more effective marketing strategies.
+作为广告商，您可以生成&#x200B;**归因**&#x200B;报告，以评估您的营销活动曝光次数对注册或购买等关键结果的贡献情况。 使用这些报表可了解用户与促销活动的交互情况、确定哪些接触点产生的影响最大，并告知更有效的营销策略。
 
 >[!IMPORTANT]
 >
-> You must [source your measurement data](../setup/onboard-measurement-data.md#add-measurement-data) into Collaboration before generating Attribution reports.
->![The Measure tab with the requirements for Measurement data and the disabled Measure option.](/help/assets/collaborate/measure/require-measurement-data.png)
+> 在生成归因报表之前，您必须[将测量数据](../setup/onboard-measurement-data.md#add-measurement-data)源到Collaboration中。
+>![具有测量数据要求和禁用的Measure选项的Measure选项卡。](/help/assets/collaborate/measure/require-measurement-data.png)
 
-To generate an **Attribution** report, navigate to the project workspace from the **[!UICONTROL Collaborator]** workspace. 从&#x200B;**[!UICONTROL 度量]**&#x200B;选项卡中，选择添加图标（![添加图标。](/help/assets/icons/plus.png)） 然后选择&#x200B;**[!UICONTROL 度量]**。
+要生成&#x200B;**归因**&#x200B;报告，请从&#x200B;**[!UICONTROL Collaborator]**&#x200B;工作区导航到项目工作区。 从&#x200B;**[!UICONTROL 度量]**&#x200B;选项卡中，选择添加图标（![添加图标。](/help/assets/icons/plus.png)） 然后选择&#x200B;**[!UICONTROL 度量]**。
 
 如果这是您的第一个报告，您还可以选择&#x200B;**[!UICONTROL 运行报告]**&#x200B;选项。
 
@@ -205,29 +211,29 @@ To generate an **Attribution** report, navigate to the project workspace from th
 
 此时将显示&#x200B;**[!UICONTROL 创建测量报告]**&#x200B;屏幕，其中包含在&#x200B;**[!UICONTROL 帐单详细信息]**、**[!UICONTROL 促销活动详细信息]**&#x200B;和&#x200B;**[!UICONTROL 报告详细信息]**&#x200B;部分下分组的信息和输入字段。
 
-Read and follow steps in the [Create campaign summary report](#create-campaign-summary-report) section to configure the following settings:
+请阅读并按照[创建营销活动摘要报告](#create-campaign-summary-report)部分中的步骤来配置以下设置：
 
-* [Billing details](#billing-details)
+* [帐单详细信息](#billing-details)
 * [营销活动详细信息](#campaign-details)
 
-#### Report details for Attribution reports {#report-details-attribution}
+#### 归因报表的报表详细信息 {#report-details-attribution}
 
 **报告运行日期**
 
 >[!IMPORTANT]
 >
-> For attribution reports, the report run date must be a future date, and must occur at least one day after the end date of your report date range plus the full duration of the defined lookback window.
-> **Report run date ≥ report end date + lookback window + 1**
+> 对于归因报表，报表运行日期必须是将来的日期，并且必须在报表日期范围的结束日期加上定义的回溯时段的完整持续时间后至少一天发生。
+> **报告运行日期≥报告结束日期+回顾时间范围+ 1**
 > 
-> For example, if your report date range ends on June 15 and the lookback window is 14 days, the report run date is June 30 or later.
+> 例如，如果您的报表日期范围在6月15日结束并且回溯时段为14天，则报表运行日期为6月30日或更高版本。
 
 在&#x200B;**[!UICONTROL 报告详细信息]**&#x200B;部分，选择报告运行的日期。 选择&#x200B;**[!UICONTROL 报告运行日期]**&#x200B;并从日历中选择首选日期。
 
 **报告类型**
 
-As an advertiser, you can select **[!UICONTROL Attribution]** as a report type in addition to **[!UICONTROL Campaign summary]**. When you choose the Attribution report, your results include both standard Campaign Summary metrics and detailed Attribution analysis, providing a comprehensive view of campaign performance.
+作为广告商，除了&#x200B;**[!UICONTROL 促销活动摘要]**&#x200B;之外，您还可以选择&#x200B;**[!UICONTROL 归因]**&#x200B;作为报表类型。 当您选择归因报表时，您的结果既包括标准的促销活动摘要量度，又包括详细的归因分析，从而全面了解促销活动效果。
 
-![The Create measurement report screen highlighting both the Campaign summary and Attribution report types selected.](/help/assets/collaborate/measure/attribution-report-type.png)
+![创建测量报告屏幕突出显示所选的Campaign摘要和归因报告类型。](/help/assets/collaborate/measure/attribution-report-type.png)
 
 选择&#x200B;**[!UICONTROL 归因]**&#x200B;作为报表类型时，将显示&#x200B;**[!UICONTROL 归因]**&#x200B;配置部分，其中包含其他必需的设置：
 
