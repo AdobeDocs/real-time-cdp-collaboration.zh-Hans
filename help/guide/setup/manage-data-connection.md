@@ -2,20 +2,16 @@
 title: 管理数据连接
 description: 了解如何在Real-Time CDP Collaboration中管理数据连接，包括匹配键、计划、用例和受众筛选
 audience: administrator, data engineer
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 TQID: https://experienceleague.adobe.com/QvkEpR1fJMZ5BXrucAzEtxFNSfSMS-2hIZvMSg63ySE
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 07471fb3690c3ff57d21231da3d126cf9545677a
 workflow-type: tm+mt
-source-wordcount: 1253
-ht-degree: 35%
+source-wordcount: 1299
+ht-degree: 34%
 
 ---
 
@@ -110,6 +106,8 @@ ht-degree: 35%
 
 ![已选择GAID选项的“选择源字段”对话框。](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
 
+在&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;选项下，某些源字段在列表中建模，该列表是一个对象数组。 您可以展开这些列表字段并选择嵌套在其中以映射到匹配键的字段。 有关详细信息，请参阅[映射字段](./onboard-audiences.md#map-fields)指南。
+
 在&#x200B;**[!UICONTROL 匹配键]**&#x200B;对话框中，使用下拉菜单将新的源字段映射到目标字段。 所有可用的目标字段都是为Collaborator帐户配置的匹配键。 如果未看到所需的目标字段，请[编辑帐户的匹配键](./onboard-account.md#edit-match-keys)以添加它。
 
 如果您要将非哈希字段源到哈希目标字段，例如将纯文本电子邮件源字段映射到&#x200B;**[!UICONTROL 哈希电子邮件]**&#x200B;目标字段，请使用&#x200B;**[!UICONTROL 应用转换]**&#x200B;选项。
@@ -118,7 +116,7 @@ ht-degree: 35%
 
 ##### 添加[!DNL Demdex ID (ECID)] {#add-demdex-id-ecid}
 
-如果要将[!DNL Demdex ID (ECID)]添加为匹配键，请首先确保在帐户设置[&#128279;](../setup/onboard-account.md#set-up-match-keys)中启用了。 有关[!DNL Demdex ID (ECID)]的详细信息，请阅读[支持的匹配键](../setup/onboard-account.md#supported-match-keys)。
+如果要将[!DNL Demdex ID (ECID)]添加为匹配键，请首先确保在帐户设置](../setup/onboard-account.md#set-up-match-keys)中启用了[。 有关[!DNL Demdex ID (ECID)]的详细信息，请阅读[支持的匹配键](../setup/onboard-account.md#supported-match-keys)。
 
 在&#x200B;**[!UICONTROL 匹配键]**&#x200B;对话框中，添加新的映射字段行。 然后，选择&#x200B;**[!UICONTROL ECID]**&#x200B;作为源字段，并从下拉列表中选择&#x200B;**[!UICONTROL Demdex ID (ECID)]**&#x200B;作为目标字段。
 
