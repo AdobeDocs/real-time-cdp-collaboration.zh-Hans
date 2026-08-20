@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+source-git-commit: 07471fb3690c3ff57d21231da3d126cf9545677a
 workflow-type: tm+mt
-source-wordcount: 1253
-ht-degree: 35%
+source-wordcount: 1299
+ht-degree: 34%
 
 ---
 
@@ -109,6 +109,8 @@ ht-degree: 35%
 选择所需的源字段，然后选择&#x200B;**[!UICONTROL 选择]**。
 
 ![已选择GAID选项的“选择源字段”对话框。](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+
+在&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;选项下，某些源字段在列表中建模，该列表是一个对象数组。 您可以展开这些列表字段并选择嵌套在其中以映射到匹配键的字段。 有关详细信息，请参阅[映射字段](./onboard-audiences.md#map-fields)指南。
 
 在&#x200B;**[!UICONTROL 匹配键]**&#x200B;对话框中，使用下拉菜单将新的源字段映射到目标字段。 所有可用的目标字段都是为Collaborator帐户配置的匹配键。 如果未看到所需的目标字段，请[编辑帐户的匹配键](./onboard-account.md#edit-match-keys)以添加它。
 

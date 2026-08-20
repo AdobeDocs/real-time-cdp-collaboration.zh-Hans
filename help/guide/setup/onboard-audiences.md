@@ -11,10 +11,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
+source-git-commit: c524b54ce4ff9f5a37c2c064ad5304e011c61652
 workflow-type: tm+mt
-source-wordcount: 3758
-ht-degree: 18%
+source-wordcount: 3958
+ht-degree: 17%
 
 ---
 
@@ -171,6 +171,22 @@ Source字段会被映射到Collaboration中定义的目标字段。
 要开始映射字段，请选择目标字段旁边的空源字段。 将显示&#x200B;**[!UICONTROL 选择源字段]**&#x200B;对话框。 在&#x200B;**[!UICONTROL 身份命名空间]**&#x200B;和&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;选项之间选择以查找所需的源字段，然后从列表中选择该字段。 您还可以使用搜索选项查找所需字段。
 
 ![显示电子邮件选项的“选择源字段”对话框。](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
+
+某些配置文件属性在列表中建模，该列表是一个对象数组（在对话框中显示为`Object[]`）。 密钥标识符或属性通常存在于这些重复记录中，例如帐号或车辆标识符。
+
+在&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;选项下，展开&#x200B;**[!UICONTROL 选择源字段]**&#x200B;对话框中的列表字段，然后选择要映射到匹配键的嵌套字段。 例如，展开`devices`并选择`Device ID`。 然后，嵌套字段会填充该映射行的源字段，并且您可以像任何其他源字段一样将其映射到目标字段。
+
+如果某个配置文件在嵌套字段中具有多个值，Collaboration会分别匹配和计算每个值。 您无需预先拼合或重构数据。
+
+![选择源字段对话框，其中扩展了设备列表并选择了要映射的设备ID字段。](/help/assets/setup/add-manage-audiences/select-source-field-nested.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>选择嵌套在列表内的字段具有以下限制：
+>
+>* 您可以选择仅匹配键的嵌套字段。 不支持选择嵌套字段作为属性。
+>* 您可以一次为每个列表选择一个嵌套字段。
+>* 对话框中显示的是简单值列表，而不是对象列表，但您无法选择它们。
 
 若要处理将非哈希字段源补充到哈希目标字段，请使用&#x200B;**[!UICONTROL 应用转换]**&#x200B;选项。 例如，要添加第二个电子邮件字段，请选择&#x200B;**[!UICONTROL 添加字段]**&#x200B;选项以添加新行，然后为目标字段选择&#x200B;**[!UICONTROL 散列电子邮件]**。 选择一个非散列电子邮件源字段，然后选择&#x200B;**[!UICONTROL 应用转换]**。
 
