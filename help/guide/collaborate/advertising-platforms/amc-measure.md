@@ -4,11 +4,11 @@ description: 了解如何在Real-Time CDP Collaboration中为Amazon Marketing Cl
 audience: advertiser
 keywords: AMC， Amazon Marketing Cloud，测量报表，营销活动摘要，归因， Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
 workflow-type: tm+mt
 source-wordcount: '1574'
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
@@ -38,17 +38,17 @@ ht-degree: 8%
 
 如果未列出您需要的营销活动，请验证它是否属于连接的[!DNL Amazon Ads]帐户，并查看[疑难解答](#troubleshooting)。 有关阈值的详细信息，请参阅[AMC聚合阈值文档](https://advertising.amazon.com/API/docs/en-us/guides/amazon-marketing-cloud/aggregation-threshold)。
 
-#### 日期范围、运行日期和报表名称 {#dates}
+#### 日期范围、运行日期和报告名称 {#dates}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_date_range"
 >title="日期范围"
->abstract="设置要包含在报表中的促销活动数据的开始和结束日期。 日期范围限制为365天的回溯时段，最大跨度为90天。 您只能报告过去的营销活动。"
+>abstract="设置要纳入报告的营销活动数据的开始日期和结束日期。 日期范围仅限于过去 365 天的回顾窗口，且最长跨度为 90 天。 您只能针对过去的营销活动生成报告。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_run_date"
 >title="运行日期"
->abstract="报表执行的日期。 必须至少比报表结束日期晚一天，并且未来最多可为46天。"
+>abstract="报告的执行日期。 该日期必须至少晚于报告结束日期一天，并且最多可设置为未来 46 天内的日期。"
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_conversion_events"
 >title="转化事件"
->abstract="选择最多三个要包含在归因报表中的转化事件。 自动从您的[!DNL AMC]实例中发现可用事件。 如果未显示任何事件，则您的[!DNL AMC]实例可能没有任何记录的转化事件，并且归因将不可用。"
+>abstract="最多选择三个要纳入归因报告的转化事件。 系统会自动从您的 [!DNL AMC] 实例中发现可用事件。 如果未显示任何事件，则您的 [!DNL AMC] 实例中可能没有记录任何转化事件，因此归因功能将不可用。"
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ ht-degree: 8%
 
 报表运行后，结果将显示在[!DNL AMC]项目的&#x200B;**[!UICONTROL 度量值]**&#x200B;选项卡中。 找到您的报告并选择&#x200B;**[!UICONTROL 查看完整报告]**&#x200B;以查看结果。
 
-![&#x200B; [!DNL AMC]项目中的“度量”选项卡显示一个已完成的报表卡，其运行日期、报表类型和“查看完整报表”按钮突出显示。](../../../assets/collaborate/advertising-platforms/view-full-report.png){zoomable="yes"}
+![ [!DNL AMC]项目中的“度量”选项卡显示一个已完成的报表卡，其运行日期、报表类型和“查看完整报表”按钮突出显示。](../../../assets/collaborate/advertising-platforms/view-full-report.png){zoomable="yes"}
 
 报告显示所选报告类型的可用结果。 **[!UICONTROL 营销活动摘要]**&#x200B;报告显示所选Amazon营销活动的投放结果。
 

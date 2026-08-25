@@ -31,15 +31,15 @@ ht-degree: 93%
 * 您有权访问包含符合&#x200B;**[受众源规格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**&#x200B;的受众文件的活动&#x200B;**[!DNL Amazon S3]存储段**。
 * 您已在AWS中创建了一个&#x200B;**IAM角色**，该角色授予Adobe使用&#x200B;**假定角色**&#x200B;方法（不是访问/密钥密钥）访问存储段的权限。 有关详细说明，请参阅&#x200B;**[为受众源配置AWS权限](./configure-aws-permissions-audience-sourcing.md)**。 IAM角色必须包括以下权限：
 
-   * `ListBucket`
-   * `GetBucketLocation`
-   * `GetObject`
+  * `ListBucket`
+  * `GetBucketLocation`
+  * `GetObject`
 
 * 您已准备好以下值：
 
-   * **IAM角色Amazon资源名称(ARN)**
-   * **S3 bucket名称**
-   * **文件夹路径**（包含受众文件的目录前缀）
+  * **IAM角色Amazon资源名称(ARN)**
+  * **S3 bucket名称**
+  * **文件夹路径**（包含受众文件的目录前缀）
 
 >[!NOTE]
 >
@@ -102,7 +102,7 @@ ht-degree: 93%
 
 接下来，提供您的[!DNL Amazon S3]凭据以将您的S3存储段连接到Collaboration。
 
-按照&#x200B;**[为受众源配置AWS权限](./configure-aws-permissions-audience-sourcing.md)**&#x200B;中概述的步骤操作，以授予Adobe对您的服务器的访问权限
+按照&#x200B;**[为受众源配置AWS权限](./configure-aws-permissions-audience-sourcing.md)**中概述的步骤操作，以授予Adobe对您的服务器的访问权限
 [!DNL Amazon S3]存储。 完成后，将您的值输入到以下UI字段中：
 
 * IAM 角色
@@ -191,7 +191,10 @@ ht-degree: 93%
 
 在网格视图或表格视图中，选择行项或&#x200B;**[!UICONTROL 查看受众]**&#x200B;以查看特定受众的概述。 它显示受众的状态、源和数据连接名称，以及以下内容的详细面板：
 
-**[!UICONTROL 身份]**：显示数据可用时的身份总数和划分。**[!UICONTROL 类别]**：列出用于组织或筛选受众的任何标记。**[!UICONTROL 连接访问]**：指示受众是私有受众、公共受众还是与特定协作者共享。**[!UICONTROL 元数据可见性]**：定义协作者可以看到的受众信息（例如身份计数、重叠百分比和索引）。
+**[!UICONTROL 身份]**：显示数据可用时的身份总数和划分。
+**[!UICONTROL 类别]**：列出用于组织或筛选受众的任何标记。
+**[!UICONTROL 连接访问]**：指示受众是私有受众、公共受众还是与特定协作者共享。
+**[!UICONTROL 元数据可见性]**：定义协作者可以看到的受众信息（例如身份计数、重叠百分比和索引）。
 
 在协作项目中使用受众之前，请使用此视图确认受众配置和可见性设置。
 
