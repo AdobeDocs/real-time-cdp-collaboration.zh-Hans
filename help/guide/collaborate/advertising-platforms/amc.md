@@ -15,7 +15,7 @@ topic_v2:
 source-git-commit: b29c92fa411198ec4e9a0a493c91ee302a327697
 workflow-type: tm+mt
 source-wordcount: 699
-ht-degree: 11%
+ht-degree: 21%
 
 ---
 
@@ -40,22 +40,22 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_resolved_ids"
 >title="已解析的 ID"
->abstract="Amazon通过身份解析能够使用受众数据解析的ID数量。"
+>abstract="Amazon 身份解析服务使用您的受众数据成功解析的 ID 数量。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
 >title="重叠的广告展示 ID"
->abstract="这表示已上传受众中也通过Amazon Ads向广告公开的“已解决ID”的数量。"
+>abstract="这表示已上传受众中的“已解析 ID”中，同时也曾通过 Amazon Ads 接触过广告的 ID 数量。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlap_percentage"
 >title="重叠 %"
->abstract="通过Amazon Ads向广告公开的“已解决ID”比例。"
+>abstract="“已解析 ID”中曾通过 Amazon Ads 接触过广告的 ID 所占比例。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
 >title="按 Amazon 广告产品细分"
->abstract="Amazon Ads赞助产品和/或Amazon Ads DSP达到的“重叠广告显示ID”的细分。"
+>abstract="按 Amazon Ads 赞助产品和/或 Amazon Ads DSP 触达情况细分“重叠的广告曝光 ID”。"
 
 在&#x200B;**[!UICONTROL 发现]**&#x200B;部分中，您可以将AMC受众与通过Amazon广告访问的所有消费者进行比较。 您还可以查看受众与重叠程度最高的区段的Amazon定位，其中仅考虑DSP展示次数（这些区段只能在DSP中定位）。
 
