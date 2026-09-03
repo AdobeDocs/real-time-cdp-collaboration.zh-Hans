@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 21f15134c9319aacf332a9f430b51d84f69498b0
+source-git-commit: 0e46c6f1bc2a0ce5752c7c08700429c97a8b0d45
 workflow-type: tm+mt
-source-wordcount: 2131
+source-wordcount: 2255
 ht-degree: 4%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 以下发行说明介绍了Adobe Real-Time CDP Collaboration中发布的功能。 Collaboration版本在持续交付模型上运行，该模型允许大约每月一次的发布。 这些发行说明会经常更新，因此请务必定期检查。
 
-## 2026年8月 {#august-2026}
+## 2026 年 8 月 {#august-2026}
 
 Real-Time CDP Collaboration现在支持[!DNL Amazon Marketing Cloud] (AMC)测量报表，允许您在[!DNL AMC]项目中测量Amazon Ads促销活动效果。
 
@@ -38,11 +38,13 @@ Real-Time CDP Collaboration现在支持[!DNL Amazon Marketing Cloud] (AMC)测量
 
 | 功能 | 描述 |
 | ------- | ----------- |
-| [!DNL AMC]测量报告 | 直接在Collaboration中使用[!DNL AMC]数据衡量Amazon广告营销活动的效果。 从[!DNL AMC]项目中的[!UICONTROL 度量]选项卡，您可以创建&#x200B;**促销活动摘要**&#x200B;和&#x200B;**归因**&#x200B;报告，以评估促销活动绩效并了解转化归因。 有关详细信息，请参阅[创建Amazon Marketing Cloud测量报表](../collaborate/advertising-platforms/amc-measure.md)。 |
+| [!DNL AMC]测量报告 | 直接在Collaboration中使用[!DNL AMC]数据衡量Amazon广告营销活动的效果。 从[!DNL AMC]项目中的&#x200B;**[!UICONTROL 度量]**&#x200B;选项卡，您可以创建&#x200B;**促销活动摘要**&#x200B;和&#x200B;**归因**&#x200B;报告，以评估促销活动绩效并了解转化归因。 有关详细信息，请参阅[创建Amazon Marketing Cloud测量报表](../collaborate/advertising-platforms/amc-measure.md)。 |
+| 匹配嵌套配置文件属性的键映射 | 您现在可以将匹配键映射到嵌套在基于列表的配置文件字段内的字段，如`devices`阵列中的设备ID，而无需事先拼合或重组数据。 Collaboration会分别匹配和计算嵌套字段中的每个值。 当前仅支持嵌套字段作为匹配键，不支持嵌套字段作为配置文件属性。 有关详细信息，请参阅[映射字段](../setup/onboard-audiences.md#map-fields)。 |
+| 投放级别转化报表 | 归因报表现在包含按投放位置&#x200B;**划分的**&#x200B;转化，显示促销活动ID中每个投放位置ID的转化计数和转化值。 这样可为具有多个投放位置的营销活动提供单独的结果。 为清楚起见，前&#x200B;**[!UICONTROL 预计收入]**&#x200B;量度标签已更新为&#x200B;**[!UICONTROL 转化值]**。 有关详细信息，请参阅[按版面列出的转化](../collaborate/measure.md#conversions-by-placement)。 |
 
 {style="table-layout:auto"}
 
-## 2026年7月 {#july-2026}
+## 2026 年 7 月 {#july-2026}
 
 Real-Time CDP Collaboration现在支持其他自助受众源选项，以及更简单的激活和目标设置工作流。
 
