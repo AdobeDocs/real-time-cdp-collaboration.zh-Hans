@@ -14,7 +14,7 @@ topic_v2:
 source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
 workflow-type: tm+mt
 source-wordcount: 3970
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="营销操作"
->abstract="<p>使用营销操作来控制从 Experience Platform 向 Real-Time CDP Collaboration 导入哪些受众数据。 <strong>Data Collaboration</strong>营销操作支持C4、C5、C9、S1、S2、PSPD和RHD数据使用标签。 <strong>数据科学</strong>营销操作支持 C9 数据使用标签。</p> <p> <ul><li> <em>启用</em>该复选框后，Experience Platform 中标有上述标签的任何数据都会被排除，并且<strong>不</strong>被纳入 Real-Time CDP Collaboration。</li><li> <em>禁用</em>该复选框后，从 Experience Platform 引入 Real-Time CDP Collaboration 的数据不受限制。</li></ul></p>"
+>abstract="<p>使用营销操作来控制从 Experience Platform 向 Real-Time CDP Collaboration 导入哪些受众数据。 <strong>数据协作</strong>营销操作支持 C4、C5、C9、S1、S2、PSPD 和 RHD 数据使用标签。 <strong>数据科学</strong>营销操作支持 C9 数据使用标签。</p> <p> <ul><li> <em>启用</em>该复选框后，Experience Platform 中标有上述标签的任何数据都会被排除，并且<strong>不</strong>被纳入 Real-Time CDP Collaboration。</li><li> <em>禁用</em>该复选框后，从 Experience Platform 引入 Real-Time CDP Collaboration 的数据不受限制。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hans" text="数据使用标签概述"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hans" text="数据使用标签词汇表"
 
@@ -91,7 +91,7 @@ ht-degree: 16%
 
 接下来，您必须确保对来源数据设置了正确的营销操作。 对于源自Experience Platform的数据要用于数据协作，您还需要提供同意。
 
-使用营销操作可以控制要将哪些受众数据从Experience Platform引入Collaboration。 **[!UICONTROL Data Collaboration]**&#x200B;营销操作支持C4、C5、C9、S1、S2、PSPD和RHD数据使用标签。 **[!UICONTROL 数据科学]**&#x200B;营销操作支持 C9 数据使用标签。
+使用营销操作可以控制要将哪些受众数据从Experience Platform引入Collaboration。 **[!UICONTROL 数据协作]**&#x200B;营销操作支持 C4、C5、C9、S1、S2、PSPD 和 RHD 数据使用标签。 **[!UICONTROL 数据科学]**&#x200B;营销操作支持 C9 数据使用标签。
 
 详细了解[C4、C5、C9、S1、S2、PSPD和RHD数据使用标签](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
 
