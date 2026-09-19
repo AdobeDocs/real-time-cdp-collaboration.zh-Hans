@@ -1,13 +1,12 @@
 ---
 title: 为受众源配置AWS权限
-description: 了解如何配置AWS Identity and Access Management (IAM)权限，以授予Adobe对Real-Time CDP Collaboration中受众源的 [!DNL Amazon S3] 存储段的安全只读访问权限。
-source-git-commit: 73f11b7341cf94540dc01f8803291f6dc3cd5038
+description: 了解如何配置AWS Identity and Access Management (IAM)权限，以授予Adobe对您的[!DNL Amazon S3]存储段的安全只读访问权限，以便在Real-Time CDP Collaboration中进行受众源。
+exl-id: a48b800f-4bb3-4be6-af8e-b42a65a25c5b
+source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '659'
 ht-degree: 1%
-
 ---
-
 # 为受众源配置AWS权限
 
 使用本指南配置AWS Identity and Access Management (IAM)策略和角色，这些策略和角色可授予Adobe对Amazon S3存储段的安全只读访问权限。 凭借此访问权限，Real-Time CDP Collaboration可从S3存储段获取受众。
@@ -86,7 +85,7 @@ ht-degree: 1%
 
 在Amazon S3管理控制台的&#x200B;**[!DNL IAM]**&#x200B;选项卡中，导航到&#x200B;**[!DNL Roles]** > **[!DNL Create role]**。
 
-在[!DNL Step 1]工作流的[!DNL Create role]下，在&#x200B;**[!DNL Trusted entity type]**&#x200B;部分中选择&#x200B;**[!DNL Custom trust policy]**。 然后，在&#x200B;**[!DNL Custom trust policy]**&#x200B;编辑器中，粘贴以下示例并将`<Adobe IAM Role ARN>`替换为您所在地区的值。
+在[!DNL Create role]工作流的[!DNL Step 1]下，在&#x200B;**[!DNL Trusted entity type]**&#x200B;部分中选择&#x200B;**[!DNL Custom trust policy]**。 然后，在&#x200B;**[!DNL Custom trust policy]**&#x200B;编辑器中，粘贴以下示例并将`<Adobe IAM Role ARN>`替换为您所在地区的值。
 
 * 适用于您所在地区的Adobe IAM角色ARN：
 
@@ -116,7 +115,7 @@ ht-degree: 1%
 
 查看策略并选择&#x200B;**下一步**&#x200B;以继续。
 
-在[!DNL Step 2]工作流的&#x200B;**[!DNL Add permissions]** [!DNL Create role]部分中，搜索并附加您以前创建的[IAM策略](#create-policy)。 选择策略，然后选择&#x200B;**[!DNL Next]**&#x200B;以继续到[!DNL Step 3]。
+在[!DNL Create role]工作流的[!DNL Step 2] **[!DNL Add permissions]**&#x200B;部分中，搜索并附加您以前创建的[IAM策略](#create-policy)。 选择策略，然后选择&#x200B;**[!DNL Next]**&#x200B;以继续到[!DNL Step 3]。
 
 在[!DNL Step 3] **[!DNL Name review, and create - Role details]**&#x200B;部分中，提供角色名称（例如，`s3-iam-role`）和可选描述。
 
@@ -126,7 +125,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->在创建角色后，必须记录Amazon资源名称(ARN)。 在&#x200B;**为受众源配置AWS S3**&#x200B;工作流的[对S3连接进行身份验证](./configure-aws-s3-audience-sourcing.md)步骤中，您需要提供IAM角色ARN。
+>在创建角色后，必须记录Amazon资源名称(ARN)。 在[为受众源配置AWS S3](./configure-aws-s3-audience-sourcing.md)工作流的&#x200B;**对S3连接进行身份验证**&#x200B;步骤中，您需要提供IAM角色ARN。
 
 ## 后续步骤 {#next-steps}
 
