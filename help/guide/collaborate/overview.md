@@ -2,23 +2,25 @@
 title: 协作概述
 description: 了解如何在Real-Time CDP Collaboration中进行协作。
 audience: publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: eb154fbc-258e-42c8-91c8-62435b3d3a55
 TQID: https://experienceleague.adobe.com/hPBn--hYwsYhphCF84-5HFRUuYXHgcbpo730g6uV-dc
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 feature_v2:
   - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+    internal-label: Insights
+source-git-commit: a0b7e303857d5706974c1ec428c04c8bd86b4faa
 workflow-type: tm+mt
-source-wordcount: 203
-ht-degree: 11%
-
+source-wordcount: '219'
+ht-degree: 10%
 ---
-
 # 协作概述
 
 {{limited-availability-release-note}}
@@ -34,6 +36,7 @@ ht-degree: 11%
 | 营销活动测量 | 此用例授予对[度量](/help/guide/collaborate/measure.md)部分和所有可用功能的访问权限。 |
 | 受众发现 | 此用例授予对[发现](/help/guide/collaborate/discover.md)部分和所有可用功能的访问权限。 |
 | Audience Activation | 此用例授予对[激活](/help/guide/collaborate/activate.md)部分和所有可用功能的访问权限。 |
+| 扩展模型(Beta) | 此用例授予对[展开](/help/guide/collaborate/expand.md)部分和所有可用功能的访问权限。 |
 
 ## 与广告平台协作 {#collaborating-with-advertising-platforms}
 
