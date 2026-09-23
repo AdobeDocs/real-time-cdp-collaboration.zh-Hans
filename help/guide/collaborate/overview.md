@@ -2,7 +2,7 @@
 title: 协作概述
 description: 了解如何在Real-Time CDP Collaboration中进行协作。
 audience: publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: eb154fbc-258e-42c8-91c8-62435b3d3a55
 TQID: https://experienceleague.adobe.com/hPBn--hYwsYhphCF84-5HFRUuYXHgcbpo730g6uV-dc
 product_v2:
