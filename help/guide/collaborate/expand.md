@@ -1,12 +1,12 @@
 ---
 title: 在展开中创建展开受众
 description: 了解如何使用Adobe Real-Time CDP Collaboration中的协作者受众群体，从种子受众创建扩展受众。
-source-git-commit: 88cd685742a4d85850cbf732ef93ab215287c22a
+source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 1%
 ---
-# 在展开中创建展开受众
+# (Beta)在Expand中创建扩展受众
 
 使用项目中的&#x200B;**[!UICONTROL 展开]**&#x200B;选项卡从某个受众创建展开受众。 Collaboration使用协作者的受众群体来查找与种子受众相似的用户档案，这样可帮助您在不暴露协作者基础受众数据的情况下接触新的潜在客户。 生成的扩展受众将发送给您的协作者进行激活。
 
