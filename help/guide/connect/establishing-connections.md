@@ -2,24 +2,27 @@
 title: 与协作者建立连接
 description: 发现潜在的协作者后，了解如何建立连接并开始协作项目。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 feature_v2:
   - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5e722bc0077495561181519121bab9bb267dc7e1
+    internal-label: Insights
+source-git-commit: a2fb1c4e32556881f4300989c9890ae7dbefad8b
 workflow-type: tm+mt
-source-wordcount: 3459
+source-wordcount: '3459'
 ht-degree: 9%
-
 ---
-
 # 与协作者建立连接 {#establishing-connections}
 
 {{limited-availability-release-note}}
@@ -204,7 +207,7 @@ Collaboration支持以下邀请方法：
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="广告商名称"
->abstract="<p>可选设置。 表示发布者知道的该广告商的名称和 ID。</p><p>您在此处输入的广告商名称将用于在创建项目步骤中进行预先填充。</p><ul><li>如果发布者配置了多个名称，请从列表中选择一个。</li><li>如果仅配置了一个名称，就会自动预选此名称。</li><li>如果未配置名称，这个字段中将预先填充为 Collaboration 中的广告商帐户名称。</li></ul>"
+>abstract="<p>可选设置。 表示广告商为发布者所知的名称和 ID。</p><p>您在此处输入的广告商名称将用于在创建项目步骤中进行预先填充。</p><ul><li>如果发布者配置了多个名称，请从列表中选择一个。</li><li>如果仅配置了一个名称，就会自动预选此名称。</li><li>如果未配置名称，这个字段中将预先填充为 Collaboration 中的广告商帐户名称。</li></ul>"
 >additional-url="https://experienceleague.adobe.com/zh-hans/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="创建项目"
 
 >[!CONTEXTUALHELP]
@@ -335,7 +338,7 @@ Audience Activation允许您选择哪个协作者可以在连接中激活受众�
 
 >[!IMPORTANT]
 >
->邀请其他协作者，即表示您确认自己需对通过其活动产生的任何费用负责。 在Collaboration Starter[&#128279;](../setup/starter-credit-usage.md)中了解有关信用使用情况和消费情况的更多信息
+>邀请其他协作者，即表示您确认自己需对通过其活动产生的任何费用负责。 在Collaboration Starter](../setup/starter-credit-usage.md)中了解有关[信用使用情况和消费情况的更多信息
 
 ### 发送一个邀请 {#send-invitation}
 
