@@ -1,21 +1,21 @@
 ---
 title: 管理连接
-description: 了解如何在Real-Time CDP Collaboration中管理您的连接。
+description: 了解如何在Real-Time CDP Collaboration中管理连接和配置自动激活。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
 TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+    internal-label: Insights
+source-git-commit: 991ea79aa90841bee833a04a304a52a407d377c7
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: '1297'
 ht-degree: 2%
-
 ---
-
 # 管理连接 {#manage-connections}
 
 {{limited-availability-release-note}}
@@ -35,6 +35,22 @@ ht-degree: 2%
 此时会出现连接设置工作区，其中显示您与协作者之间的连接详细信息。 在这里，您可以查看在连接过程中选择的所有设置、连接的当前状态、连接所有者和协作者的联系信息。 有关特定连接设置的信息，请参阅[连接设置](/help/guide/connect/establishing-connections.md#connection-settings)指南。
 
 ![连接设置工作区显示连接详细信息。](/help/assets/connect/manage-connections/connection-settings.png){zoomable="yes"}
+
+### 配置自动激活目标 {#configure-auto-activation-destination}
+
+作为接收协作者，您可以选择Collaboration用来自动激活通过连接发送给您的受众的目标。 在开始之前，请确保您至少拥有一个活动目标。 有关配置目标的说明，请参阅[目标概述](../destinations/overview.md)。
+
+在连接设置工作区中，转到&#x200B;**[!UICONTROL 激活控件]**&#x200B;并选择&#x200B;**[!UICONTROL 编辑]**。 接下来，从下拉菜单中选择一个&#x200B;**[!UICONTROL 自动激活目标]**，然后选择&#x200B;**[!UICONTROL 保存]**&#x200B;以进行确认。
+
+>[!NOTE]
+>
+>自动激活适用于所有目标。
+
+![将Northstar Audience Exports选为自动激活目标并突出显示“保存”按钮的“激活控件”对话框。](/help/assets/connect/manage-connections/configure-auto-activation-destination.png){zoomable="yes"}
+
+保存目标后，发送受众的协作者会选择其激活计划。 您的目标在其发送工作流中显示为只读选项。 在收到受众后，Collaboration会根据该计划为您创建激活。 也就是说，接收者选择目的地，发送者选择时间表，Collaboration创建激活。
+
+对自动激活目标所做的更改仅适用于更改后共享的受众。 现有的自动创建激活将继续使用其原始目标。 要关闭未来共享的自动激活功能，请清除自动激活目标并保存更改。
 
 ## 删除连接 {#delete-connection}
 
