@@ -1,19 +1,20 @@
 ---
-title: 为Collaboration [!DNL Starter] 载入配置权限控制
-description: 了解如何使用Adobe Experience Cloud中的权限配置Adobe Real-Time CDP Collaboration [!DNL Starter] 的权限。
+title: 为Collaboration [!DNL Starter]载入配置权限控制
+description: 了解如何使用Adobe Experience Cloud中的权限配置Adobe Real-Time CDP Collaboration [!DNL Starter]的权限。
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 4e50b6cc-58f7-4a0c-8b6d-f5aa4f092e9f
-source-git-commit: 147fd5847bc5074e4b4f8a05a9a1c3afc089be56
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '578'
 ht-degree: 4%
-
 ---
-
 # 为Collaboration [!DNL Starter]载入配置权限控制
 
-在设置管理员和用户对Adobe Experience Platform产品的访问权限后，您需要为自己分配对Real-Time CDP Collaboration具有适当权限的角色。 阅读本指南，了解如何通过Experience Cloud权限界面向您的帐户添加正确的角色，以便您可以访问和管理用户对Collaboration功能的访问权限。
+在设置管理员和用户对Adobe Experience Platform产品的访问权限后，您需要为自己分配对Real-Time CDP Collaboration具有适当权限的角色。 阅读本指南，了解如何通过Experience Cloud权限界面将正确的角色添加到您的帐户，以便您可以访问和管理Collaboration功能的用户访问权限。
 
 有关Collaboration资源中包含的标准角色和可用权限的详细信息，请参阅[如何管理角色指南](../permissions/manage-roles.md)。
 
@@ -29,7 +30,7 @@ ht-degree: 4%
 
 登录后，导航到&#x200B;**[!UICONTROL 快速访问]**&#x200B;部分并选择&#x200B;**[!UICONTROL 权限]**。 这将打开“权限”功能板，您可以在其中为您自己分配必要的角色。
 
-![Experience Cloud主页，其“快速访问”部分中的权限突出显示。](../../assets/setup/starter/access-permissions.png){zoomable="yes"}
+![Experience Cloud主页的“快速访问”部分中的权限突出显示。](../../assets/setup/starter/access-permissions.png){zoomable="yes"}
 
 ### 选择用户 {#select-user}
 

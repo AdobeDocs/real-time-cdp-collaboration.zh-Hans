@@ -1,14 +1,15 @@
 ---
-title: '为受众源配置 [!DNL Amazon S3] '
-description: 了解如何将 [!DNL Amazon S3] 存储配置并连接为自助数据源，以将受众数据摄取到Real-Time CDP Collaboration。
+title: 为受众源配置[!DNL Amazon S3]
+description: 了解如何将[!DNL Amazon S3]存储配置为自助数据源并将其连接，以将受众数据摄取到Real-Time CDP Collaboration。
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '1624'
-ht-degree: 93%
-
+source-wordcount: '1626'
+ht-degree: 92%
 ---
-
 # 为受众源配置[!DNL Amazon S3]
 
 了解如何在Adobe Real-Time CDP Collaboration UI中配置[!DNL Amazon S3]存储并将其连接到受众数据以进行激活和重叠分析。
@@ -68,7 +69,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_specifications"
 >title="请为加入过程准备好您的数据"
->abstract="阅读受众来源规范指南，了解如何为 Collaboration 格式化和构建来自 Amazon S3 的受众数据。"
+>abstract="阅读受众来源规范指南，了解如何格式化和构建来自 Amazon S3 的受众数据，以供 Collaboration 使用。"
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="查看指南"
 
 此时将显示一个对话框，其中说明必须如何构建受众文件。 使用指向&#x200B;**[[!UICONTROL 受众源规格]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**&#x200B;的链接了解如何设置和构建[!DNL Amazon S3]中的受众数据，以便Collaboration能够正确读取。
@@ -77,7 +78,7 @@ ht-degree: 93%
 >
 >您必须已授权Adobe作为[!DNL Amazon S3]用户，这样Adobe才能从[!DNL Amazon S3]存储中检索数据以供处理。
 
-您的受众文件必须符合受众源规范。 匹配键会根据所需的格式自动映射。
+您的受众文件必须符合受众来源规范。 匹配键会根据所需的格式自动映射。
 
 主要考虑因素包括：
 
@@ -97,13 +98,13 @@ ht-degree: 93%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_amazon_s3"
->title="添加 Amazon S3 受众"
+>title="为 Amazon S3 添加受众"
 >abstract="要连接您的 Amazon S3 存储，请授权 Adobe 的服务用户检索您的受众数据以进行处理。 按照 Experience League 中列出的步骤，授予 Adobe 访问您的 Amazon S3 存储的权限。"
 
 接下来，提供您的[!DNL Amazon S3]凭据以将您的S3存储段连接到Collaboration。
 
 按照&#x200B;**[为受众源配置AWS权限](./configure-aws-permissions-audience-sourcing.md)**&#x200B;中概述的步骤操作，以授予Adobe对您的服务器的访问权限
-[!DNL Amazon S3]存储。 完成后，将您的值输入到以下UI字段中：
+[!DNL Amazon S3]存储。 完成后，在以下 UI 字段中输入相应的值：
 
 * IAM 角色
 * S3 Bucket名称
@@ -140,7 +141,7 @@ ht-degree: 93%
 
 ![包含连接名称和说明字段的数据连接详细信息表单。](../../assets/setup/aws-audience-sourcing/s3-connection-name-description.png)
 
-### 查看自动映射的身份字段 {#auto-mapped-fields}
+### 查看自动映射的身份标识字段 {#auto-mapped-fields}
 
 **[!UICONTROL 映射]**&#x200B;屏幕是只读的。 不能添加、删除或应用转换。 Collaboration会根据受众源规范，自动将受众文件中的源标识字段映射到目标字段。
 
@@ -171,13 +172,13 @@ ht-degree: 93%
 
 ![查看摘要屏幕显示数据连接、详细信息、映射和计划部分。](../../assets/setup/aws-audience-sourcing/s3-connection-review-summary.png)
 
-此时将显示一个对话框确认，声明已成功创建数据连接，并且正在获取受众。
+此时会显示一个确认对话框，说明数据连接已成功创建，并且受众获取正在进行中。
 
 ## 审查源受众 {#review-sourced-audiences}
 
 完成配置后，Collaboration开始从S3存储段获取受众。 通过[!DNL Amazon S3]存储段来源的受众会显示在“**[!UICONTROL 我的受众]**”选项卡中，并且具有与Experience Platform来源的受众相同的功能和信息。
 
-如果受众源正在进行，则屏幕顶部会显示一个横幅。 单个受众仅在采购完成后显示。
+如果受众获取正在进行中，则屏幕顶部会显示一个横幅。 单个受众仅在获取完成后显示。
 
 ![“受众”选项卡显示[!DNL Amazon S3]受众的来源补充正在进行中。](../../assets/setup/aws-audience-sourcing/s3-audiences-sourcing-in-progress.png)
 
@@ -214,7 +215,7 @@ ht-degree: 93%
 
 ## 后续步骤 {#next-steps}
 
-您现在已成功配置并连接[!DNL Amazon S3]存储作为Collaboration中的数据源。 通过完成此工作流，您启用了用于激活和重叠分析的第一方受众数据的安全来源。
+您现在已成功配置并连接[!DNL Amazon S3]存储作为Collaboration中的数据源。 通过完成此工作流，您实现了安全获取用于激活和重叠分析的第一方受众数据。
 
 完成源获取后，您的受众将出现在&#x200B;**[!UICONTROL 我的受众]**&#x200B;工作区中，可随时进行协作和激活。 有关详细管理选项，请参阅[源和管理受众文档](./onboard-audiences.md)。
 

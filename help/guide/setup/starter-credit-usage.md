@@ -4,13 +4,14 @@ description: 了解Adobe Real-Time CDP Collaboration [!DNL Starter]中信用使�
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d1c15141-56c4-48aa-aba8-8d6f77024f63
-source-git-commit: 1952ea15da6da320b5630307528fb2f9fdb17118
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 6%
-
 ---
-
 # Real-Time CDP Collaboration [!DNL Starter]中的信用使用量和消耗量
 
 本文档提供了有关以受邀用户身份加入Adobe Real-Time CDP Collaboration [!DNL Starter]时如何使用积分的详细信息。 进一步了解谁负责信用使用情况，以及访问和管理的重要注意事项。
@@ -27,8 +28,8 @@ Collaboration **不**&#x200B;自动强制使用信用或可用性。 这意味�
 
 * 作为受邀用户，您必须直接与邀请您讨论信用使用的组织或合作伙伴进行协调。
 * 您的邀请组织负责决定：
-   * 何时可以访问和使用Collaboration功能
-   * 关于信用消费的哪些限制、限制或治理
+  * 何时可以访问和使用Collaboration功能
+  * 关于信用消费的哪些限制、限制或治理
 
 >[!IMPORTANT]
 >

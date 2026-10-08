@@ -4,7 +4,10 @@ description: 了解如何在Real-Time CDP Collaboration中管理测量数据连�
 audience: administrator, data engineer
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: dfe72315-6fcc-4ad7-b100-fc992ba9abbc
-source-git-commit: 874005b191d002e14aa134264f6678ec38a0d6a7
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 14%
@@ -32,7 +35,7 @@ ht-degree: 14%
 | 字段 | 描述 |
 |-------------------|-------------|
 | 状态 | 测量数据连接的当前状态，例如&#x200B;**[!UICONTROL 活动]**。 |
-| 来源 | 为此连接提供测量数据的平台或系统。 |
+| 源 | 为此连接提供测量数据的平台或系统。 |
 | 沙盒 | 配置测量数据连接的沙盒的名称。 |
 | 数据集 | 用于在连接中获取测量数据的数据集的名称。 |
 | 上次更新时间 | 测量数据连接最近更新的时间戳。 |

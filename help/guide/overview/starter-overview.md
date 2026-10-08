@@ -4,13 +4,14 @@ description: 了解Adobe Real-Time CDP Collaboration Starter如何帮助您与�
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: d0d854f73fa835984e5cff5207ce3e01297c8deb
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 4%
-
 ---
-
 # Adobe Real-Time CDP Collaboration [!DNL Starter]概述
 
 使用Adobe Real-Time CDP Collaboration [!DNL Starter]与许可合作伙伴协作，实施以隐私为中心的数据项目。 您无需自己的Collaboration许可证即可参与。
@@ -83,7 +84,7 @@ ht-degree: 4%
 
 ### 了解信用使用情况 {#understand-credit-usage}
 
-所有Collaboration [!DNL Starter]活动都使用积分。 但是，作为受邀用户，您无需购买或管理这些积分。 邀请您的协作者涵盖与您的活动关联的所有信用使用情况。 若要了解更多信息，请参阅Collaboration [!DNL Starter][&#128279;](../setup/starter-credit-usage.md)文档中的信用使用情况和使用情况。
+所有Collaboration [!DNL Starter]活动都使用积分。 但是，作为受邀用户，您无需购买或管理这些积分。 邀请您的协作者涵盖与您的活动关联的所有信用使用情况。 若要了解更多信息，请参阅Collaboration [!DNL Starter]&#x200B;[&#128279;](../setup/starter-credit-usage.md)文档中的信用使用情况和使用情况。
 
 ## 后续步骤 {#next-steps}
 
@@ -91,6 +92,6 @@ ht-degree: 4%
 
 * [Source和管理受众](../setup/onboard-audiences.md)
 * [项目用例](../collaborate/overview.md#project-use-cases)：
-   * [发现重叠并比较受众](../collaborate/discover.md)
-   * [激活受众](../collaborate/activate.md)
-   * [衡量促销活动效果](../collaborate/measure.md)
+  * [发现重叠并比较受众](../collaborate/discover.md)
+  * [激活受众](../collaborate/activate.md)
+  * [衡量促销活动效果](../collaborate/measure.md)

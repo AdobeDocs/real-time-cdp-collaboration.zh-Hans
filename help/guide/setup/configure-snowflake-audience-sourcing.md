@@ -1,16 +1,17 @@
 ---
-title: '为受众源配置 [!DNL Snowflake] '
-description: 了解如何将 [!DNL Snowflake Secure Data Share] 配置为自助数据源并将其连接，以将受众数据摄取到Real-Time CDP Collaboration。
+title: 为受众源配置[!DNL Snowflake]
+description: 了解如何将您的[!DNL Snowflake Secure Data Share]配置为自助服务数据源并将其连接，以将受众数据摄取到Real-Time CDP Collaboration。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1600'
 ht-degree: 21%
-
 ---
-
 # 为受众源配置[!DNL Snowflake]
 
 了解如何在Adobe Real-Time CDP Collaboration UI中配置您的[!DNL Snowflake Secure Data Share]并将其连接到受众数据以进行激活和重叠分析。
@@ -28,10 +29,10 @@ ht-degree: 21%
 * 您已创建一个[!DNL Snowflake Share]并在您的[!DNL Snowflake]帐户中设置必要的权限来授予对您的[!DNL Snowflake Secure Data Share]的Adobe访问权限。 了解[如何配置 [!DNL Snowflake] 权限](#set-up-snowflake-permissions)。
 * 您已准备好[!DNL Snowflake Share]个值：
 
-   * **共享名称**
-   * **帐户标识符**
-   * **架构**
-   * **视图**
+  * **共享名称**
+  * **帐户标识符**
+  * **架构**
+  * **视图**
 
 * [!DNL Snowflake Secure Data Share]中的受众数据必须符合[受众源规格(v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)指南中所述的格式要求。
 * 还必须为您的Collaboration帐户启用[!DNL Snowflake]受众文件中的所有匹配键。 了解如何[启用匹配键](./onboard-account.md#set-up-match-keys)或[将新的匹配键](./onboard-account.md#edit-match-keys)添加到您的帐户。

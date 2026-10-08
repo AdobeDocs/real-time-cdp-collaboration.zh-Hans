@@ -2,13 +2,14 @@
 title: 目标连接要求
 description: 查看在Real-Time CDP Collaboration中配置受支持的目标所需的连接信息。
 audience: admin, publisher
-source-git-commit: c84582bb81289ce761c664af7db177535ff00a00
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 1%
-
 ---
-
 # 目标连接要求
 
 在Real-Time CDP Collaboration中配置目标之前，请获取目标提供商所需的凭据和连接信息。

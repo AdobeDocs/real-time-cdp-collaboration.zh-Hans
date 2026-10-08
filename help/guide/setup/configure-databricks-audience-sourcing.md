@@ -1,15 +1,16 @@
 ---
-title: '为受众源配置 [!DNL Databricks Delta Share] '
-description: 了解如何在Real-Time CDP Collaboration中配置并连接 [!DNL Databricks Delta Share] 受众源。
+title: 为受众源配置[!DNL Databricks Delta Share]
+description: 了解如何在Real-Time CDP Collaboration中为受众源配置和连接[!DNL Databricks Delta Share]。
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 876b7d2996d3027f81159252f714c2305d6d23b4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2818'
 ht-degree: 9%
-
 ---
-
 
 # 为受众源配置[!DNL Databricks Delta Share]
 
@@ -56,9 +57,9 @@ ht-degree: 9%
 在启动配置向导之前，请准备好以下值。
 
 
-| 值 | 描述 |
+| 值 | 说明 |
 | ----- | ----------- |
-| 提供者名称 | Adobe在Unity Catalog中用于访问[!DNL Delta Share]的提供程序标识符。 您的[!DNL Databricks]管理员或Adobe入门培训联系人可以提供此值。 此值与[!DNL Databricks]工作区URL不同。 |
+| 提供商名称 | Adobe在Unity Catalog中用于访问[!DNL Delta Share]的提供程序标识符。 您的[!DNL Databricks]管理员或Adobe入门培训联系人可以提供此值。 此值与[!DNL Databricks]工作区URL不同。 |
 | 共享名称 | 发布到Adobe的[!DNL Delta Share]的名称。 |
 | 架构 | 共享中包含受众表的架构。 |
 | 成员资格表 | 架构内包含受众成员资格行的表名称（受众中每个配置文件一行）。 |
@@ -95,7 +96,7 @@ ht-degree: 9%
 >title="Experience League"
 >abstract="有关配置您的受众来源共享的说明，请参阅 [!DNL Databricks Delta Share] 来源指南"
 
-提供允许Collaboration访问您的[!DNL Delta Share]所需的详细信息。输入[!DNL Databricks Delta Share]中的提供程序、共享、架构和表详细信息。所需的成员资格表必须在共享架构中可用。如果使用元数据表，则该元数据表必须也可在同一共享架构中使用。
+提供允许Collaboration访问您的[!DNL Delta Share]所需的详细信息。 输入[!DNL Databricks Delta Share]中的提供程序、共享、架构和表详细信息。 所需的成员资格表必须在共享架构中可用。 如果使用元数据表，则该元数据表必须也可在同一共享架构中使用。
 输入所需信息后，选择&#x200B;**[!UICONTROL 连接]**。
 
 Collaboration会在Adobe的工作区中验证并装载共享。 此步骤最多可能需要一分钟。 建立连接时将显示进度指示器。
@@ -291,7 +292,7 @@ Collaboration会在Adobe的工作区中验证并装载共享。 此步骤最多�
 
 | 字段 | 描述 | 示例 |
 | ------| ----------- | ------- |
-| 提供者名称 | Adobe Unity Catalog元存储中的提供商标识符（来自Adobe入门） | `your_org_provider` |
+| 提供商名称 | Adobe Unity Catalog元存储中的提供商标识符（来自Adobe入门） | `your_org_provider` |
 | 共享名称 | 已发布[!DNL Delta Share]的名称 | `audience_share_prod` |
 | 架构 | 架构 | `collaboration_audiences` |
 | 成员资格表 | 具有个人资料受众成员资格行的表 | `audience_members` |

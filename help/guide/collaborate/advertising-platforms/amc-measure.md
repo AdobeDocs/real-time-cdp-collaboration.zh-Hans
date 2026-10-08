@@ -2,16 +2,17 @@
 title: 创建Amazon Marketing Cloud测量报表
 description: 了解如何在Real-Time CDP Collaboration中为Amazon Marketing Cloud营销活动创建和解释测量报表。
 audience: advertiser
-keywords: AMC， Amazon Marketing Cloud，测量报表，营销活动摘要，归因， Real-Time CDP Collaboration
+keywords: AMC，Amazon Marketing Cloud，测量报告，营销活动摘要，归因，Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
 badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
+product_v2:
+  - id: fb6a47ca-2fb2-4cbc-8224-2e6b6cd3238f
+    internal-label: Real-Time Customer Data Platform Collaboration
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1568'
 ht-degree: 15%
-
 ---
-
 
 # 创建[!DNL Amazon Marketing Cloud]测量报告 {#amc-measurement-reports}
 
