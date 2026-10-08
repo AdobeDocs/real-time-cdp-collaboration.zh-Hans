@@ -1,15 +1,16 @@
 ---
-title: 来自Real-Time CDP Collaboration中 [!DNL Azure] storage的Source受众
+title: 来自Real-Time CDP Collaboration中[!DNL Azure]存储的Source受众
 description: Source第一方受众数据从Azure Blob Storage或Azure Data Lake Storage Gen2转至Real-Time CDP Collaboration。
-keywords: Real-Time CDP Collaboration；受众源； [!DNL Azure Blob Storage]; [!DNL Azure Data Lake Storage] Gen2
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 3b62837cecf6cf7c288ce1633d43312ff6a92664
+keywords: Real-Time CDP Collaboration；受众源；[!DNL Azure Blob Storage]；[!DNL Azure Data Lake Storage] Gen2
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '2050'
+source-wordcount: '2051'
 ht-degree: 4%
-
 ---
-
 # Azure storage中的Source受众
 
 将[!DNL Azure Blob Storage]或[!DNL Azure Data Lake Storage] (ADLS) Gen2连接到Adobe Real-Time CDP Collaboration以源第一方受众数据以进行激活和重叠分析。
@@ -61,7 +62,7 @@ Collaboration支持两个[!DNL Azure]摄取选项。 使用下表选取与受众
 
 在启动配置工作流之前，准备好以下值。
 
-| 值 | 描述 | Azure Blob Storage示例 | ADLS Gen2示例 |
+| 值 | 说明 | Azure Blob Storage示例 | ADLS Gen2示例 |
 | ------------------- | ------------------------ | -------------------------------------- | -------------------------------------- |
 | **存储帐户** | 托管受众文件的[!DNL Azure]存储帐户的名称。 | `customerdatastore` | `datalake-prod` |
 | **容器** | 对于[!DNL Azure Blob Storage]，包含受众文件的存储容器。 对于[!DNL Azure Data Lake Storage] Gen2，在&#x200B;**[!UICONTROL 容器]**&#x200B;字段中输入ADLS Gen2文件系统名称。 | `audience-ingest` | `audiences` |

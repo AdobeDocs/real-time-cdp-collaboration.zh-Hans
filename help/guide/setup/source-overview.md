@@ -2,13 +2,14 @@
 title: 源概述
 description: 了解Adobe Real-Time CDP Collaboration中的源连接器
 audience: admin, publisher, advertiser
-source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 9%
-
 ---
-
 # 源概述
 
 在Adobe Real-Time CDP Collaboration中，源（或数据连接）是受众数据的来源。 您可以从本地系统连接到各种源类型，如Adobe应用程序、基于云的存储或文件，以便[为Collaboration项目提供和管理受众](./onboard-audiences.md)。 在受众源工作流程中，您可以根据组织的需求选择和设置首选来源。
@@ -33,7 +34,7 @@ ht-degree: 9%
 
 Collaboration中有以下源。 要查看该来源的分步采购指南，请选择下表中的来源名称。 如果您对某个当前不可用的源感兴趣，请联系您的Adobe代表。
 
-| 来源 | 描述 | 可用性 |
+| 源 | 描述 | 可用性 |
 | --- | --- | --- |
 | [Adobe Experience Platform](./onboard-audiences.md) | 从连接的Experience Platform实例引入受众并重用现有的客户区段。 | 可用 |
 | [Amazon S3](./configure-aws-s3-audience-sourcing.md) | 连接您的S3存储桶以从云基础架构中获取大型第一方数据集。 | 可用 |

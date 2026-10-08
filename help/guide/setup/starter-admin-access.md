@@ -1,27 +1,28 @@
 ---
-title: 配置Collaboration [!DNL Starter] 入门的管理员访问权限
-description: 了解如何使用Adobe Experience Cloud中的Admin Console配置Adobe Real-Time CDP Collaboration [!DNL Starter] 的管理员访问权限。
+title: 配置Collaboration [!DNL Starter]入门培训的管理员访问权限
+description: 了解如何使用Adobe Experience Cloud中的Admin Console配置Adobe Real-Time CDP Collaboration [!DNL Starter]的管理员访问权限。
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7b5aa5e2-1238-4a0b-be20-becfe6c9e0b7
-source-git-commit: db4cc34592e49254163d7db54f93238146ce72a4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '830'
 ht-degree: 3%
-
 ---
-
 # 配置Collaboration [!DNL Starter]入门培训的管理员访问权限
 
 作为贵组织中第一个通过Collaboration [!DNL Starter]访问Adobe Experience Platform的用户，您负责为团队设置和管理访问权限。 您必须授予自己必要的管理员和用户权限，才能开始使用Real-Time CDP Collaboration。 阅读本指南，了解如何在Admin Console中配置所需的访问权限，以便您可以在权限界面中管理协作权限。
 
 ## 先决条件 {#prerequisites}
 
-Before continuing, ensure that you have:
+在继续之前，请确保您具有：
 
-* 已接受您的许可Collaboration合作伙伴的邀请。 For more information about the invitation requirements, see the [Collaboration [!DNL Starter] overview](../overview/starter-overview.md#prerequisites).
+* 已接受您的许可Collaboration合作伙伴的邀请。 有关邀请要求的详细信息，请参阅[Collaboration [!DNL Starter] 概述](../overview/starter-overview.md#prerequisites)。
 * 审核并签署Collaboration条款和条件。
-* Received your Adobe welcome email and completed your first-time account creation.
+* 收到您的Adobe欢迎电子邮件并完成了您的首次帐户创建。
 
 ## 设置访问权限 {#setup-access}
 
@@ -41,44 +42,44 @@ Before continuing, ensure that you have:
 
 #### 访问Admin Console {#access-admin-console}
 
-To begin, sign in to [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} with your credentials. 您可以在&#x200B;**[!UICONTROL 快速访问]**&#x200B;部分中看到可用产品的列表。 选择&#x200B;**[!UICONTROL Admin Console]**。
+若要开始，请使用您的凭据登录到[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}。 您可以在&#x200B;**[!UICONTROL 快速访问]**&#x200B;部分中看到可用产品的列表。 选择&#x200B;**[!UICONTROL Admin Console]**。
 
-![Adobe Experience Cloud homepage with Admin Console highlighted.](../../assets/setup/starter/admin-access/select-admin-console.png){zoomable="yes"}
+![高亮显示了Admin Console的Adobe Experience Cloud主页。](../../assets/setup/starter/admin-access/select-admin-console.png){zoomable="yes"}
 
-#### Access Adobe Experience Platform product dashboard {#access-adobe-experience-platform}
+#### 访问Adobe Experience Platform产品仪表板 {#access-adobe-experience-platform}
 
-The [Admin Console](https://adminconsole.adobe.com/) workspace opens in a new tab. Select **[!UICONTROL Adobe Experience Platform]** from the **[!UICONTROL Products]** list under **[!UICONTROL Products and services]**.
+[Admin Console](https://adminconsole.adobe.com/)工作区将在新选项卡中打开。 从&#x200B;**[!UICONTROL 产品和服务]**&#x200B;下的&#x200B;**[!UICONTROL 产品]**&#x200B;列表中选择&#x200B;**[!UICONTROL Adobe Experience Platform]**。
 
-![Admin Console workspace with the the Adobe Experience Platform product highlighted.](../../assets/setup/starter/admin-access/admin-console-workspace.png){zoomable="yes"}
+![突出显示Adobe Experience Platform产品的Admin Console工作区。](../../assets/setup/starter/admin-access/admin-console-workspace.png){zoomable="yes"}
 
-#### Add product admin {#add-product-admin}
+#### 添加产品管理员 {#add-product-admin}
 
-In the **[!UICONTROL Adobe Experience Platform]** product dashboard, navigate to the **[!UICONTROL Admins]** tab. Then select **[!UICONTROL Add admin]**.
+在&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;产品仪表板中，导航到&#x200B;**[!UICONTROL 管理员]**&#x200B;选项卡。 然后选择&#x200B;**[!UICONTROL 添加管理员]**。
 
-![Adobe Experience Platform product dashboard with the Admins tab and the Add admin option highlighted.](../../assets/setup/starter/admin-access/add-admin.png){zoomable="yes"}
+![Adobe Experience Platform产品仪表板，突出显示了“管理员”选项卡和“添加管理员”选项。](../../assets/setup/starter/admin-access/add-admin.png){zoomable="yes"}
 
-Enter your email address or username in the **[!UICONTROL Add product administrators]** dialog, then select the correct account from the dropdown. Once finished, select **[!UICONTROL Save]**.
+在&#x200B;**[!UICONTROL 添加产品管理员]**&#x200B;对话框中输入您的电子邮件地址或用户名，然后从下拉列表中选择正确的帐户。 完成后，选择&#x200B;**[!UICONTROL 保存]**。
 
-![Add product administrators dialog displays your account&#39;s information and the Save option highlighted.](../../assets/setup/starter/admin-access/add-product-admin.png){zoomable="yes"}
+![“添加产品管理员”对话框显示您帐户的信息，并突出显示“保存”选项。](../../assets/setup/starter/admin-access/add-product-admin.png){zoomable="yes"}
 
-You are now a product administrator and can add users or other admins to the product within the Admin Console. Next, grant yourself user access to the Experience Platform product to access and perform functions in Permissions.
+您现在是产品管理员，可以在Admin Console中将用户或其他管理员添加到该产品。 接下来，授予您自己用户访问Experience Platform产品的权限，以便访问和执行权限中的功能。
 
-### Configure user access {#configure-user-access}
+### 配置用户访问权限 {#configure-user-access}
 
-To manage Collaboration permissions, you must have **user access** to the product in addition to administrator access. User access can be configured by a system or product administrator.
+要管理Collaboration权限，除了具有管理员访问权限之外，您还必须具有产品的&#x200B;**用户访问权限**。 系统或产品管理员可以配置用户访问权限。
 
 >[!TIP]
 >
->If you are following along from the previous section, you should already be in the **[!UICONTROL Adobe Experience Platform]** product dashboard within the Admin Console. From here, proceed to [add yourself as a user](#add-user).
+>如果您正在关注上一节的内容，则您应该已经位于Admin Console中的&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;产品仪表板中。 从此处，继续[将自己添加为用户](#add-user)。
 
-To begin configuring your user access, complete the following steps:
+要开始配置用户访问权限，请完成以下步骤：
 
-1. [Access the Admin Console from the Adobe Experience Cloud homepage](#access-admin-console).
-2. [Navigate to the Adobe Experience Platform product dashboard](#access-adobe-experience-platform).
+1. [从Adobe Experience Cloud主页访问Admin Console](#access-admin-console)。
+2. [导航到Adobe Experience Platform产品仪表板](#access-adobe-experience-platform)。
 
-#### Add user to product {#add-user}
+#### 将用户添加到产品 {#add-user}
 
-You are now in the **[!UICONTROL Adobe Experience Platform]** product dashboard. Navigate to the **[!UICONTROL Users]** tab, then select **[!UICONTROL Add users]**.
+您现在位于&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;产品仪表板中。 导航到&#x200B;**[!UICONTROL 用户]**&#x200B;选项卡，然后选择&#x200B;**[!UICONTROL 添加用户]**。
 
 ![Adobe Experience Platform产品仪表板，突出显示“用户”选项卡和“添加用户”选项。](../../assets/setup/starter/admin-access/add-user.png){zoomable="yes"}
 
@@ -88,7 +89,7 @@ You are now in the **[!UICONTROL Adobe Experience Platform]** product dashboard.
 
 接下来，选择&#x200B;**[!UICONTROL 产品]**&#x200B;下的添加图标![添加图标](../../assets/icons/plus.png)。
 
-此时将显示一个对话框，其中包含可用[产品配置文件](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html)的列表。 选择&#x200B;**[!UICONTROL AEP-Default-All-Users]**&#x200B;和&#x200B;**[!UICONTROL 默认的生产所有访问]**。 然后选择&#x200B;**[!UICONTROL 应用]**。
+此时将显示一个对话框，其中包含可用[产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)的列表。 选择&#x200B;**[!UICONTROL AEP-Default-All-Users]**&#x200B;和&#x200B;**[!UICONTROL 默认的生产所有访问]**。 然后选择&#x200B;**[!UICONTROL 应用]**。
 
 ![选择产品配置文件对话框显示所选的产品配置文件，并突出显示“应用”选项。](../../assets/setup/starter/admin-access/select-product-profiles.png){zoomable="yes"}
 
@@ -98,7 +99,7 @@ You are now in the **[!UICONTROL Adobe Experience Platform]** product dashboard.
 
 获得用户访问权限后，导航回[Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"}。 确认&#x200B;**[!UICONTROL 权限]**&#x200B;和&#x200B;**[!UICONTROL Real-Time CDP Collaboration]**&#x200B;在&#x200B;**[!UICONTROL 快速访问]**&#x200B;下可用。
 
-![Adobe Experience Cloud主屏幕显示“快速访问”下列出的权限和Real-Time CDP Collaboration，并突出显示。](../../assets/setup/starter/admin-access/permissions-collaboration-available.png){zoomable="yes"}
+![Adobe Experience Cloud主屏幕显示“快速访问”下列出并突出显示的权限和Real-Time CDP Collaboration。](../../assets/setup/starter/admin-access/permissions-collaboration-available.png){zoomable="yes"}
 
 >[!TIP]
 >

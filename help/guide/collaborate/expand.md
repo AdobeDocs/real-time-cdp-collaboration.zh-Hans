@@ -1,7 +1,10 @@
 ---
 title: 在展开中创建展开受众
 description: 了解如何使用Adobe Real-Time CDP Collaboration中的协作者受众群体，从种子受众创建扩展受众。
-source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 1%
@@ -43,7 +46,7 @@ ht-degree: 1%
 
 扩展受众会经历以下状态：
 
-| 状态 | 描述 |
+| 状态 | 说明 |
 |---|---|
 | **[!UICONTROL 正在处理]** | 扩展模型仍在生成扩展受众。 |
 | **[!UICONTROL 草稿]** | 模型已完成，扩展受众已准备好供您查看并发送给您的协作者。 |

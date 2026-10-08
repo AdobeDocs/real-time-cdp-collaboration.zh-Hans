@@ -2,7 +2,10 @@
 title: 为受众源配置AWS权限
 description: 了解如何配置AWS Identity and Access Management (IAM)权限，以授予Adobe对您的[!DNL Amazon S3]存储段的安全只读访问权限，以便在Real-Time CDP Collaboration中进行受众源。
 exl-id: a48b800f-4bb3-4be6-af8e-b42a65a25c5b
-source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 1%
