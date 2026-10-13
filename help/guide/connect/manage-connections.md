@@ -2,7 +2,7 @@
 title: 管理连接
 description: 了解如何在Real-Time CDP Collaboration中管理连接和配置自动激活。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
 TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
 product_v2:
@@ -11,9 +11,9 @@ product_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 991ea79aa90841bee833a04a304a52a407d377c7
+source-git-commit: 3c781fcb761c0d74241d66a7e75e3206fc1bc1da
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1311'
 ht-degree: 2%
 ---
 # 管理连接 {#manage-connections}
@@ -38,7 +38,9 @@ ht-degree: 2%
 
 ### 配置自动激活目标 {#configure-auto-activation-destination}
 
-作为接收协作者，您可以选择Collaboration用来自动激活通过连接发送给您的受众的目标。 在开始之前，请确保您至少拥有一个活动目标。 有关配置目标的说明，请参阅[目标概述](../destinations/overview.md)。
+作为接收协作者，您可以选择Collaboration用来自动激活通过连接发送给您的受众的目标。 如果不配置自动激活目标，则必须手动激活收到的受众。
+
+在开始之前，请确保您至少拥有一个活动目标。 有关配置目标的说明，请参阅[目标概述](../destinations/overview.md)。
 
 在连接设置工作区中，转到&#x200B;**[!UICONTROL 激活控件]**&#x200B;并选择&#x200B;**[!UICONTROL 编辑]**。 接下来，从下拉菜单中选择一个&#x200B;**[!UICONTROL 自动激活目标]**，然后选择&#x200B;**[!UICONTROL 保存]**&#x200B;以进行确认。
 
