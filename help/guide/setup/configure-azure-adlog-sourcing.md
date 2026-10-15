@@ -2,7 +2,7 @@
 title: 为广告曝光源配置[!DNL Azure]存储
 description: Source广告曝光（广告日志）数据从Azure Data Lake Storage或Blob Storage移入Real-Time CDP Collaboration以进行以隐私为中心的测量。
 keywords: Real-Time CDP Collaboration；广告日志源；[!DNL Azure Data Lake Storage]；[!DNL Azure Blob Storage]
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 02f344c9fcfff20c84c2e92b5aa4647829dd5d2f
 workflow-type: tm+mt
 source-wordcount: '1779'

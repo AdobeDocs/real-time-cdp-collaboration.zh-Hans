@@ -2,7 +2,7 @@
 title: 为广告曝光源配置[!DNL Google Cloud Storage]
 description: 了解如何在Real-Time CDP Collaboration测量中将[!DNL Google Cloud Storage]存储段连接为广告公开的自助广告日志源。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 02f344c9fcfff20c84c2e92b5aa4647829dd5d2f
 workflow-type: tm+mt
 source-wordcount: '1712'
