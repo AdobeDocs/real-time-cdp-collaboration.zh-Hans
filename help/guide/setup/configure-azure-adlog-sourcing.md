@@ -29,7 +29,7 @@ Real-Time CDP Collaboration中的“测量”模块可将广告商转化数据�
 
 ### [!DNL Azure]访问和权限 {#azure-access-and-permissions}
 
-在向导的&#x200B;**[!UICONTROL 同意]**&#x200B;步骤中，您或您的[!DNL Azure]管理员必须能够在存储帐户上分配&#x200B;**[!DNL Storage Blob Data Reader]**&#x200B;角色。 请参阅向导](#connect-adlogs)中的[连接广告日志。
+在向导的&#x200B;**[!UICONTROL 同意]**&#x200B;步骤中，您或您的[!DNL Azure]管理员必须能够在存储帐户上分配&#x200B;**[!DNL Storage Blob Data Reader]**&#x200B;角色。 请参阅向导[&#128279;](#connect-adlogs)中的连接广告日志。
 
 
 ### 准备广告日志数据 {#prepare-adlog-data}
@@ -178,4 +178,4 @@ Real-Time CDP Collaboration中的“测量”模块可将广告商转化数据�
 
 完成来源补充后，您的广告日志可用于衡量报表。
 
-有关其他广告曝光源方法，请参阅[为广告曝光源配置Google Cloud Storage ](./configure-gcs-adlog-sourcing.md)。
+有关其他广告曝光源方法，请参阅[为广告曝光源配置Google Cloud Storage &#x200B;](./configure-gcs-adlog-sourcing.md)。
