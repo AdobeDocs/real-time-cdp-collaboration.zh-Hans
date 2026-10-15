@@ -167,7 +167,7 @@ ht-degree: 21%
 | 共享名称 | [!DNL Snowflake Share]的名称。 | `ADOBE_DATA_SHARE` |
 | 帐户标识符 | Snowflake帐户的唯一标识符。 | `CUSTOMER_ORG.CUSTOMER_SNOWFLAKE_ACCOUNT` |
 | 架构 | [!DNL Snowflake Share]中包含受众数据的架构。 | `CUSTOMER_SCHEMA` |
-| 视图 | Collaboration拉入受众数据的实际数据集。 | `SECURE_VIEW_FOR_ADOBE` |
+| 查看 | Collaboration拉入受众数据的实际数据集。 | `SECURE_VIEW_FOR_ADOBE` |
 
 {style="table-layout:auto"}
 
