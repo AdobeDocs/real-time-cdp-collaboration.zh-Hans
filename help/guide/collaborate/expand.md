@@ -4,9 +4,9 @@ description: 了解如何使用Adobe Real-Time CDP Collaboration中的协作者�
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
+source-git-commit: 3fa87a65d9f231fe717df3dd5f63f1e6720c90e9
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '892'
 ht-degree: 1%
 ---
 # (Beta)在Expand中创建扩展受众
@@ -15,12 +15,14 @@ ht-degree: 1%
 
 ## 先决条件 {#prerequisites}
 
-在使用&#x200B;**[!UICONTROL 展开]**&#x200B;选项卡之前，您应具有：
+在使用&#x200B;**[!UICONTROL 展开]**&#x200B;选项卡之前，请完成以下先决条件：
 
-* [来源](/help/guide/setup/onboard-audiences.md)至少一个受众用作种子受众
-* [已连接](/help/guide/connect/establishing-connections.md)协作者
-* [已使用该协作者创建项目](/help/guide/collaborate/manage-projects.md)
-* 如果您正在接收扩展受众，则将[目标](/help/guide/destinations/overview.md)配置为接收激活的受众
+* [Source至少有一个受众](/help/guide/setup/onboard-audiences.md)用作种子受众。
+* [与协作者连接](/help/guide/connect/establishing-connections.md)。
+* [与该协作者创建项目](/help/guide/collaborate/manage-projects.md)。
+* 如果收到扩展受众，请[为连接配置自动激活目标](/help/guide/connect/manage-connections.md#configure-auto-activation-destination)。 在配置自动激活之前，您必须拥有活动目标。
+
+有关发送受众和激活接收受众的详细信息，请参阅[激活受众](/help/guide/collaborate/activate.md)。
 
 ## 展开概述 {#expand-overview}
 
