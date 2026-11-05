@@ -2,7 +2,7 @@
 title: Source和管理受众
 description: 了解如何在Adobe Real-Time CDP Collaboration中获取和管理受众
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
 product_v2:
@@ -15,13 +15,11 @@ topic_v2:
     internal-label: Governance
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
+source-git-commit: b381d126dfdf1a6377f93c4f24905492de0bdb73
 workflow-type: tm+mt
-source-wordcount: 3970
-ht-degree: 17%
-
+source-wordcount: '4152'
+ht-degree: 16%
 ---
-
 # Source和管理受众
 
 {{limited-availability-release-note}}
@@ -49,7 +47,7 @@ ht-degree: 17%
 >title="营销操作"
 >abstract="<p>使用营销操作来控制从 Experience Platform 向 Real-Time CDP Collaboration 导入哪些受众数据。 <strong>数据协作</strong>营销操作支持 C4、C5、C9、S1、S2、PSPD 和 RHD 数据使用标签。 <strong>数据科学</strong>营销操作支持 C9 数据使用标签。</p> <p> <ul><li> <em>启用</em>该复选框后，Experience Platform 中标有上述标签的任何数据都会被排除，并且<strong>不</strong>被纳入 Real-Time CDP Collaboration。</li><li> <em>禁用</em>该复选框后，从 Experience Platform 引入 Real-Time CDP Collaboration 的数据不受限制。</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=zh-Hans" text="数据使用标签概述"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=zh-Hans" text="数据使用标签词汇表"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="数据使用标签词汇表"
 
 >[!IMPORTANT]
 >
@@ -97,7 +95,7 @@ ht-degree: 17%
 
 使用营销操作可以控制要将哪些受众数据从Experience Platform引入Collaboration。 **[!UICONTROL 数据协作]**&#x200B;营销操作支持 C4、C5、C9、S1、S2、PSPD 和 RHD 数据使用标签。 **[!UICONTROL 数据科学]**&#x200B;营销操作支持 C9 数据使用标签。
 
-详细了解[C4、C5、C9、S1、S2、PSPD和RHD数据使用标签](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
+详细了解[C4、C5、C9、S1、S2、PSPD和RHD数据使用标签](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}。
 
 * 当复选框为&#x200B;***已启用***&#x200B;时，Experience Platform中标记如上所述的任何数据都将被排除，**不会**&#x200B;引入Collaboration。
 * 禁用复选框&#x200B;***后***，对来自Experience Platform的数据没有限制。
@@ -131,7 +129,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="目标字段"
->abstract="目标字段是在帐户设置过程中选择的匹配键。 默认情况下，您选择的所有匹配键均可用。"
+>abstract="目标字段标识如何在Collaboration中使用映射的源数据。 默认情况下可以使用帐户级别的匹配键。 用于身份解析的名称和邮政地址字段在数据连接设置期间可用，不需要帐户级别启用。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -141,18 +139,31 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="身份标识命名空间"
->abstract="从 Experience Platform 组织中可用的标准的及自定义的身份标识命名空间中选择一个身份标识命名空间。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hans#standard" text="Experience Platform 中的标准和身份标识命名空间"
+>abstract="从 Experience Platform 组织中可用的标准和自定义身份标识命名空间中选择一个身份标识命名空间。"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Experience Platform 中的标准命名空间和身份标识命名空间"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="轮廓属性"
 >abstract="从 Experience Platform 中的轮廓类的并集架构中选择属性。 此视图显示并集架构中存在的属于 XDM 个人轮廓类的属性。"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hans" text="Experience Platform 中的联合架构"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Experience Platform 中的联合架构"
 
-接下来，您将选择要映射到Collaboration中目标字段的源字段。 可用的目标字段将基于您在[帐户设置](./onboard-account.md#set-up-match-keys)期间选择的匹配键。
+接下来，您将选择要映射到Collaboration中目标字段的源字段。 可用的目标字段基于您在[帐户设置](./onboard-account.md#set-up-match-keys)期间选择的匹配键。 用于标识解析的[!UICONTROL 名称]和[!UICONTROL 邮政地址]字段在数据连接设置期间可用，无需在帐户级别启用。
 
-如果您在帐户设置期间选择[!DNL Demdex ID (ECID)]作为匹配键，则将自动从ECID提取和映射[!DNL Demdex ID]，并且您无需执行任何操作。 要了解有关[!DNL Demdex IDs]的更多信息，请参阅[[!DNL Demdex ID]](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/collection/identity/unified-identity-support)指南。
+#### Epsilon Core ID的“映射名称”和“邮政地址”字段 {#map-name-postal-address}
+
+要使用&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Postal address]**&#x200B;进行身份解析，请在这两个字段下至少映射一个子组件：
+
+* **[!UICONTROL 姓名]：** [!UICONTROL 名字]、[!UICONTROL 姓氏]或[!UICONTROL 全名]。
+* **[!UICONTROL 邮政地址]：** [!UICONTROL 街道地址]、[!UICONTROL 城市]、[!UICONTROL 州]、[!UICONTROL 邮政编码]或[!UICONTROL 国家/地区]。
+
+当Adobe Experience Platform作为数据源时，Collaboration会自动将所选沙盒中的可用配置文件属性映射到[!UICONTROL 名称]和[!UICONTROL 邮政地址]子组件。 查看建议的映射并更正任何缺失或错误映射的字段。
+
+您无需映射每个子组件。 要排除没有数据的子组件，请删除其映射行。 [!UICONTROL Name]和[!UICONTROL Postal address]值未经过哈希处理。
+
+有关使用这些字段的详细信息，请参阅[设置和管理身份解析](./identity-resolution.md)。
+
+如果您在帐户设置期间选择[!DNL Demdex ID (ECID)]作为匹配键，则将自动从ECID提取和映射[!DNL Demdex ID]，并且您无需执行任何操作。 要了解有关[!DNL Demdex IDs]的更多信息，请参阅[[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support)指南。
 
 ![添加受众工作区，可选择将源字段映射到目标字段。](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -162,13 +173,13 @@ ht-degree: 17%
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Source字段]**&#x200B;是Experience Platform中的身份命名空间和属性。 这些命名空间包括[标准](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hans#standard){target="_blank"}和[自定义](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=zh-Hans#create-namespaces){target="_blank"}身份命名空间。 它们还包含[联合架构](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=zh-Hans){target="_blank"}中存在的属于XDM个人资料类的个人资料属性。
+**[!UICONTROL Source字段]**&#x200B;是Experience Platform中的身份命名空间和属性。 这些命名空间包括[标准](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard){target="_blank"}和[自定义](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}身份命名空间。 它们还包含[联合架构](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html){target="_blank"}中存在的属于XDM个人资料类的个人资料属性。
 
-Source字段会被映射到Collaboration中定义的目标字段。
+Source字段映射到在Collaboration中定义的目标字段。
 
-**[!UICONTROL 目标字段]**&#x200B;指示标识在Collaboration中的引用方式。 目标字段是在帐户设置过程中选择的匹配键。 默认情况下，您选择的所有匹配键均可用。
+**[!UICONTROL 目标字段]**&#x200B;指示Collaboration如何使用映射的源数据。 大多数目标字段与在帐户设置期间选择的键匹配。 在数据连接设置期间提供了用于标识解析的&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 邮政地址]**&#x200B;字段，并且不需要帐户级别的启用。
 
-当您将&#x200B;*非哈希*&#x200B;字段获取到哈希字段时，请使用&#x200B;**[!UICONTROL 应用转换]**&#x200B;选项。 Collaboration将应用哈希处理并转换字段。 Adobe使用的哈希算法是SHA256。
+将非哈希字段获取到哈希字段时，请使用&#x200B;**[!UICONTROL 应用转换]**&#x200B;选项。 Collaboration应用SHA256哈希处理来转换字段。 [!UICONTROL Name]和[!UICONTROL Postal address]值未经过哈希处理。
 
 >[!ENDSHADEBOX]
 
@@ -366,7 +377,7 @@ Source字段会被映射到Collaboration中定义的目标字段。
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="元数据可见性"
->abstract="<p>说明其他协作者在与您连接之前或在项目视图中可以看到哪些受众的元数据。</p> <p> **身份标识计数**&#x200B;决定了您的协作者在“发现”选项卡中查看重叠报告时是否可以看到您受众的身份标识计数。</p><p> **受众重叠率**&#x200B;决定了协作者是否能够看到他们的受众与您的受众之间的重叠百分比。</p><p> **[!UICONTROL 受众指数]**&#x200B;决定了协作者是否可以看到某个项目中的受众指数。 您必须具有三个或更多活跃的受众，此功能才可用。</p> <br> 为了使元数据可见性设置生效，必须将受众设置为公开或自定义。"
+>abstract="<p>说明其他协作者在与您连接之前或在项目视图中可以看到哪些受众的元数据。</p> <p> **身份标识计数**&#x200B;决定了您的协作者在“发现”选项卡中查看重叠报告时是否可以看到您受众的身份标识计数。</p><p> **受众重叠率**&#x200B;决定了协作者是否能够看到他们的受众与您的受众之间的重叠百分比。</p><p> **[!UICONTROL 受众指数]**&#x200B;决定了协作者是否可以看到某个项目中的受众指数。 当您拥有三个或更多活跃受众时，此功能才可用。</p> <br> 为了使元数据可见性设置生效，必须将受众设置为公开或自定义。"
 
 >[!NOTE]
 >

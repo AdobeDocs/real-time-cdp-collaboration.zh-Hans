@@ -2,7 +2,7 @@
 title: 配置和管理您的帐户
 description: 了解如何在Real-Time CDP Collaboration中配置和管理帐户的各个方面
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 TQID: https://experienceleague.adobe.com/PRmSkRSE2tQ-5t5hHKzDAGrkF6-irmZid2Akq6-PQv8
 product_v2:
@@ -15,13 +15,11 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: b40ca0030b48f01a4f27716fbf39e587d858e3f4
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: '1432'
 ht-degree: 14%
-
 ---
-
 # 配置和管理您的帐户
 
 {{limited-availability-release-note}}
@@ -56,10 +54,10 @@ ht-degree: 14%
 * 添加有关您品牌的&#x200B;**[!UICONTROL 描述]**。 虽然这是一项可选操作，但它有助于其他协作者更好地了解您的品牌。
 * 选择您的&#x200B;**[!UICONTROL 角色]**。 您可以选择介于&#x200B;**[!UICONTROL 广告商]**&#x200B;和&#x200B;**[!UICONTROL 发布者]**&#x200B;之间。 阅读[角色](/help/guide/overview/roles.md)指南以了解两种帐户角色类型在工作流中的相似之处和细微差异。
 * 为您的帐户选择&#x200B;**[!UICONTROL 行业]**。 某些示例包括&#x200B;**[!UICONTROL 零售业]**、**[!UICONTROL 电信]**&#x200B;或&#x200B;**[!UICONTROL 金融服务]**。
-* 已根据您的Adobe Experience Cloud帐户自动设置&#x200B;**[!UICONTROL 地区]**。 此更改随时无法更改。
+* 已根据您的Adobe Experience Cloud帐户自动设置&#x200B;**[!UICONTROL 区域]**。 此更改随时无法更改。
 * 为您的帐户添加&#x200B;**[!UICONTROL 联系人电子邮件]**。 这应该是基于团队或角色的电子邮件地址。 不应提供个人电子邮件地址。
 * 为您的帐户上传&#x200B;**[!UICONTROL 徽标]**。 目前，支持SVG类型的图像。 这是可选操作，但上传徽标有助于在Collaboration界面中直观地展示您的品牌
-* 选择帐户标题图片的图像。
+* 为您的帐户封面图片选择一张图片。
 
 >[!NOTE]
 >
@@ -105,6 +103,10 @@ ht-degree: 14%
 
 {style="table-layout:auto"}
 
+>[!NOTE]
+>
+>用于[!DNL Epsilon Core ID]身份解析的名称和邮政地址字段未配置为帐户级别的匹配键。 设置受众数据连接时映射这些字段。 有关详细信息，请参阅[映射字段](./onboard-audiences.md#map-fields)。
+
 >[!IMPORTANT]
 >
 >您在帐户设置期间选择的匹配键将决定您的连接中可用的匹配键。 虽然在连接设置过程中可以[删除不需要的匹配键](../connect/establishing-connections.md#connection-settings)，但在建立连接后无法添加匹配键。 在帐户设置过程中，选择您计划在未来营销活动中使用的&#x200B;**所有**&#x200B;匹配键，这一点很重要。
@@ -130,7 +132,6 @@ Collaboration支持三种类型的匹配键：人员ID、设备ID和合作伙伴
 * **[!UICONTROL 散列电话]**
 * **[!UICONTROL CRM ID]**
 * **[!UICONTROL 忠诚度ID]**
-<!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
 ##### 设备 ID
 
@@ -151,13 +152,9 @@ Collaboration支持三种类型的匹配键：人员ID、设备ID和合作伙伴
 >
 >Adobe与[!DNL AdFixus]的集成将每个帐户的唯一[!UICONTROL AdFixus ID]映射到通用的Adobe编码格式。 这些映射用于标识协作者之间的重叠。 使用&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;激活受众时，将使用原始ID。 Adobe编码的格式永远不会离开Collaboration。
 
-选择&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;时，您需要在&#x200B;**[!UICONTROL 帐户凭据]**&#x200B;部分提供来自外部合作伙伴的对应ID。 此选项仅在&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;上切换&#x200B;*后*&#x200B;可用。 在&#x200B;**[!UICONTROL 帐户ID]**&#x200B;字段中输入您的AdFixus ID，并确保仔细检查该值是否准确。
+选择&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;时，您需要在&#x200B;**[!UICONTROL 帐户凭据]**&#x200B;部分提供来自外部合作伙伴的对应ID。 此选项仅在&#x200B;**[!UICONTROL AdFixus ID]**&#x200B;上切换&#x200B;*后*&#x200B;可用。 在&#x200B;**[!UICONTROL 帐户ID]**&#x200B;字段中输入您的AdFixus ID，并确保仔细检查该值是否准确。 选择所有所需的匹配键后，选择&#x200B;**[!UICONTROL 完成]**&#x200B;以完成帐户设置工作流。
 
 ![已打开AdFixus ID的“匹配密钥”对话框，并突出显示了“帐户凭据”部分。](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
-
-选择所有所需的匹配键后，选择&#x200B;**[!UICONTROL 完成]**&#x200B;以完成帐户设置工作流。
-
-![显示了“设置帐户工作区”的“匹配键”部分。](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
 ## 编辑帐户 {#edit-account}
 
@@ -165,7 +162,7 @@ Collaboration支持三种类型的匹配键：人员ID、设备ID和合作伙伴
 
 ### 编辑详细信息 {#edit-details}
 
-您可以随时编辑帐户的大多数详细信息，但&#x200B;**[!UICONTROL 角色]**&#x200B;除外。 地区是根据您的Adobe Experience Cloud帐户自动设置的，无法更改。
+您可以随时编辑帐户的大多数详细信息，但&#x200B;**[!UICONTROL 角色]**&#x200B;除外。 区域根据您的Adobe Experience Cloud帐户自动设置，无法更改。
 
 要编辑您的帐户，请在&#x200B;**[!UICONTROL 设置]**&#x200B;工作区的&#x200B;**[!UICONTROL 我的帐户]**&#x200B;部分中选择&#x200B;**[!UICONTROL 编辑]**。
 
