@@ -2,7 +2,7 @@
 title: 设置概述
 description: 了解 Adobe Real-Time CDP Collaboration 设置部分中的所有可用选项和工作流程。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
 TQID: https://experienceleague.adobe.com/A01vUw6jGKigHNQHQc9nYfC5V9f6xB4mKeLqnPBfl2o
 product_v2:
