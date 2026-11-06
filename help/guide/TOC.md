@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration 使广告商和发布者之间能够实现无缝、安全的数据共享和协作，有助于提供实时受众洞察和个性化营销策略。
-source-git-commit: f9fe55ec41c41d94c5acef6ef611a6f645a7e0ea
+source-git-commit: 0d2e58e26f83a12faf077026bd0748efb5982b8d
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 33%
+source-wordcount: '269'
+ht-degree: 32%
 ---
 
 # Real-Time CDP Collaboration {#using}
@@ -34,6 +34,7 @@ ht-degree: 33%
     * [为受众源配置数据库增量共享](./setup/configure-databricks-audience-sourcing.md)
     * [为受众源配置Adobe Audience Manager](./setup/configure-aam-audience-sourcing.md)
   * [管理数据连接](./setup/manage-data-connection.md)
+  * [设置和管理身份解析](./setup/identity-resolution.md)
   * [跟踪您的额度使用情况](/help/guide/setup/my-activity.md)
   * {hide-from-toc}[标识交叉通道](./setup/identity-crosswalk.md)
   * [添加和管理衡量数据](./setup/onboard-measurement-data.md)
