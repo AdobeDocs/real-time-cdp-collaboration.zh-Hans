@@ -174,6 +174,6 @@ Do not treat example formats or supported input match keys as confirmed output r
 
 ## 后续步骤 {#next-steps}
 
-摄取并验证属性后，通过将扩充信号与第一方数据相结合，在[!DNL Adobe Real-Time CDP]中构建受众。 有关详细信息，请参阅[受众生成器指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}。
+摄取并验证属性后，通过将扩充信号与第一方数据相结合，在[!DNL Adobe Real-Time CDP]中构建受众。 有关详细信息，请参阅[受众生成器指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}。
 
-要为目标、个性化或客户历程激活受众，请参阅[受众激活指南](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}。
+要为目标、个性化或客户历程激活受众，请参阅[受众激活指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}。
