@@ -53,9 +53,9 @@ CSV文件到达您的[!DNL Amazon S3]导出目标后，将其摄取到[!DNL Adob
    ![Collaborator目录列出了[!DNL The Trade Desk]及其[!UICONTROL 连接]选项。](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
 1. 为[!DNL The Trade Desk]选择&#x200B;**[!UICONTROL 连接]**，然后按照连接对话框中的说明操作。
    ![连接对话框说明[!DNL The Trade Desk].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}的REDS授权和合作伙伴ID设置
-1. 连接处于活动状态后，打开&#x200B;**[!UICONTROL 连接设置]**。 在&#x200B;**[!UICONTROL 广告商信息]**&#x200B;中，选择&#x200B;**[!UICONTROL 编辑]**&#x200B;以更新现有信息，或选择&#x200B;**[!UICONTROL 添加]**以输入新信息。
+1. 连接处于活动状态后，打开&#x200B;**[!UICONTROL 连接设置]**。 在&#x200B;**[!UICONTROL 广告商信息]**&#x200B;中，选择&#x200B;**[!UICONTROL 编辑]**&#x200B;以更新现有信息，或选择&#x200B;**[!UICONTROL 添加]**&#x200B;以输入新信息。
    ![活动连接设置显示[!UICONTROL 广告商信息]和[!UICONTROL 编辑]控件。](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
-1. 在&#x200B;**[!UICONTROL 合作伙伴ID]**&#x200B;和&#x200B;**[!UICONTROL 合作伙伴名称]**&#x200B;中输入您的合作伙伴ID和合作伙伴名称，然后选择&#x200B;**[!UICONTROL 保存]**。 在[!DNL The Trade Desk]帐户中的&#x200B;**[!UICONTROL 名标识符]**下查找您的合作伙伴ID。
+1. 在&#x200B;**[!UICONTROL 合作伙伴ID]**&#x200B;和&#x200B;**[!UICONTROL 合作伙伴名称]**&#x200B;中输入您的合作伙伴ID和合作伙伴名称，然后选择&#x200B;**[!UICONTROL 保存]**。 在[!DNL The Trade Desk]帐户中的&#x200B;**[!UICONTROL 名标识符]**&#x200B;下查找您的合作伙伴ID。
    ![“广告商信息”对话框具有必填的“合作伙伴ID”和“合作伙伴名称”字段以及[!UICONTROL 保存]控件。](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
 
 在连接处于活动状态并保存广告商信息后，请等待Adobe确认REDS日志已收到。 然后创建一个项目。
