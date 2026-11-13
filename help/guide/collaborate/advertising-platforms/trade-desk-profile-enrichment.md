@@ -4,9 +4,9 @@ description: 了解如何导出付费媒体扩充属性、摄取投放的CSV以�
 audience: advertiser
 hide: true
 badge: Alpha
-source-git-commit: d090aff6ea091f60c9b3bbaf2ca72fcf8017d7d1
+source-git-commit: 303d7185169962ad7398adfffcc732bf86336a74
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1512'
 ht-degree: 0%
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 使用来自[!DNL The Trade Desk]的原始事件数据流(REDS)展示日志数据馈送将扩充属性和付费媒体上下文导出到您的第一方配置文件。
 
-CSV文件到达您的[!DNL Amazon S3]导出目标后，将其摄取到[!DNL Adobe Real-Time CDP]。 在此版本中，导出文件不会自动更新用户档案或激活体验。 自动将配置文件扩充回[!DNL Adobe Real-Time CDP]将是后续版本中的一项功能。
+CSV文件到达您的[!DNL Amazon S3]导出目标后，将其摄取到[!DNL Adobe Real-Time CDP]。 在此版本中，导出文件不会自动更新用户档案或激活体验。 [!DNL Adobe Real-Time CDP]中的自动配置文件扩充计划用于后续版本。
 
 广告曝光度可将上下文添加到客户个人资料。 它不会确认参与、购买意图或长期利益。
 
@@ -30,7 +30,7 @@ CSV文件到达您的[!DNL Amazon S3]导出目标后，将其摄取到[!DNL Adob
 
 ### 授权源信息源 {#authorize-source-feed}
 
-完成[!DNL The Trade Desk]提供的访问书信以授权[!DNL The Trade Desk]将REDS日志直接发送到Adobe。
+要授权REDS日志直接传递到Adobe，请完成[!DNL The Trade Desk]提供的访问信件。
 
 [!DNL The Trade Desk]配置源信息源，Adobe配置访问和摄取。 在创建项目之前，请确认连接处于活动状态并且信息源已就绪。
 
@@ -46,49 +46,53 @@ CSV文件到达您的[!DNL Amazon S3]导出目标后，将其摄取到[!DNL Adob
 
 ### 与合作伙伴建立联系 {#connect-partner}
 
-连接到[!DNL The Trade Desk]并添加您的广告商信息：
+若要与[!DNL The Trade Desk]连接，请在&#x200B;**[!UICONTROL 连接]**&#x200B;中打开&#x200B;**[!UICONTROL 发现协作者]**&#x200B;并搜索合作伙伴。
 
-1. 在&#x200B;**[!UICONTROL 连接]**&#x200B;中，打开&#x200B;**[!UICONTROL 发现协作者]**。
-1. 搜索[!DNL The Trade Desk]。
-   ![Collaborator目录列出了[!DNL The Trade Desk]及其[!UICONTROL 连接]选项。](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
-1. 为[!DNL The Trade Desk]选择&#x200B;**[!UICONTROL 连接]**，然后按照连接对话框中的说明操作。
-   ![连接对话框说明[!DNL The Trade Desk].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}的REDS授权和合作伙伴ID设置
-1. 连接处于活动状态后，打开&#x200B;**[!UICONTROL 连接设置]**。 在&#x200B;**[!UICONTROL 广告商信息]**&#x200B;中，选择&#x200B;**[!UICONTROL 编辑]**&#x200B;以更新现有信息，或选择&#x200B;**[!UICONTROL 添加]**&#x200B;以输入新信息。
-   ![活动连接设置显示[!UICONTROL 广告商信息]和[!UICONTROL 编辑]控件。](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
-1. 在&#x200B;**[!UICONTROL 合作伙伴ID]**&#x200B;和&#x200B;**[!UICONTROL 合作伙伴名称]**&#x200B;中输入您的合作伙伴ID和合作伙伴名称，然后选择&#x200B;**[!UICONTROL 保存]**。 在[!DNL The Trade Desk]帐户中的&#x200B;**[!UICONTROL 名标识符]**&#x200B;下查找您的合作伙伴ID。
-   ![“广告商信息”对话框具有必填的“合作伙伴ID”和“合作伙伴名称”字段以及[!UICONTROL 保存]控件。](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
+![Collaborator目录列出了[!DNL The Trade Desk]及其[!UICONTROL 连接]选项。](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
 
-在连接处于活动状态并保存广告商信息后，请等待Adobe确认REDS日志已收到。 然后创建一个项目。
+为[!DNL The Trade Desk]选择&#x200B;**[!UICONTROL 连接]**，然后按照连接对话框中的说明操作。
+
+![连接对话框说明[!DNL The Trade Desk].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}的REDS授权和合作伙伴ID设置
+
+连接处于活动状态后，打开&#x200B;**[!UICONTROL 连接设置]**&#x200B;并转到&#x200B;**[!UICONTROL 广告商信息]**。 要更新现有信息，请选择&#x200B;**[!UICONTROL 编辑]**。 要输入新信息，请选择&#x200B;**[!UICONTROL 添加]**。
+
+![活动连接设置显示[!UICONTROL 广告商信息]和[!UICONTROL 编辑]控件。](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
+
+若要保存您的广告商信息，请在&#x200B;**[!UICONTROL 合作伙伴ID]**&#x200B;和&#x200B;**[!UICONTROL 合作伙伴名称]**&#x200B;中输入ID和合作伙伴名称，然后选择&#x200B;**[!UICONTROL 保存]**。 您的合作伙伴ID显示在您的[!DNL The Trade Desk]帐户中的&#x200B;**[!UICONTROL 名额标识符]**&#x200B;下。
+
+![“广告商信息”对话框具有必填的“合作伙伴ID”和“合作伙伴名称”字段以及[!UICONTROL 保存]控件。](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
+
+保存广告商信息后，请等待Adobe确认收到REDS日志，然后再创建项目。
 
 ### 创建项目 {#create-project}
 
-为连接创建项目：
+若要创建项目，请转到&#x200B;**[!UICONTROL 协作]**&#x200B;并选择&#x200B;**[!UICONTROL 我的项目]**，然后&#x200B;**[!UICONTROL 创建项目]**&#x200B;或添加图标（![添加项目。](/help/assets/icons/plus.png)）。
 
-1. 在&#x200B;**[!UICONTROL 协作]**&#x200B;中，选择&#x200B;**[!UICONTROL 我的项目]**。
-1. 选择&#x200B;**[!UICONTROL 创建项目]**&#x200B;或添加图标（![添加项目。](/help/assets/icons/plus.png)）。
-1. 在&#x200B;**[!UICONTROL 创建项目]**&#x200B;中，从&#x200B;**[!UICONTROL 协作者]**&#x200B;中选择[!DNL The Trade Desk]。
-   ![[!UICONTROL 创建项目]表单列出了[!DNL The Trade Desk]并包含项目名称、说明和图像字段。](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
-1. 输入&#x200B;**[!UICONTROL 项目名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**，然后选择图像以标识该项目。
-1. 选择&#x200B;**[!UICONTROL 创建]**。
+在&#x200B;**[!UICONTROL 创建项目]**&#x200B;中，从&#x200B;**[!UICONTROL 协作者]**&#x200B;中选择[!DNL The Trade Desk]。
+
+![[!UICONTROL 创建项目]表单列出了[!DNL The Trade Desk]并包含项目名称、说明和图像字段。](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
+
+要识别项目，请输入&#x200B;**[!UICONTROL 项目名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**，然后选择图像。 项目详细信息完成后，选择&#x200B;**[!UICONTROL 创建]**。
 
 有关一般项目管理，请参阅[创建和管理项目指南](/help/guide/collaborate/manage-projects.md)。
 
 ## 选择并导出属性 {#select-export-attributes}
 
-从项目中导出扩充属性：
+要选择要导出的扩充属性，请打开项目并选择&#x200B;**[!UICONTROL 扩充]**。 要了解信号可用性，请在选择要使用的属性之前查看每个属性的覆盖范围值。
+
+![[!UICONTROL 扩充]页面按类别对可选信号进行分组并显示覆盖率值。](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
 
 <!-- TODO: Replace the destination screenshot with one showing the [!UICONTROL Export Attributes] action. -->
 
-1. 打开项目并选择&#x200B;**[!UICONTROL 扩充]**。
-1. 查看每个属性的覆盖范围值以了解信号可用性。
-1. 选择要用于扩充的属性。
-   ![[!UICONTROL 扩充]页面按类别对可选信号进行分组并显示覆盖率值。](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
-1. 选择为扩充输出配置的[!DNL Amazon S3]导出目标。 要配置目标，请参阅[配置和管理云存储目标](/help/guide/destinations/manage-destinations.md)。
-   <!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
-1. 查看选定的属性和目标，然后选择&#x200B;**[!UICONTROL 导出属性]**。
-   <!-- ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"} -->
+选择为扩充输出配置的[!DNL Amazon S3]导出目标。 如果需要配置目标，请参阅[配置和管理云存储目标](/help/guide/destinations/manage-destinations.md)。
 
-如果您的目标配置正确，则提交导出会开始投放。 验证是否在[!DNL Adobe Real-Time CDP Collaboration]之外成功传递文件。
+<!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
+
+查看选定的属性和目标，然后选择&#x200B;**[!UICONTROL 导出属性]**。
+
+<!-- ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"} -->
+
+如果您的目标配置正确，则提交导出会开始投放。 提交导出后，请验证是否在[!DNL Adobe Real-Time CDP Collaboration]之外成功传递文件。
 
 在创建项目后，Adobe会每周处理扩充属性。 每次运行都使用过去90天的可用[!DNL The Trade Desk]数据。 每次导出都包括最近完成的运行中选定的属性。 要导出刷新的属性，请在稍后运行完成后请求再次导出。
 
@@ -121,13 +125,13 @@ CSV文件到达您的[!DNL Amazon S3]导出目标后，将其摄取到[!DNL Adob
 
 ### 属性覆盖率 {#attribute-coverage}
 
-覆盖率描述处理记录包括属性值的频率。 对于yes/no信号（如&#x200B;**[!UICONTROL CTV exposed]**），覆盖范围将计算值为true的记录。 覆盖范围不指示身份匹配率或将接收属性的第一方配置文件的比例。
+覆盖率描述处理记录包括属性值的频率。 对于yes/no信号（如&#x200B;**[!UICONTROL CTV exposed]**），覆盖范围将计算值为true的记录。 覆盖范围不指示身份匹配率或接收属性的第一方用户档案的比例。
 
 身份匹配、源信号可用性和摄取会影响配置文件更新。 范围未确认导出完成或配置文件更新。
 
 ### 工作流范围 {#workflow-scope}
 
-使用策划的目录扩充来自[!DNL The Trade Desk]的数据。 不能导出原始日志或创建自定义属性表达式。 不支持其他需求端平台(DSP)和供应端平台(SSP)集成。
+要扩充来自[!DNL The Trade Desk]的数据，请使用策划的目录。 不能导出原始日志或创建自定义属性表达式。 不支持其他需求端平台(DSP)和供应端平台(SSP)集成。
 
 此工作流不支持扩充机会发现、受众重叠分析或归因和增量衡量。
 
@@ -154,11 +158,11 @@ Do not treat example formats or supported input match keys as confirmed output r
 1. 使用目标沙盒和数据集的确认身份和架构映射摄取文件。
 1. 查看摄取结果并验证预期用户档案的示例是否包含扩充属性。
 
-导出文件不会确认摄取已更新用户档案。 单独摄取以后每次导出以更新用户档案。
+导出文件不会确认摄取已更新用户档案。 要更新用户档案，请以后分别摄取和导出。
 
 ## 扩充故障诊断 {#troubleshoot-enrichment}
 
-使用这些检查解决源数据、导出和摄取问题：
+要排查源数据、导出和摄取问题，请使用以下检查：
 
 | 问题 | 检查内容 |
 | --- | --- |
@@ -174,6 +178,6 @@ Do not treat example formats or supported input match keys as confirmed output r
 
 ## 后续步骤 {#next-steps}
 
-摄取并验证属性后，通过将扩充信号与第一方数据相结合，在[!DNL Adobe Real-Time CDP]中构建受众。 有关详细信息，请参阅[受众生成器指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}。
+摄取并验证属性后，通过将扩充信号与第一方数据相结合，在[!DNL Adobe Real-Time CDP]中构建受众。 有关详细信息，请参阅[受众生成器指南](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}。
 
-要为目标、个性化或客户历程激活受众，请参阅[受众激活指南](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}。
+要为目标、个性化或客户历程激活受众，请参阅[受众激活指南](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}。
