@@ -1,15 +1,15 @@
 ---
 title: 为受众源配置[!DNL Databricks Delta Share]
-description: 了解如何在Real-Time CDP Collaboration中为受众源配置和连接[!DNL Databricks Delta Share]。
+description: 了解如何在Real-Time CDP Collaboration中为受众源配置和连接[!DNL Databricks Delta Share]，包括历史记录共享。
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html" newtab=true
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
+source-git-commit: 2c6b8967566bcb1ea1851763a13d965bddfb9236
 workflow-type: tm+mt
-source-wordcount: '2818'
-ht-degree: 9%
+source-wordcount: '3294'
+ht-degree: 7%
 ---
 
 # 为受众源配置[!DNL Databricks Delta Share]
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 连接[!DNL Databricks Delta Share]时，Collaboration会直接从Unity Catalog共享中读取受众数据。 在完成来源补充后，您可以在协作项目中使用受众进行激活和重叠分析。
 
-本指南介绍如何准备先决条件、连接[!DNL Delta Share]、指定源表、映射标识字段以及验证受众源是否成功启动。
+本指南介绍如何完成先决条件、连接[!DNL Delta Share]、指定源表、映射标识字段以及验证受众源是否成功启动。
 
 源自[!DNL Databricks]的受众遵循与源自Adobe Experience Platform和其他支持的云源的受众相同的治理和数据处理规则。
 
@@ -44,17 +44,18 @@ ht-degree: 9%
 
 构建受众表，以便Collaboration能够发现受众并正确映射身份。
 
-* **成员资格表（必需）：**&#x200B;共享架构中的表，每个个人资料 — 受众对包含一行。 此表必须包含一个可映射到`AUDIENCE_ID`的列和至少一个受支持的匹配键列。 Collaboration使用此表进行源数据预览和字段映射。
+* **成员资格表（必需）：**&#x200B;共享架构中的表，每个个人资料 — 受众对包含一行。 此表必须包含一个`AUDIENCE_ID`列和至少一个受支持的匹配键列。 Collaboration使用此表进行源数据预览和字段映射。
 * **元数据表（可选）：**&#x200B;如果您维护单独的受众目录（每个受众一行，其中包含受众ID、名称、计数或类似的元数据），则可以提供此表，以便Collaboration从中读取受众定义，而不是仅从成员资格表中推断不同的受众ID。
 * **支持的匹配键：** `HASHED_EMAIL_SHA_256`、`HASHED_PHONE_SHA_256`、`HASHED_IPV4_SHA_256`、`CRM_ID`、`LOYALTY_ID`、`ADFIXUS_ID`以及为您的Collaboration帐户启用的其他匹配键。
 * **哈希处理要求：**&#x200B;所有匹配的键值都必须经过裁剪、小写和SHA256哈希处理，然后才能存储在[!DNL Databricks]中。 Collaboration在引入数据之前不会对其进行哈希处理或标准化。
 * **列一致性：**&#x200B;成员资格表必须公开Collaboration可以映射到已启用的匹配键的稳定列名称。
+* **历史记录共享（推荐）：**&#x200B;要改善来源补充性能（尤其是大型表），请在共享受众表时启用历史记录共享。 历史记录共享允许Collaboration使用一致的表版本并行读取数据。 如果不共享历史记录，则受众源会使用较慢的单查询流程来完成。 有关详细信息，请参阅[启用历史记录共享](#enable-history-sharing)。
 
 还必须为您的Collaboration帐户启用成员资格表中存在的所有匹配键。 要添加或启用匹配键，请参阅[设置匹配键](./onboard-account.md#set-up-match-keys)。
 
 ### 开始前所需的值 {#required-values}
 
-在启动配置向导之前，请准备好以下值。
+在启动配置工作流之前，准备好以下值。
 
 
 | 值 | 说明 |
@@ -69,7 +70,7 @@ ht-degree: 9%
 
 ## 配置您的[!DNL Databricks]连接 {#configure-databricks-connection}
 
-配置工作流是&#x200B;**[!UICONTROL 安装程序]**&#x200B;工作区中的多步骤向导。 按顺序完成每个步骤。
+配置工作流包括&#x200B;**[!UICONTROL 设置]**&#x200B;工作区中的多个步骤。 按顺序完成每个步骤。
 
 ### 添加新的数据连接 {#add-data-connection}
 
@@ -97,7 +98,7 @@ ht-degree: 9%
 >abstract="有关配置您的受众来源共享的说明，请参阅 [!DNL Databricks Delta Share] 来源指南"
 
 提供允许Collaboration访问您的[!DNL Delta Share]所需的详细信息。 输入[!DNL Databricks Delta Share]中的提供程序、共享、架构和表详细信息。 所需的成员资格表必须在共享架构中可用。 如果使用元数据表，则该元数据表必须也可在同一共享架构中使用。
-输入所需信息后，选择&#x200B;**[!UICONTROL 连接]**。
+输入所需信息后，选择**[!UICONTROL 连接]**。
 
 Collaboration会在Adobe的工作区中验证并装载共享。 此步骤最多可能需要一分钟。 建立连接时将显示进度指示器。
 
@@ -106,11 +107,11 @@ Collaboration会在Adobe的工作区中验证并装载共享。 此步骤最多�
 | **[!UICONTROL 提供程序名称]** | Adobe用于使用共享的Unity Catalog提供程序名称。 查看[开始前所需的值](#required-values)。 |
 | **[!UICONTROL 共享名称]** | 发布到Adobe的[!DNL Delta Share]的名称。 |
 | **[!UICONTROL 架构]** | 共享中包含受众表的架构。 |
-| **[!UICONTROL 数据表]** | 架构内包含受众成员资格行的表名称（受众中每个配置文件一行）。 |
+| **[!UICONTROL 成员资格表]** | 架构内包含受众成员资格行的表名称（受众中每个配置文件一行）。 |
 | **[!UICONTROL 元数据表]** | 列出受众的表（每个受众一行）。 |
 
 
-![添加受众工作流，显示具有提供程序名称、共享名称、架构、数据表和元数据表字段的“数据库连接共享”表单，以及“下一步”按钮可用。](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
+![添加受众工作流，显示具有提供程序名称、共享名称、架构、成员资格表和元数据表字段的“数据库”连接共享表单，以及“下一步”按钮可用。](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
 
 如果找不到共享或架构尚未可见，则会显示一条错误消息。 请向您的[!DNL Databricks]管理员验证这些值，然后重试。
 
@@ -171,7 +172,7 @@ Collaboration会在Adobe的工作区中验证并装载共享。 此步骤最多�
 
 ## 审查源受众 {#review-sourced-audiences}
 
-完成配置向导后，Collaboration将开始异步从[!DNL Databricks]表中获取受众。 导航到&#x200B;**[!UICONTROL 设置] > [!UICONTROL 我的受众]**&#x200B;以监视进度。 采购不会立即完成；所需时间取决于您的数据大小。
+完成配置工作流后，Collaboration将开始异步从[!DNL Databricks]表中获取受众。 导航到&#x200B;**[!UICONTROL 设置] > [!UICONTROL 我的受众]**&#x200B;以监视进度。 采购不会立即完成；所需时间取决于您的数据大小。
 
 ### 监控受众源获取进度 {#monitor-sourcing-progress}
 
@@ -181,7 +182,9 @@ Collaboration会在Adobe的工作区中验证并装载共享。 此步骤最多�
 
 >[!TIP]
 >
->受众源获取时间因您的成员资格表的大小以及您是否使用元数据表进行受众发现而异。 较大的数据集可能需要更长的时间才能显示在&#x200B;**[!UICONTROL 我的受众]**&#x200B;工作区中。
+>为了提高受众源性能（尤其是大型表），请启用历史记录共享。 这允许Collaboration从一致的表版本并行读取数据。 但是，跨云共享使用单个查询过程，即使启用了历史记录共享也是如此。
+>
+>受众获取时间还取决于成员资格表大小和元数据驱动的受众发现等因素。 较大的数据集可能需要更长的时间才能在&#x200B;**[!UICONTROL 我的受众]**&#x200B;中显示。 有关详细信息，请参阅[启用历史记录共享](#enable-history-sharing)。
 
 ### 查看源受众详细信息 {#view-audience-details}
 
@@ -216,11 +219,13 @@ Collaboration会在Adobe的工作区中验证并装载共享。 此步骤最多�
 
 在配置和使用[!DNL Databricks Delta Share]受众源时，请注意以下限制：
 
-* **仅限本机共享：**&#x200B;用户界面仅支持本机数据库到数据库[!DNL Delta Sharing]。 配置向导中无法使用持有者令牌和OIDC身份验证流程。
-* **没有向导中的表浏览器：**&#x200B;必须手动输入表名。 在预览表时，Collaboration会验证表名；它不会自动列出共享中的所有表。
+* **仅限本机共享：**&#x200B;用户界面仅支持本机数据库到数据库[!DNL Delta Sharing]。 持有者令牌和OIDC身份验证流在配置工作流中不可用。
+* **手动输入表名：**&#x200B;您必须手动输入表名。 在预览表时，Collaboration会验证表名；它不会自动列出共享中的所有表。
 * **元数据表行限制：**&#x200B;当您使用元数据表进行受众发现时，Collaboration最多会从该表中导入100,000个受众行。 如果您的目录超出此限制，请联系Adobe支持。
 * **匹配键约束：**&#x200B;为数据连接启用匹配键后，将无法将其删除。 可以将匹配密钥添加到现有连接，但不能禁用或删除它们。 要更改活动的匹配键，您必须[删除数据连接](./manage-data-connection.md#delete-data-connection)并创建一个新连接。
 * **所需的成员资格表：**&#x200B;即使您使用元数据表进行受众发现，也必须指定成员资格表。 Collaboration在摄取期间从成员资格表中读取身份行。
+* **建议对大型表进行历史记录共享：**&#x200B;要改善大型表的源获取性能，请启用历史记录共享。 这允许Collaboration并行读取数据。 如果没有历史共享，来源补充会使用较慢的单一查询流程。 有关详细信息，请参阅[启用历史记录共享](#enable-history-sharing)。
+* **跨云共享：**&#x200B;当您的[!DNL Databricks]提供程序和Adobe工作区使用不同的云环境时，无论是否启用历史记录共享，源均使用单一查询流程。 例如，当您的提供商使用[!DNL Azure]且Adobe工作区使用AWS时，即适用这种情况。 无需其他配置。
 
 ## 故障排除 {#troubleshooting}
 
@@ -240,16 +245,32 @@ Collaboration会在Adobe的工作区中验证并装载共享。 此步骤最多�
 
 **字段映射验证块进度**
 
-* 确认您的成员资格表包含可映射到&#x200B;**`AUDIENCE_ID`**&#x200B;的列。
-* 确保至少完全映射了两个标识字段（源和目标）。
+* 确认您的成员资格表包含`AUDIENCE_ID`列和至少一个受支持的匹配键列。
+* 确认至少有一个受支持的匹配键同时映射了源字段和目标字段。
 * 使用&#x200B;**[!UICONTROL 预览源数据]**&#x200B;验证列名是否与启用的匹配键匹配。
 
 **受众未出现或来源补充时间长于预期**
 
+* 确认您的表已共享历史记录。 运行`SHOW ALL IN SHARE <share_name>;`并检查`history_sharing`是否为`ENABLED`。 如果禁用历史记录共享，请使用`WITH HISTORY`重新添加表。 有关详细信息，请参阅[启用历史记录共享](#enable-history-sharing)。
 * 采购时间会随着数据量的增加而扩展。 大型成员资格表的处理时间应会延长。
 * 如果受众未在24小时内出现，请检查&#x200B;**[!UICONTROL 我的数据连接]**&#x200B;选项卡，以查看连接上的错误指示器。
 * 在[准备受众数据](#prepare-audience-data)中，验证成员资格表结构和字段映射是否符合要求。
 * 如果问题仍然存在，请联系Adobe客户支持并提供数据连接名称和表详细信息。
+
+**启用历史记录共享失败**
+
+如果您的工作区拒绝`ALTER TABLE`命令，请从共享中删除该表并添加具有历史记录的表。 将`<share_name>`、`<catalog>`、`<schema>`和`<table>`替换为您的共享名和表标识符。
+
+>[!IMPORTANT]
+>
+> 请勿在Adobe源运行过程中删除并重新添加表。
+
+```sql
+ALTER SHARE <share_name> REMOVE TABLE <catalog>.<schema>.<table>;
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+重新添加表后，[验证是否已启用历史记录共享](#enable-history-sharing)。
 
 **数据连接最初成功后显示失败状态**
 
@@ -273,28 +294,62 @@ Collaboration会在Adobe的工作区中验证并装载共享。 此步骤最多�
 * 包含架构和表的[!DNL Delta Share]将由Collaboration读取。
 * 成员资格表，每个个人资料 — 受众对都有一行，**`AUDIENCE_ID`**&#x200B;的列和匹配键。
 * 可选的元数据表（如果您计划使用元数据驱动的受众发现）。
+* 已为共享中的每个表启用历史记录共享（推荐）。
 
 ### 发布共享 {#publish}
 
 按照贵组织的[!DNL Databricks Delta Sharing]过程授予Adobe的用户帐户访问共享的权限。 具体步骤取决于您的[!DNL Databricks]部署和治理模型。 一般而言：
 
 1. 在Unity Catalog中，创建或标识包含受众模式和表的共享。
-2. 将模式（或单个表）添加到共享。
+2. 将架构或单个表添加到您的数据库共享。 Adobe建议您为每个表启用历史记录共享。 有关详细信息，请参阅[启用历史记录共享](#enable-history-sharing)。
 3. 使用本地数据库到数据库共享将共享授予Adobe的[!DNL Databricks]使用者帐户。
-4. 与您的Adobe联系人确认共享是否在使用者端可见，并记下Collaboration配置向导的提供程序名称和共享名称。
-5. 有关[!DNL Delta Sharing]上的[!DNL Databricks]产品文档，请参阅[数据库增量共享文档](https://docs.databricks.com/aws/en/delta-sharing)。
+4. 与您的Adobe联系人确认共享在消费者端可见，并记下Collaboration配置工作流的提供商名称和共享名称。
+
+>[!NOTE]
+>
+> 有关产品说明，请参阅[数据库增量共享文档](https://docs.databricks.com/aws/en/delta-sharing){target="_blank"}。
+
+### 启用历史记录共享 {#enable-history-sharing}
+
+要改进大型表的来源补充性能，请为每个受众表启用历史记录共享。 这允许Collaboration使用一致的表版本并行读取数据。 如果不共享历史记录，Collaboration将使用较慢的单一查询过程。
+
+跨云共享使用单个查询读取，即使启用了历史记录也是如此。 有关详细信息，请参阅[已知限制](#known-limitations)。
+
+通过历史记录共享，Adobe可以访问您共享的表的早期版本，但不能访问其他表。 在为已与Adobe共享的表启用历史记录共享时，无需授予其他访问权限。
+
+在[!DNL Databricks]工作区中使用以下SQL命令。 将`<share_name>`、`<catalog>`、`<schema>`和`<table>`替换为您的共享名和表标识符。
+
+要添加具有历史记录的表，请运行：
+
+```sql
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+要为共享中已存在的表启用历史记录共享，请运行：
+
+```sql
+ALTER SHARE <share_name> ALTER TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+要验证历史记录共享，请运行：
+
+```sql
+SHOW ALL IN SHARE <share_name>;
+```
+
+确认每个受众表的`history_sharing`为`ENABLED`，包括元数据表（如果使用元数据表）。 历史记录共享在下一次源运行中生效。
 
 ### 收集Collaboration的[!DNL Databricks]详细信息 {#collect-databricks-details}
 
 发布共享后，请确保您的提供程序名称、共享名称、架构和表名称可用于Collaboration配置工作流。
 
-在启动Collaboration配置向导之前收集以下详细信息。
+在启动Collaboration配置工作流之前，请收集以下详细信息。
 
 | 字段 | 描述 | 示例 |
-| ------| ----------- | ------- |
+| ------ | ----------- | ------- |
 | 提供商名称 | Adobe Unity Catalog元存储中的提供商标识符（来自Adobe入门） | `your_org_provider` |
 | 共享名称 | 已发布[!DNL Delta Share]的名称 | `audience_share_prod` |
-| 架构 | 架构 | `collaboration_audiences` |
+| 架构 | 共享中包含受众表的架构。 | `collaboration_audiences` |
 | 成员资格表 | 具有个人资料受众成员资格行的表 | `audience_members` |
 | 元数据表（可选） | 列出受众的表（每个受众一行） | `audience_catalog` |
 
@@ -314,8 +369,8 @@ Collaboration会在Adobe的工作区中验证并装载共享。 此步骤最多�
 
 有关其他受众来源补充方法，请参阅：
 
-* [为受众源配置 [!DNL Google Cloud Storage] &#x200B;](./configure-gcs-audience-sourcing.md)
-* [为受众源配置 [!DNL Amazon S3] &#x200B;](./configure-aws-s3-audience-sourcing.md)
-* [为受众源配置 [!DNL Snowflake] &#x200B;](./configure-snowflake-audience-sourcing.md)
+* [为受众源配置 [!DNL Google Cloud Storage] ](./configure-gcs-audience-sourcing.md)
+* [为受众源配置 [!DNL Amazon S3] ](./configure-aws-s3-audience-sourcing.md)
+* [为受众源配置 [!DNL Snowflake] ](./configure-snowflake-audience-sourcing.md)
 * [来自Experience Platform的Source受众](./onboard-audiences.md)
 * [上传CSV文件以进行受众源](./upload-csv-audience-sourcing.md)
