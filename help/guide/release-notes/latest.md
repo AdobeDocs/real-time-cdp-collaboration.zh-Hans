@@ -81,7 +81,7 @@ Real-Time CDP Collaboration现在支持其他自助受众源选项，以及更�
 
 | 功能 | 描述 |
 | ------- | ----------- |
-| 来自[!DNL Databricks Delta Share]和Adobe Audience Manager的自助受众源 | 您现在可以直接从[!DNL Databricks Delta Share]获取第一方受众，或将符合条件的Adobe Audience Manager区段引入Collaboration。 有关设置说明，请参阅以下指南： <ul><li>[为受众源配置 [!DNL Databricks Delta Share] ](../setup/configure-databricks-audience-sourcing.md)</li><li>[为受众源配置Adobe Audience Manager](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+| 来自[!DNL Databricks Delta Share]和Adobe Audience Manager的自助受众源 | 您现在可以直接从[!DNL Databricks Delta Share]获取第一方受众，或将符合条件的Adobe Audience Manager区段引入Collaboration。 有关设置说明，请参阅以下指南： <ul><li>[为受众源配置 [!DNL Databricks Delta Share] &#x200B;](../setup/configure-databricks-audience-sourcing.md)</li><li>[为受众源配置Adobe Audience Manager](../setup/configure-aam-audience-sourcing.md)</li></ul> |
 | 手动激活收到的受众 | 您现在可以手动将从协作者收到的受众激活到配置的目标，并选择激活运行的时间。 这可以让收件人更好地控制受众投放。 有关分步说明，请参阅[激活受众](../collaborate/activate.md)。 |
 | 自助式云存储目标 | 您现在可以直接从激活工作区配置和管理支持的云存储目标，并使用它们激活接收的受众。 有关设置说明，请参阅[配置和管理云存储目标](../destinations/manage-destinations.md)。 |
 
@@ -96,7 +96,7 @@ Real-Time CDP Collaboration中现在提供了新功能。 其中包括用于邀�
 | 功能 | 描述 |
 | ------- | ----------- |
 | Real-Time CDP Collaboration [!DNL Starter] | 您现在可以邀请没有Collaboration许可证的合作伙伴通过Collaboration [!DNL Starter]与您协作。 受邀合作伙伴可以在共享连接中获取受众、发现重叠并激活受众。 请参阅[Collaboration [!DNL Starter] 概述](../overview/starter-overview.md)以开始操作。 |
-| 来自[!DNL Snowflake]和[!DNL Google Cloud Storage]的自助受众源 | 您现在可以直接从[!DNL Snowflake Secure Data Share]或[!DNL Google Cloud Storage]存储段向Collaboration中获取第一方受众。 有关设置说明，请参阅以下指南： <ul><li>[为受众源配置 [!DNL Snowflake] ](../setup/configure-snowflake-audience-sourcing.md) </li><li> [为受众源配置 [!DNL Google Cloud Storage] ](../setup/configure-gcs-audience-sourcing.md) </li></ul> |
+| 来自[!DNL Snowflake]和[!DNL Google Cloud Storage]的自助受众源 | 您现在可以直接从[!DNL Snowflake Secure Data Share]或[!DNL Google Cloud Storage]存储段向Collaboration中获取第一方受众。 有关设置说明，请参阅以下指南： <ul><li>[为受众源配置 [!DNL Snowflake] &#x200B;](../setup/configure-snowflake-audience-sourcing.md) </li><li> [为受众源配置 [!DNL Google Cloud Storage] &#x200B;](../setup/configure-gcs-audience-sourcing.md) </li></ul> |
 | [!DNL Demdex ID]匹配键 | 现在支持[!DNL Demdex ID] (ECID)作为匹配键，以跨平台匹配基于Cookie的匿名身份。 它提高了受众重叠的准确性，而无需依赖经过身份验证的用户数据。 有关详细信息，请参阅[支持的匹配键](../setup/onboard-account.md#supported-match-keys)。 |
 | 新协作者角色 | Collaboration现在支持另外两个协作者角色，包括&#x200B;**代理**&#x200B;和&#x200B;**数据合作伙伴**。 这些角色将扩展不同组织在该平台中参与和协同工作的方式。 详细了解： <ul><li>[协作者帐户角色](../overview/roles.md)</li><li>[Collaboration模式](../overview/collaboration-patterns.md)</li><li>[端到端工作流](../overview/end-to-end-workflow.md)</li></ul> |
 
@@ -134,7 +134,7 @@ Real-Time CDP Collaboration现在支持CSV文件上传作为获取受众的新�
 
 | 功能 | 描述 |
 | ------- | ----------- |
-| 为受众源上传CSV | 直接从UI将CSV文件上传到源受众中的Collaboration。 非常适合于为短期协作项目载入第一方数据。 有关详细信息，请参阅受众源指南](../setup/upload-csv-audience-sourcing.md)的[上传CSV文件。 |
+| 为受众源上传CSV | 直接从UI将CSV文件上传到源受众中的Collaboration。 非常适合于为短期协作项目载入第一方数据。 有关详细信息，请参阅受众源指南[&#128279;](../setup/upload-csv-audience-sourcing.md)的上传CSV文件。 |
 | 移动设备匹配密钥支持 | Collaboration现在支持移动匹配键（包括IDFA和GAID），以进行受众匹配和测量。 这些匹配键是在帐户设置期间选择的，然后可以在为新连接配置连接设置时以及下游协作工作流中使用。 有关详细信息，请参阅[匹配键设置指南](../setup/onboard-account.md#set-up-match-keys)。 |
 
 {style="table-layout:auto"}
