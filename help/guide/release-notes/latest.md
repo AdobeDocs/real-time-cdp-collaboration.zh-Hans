@@ -2,7 +2,7 @@
 title: 最新Real-Time CDP Collaboration发行说明
 description: 遵循Real-Time CDP Collaboration的最新版本
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="有限发布版" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Limited Availability" type="Informative" url="https://helpx.adobe.com/cn/legal/product-descriptions/real-time-customer-data-platform-collaboration.html" newtab=true
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 TQID: https://experienceleague.adobe.com/re4oFblCLiZpspWIS7D4EEYNh36EDhULEOd2-ccXH28
 product_v2:
@@ -22,20 +22,41 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 0e46c6f1bc2a0ce5752c7c08700429c97a8b0d45
+source-git-commit: c5031db11e6dd8d965439f0f5860a0710d2a56d1
 workflow-type: tm+mt
-source-wordcount: 2255
-ht-degree: 4%
-
+source-wordcount: '2587'
+ht-degree: 3%
 ---
-
 # 最新Real-Time CDP Collaboration发行说明
 
 {{limited-availability-release-note}}
 
-**上次更新**：2026年8月。
+**上次更新**：2026年11月。
 
 以下发行说明介绍了Adobe Real-Time CDP Collaboration中发布的功能。 Collaboration版本在持续交付模型上运行，该模型允许大约每月一次的发布。 这些发行说明会经常更新，因此请务必定期检查。
+
+## 2026 年 11 月 {#november-2026}
+
+您现在可以将[!DNL The Trade Desk]中的付费媒体上下文添加到第一方配置文件中，并提高大型[!DNL Databricks]受众表的来源补充性能。
+
+| 功能 | 描述 |
+| ------- | ----------- |
+| [!BADGE Alpha]{type=Informative} [!DNL The Trade Desk]配置文件扩充 | 您现在可以将[!DNL The Trade Desk]中的付费媒体上下文添加到第一方用户档案，以便构建受众和进行个性化。 有关详细信息，请参阅[交易台配置文件扩充](../collaborate/advertising-platforms/trade-desk-profile-enrichment.md)。 |
+| [!DNL Databricks]受众源的历史记录共享 | 您现在可以通过启用历史记录共享来提高大型[!DNL Databricks]表的受众源性能。 此性能改进不适用于跨云共享。 有关详细信息，请参阅[启用历史记录共享](../setup/configure-databricks-audience-sourcing.md#enable-history-sharing)。 |
+
+{style="table-layout:auto"}
+
+## 2026 年 10 月 {#october-2026}
+
+您现在可以在Real-Time CDP Collaboration中管理身份解析、创建扩展受众以及使用自助服务和日志源。
+
+| 功能 | 描述 |
+| ------- | ----------- |
+| Epsilon核心ID身份解析 | 现在，即使您的组织使用不同的标识符，您也可以识别与协作者共有的人。 使用Epsilon核心ID解析符合条件的受众数据连接中的身份，而无需为每个合作伙伴构建自定义集成。 此功能仅适用于在美国设置的Collaboration帐户。 有关详细信息，请参阅[设置和管理标识解析](../setup/identity-resolution.md)。 |
+| 自助式广告日志源 | 您现在可以直接从[!DNL Google Cloud Storage]、[!DNL Azure Blob Storage]或[!DNL Azure Data Lake Storage Gen2]中获取广告曝光（广告日志）数据以衡量促销活动效果。 这样便无需通过Adobe Experience Platform来获取第一个源广告日志。 有关详细信息，请参阅[Google Cloud Storage设置](../setup/configure-gcs-adlog-sourcing.md)和[Azure存储设置](../setup/configure-azure-adlog-sourcing.md)。 |
+| [!BADGE Beta]{type=Informative}受众扩展 | 现在，您可以在协作者群体中查找与源受众相似的用户档案，而无需公开基础受众数据。 使用这些配置文件为新潜在客户创建扩展受众。 有关详细信息，请参阅[创建扩展受众](../collaborate/expand.md)。 |
+
+{style="table-layout:auto"}
 
 ## 2026 年 8 月 {#august-2026}
 
@@ -45,6 +66,7 @@ Real-Time CDP Collaboration现在支持[!DNL Amazon Marketing Cloud] (AMC)测量
 
 | 功能 | 描述 |
 | ------- | ----------- |
+| [!UICONTROL 数据Collaboration]的其他数据使用标签 | 现在，您可以在受众源过程中应用数据使用限制，以防止将标记的敏感和管理健康数据源自Collaboration。 [!UICONTROL Data Collaboration]营销操作现在支持S1、S2、PSPD和RHD数据使用标签。 现有的C4 、 C5和C9标签支持保持不变。 有关详细信息，请参阅[受众源管理](../setup/onboard-audiences.md#governance-policy-and-enforcement-actions)。 |
 | [!DNL AMC]测量报告 | 直接在Collaboration中使用[!DNL AMC]数据衡量Amazon广告营销活动的效果。 从[!DNL AMC]项目中的&#x200B;**[!UICONTROL 度量]**&#x200B;选项卡，您可以创建&#x200B;**促销活动摘要**&#x200B;和&#x200B;**归因**&#x200B;报告，以评估促销活动绩效并了解转化归因。 有关详细信息，请参阅[创建Amazon Marketing Cloud测量报表](../collaborate/advertising-platforms/amc-measure.md)。 |
 | 匹配嵌套配置文件属性的键映射 | 您现在可以将匹配键映射到嵌套在基于列表的配置文件字段内的字段，如`devices`阵列中的设备ID，而无需事先拼合或重组数据。 Collaboration会分别匹配和计算嵌套字段中的每个值。 当前仅支持嵌套字段作为匹配键，不支持嵌套字段作为配置文件属性。 有关详细信息，请参阅[映射字段](../setup/onboard-audiences.md#map-fields)。 |
 | 投放级别转化报表 | 归因报表现在包含按投放位置&#x200B;**划分的**&#x200B;转化，显示促销活动ID中每个投放位置ID的转化计数和转化值。 这样可为具有多个投放位置的营销活动提供单独的结果。 为清楚起见，前&#x200B;**[!UICONTROL 预计收入]**&#x200B;量度标签已更新为&#x200B;**[!UICONTROL 转化值]**。 有关详细信息，请参阅[按版面列出的转化](../collaborate/measure.md#conversions-by-placement)。 |
@@ -143,7 +165,7 @@ Real-Time CDP Collaboration现在可供&#x200B;**加拿大**&#x200B;的客户使
 
 ## 2025 年 7 月 {#july-2025}
 
-Real-time CDP Collaboration现在支持品牌到品牌协作。 协作者现在可以建立连接，无论他们是广告商还是发布者。 这提供了更灵活的协作机会，并使品牌能够利用彼此的数据和见解。 要了解有关品牌到品牌协作和广告商到发布商协作之间的差异的更多信息，请阅读[协作模式](../overview/collaboration-patterns.md)指南。
+Real-Time CDP Collaboration现在支持品牌到品牌协作。 协作者现在可以建立连接，无论他们是广告商还是发布者。 这提供了更灵活的协作机会，并使品牌能够利用彼此的数据和见解。 要了解有关品牌到品牌协作和广告商到发布商协作之间的差异的更多信息，请阅读[协作模式](../overview/collaboration-patterns.md)指南。
 
 * 协作者现在可以使用[专用连接邀请](../connect/establishing-connections.md#private-connection-invites)相互连接。 与协作者共享您帐户的唯一连接代码，协作者随后可以使用该代码直接与您连接。 这是品牌到品牌协作的核心功能，它允许协作者在探索&#x200B;**[!UICONTROL 发现协作者目录]**&#x200B;的广告商之外建立连接。
 * [自助服务目标](../destinations/overview.md)现在可供广告商和出版商使用。
