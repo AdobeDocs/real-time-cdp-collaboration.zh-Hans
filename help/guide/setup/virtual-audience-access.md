@@ -38,7 +38,7 @@ ht-degree: 1%
 
 在授予或使用虚拟受众访问权限之前，请确认您满足以下要求。
 
-* 对于虚拟受众授权，与协作者](/help/guide/connect/establishing-connections.md)建立有效的[连接。
+* 对于虚拟受众授权，与协作者[&#128279;](/help/guide/connect/establishing-connections.md)建立有效的连接。
 * 如果提供受众，请确认该受众可供共享。
 * 要确认哪些操作可用，请查看授予与您共享的受众的权限。
 
@@ -99,7 +99,7 @@ ht-degree: 1%
 
 接下来，选择&#x200B;**[!UICONTROL 受众访问]**，并为提供商共享的受众选择选项。
 
-选项包含提供程序名称。 在此示例中，从FrameSix Media ]**中选择**[!UICONTROL 。
+选项包含提供程序名称。 在此示例中，从FrameSix Media **中选择**。
 
 最后，查看共享受众及其访问详细信息。
 
