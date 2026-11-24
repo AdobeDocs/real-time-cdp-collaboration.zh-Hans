@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: b381d126dfdf1a6377f93c4f24905492de0bdb73
 workflow-type: tm+mt
 source-wordcount: '4152'
-ht-degree: 16%
+ht-degree: 17%
 ---
 # Source和管理受众
 
@@ -129,7 +129,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="目标字段"
->abstract="目标字段标识如何在Collaboration中使用映射的源数据。 默认情况下可以使用帐户级别的匹配键。 用于身份解析的名称和邮政地址字段在数据连接设置期间可用，不需要帐户级别启用。"
+>abstract="目标字段标识如何在 Collaboration 中使用映射的源数据。 默认情况下可以使用帐户级别的匹配键。 用于身份解析的姓名和邮政地址字段在数据连接设置期间可用，无需在帐户级别启用。"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -189,7 +189,7 @@ Source字段映射到在Collaboration中定义的目标字段。
 
 某些配置文件属性在列表中建模，该列表是一个对象数组（在对话框中显示为`Object[]`）。 密钥标识符或属性通常存在于这些重复记录中，例如帐号或车辆标识符。
 
-在&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;选项下，展开&#x200B;**[!UICONTROL 选择源字段]**&#x200B;对话框中的列表字段，然后选择要映射到匹配键的嵌套字段。 例如，展开`devices`并选择`Device ID`。 然后，嵌套字段会填充该映射行的源字段，并且您可以像任何其他源字段一样将其映射到目标字段。
+在&#x200B;**[!UICONTROL 配置文件属性]**&#x200B;选项下，展开&#x200B;**[!UICONTROL Select源字段]**&#x200B;对话框中的列表字段，然后选择要映射到匹配键的嵌套字段。 例如，展开`devices`并选择`Device ID`。 然后，嵌套字段会填充该映射行的源字段，并且您可以像任何其他源字段一样将其映射到目标字段。
 
 如果某个配置文件在嵌套字段中具有多个值，Collaboration会分别匹配和计算每个值。 您无需预先拼合或重构数据。
 
