@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration 使广告商和发布者之间能够实现无缝、安全的数据共享和协作，有助于提供实时受众洞察和个性化营销策略。
-source-git-commit: 7d357938bfa89b8ce9a8633c6d09589c0c5762e5
+source-git-commit: 5ad6bc22bc2070de9adc9ce6256113aaeeac8fce
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 32%
+source-wordcount: '283'
+ht-degree: 33%
 ---
 
 # Real-Time CDP Collaboration {#using}
@@ -33,6 +33,7 @@ ht-degree: 32%
     * [为受众源配置Snowflake](./setup/configure-snowflake-audience-sourcing.md)
     * [为受众源配置数据库增量共享](./setup/configure-databricks-audience-sourcing.md)
     * [为受众源配置Adobe Audience Manager](./setup/configure-aam-audience-sourcing.md)
+  * {hide-from-toc}[受众访问权限和授权](./setup/virtual-audience-access.md)
   * [管理数据连接](./setup/manage-data-connection.md)
   * [设置和管理身份解析](./setup/identity-resolution.md)
   * [跟踪您的额度使用情况](/help/guide/setup/my-activity.md)
@@ -72,6 +73,7 @@ ht-degree: 32%
   * [配置和管理云存储目标](./destinations/manage-destinations.md)
   * [云存储目标要求](./destinations/cloud-storage-destination-requirements.md)
   * [将Adobe Experience Platform配置为目标](./destinations/experience-platform.md)
+  * {hide-from-toc}[直接激活受众(1P)](./destinations/direct-audience-activation.md)
 * 权限 {#permissions}
   * [概述](/help/guide/permissions/overview.md)
   * [管理用户访问权限](./permissions/manage-user-access.md)
